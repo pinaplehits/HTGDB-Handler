@@ -4,7 +4,7 @@ from re import M
 from typing import List
 
 diskPath = '/media/pi/RetroNAS/'
-repoFolder = 'repos/MiSTer FPGA/Hardware-Target-Game-Database/'
+repoFolder = 'repos/Hardware-Target-Game-Database/'
 smdbFolder = 'EverDrive Pack SMDBs/'
 unorganizedFolder = 'romimport/'
 missingFolder = 'missingroms/'
@@ -54,6 +54,7 @@ createSmdbPath()
 
 createOutputPath()
 
-print(f"python3 '{scripPath}' -i '{unorganizedPath}' -d '{smdbPath}' -o '{outputPath}' -m '{missingPath}' -s -x")
-os.system(f"python3 '{scripPath}' -i '{unorganizedPath}' -d '{smdbPath}' -o '{outputPath}' -m '{missingPath}' -s -x")
+print(f"python3 '{scripPath}' -i '{unorganizedPath}' -d '{smdbPath}' -o '{outputPath}' -m '{missingPath}' -s -x --file_strategy hardlink")
+input("Press any key to continue...")
+os.system(f"python3 '{scripPath}' -i '{unorganizedPath}' -d '{smdbPath}' -o '{outputPath}' -m '{missingPath}' -s -x --file_strategy hardlink")
 input("Press any key to continue...")

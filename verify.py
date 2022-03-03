@@ -4,7 +4,7 @@ from re import M
 from typing import List
 
 diskPath = '/media/pi/RetroNAS/'
-repoFolder = 'repos/MiSTer FPGA/Hardware-Target-Game-Database/'
+repoFolder = 'repos/Hardware-Target-Game-Database/'
 smdbFolder = 'EverDrive Pack SMDBs/'
 unorganizedFolder = 'romimport/'
 missingFolder = 'missingroms/'

@@ -1,6 +1,7 @@
 from configparser import ConfigParser
 import csv
 import os
+import shutil
 
 config_file = 'config.ini'
 config = ConfigParser()
@@ -30,9 +31,9 @@ with open(path, newline = '') as games:
     #print(len(data[0]))
     
     #Print just the filename is splitted from the complete path
-    """print(os.path.basename(data[6058][1]))
+    #print(os.path.basename(data[6058][1]))
     
-    split_text = os.path.splitext(os.path.basename(data[6058][1]))
+    """split_text = os.path.splitext(os.path.basename(data[6058][1]))
     file_name = split_text[0]
     file_extension = split_text[1]
     print(file_name)
@@ -61,10 +62,10 @@ with open(path, newline = '') as games:
     print(len(data))
     print(len(data) - x)
 
-with open('Super EverDrive & SD2SNES SMDB.csv', 'w', newline = '') as f:
+with open('Super EverDrive & SD2SNES SMDB.txt', 'w', newline = '') as f:
       
     # using csv.writer method from CSV package
-    write = csv.writer(f)
+    write = csv.writer(f, delimiter = '\t')
       
     #write.writerow(fields)
     write.writerows(newdata)
