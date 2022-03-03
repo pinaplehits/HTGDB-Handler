@@ -1,10 +1,17 @@
+from configparser import ConfigParser
 import csv
 import os
+
+config_file = 'config.ini'
+config = ConfigParser()
+config.read(config_file)
+
+print(config['local']['directory'])
 
 fields = ['SHA256', 'Path', 'SHA1', 'MD5', 'CRC32', 'Size']
 fileExtension = []
 
-path = r'\\RETROSMB\retronas\repos\MiSTer FPGA\Hardware-Target-Game-Database\EverDrive Pack SMDBs\Super EverDrive & SD2SNES SMDB.txt'
+path = config['local']['directory']
 
 with open(path, newline = '') as games:                                                                                          
     game_reader = csv.reader(games, delimiter='\t') 
