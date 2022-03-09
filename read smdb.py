@@ -8,22 +8,17 @@ config_file = 'config.ini'
 config = ConfigParser()
 config.read(config_file)
 
-print(config['local']['directory'])
-
+#Configuration variables
 fields = ['SHA256', 'Path', 'SHA1', 'MD5', 'CRC32', 'Size']
-fileExtension = []
-
 path = config['local']['directory']
 
 def populate_list():
     with open(path, newline = '') as file:                                                                                          
         csv_reader = csv.reader(file, delimiter='\t') 
-        data = list(csv_reader) 
-    return data
+        csv_list = list(csv_reader) 
+    return csv_list
 
 def single_file_db():
-    data = populate_list()
-
     newdata = []
     newdata.append(data[0])
 
@@ -42,37 +37,29 @@ def single_file_db():
 
     return newdata
 
-def new_file(filename, extension, _delimiter):
-    with open(f'{filename}.{extension}', 'w', newline = '') as file:
+def new_file(_filename, _extension, _delimiter):
+    with open(f'{_filename}.{_extension}', 'w', newline = '') as file:
         csvwriter = csv.writer(file, delimiter = _delimiter)
         #csvwriter.writerow(fields)
         csvwriter.writerows(single_file_db())
 
-new_file('Super EverDrive & SD2SNES SMDB', 'txt', '\t')
+def get_extensions():
+    file_extension = set()
+    
+    for i in range(len(data)):
+        split_text = os.path.splitext(os.path.basename(data[i][1]))
+        file_extension.add(split_text[1].lower())
+    
+    print(sorted(file_extension))
 
-"""
-#Print number of iterations in the SMDB file
-#print(len(data))
+    return sorted(file_extension)
 
-#Print first and last object in list
-#print(data[0])
-#print(data[-1])
+def main():
+    global data
+    data = populate_list()
 
-#print(data[1][0])
+    get_extensions()
+    new_file('Super EverDrive & SD2SNES SMDB', 'txt', '\t')
+    data.clear()
 
-#Print the number of columns in the row
-#print(len(data[0]))
-
-#Print just the filename is splitted from the complete path
-#print(os.path.basename(data[6058][1]))
-
-split_text = os.path.splitext(os.path.basename(data[6058][1]))
-file_name = split_text[0]
-file_extension = split_text[1]
-print(file_name)
-print(file_extension)
-
-for i in data:
-    if len(i) != 6:
-        print(len(i))
-    """
+main()
