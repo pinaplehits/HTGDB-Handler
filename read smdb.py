@@ -4,6 +4,7 @@ import csv
 from json import load
 import os
 import glob
+import git
 
 config_file = 'config.ini'
 config = ConfigParser()
@@ -72,19 +73,25 @@ def get_smdb(root, origin_path):
     os.chdir(dir_smdb)
     smdb_list = [x for x in glob.glob("*.txt")]
     smdb_list.sort(key = str.lower)
+
+    repo = git.Repo(search_parent_directories=True)
+    sha = repo.head.object.hexsha
     
     os.chdir(origin_path)
 
-    return smdb_list
+    return smdb_list, sha
 
 def main():
     current_directory = os.getcwd()
     root = root_folder(current_directory)
-    smdb_list = get_smdb(root, current_directory)
+    smdb_list, sha = get_smdb(root, current_directory)
+
+    print(sha)
     
     for i in range(len(smdb_list)):
+        split_text = os.path.splitext(os.path.basename(smdb_list[i]))
         #print(smdb_list[i])
-        path = root + (config['local']['single_SMDBs']) + smdb_list[i]
+        path = root + (config['local']['single_SMDBs']) + split_text[0] + '_' + sha + split_text[1]
         dir_smdb = root + (config['local']['SMDBs']) + smdb_list[i]
         data = populate_list(dir_smdb)
         get_extensions(data)
