@@ -1,8 +1,8 @@
 from configparser import ConfigParser
-import csv
 from hashlib import new
+import csv
+from json import load
 import os
-import shutil
 
 config_file = 'config.ini'
 config = ConfigParser()
@@ -12,54 +12,68 @@ config.read(config_file)
 fields = ['SHA256', 'Path', 'SHA1', 'MD5', 'CRC32', 'Size']
 path = config['local']['directory']
 
+def load_config():
+        directory = os.getcwd()
+        print(directory)
+        directory = os.path.dirname(directory)
+        print(directory)
+
+
 def populate_list():
     with open(path, newline = '') as file:                                                                                          
         csv_reader = csv.reader(file, delimiter='\t') 
         csv_list = list(csv_reader) 
     return csv_list
 
-def single_file_db():
+def single_file_db(_data):
     newdata = []
-    newdata.append(data[0])
+    newdata.append(_data[0])
 
-    for i in range(len(data)):
+    for i in range(len(_data)):
         write = True
         for j in range(len(newdata)):
-            if newdata[j][0] == data[i][0]:
+            if newdata[j][0] == _data[i][0]:
                 write = False
-                if len(newdata[j]) != len(data[i]):
-                    print(len(newdata[j]), len(data[i]))
+                if len(newdata[j]) != len(_data[i]):
+                    print(len(newdata[j]), len(_data[i]))
                 break
         if write:
-            newdata.append(data[i])
+            newdata.append(_data[i])
 
-    print(f'SMDB reduced from {len(data)} to {len(newdata)} files')
+    print(f'SMDB reduced from {len(_data)} to {len(newdata)} files')
 
     return newdata
 
-def new_file(_filename, _extension, _delimiter):
+def new_file(_filename, _extension, _delimiter, _data):
     with open(f'{_filename}.{_extension}', 'w', newline = '') as file:
         csvwriter = csv.writer(file, delimiter = _delimiter)
         #csvwriter.writerow(fields)
-        csvwriter.writerows(single_file_db())
+        csvwriter.writerows(_data)
 
-def get_extensions():
+def get_extensions(_data):
     file_extension = set()
     
-    for i in range(len(data)):
-        split_text = os.path.splitext(os.path.basename(data[i][1]))
+    for i in range(len(_data)):
+        split_text = os.path.splitext(os.path.basename(_data[i][1]))
         file_extension.add(split_text[1].lower())
     
     print(sorted(file_extension))
 
     return sorted(file_extension)
 
+def drop_first_folder(_path):
+    _path = _path.split('/', 1)
+    return _path[1]
+
 def main():
-    global data
+    load_config()
     data = populate_list()
 
-    get_extensions()
-    new_file('Super EverDrive & SD2SNES SMDB', 'txt', '\t')
+    new_file('Super EverDrive & SD2SNES SMDB', 'txt', '\t', 
+            single_file_db(data))
+            
+    get_extensions(data)
+    print(drop_first_folder('SD2SNES/1 US - A-E/2020 Super Baseball (USA).sfc'))
     data.clear()
 
 main()
