@@ -1,28 +1,15 @@
 from configparser import ConfigParser
-from hashlib import new
 import csv
-from json import load
 import os
 import glob
 import git
-
-config_file = 'config.ini'
-config = ConfigParser()
-config.read(config_file)
+import re
 
 #Configuration variables
 fields = ['SHA256', 'Path', 'SHA1', 'MD5', 'CRC32', 'Size']
-path = config['local']['directory']
-
-def root_folder(_current_directory):
-        root = os.path.dirname(_current_directory)
-        root = root.replace(os.sep, '/')
-        print(root)
-
-        return root
 
 def populate_list(_path):
-    with open(_path, newline = '') as file:                                                                                          
+    with open(str(_path), newline = '') as file:                                                                                          
         csv_reader = csv.reader(file, delimiter='\t') 
         csv_list = list(csv_reader) 
     return csv_list
@@ -48,7 +35,6 @@ def single_file_db(_data):
 
 def new_file(_path, _delimiter, _data):
     with open(_path, 'w', newline = '') as file:
-    #with open('//RETROSMB/retronas/repos/HTGDB-Handler/No Duplicates SMDBs/new.txt', 'w', newline = '') as file:
         csvwriter = csv.writer(file, delimiter = _delimiter)
         #csvwriter.writerow(fields)
         csvwriter.writerows(_data)
@@ -68,40 +54,80 @@ def drop_first_folder(_path):
     _path = _path.split('/', 1)
     return _path[1]
 
-def get_smdb(root, origin_path):
-    dir_smdb = root + (config['local']['SMDBs'])
-    os.chdir(dir_smdb)
-    smdb_list = [x for x in glob.glob("*.txt")]
-    smdb_list.sort(key = str.lower)
+def populate_files(_files = '*'):
+    data = [x for x in glob.glob(_files)]
+    data.sort(key = str.lower)
 
+    return data
+
+def git_head():
     repo = git.Repo(search_parent_directories=True)
-    sha = repo.head.object.hexsha
-    
-    os.chdir(origin_path)
+    sha1 = repo.head.object.hexsha
 
-    return smdb_list, sha
+    return sha1
+
+#Load all configs and return it to list
+def load_config():
+    config_file = 'config.ini'
+    config = ConfigParser()
+    config.read(config_file)
+    
+    return config['local']['orig_smdb'], config['local']['new_smdb']
+
+def re_files(_data, _regularexpresion):
+    for i in range(len(_data)): _data[i] = re.split(_regularexpresion, _data[i])
+    return _data
+
+def remove_files(_data, _filename, _sha1, i):
+    filename = f'{_data[i][0]}_{_data[i][1]}.{_data[i][2]}'
+
+    for j in range(len(_data)):
+        if _data[j][0] == _filename and _data[j][1] != _sha1:
+            os.remove(filename) 
+            print(f'File {filename} removed')
+            return
 
 def main():
-    current_directory = os.getcwd()
-    root = root_folder(current_directory)
-    smdb_list, sha = get_smdb(root, current_directory)
+    #Load config in file .ini
+    orig_smdb, new_smdb = load_config()
 
-    print(sha)
+    root = os.path.normpath(os.getcwd())
+    repo_path = os.path.dirname(root)
+    path_smdb = os.path.normpath(os.path.join(repo_path, orig_smdb))
+
+    os.chdir(path_smdb)
+    smdb_list = populate_files('*.txt')
+    sha1 = git_head()
     
+    os.chdir(root)
+    os.chdir(os.path.basename(new_smdb))
+    
+    path_empty = False
+
+    if len(os.listdir(os.getcwd())) != 0:
+        actual_files = populate_files('*.txt')
+        actual_files = re_files(actual_files, '_|\.')
+        path_empty = True
+
     for i in range(len(smdb_list)):
-        split_text = os.path.splitext(os.path.basename(smdb_list[i]))
-        #print(smdb_list[i])
-        path = root + (config['local']['single_SMDBs']) + split_text[0] + '_' + sha + split_text[1]
-        dir_smdb = root + (config['local']['SMDBs']) + smdb_list[i]
-        data = populate_list(dir_smdb)
-        get_extensions(data)
-        print(path)
-        new_file(path, '\t', 
-                single_file_db(data))
-        data.clear()
+        split_text = os.path.splitext(smdb_list[i])
+        filename = f'{split_text[0]}_{sha1}.txt'
 
-    #get_extensions(data)
-    #print(drop_first_folder('SD2SNES/1 US - A-E/2020 Super Baseball (USA).sfc'))
-    
+        if path_empty:
+            remove_files(actual_files, split_text[0], sha1, i)
+            
+            if os.path.exists(filename):
+                print(f'Filename {filename} already exists')
+                continue
+
+        print('Creating:', filename)   
+
+        smdb_location = os.path.join(path_smdb, smdb_list[i])
+
+        data = populate_list(smdb_location)
+        #get_extensions(data)
+
+        new_file(filename, '\t', 
+                single_file_db(data))
 
 main()
