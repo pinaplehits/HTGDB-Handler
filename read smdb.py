@@ -16,25 +16,28 @@ def populate_list(_path):
 
 def single_file_db(_data):
     dataset = set([item[0] for item in _data])
-    print(len(dataset))
 
     if len(dataset) == len(_data):
         print("SMDB not reduced")
         return _data
 
     newdata = []
-    newdata.append(_data[0])
 
-    for i in range(len(_data)):
+    for sublist_data in _data:
+        if not dataset: break
+
+        if sublist_data[0] in dataset:
+            dataset.remove(sublist_data[0])
+            newdata.append(sublist_data)
+
+    """for i in range(len(_data)):
         write = True
         for j in range(len(newdata)):
             if newdata[j][0] == _data[i][0]:
                 write = False
-                if len(newdata[j]) != len(_data[i]):
-                    print(len(newdata[j]), len(_data[i]))
                 break
         if write:
-            newdata.append(_data[i])
+            newdata.append(_data[i])"""
   
     print(f'SMDB reduced from {len(_data)} to {len(newdata)} files')
 
@@ -139,10 +142,9 @@ def main():
 
         smdb_location = os.path.join(path_smdb, smdb_list[i])
         data = populate_list(smdb_location)
-
-        print(len(data))
         #get_extensions(data)
 
+        print(f'Creating {filename} file...')
         new_file(filename, '\t', 
                 single_file_db(data))
         print(f'File {filename} is created',) 
