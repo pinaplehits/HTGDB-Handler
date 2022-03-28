@@ -1,5 +1,6 @@
 from configparser import ConfigParser
 import csv
+import enum
 import os
 import glob
 import git
@@ -29,15 +30,6 @@ def single_file_db(_data):
         if sublist_data[0] in dataset:
             dataset.remove(sublist_data[0])
             newdata.append(sublist_data)
-
-    """for i in range(len(_data)):
-        write = True
-        for j in range(len(newdata)):
-            if newdata[j][0] == _data[i][0]:
-                write = False
-                break
-        if write:
-            newdata.append(_data[i])"""
   
     print(f'SMDB reduced from {len(_data)} to {len(newdata)} files')
 
@@ -52,9 +44,13 @@ def new_file(_path, _delimiter, _data):
 def get_extensions(_data):
     file_extension = set()
     
-    for i in range(len(_data)):
-        split_text = os.path.splitext(os.path.basename(_data[i][1]))
+    for sublist_data in _data:
+        split_text = os.path.splitext(os.path.basename(sublist_data[1]))
         file_extension.add(split_text[1].lower())
+
+    """for i in range(len(_data)):
+        split_text = os.path.splitext(os.path.basename(_data[i][1]))
+        file_extension.add(split_text[1].lower())"""
     
     print(sorted(file_extension))
 
@@ -85,7 +81,8 @@ def load_config():
     return config['local']['orig_smdb'], config['local']['new_smdb']
 
 def re_files(_data, _regularexpresion):
-    for i in range(len(_data)): _data[i] = re.split(_regularexpresion, _data[i])
+    for index, value in enumerate(_data): _data[index] = re.split(_regularexpresion, value)
+    #for i in range(len(_data)): _data[i] = re.split(_regularexpresion, _data[i])
     return _data
 
 def remove_files(_data, _filename, _sha1, i):
@@ -127,9 +124,10 @@ def main():
         actual_sha1 = set([item[1] for item in actual_files])
         print(actual_sha1)
         path_contains_files = True
-
-    for i in range(len(smdb_list)):
-        split_text = os.path.splitext(smdb_list[i])
+    
+    for sublist_smdb in smdb_list:
+    #for i in range(len(smdb_list)):
+        split_text = os.path.splitext(sublist_smdb)
         filename = f'{split_text[0]}_{sha1}.txt'
 
         if os.path.exists(filename):
@@ -140,9 +138,9 @@ def main():
             if len(actual_files) < i:
                 remove_files(actual_files, split_text[0], sha1, i)"""  
 
-        smdb_location = os.path.join(path_smdb, smdb_list[i])
+        smdb_location = os.path.join(path_smdb, sublist_smdb)
         data = populate_list(smdb_location)
-        #get_extensions(data)
+        get_extensions(data)
 
         print(f'Creating {filename} file...')
         new_file(filename, '\t', 
