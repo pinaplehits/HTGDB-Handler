@@ -62,9 +62,7 @@ def drop_first_folder(_path):
 
 def populate_files(_files = '*'):
     data = [x for x in glob.glob(_files)]
-    data.sort(key = str.lower)
-
-    return data
+    return data.sort(key = str.lower)
 
 def git_head():
     repo = git.Repo(search_parent_directories=True)
@@ -82,20 +80,27 @@ def load_config():
 
 def re_files(_data, _regularexpresion):
     for index, value in enumerate(_data): _data[index] = re.split(_regularexpresion, value)
-    #for i in range(len(_data)): _data[i] = re.split(_regularexpresion, _data[i])
     return _data
 
 def remove_files(_data, _filename, _sha1, i):
     filename = f'{_data[i][0]}_{_data[i][1]}.txt'
 
-    for j in range(len(_data)):
+    for sublist_data in _data:
+        if sublist_data[0] == _filename:
+            if sublist_data[1] != _sha1:
+                os.remove(filename) 
+                print(f'File {filename} removed')
+                return
+            if sublist_data[1] == _sha1:
+                return
+    """for j in range(len(_data)):
         if _data[j][0] == _filename:
             if _data[j][1] != _sha1:
                 os.remove(filename) 
                 print(f'File {filename} removed')
                 return
             if _data[j][1] == _sha1:
-                return
+                return"""
 
 def main():
     #Load config in file .ini
