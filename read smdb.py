@@ -103,8 +103,8 @@ def main():
 
     #Set path for the workplace
     root = os.path.normpath(os.getcwd())
-    repo_path = os.path.dirname(root)
-    path_smdb = os.path.normpath(os.path.join(repo_path, orig_smdb))
+    repos_path = os.path.dirname(root)
+    path_smdb = os.path.normpath(os.path.join(repos_path, orig_smdb))
 
     #Get SMDB text files and the SHA-1 git head from the repo
     os.chdir(path_smdb)
