@@ -77,10 +77,8 @@ def main():
     scripPath, x = script_path(path_smdb)
     folder = os.path.splitext(database_folder(path_smdb))[0]
     smdbPath = os.path.join(path_smdb, f'{folder}.txt')
-    missingPath = os.path.join(root, 'missingroms')
+    missingPath = os.path.join(root, 'missingroms', f'{folder}.txt')
     outputPath = os.path.join(destination_folder(root), folder)
-
-    
     
     if x == 0:
         unorganizedPath = os.path.join(root, 'romimport')
