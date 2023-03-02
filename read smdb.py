@@ -36,26 +36,22 @@ def get_extensions(items):
     )
 
 
-def single_file_db(_data):
-    dataset = set([item[0] for item in _data])
+def single_file_db(_items):
+    dataset = set([item[0] for item in _items])
 
-    if len(dataset) == len(_data):
+    if len(dataset) == len(_items):
         print("SMDB not reduced")
-        return _data
+        return _items
 
-    newdata = []
+    newdb = [
+        item
+        for item in _items
+        if item[0] in dataset and dataset.remove(item[0]) is None
+    ]
 
-    for sublist_data in _data:
-        if not dataset:
-            break
+    print(f"SMDB reduced from {len(_items)} to {len(newdb)} files")
 
-        if sublist_data[0] in dataset:
-            dataset.remove(sublist_data[0])
-            newdata.append(sublist_data)
-
-    print(f"SMDB reduced from {len(_data)} to {len(newdata)} files")
-
-    return newdata
+    return newdb
 
 
 def new_file(_path, _delimiter, _data):
@@ -65,15 +61,8 @@ def new_file(_path, _delimiter, _data):
         csvwriter.writerows(_data)
 
 
-def drop_first_folder(_path):
-    _path = _path.split("/", 1)
-    return _path[1]
-
-
-def re_files(_data, _regularexpresion):
-    for index, value in enumerate(_data):
-        _data[index] = re.split(_regularexpresion, value)
-    return _data
+def re_files(_data, _regex):
+    return [re.split(_regex, value) for value in _data]
 
 
 # def remove_files(_data, _filename, _sha1, i):
@@ -87,6 +76,8 @@ def re_files(_data, _regularexpresion):
 #                 return
 #             if sublist_data[1] == _sha1:
 #                 return
+
+#     # delete file if contains a string
 
 
 def main():
@@ -104,24 +95,24 @@ def main():
 
     # # Check if the current directory is empty
     # if os.listdir(path_reduced_smdb):
-    #     items = re_files(get_databases(path_reduced_smdb, "*.txt"), "_|\.txt")
+    #     items = re_files(get_files(path_reduced_smdb, "*.txt"), "_|\.txt")
     #     sha1 = set([item[1] for item in items])
 
-    #      remove_files(items, split_text[0], htgdb_sha1, i)
+    #     #  remove_files(items, split_text[0], htgdb_sha1, i)
 
     for database in databases:
         split_text = os.path.splitext(database)
         file = f"{split_text[0]}_{htgdb_sha1}.txt"
 
-        # if os.path.exists(os.path.join(path_reduced_smdb, file)):
-        #     print(f"File {file} already exists")
-        #     continue
+        if os.path.exists(os.path.join(path_reduced_smdb, file)):
+            print(f"File {file} already exists")
+            continue
 
         data = populate_list(os.path.join(path_smdb, database))
         print(get_extensions(data))
 
         print(f"Creating {file} file...")
-        new_file(file, "\t", single_file_db(data))
+        new_file(os.path.join(path_reduced_smdb, file), "\t", single_file_db(data))
         print(f"File {file} is created")
 
 
