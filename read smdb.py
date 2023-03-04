@@ -1,5 +1,6 @@
 from configparser import ConfigParser
 from git import Repo
+from gitHandler import CloneProgress
 import csv
 import glob
 import os
@@ -65,40 +66,35 @@ def re_files(_data, _regex):
     return [re.split(_regex, value) for value in _data]
 
 
-# def remove_files(_data, _filename, _sha1, i):
-#     filename = f"{_data[i][0]}_{_data[i][1]}.txt"
+def update_repo():
+    if os.path.exists("Hardware-Target-Game-Database"):
+        print("Updating repo...")
+        repo = Repo("Hardware-Target-Game-Database")
+        repo.git.checkout("master")
+        repo.git.reset("--hard", repo.head.commit)
+        repo.remotes.origin.pull(progress=CloneProgress())
+        print("Repo updated")
+        return
 
-#     for sublist_data in _data:
-#         if sublist_data[0] == _filename:
-#             if sublist_data[1] != _sha1:
-#                 os.remove(filename)
-#                 print(f"File {filename} removed")
-#                 return
-#             if sublist_data[1] == _sha1:
-#                 return
-
-#     # delete file if contains a string
+    Repo.clone_from(
+        url="https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
+        to_path=os.path.join(os.getcwd(), "Hardware-Target-Game-Database"),
+        progress=CloneProgress(),
+    )
 
 
 def main():
+    update_repo()
     # Load config in file .ini
     og_smdb, reduced_smdb = load_config()
 
     # Set path for the workplace
-    repos_path = os.path.dirname(os.path.normpath(os.getcwd()))
-    path_smdb = os.path.normpath(os.path.join(repos_path, og_smdb))
-    path_reduced_smdb = os.path.normpath(os.path.join(repos_path, reduced_smdb))
+    path_smdb = os.path.normpath(os.path.join(os.getcwd(), og_smdb))
+    path_reduced_smdb = os.path.normpath(os.path.join(os.getcwd(), reduced_smdb))
 
     # Get SMDB text files and the SHA-1 git head from the original repository
     databases = get_files(path_smdb, "*.txt")
     htgdb_sha1 = git_head(path_smdb)
-
-    # # Check if the current directory is empty
-    # if os.listdir(path_reduced_smdb):
-    #     items = re_files(get_files(path_reduced_smdb, "*.txt"), "_|\.txt")
-    #     sha1 = set([item[1] for item in items])
-
-    #     #  remove_files(items, split_text[0], htgdb_sha1, i)
 
     for database in databases:
         split_text = os.path.splitext(database)
