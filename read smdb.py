@@ -1,10 +1,8 @@
 from configparser import ConfigParser
-from git import Repo
+from git import Repo, GitCommandError
 from gitHandler import CloneProgress
 import csv
-import glob
 import os
-import re
 
 # Configuration variables
 fields = ["SHA256", "Path", "SHA1", "MD5", "CRC32", "Size"]
@@ -15,14 +13,6 @@ def load_config(_config_file="config.ini"):
     config.read(_config_file)
 
     return config["local"]["orig_smdb"], config["local"]["new_smdb"]
-
-
-def get_files(_path=os.getcwd(), _files="*"):
-    return [os.path.basename(x) for x in glob.glob(os.path.join(_path, _files))]
-
-
-def git_head(_path=os.getcwd()):
-    return Repo(path=_path, search_parent_directories=True).head.object.hexsha
 
 
 def populate_list(_path):
@@ -62,19 +52,27 @@ def new_file(_path, _delimiter, _data):
         csvwriter.writerows(_data)
 
 
-def re_files(_data, _regex):
-    return [re.split(_regex, value) for value in _data]
-
-
 def update_repo():
     if os.path.exists("Hardware-Target-Game-Database"):
         print("Updating repo...")
         repo = Repo("Hardware-Target-Game-Database")
+        current_sha1 = repo.head.object.hexsha
         repo.git.checkout("master")
         repo.git.reset("--hard", repo.head.commit)
-        repo.remotes.origin.pull(progress=CloneProgress())
-        print("Repo updated")
-        return
+
+        try:
+            repo.remotes.origin.pull(progress=CloneProgress())
+        except GitCommandError as e:
+            print("An error occurred while pulling changes: ", e)
+
+        new_sha1 = repo.head.object.hexsha
+
+        if current_sha1 == new_sha1:
+            exit(print("No new commits"))
+
+        print(f"Updated from {current_sha1} to {new_sha1}")
+
+        return new_sha1
 
     Repo.clone_from(
         url="https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
@@ -84,7 +82,7 @@ def update_repo():
 
 
 def main():
-    update_repo()
+    htgdb_sha1 = update_repo()
     # Load config in file .ini
     og_smdb, reduced_smdb = load_config()
 
@@ -93,8 +91,7 @@ def main():
     path_reduced_smdb = os.path.normpath(os.path.join(os.getcwd(), reduced_smdb))
 
     # Get SMDB text files and the SHA-1 git head from the original repository
-    databases = get_files(path_smdb, "*.txt")
-    htgdb_sha1 = git_head(path_smdb)
+    databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
 
     for database in databases:
         split_text = os.path.splitext(database)
