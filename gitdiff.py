@@ -1,30 +1,46 @@
 import git
+import json
+import os
 
 repo = git.Repo("Hardware-Target-Game-Database")
 
 # get the two commit objects to compare
-commit1 = repo.commit("e55970d")
-commit2 = repo.commit("27bd299")
+old_commit = repo.commit("HEAD~150")
+new_commit = repo.commit("HEAD")
 
 # get the differences between the two commits
-diff = commit1.diff(commit2)
+index = old_commit.diff(new_commit)
 
-# iterate over the differences and extract the file names
-changed_files = []
-new_files = []
-deleted_files = []
+changes = {"add": [], "delete": [], "modified": [], "renamed": []}
 
-for d in diff:
-    if d.a_blob is None:
-        # file is new in second commit
-        new_files.append(d.b_blob.path)
-    elif d.b_blob is None:
-        # file is deleted in second commit
-        deleted_files.append(d.a_blob.path)
-    else:
-        # file is modified or renamed
-        changed_files.append(d.b_blob.path)
+# iterate over the differences and print the file names
+for item in index:
+    is_new_smdb = item.b_path.startswith(
+        "EverDrive Pack SMDBs"
+    ) and item.b_path.endswith(".txt")
+    is_deleted = item.change_type == "D"
+    is_modified = item.change_type == "M"
+    is_added = item.change_type == "A"
+    is_renamed = item.change_type == "R"
 
-print(changed_files)
-print(new_files)
-print(deleted_files)
+    if is_new_smdb:
+        if is_deleted:
+            changes["delete"].append(os.path.basename(item.a_blob.path))
+        elif is_modified:
+            changes["modified"].append(os.path.basename(item.b_blob.path))
+        elif is_added:
+            changes["add"].append(os.path.basename(item.b_blob.path))
+        elif is_renamed:
+            changes["renamed"].append(
+                {
+                    "from": os.path.basename(item.a_blob.path),
+                    "to": os.path.basename(item.b_blob.path),
+                }
+            )
+
+
+# convert the dictionary of changes to a JSON string
+changes_json = json.dumps(changes, indent=2)
+
+# print the JSON string
+print(changes_json)
