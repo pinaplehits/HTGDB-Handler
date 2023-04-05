@@ -20,15 +20,15 @@ def select_database(_path):
 
     index = input("Select one SMDB file: ")
 
-    return files[int(index)]
+    return files[int(index)], basename[int(index)]
 
 
 def main():
     section = load_config()
 
-    smdb = select_database(section["smdb"])
-    smdb = os.path.normpath(os.path.join(section["smdb"], smdb))
-    print(smdb)
+    smdb, folder = select_database(section["smdb"])
+    smdb = os.path.join(section["smdb"], smdb)
+    folder = os.path.join(section["folder"], folder)
 
     # print("Running script: " + section["script"])
     # print("Folder: " + section["folder"])
