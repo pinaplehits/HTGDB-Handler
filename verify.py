@@ -29,13 +29,14 @@ def main():
     smdb, folder = select_database(section["smdb"])
     smdb = os.path.join(section["smdb"], smdb)
     folder = os.path.join(section["folder"], folder)
+    mismatch = os.path.join(section["mismatch"], f"{smdb}.txt")
 
     # print("Running script: " + section["script"])
     # print("Folder: " + section["folder"])
     # print("SMDB: " + section["smdb"])
     # print("Mismatch: " + section["mismatch"])
 
-    command = f"python {section['script']} --folder '{folder}' --database '{smdb}' --mismatch '{section['mismatch']}' --drop_initial_directory"
+    command = f"python {section['script']} --folder '{folder}' --database '{smdb}' --mismatch '{mismatch}' --drop_initial_directory"
     input(command)
     os.system(command)
 
