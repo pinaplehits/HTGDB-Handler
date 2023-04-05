@@ -27,14 +27,9 @@ def main():
     section = load_config()
 
     smdb, folder = select_database(section["smdb"])
+    mismatch = os.path.join(section["mismatch"], f"mismatch_{smdb}.txt")
     smdb = os.path.join(section["smdb"], smdb)
     folder = os.path.join(section["folder"], folder)
-    mismatch = os.path.join(section["mismatch"], f"{smdb}.txt")
-
-    # print("Running script: " + section["script"])
-    # print("Folder: " + section["folder"])
-    # print("SMDB: " + section["smdb"])
-    # print("Mismatch: " + section["mismatch"])
 
     command = f"python {section['script']} --folder '{folder}' --database '{smdb}' --mismatch '{mismatch}' --drop_initial_directory"
     input(command)
