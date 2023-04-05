@@ -35,7 +35,7 @@ def main():
     # print("SMDB: " + section["smdb"])
     # print("Mismatch: " + section["mismatch"])
 
-    command = f"python {section['script']} --folder '{section['folder']}' --database '{smdb}' --mismatch '{section['mismatch']}' --drop_initial_directory"
+    command = f"python {section['script']} --folder '{folder}' --database '{smdb}' --mismatch '{section['mismatch']}' --drop_initial_directory"
     input(command)
     os.system(command)
 
