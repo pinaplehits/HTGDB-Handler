@@ -1,4 +1,6 @@
 from configparser import ConfigParser
+import csv
+import json
 import os
 import shutil
 
@@ -34,8 +36,9 @@ def compress_7z(_basename, _path):
 
 def updateDB(_missing):
     if os.path.exists(_missing):
-        print("Missing file found")
-        exit()
+        with open(_missing, "r") as f:
+            data = csv.reader(f, delimiter="\t")
+            print(data)
 
     print("Updating DB")
 
