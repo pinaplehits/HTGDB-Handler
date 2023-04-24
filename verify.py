@@ -27,7 +27,7 @@ def main():
     section = load_config()
 
     smdb, folder = select_database(section["smdb"])
-    mismatch = os.path.join(section["mismatch"], f"mismatch_{smdb}.txt")
+    mismatch = os.path.join(section["mismatch"], f"{smdb}.txt")
     smdb = os.path.join(section["smdb"], smdb)
     folder = os.path.join(section["folder"], folder)
 

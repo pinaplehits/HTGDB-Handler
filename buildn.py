@@ -1,5 +1,6 @@
 from configparser import ConfigParser
 import os
+import shutil
 
 
 def load_config(_section="build_reduced"):
@@ -23,33 +24,51 @@ def select_database(_path):
     return files[int(index)], basename[int(index)]
 
 
-# Create a function to uncompress the 7z file in a specific folder
-def uncompress_7z(_file, _folder):
-    command = f"7z x -y -o{_folder} {_file}"
-    input(command)
-    os.system(command)
+def uncompress_7z(_file, _output_folder):
+    os.system(f"7z x '{_file}' -o'{_output_folder}' -y")
+
+
+def compress_7z(_basename, _path):
+    os.system(f"7z a '{_basename}.7z' '{_path}/*' '-xr!{_path}'")
+
+
+def updateDB(_missing):
+    if os.path.exists(_missing):
+        print("Missing file found")
+        exit()
+
+    print("Updating DB")
 
 
 def main():
     section = load_config()
 
     smdb, basename = select_database(section["smdb"])
-    missing = os.path.join(section["missing"], f"missing_{smdb}.txt")
+    missing = os.path.join(section["missing"], f"{basename}.txt")
     romimport = os.path.join(section["romimport"], basename)
 
     folder = os.path.join(section["folder"], basename)
-    latest = os.path.join(folder, "latest", f"{basename}.7z")
-
-    print(latest)
-    print(folder)
     smdb = os.path.join(section["smdb"], smdb)
+    masters = os.path.join(section["masters"], basename)
 
-    # Uncompress the 7z file in the latest folder
-    uncompress_7z(latest, romimport)
+    if os.path.exists(masters):
+        masters = os.path.join(
+            masters,
+            f"{basename}.7z.001" if len(os.listdir(masters)) > 1 else f"{basename}.7z",
+        )
 
-    command = f"python {section['script']} --input_folder '{romimport}' --database '{smdb}' --output_folder '{folder}' --missing '{missing}' --skip_existing --drop_initial_directory --file_strategy hardlink"
+        uncompress_7z(masters, romimport)
+    else:
+        print("No latest folder found")
+        exit()
 
-    os.system(command)
+    build = f"python {section['script']} --input_folder '{romimport}' --database '{smdb}' --output_folder '{folder}' --missing '{missing}' --skip_existing --drop_initial_directory --file_strategy hardlink"
+
+    os.system(build)
+
+    shutil.rmtree(romimport)
+
+    updateDB(missing)
 
 
 main()
