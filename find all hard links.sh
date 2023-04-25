@@ -1,1 +1,0 @@
-find . -links +1 -type f -name '*' -printf '%i %p\n' | sort

@@ -4,25 +4,17 @@ from gitHandler import CloneProgress
 import csv
 import os
 
-# Configuration variables
-fields = ["SHA256", "Path", "SHA1", "MD5", "CRC32", "Size"]
 
-
-def load_config(_config_file="config.ini"):
+def load_config(_section="reducer", _file="config.ini"):
     config = ConfigParser()
-    config.read(_config_file)
+    config.read(_file)
 
-    return (
-        config["local"]["orig_smdb"],
-        config["local"]["new_smdb"],
-        config["commit"]["latest_reduced"],
-    )
+    return dict(config.items(_section))
 
 
 def populate_list(_path):
     with open(str(_path), newline="") as file:
-        csv_reader = csv.reader(file, delimiter="\t")
-        return list(csv_reader)
+        return list(csv.reader(file, delimiter="\t"))
 
 
 def get_extensions(_items):
@@ -53,19 +45,15 @@ def new_file(_path, _delimiter, _data):
     print(f"Creating {os.path.basename(_path)} file...")
 
     with open(_path, "w", newline="") as file:
-        csvwriter = csv.writer(file, delimiter=_delimiter)
-        # csvwriter.writerow(fields)
-        csvwriter.writerows(_data)
+        csv.writer(file, delimiter=_delimiter).writerows(_data)
 
     return print(f"File {os.path.basename(_path)} is created")
 
 
-def update_repo():
-    repo_name = "Hardware-Target-Game-Database"
-
-    if os.path.exists(repo_name):
+def update_repo(_repo_name="Hardware-Target-Game-Database"):
+    if os.path.exists(_repo_name):
         print("Updating repo...")
-        repo = Repo(repo_name)
+        repo = Repo(_repo_name)
         current_sha1 = repo.head.object.hexsha
         repo.git.checkout("master")
         repo.git.reset("--hard", repo.head.commit)
@@ -86,16 +74,17 @@ def update_repo():
 
     Repo.clone_from(
         url="https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
-        to_path=repo_name,
+        to_path=_repo_name,
         progress=CloneProgress(),
     )
-    return Repo(repo_name).head.object.hexsha
+
+    return Repo(_repo_name).head.object.hexsha
 
 
 def write_latest_commit(_config_file="config.ini", _sha1=""):
     config = ConfigParser()
     config.read(_config_file)
-    config.set("commit", "latest_reduced", _sha1)
+    config.set("reducer", "latest_reduced", _sha1)
 
     with open(_config_file, "w") as f:
         config.write(f)
@@ -106,33 +95,28 @@ def remove_files(_path):
         os.remove(os.path.join(_path, file))
 
 
-def main():
+def reducer():
     htgdb_sha1 = update_repo()
-    # Load config in file .ini
-    og_smdb, reduced_smdb, latest_reduced = load_config()
+    section = load_config()
 
-    if latest_reduced == htgdb_sha1:
-        exit(print("Nothing new to reduce"))
+    if section["latest_reduced"] == htgdb_sha1:
+        return print("Nothing new to reduce")
 
-    # Set path for the workplace
-    path_smdb = os.path.normpath(os.path.join(os.getcwd(), og_smdb))
-    path_reduced_smdb = os.path.normpath(os.path.join(os.getcwd(), reduced_smdb))
+    path_smdb = os.path.normpath(os.path.join(os.getcwd(), section["orig_smdb"]))
+    path_reduced_smdb = os.path.normpath(os.path.join(os.getcwd(), section["new_smdb"]))
 
     remove_files(path_reduced_smdb)
 
-    # Get SMDB text files and the SHA-1 git head from the original repository
     databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
 
     for database in databases:
-        split_text = os.path.splitext(database)
-        file = f"{split_text[0]}_{htgdb_sha1}.txt"
-
         data = populate_list(os.path.join(path_smdb, database))
         print(get_extensions(data))
 
-        new_file(os.path.join(path_reduced_smdb, file), "\t", single_file_db(data))
+        new_file(os.path.join(path_reduced_smdb, database), "\t", single_file_db(data))
 
     write_latest_commit(_sha1=htgdb_sha1)
 
 
-main()
+if __name__ == "__main__":
+    reducer()

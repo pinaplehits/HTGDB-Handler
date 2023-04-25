@@ -1,93 +1,117 @@
-from cgitb import text
-import os
-import glob
 from configparser import ConfigParser
-from pathlib import Path
-from re import I
+import csv
+import json
+import os
+from reducer import reducer
+import shutil
 
-#Load all configs and return it to list
-def load_config():
-    config_file = 'config.ini'
+
+def load_config(_section="build_reduced", _file="config.ini"):
     config = ConfigParser()
-    config.read(config_file)
-    
-    return config['local']['orig_smdb'], config['local']['new_smdb']
+    config.read(_file)
 
-def populate_files(_files = '*'):
-    data = [x for x in glob.glob(_files)]
-    data.sort(key = str.lower)
+    return dict(config.items(_section)), config["reducer"]["latest_reduced"]
 
-    return data
 
-def selection_screen(list, message):
-    for index, value in enumerate(list):
-        print(index, value)
+def select_database(_path):
+    smdb = sorted([x for x in os.listdir(_path) if x.endswith(".txt")], key=str.lower)
 
-    return int(input(message))
+    basename = [os.path.splitext(os.path.basename(x))[0] for x in smdb]
 
-def script_path(_path):
-    x = int(input('0. Build pack\n1. Verify pack\nSelect a python script: '))
-    
-    if x:
-        return os.path.join(os.path.dirname(_path), 'verify_pack.py'), x
+    [print(index, value) for index, value in enumerate(basename)]
+
+    index = input("Select one SMDB file: ")
+
+    return smdb[int(index)], basename[int(index)]
+
+
+def uncompress_7z(_file, _output_folder):
+    os.system(f"7z x '{_file}' -o'{_output_folder}' -y")
+
+
+def compress_7z(_basename, _path):
+    os.system(f"7z a '{_basename}.7z' '{_path}/*' '-xr!{_path}'")
+
+
+def update_missing(_missing, _basename):
+    if not os.path.exists(_missing):
+        return
+
+    with open(_missing, "r") as f:
+        missing_data = list(csv.reader(f, delimiter="\t"))
+
+        write_to_child(_basename, "missing", missing_data)
+
+        # test new function from this part
+        # try:
+        #     with open(json_db, "r") as f:
+        #         json_data = json.load(f)
+        # except json.decoder.JSONDecodeError:
+        #     pass
+
+        # if _basename not in json_data:
+        #     json_data[_basename] = {}
+
+        # json_data[_basename]["missing"] = missing_data
+
+        # with open(json_db, "w") as f:
+        #     json.dump(json_data, f)
+    # test new function until this part
+
+
+def write_to_child(_basename, _child, _data, _json_db="db.json"):
+    json_data = {}
+
+    try:
+        with open(_json_db, "r") as f:
+            json_data = json.load(f)
+    except json.decoder.JSONDecodeError:
+        pass
+
+    if _basename not in json_data:
+        json_data[_basename] = {}
+
+    json_data[_basename][_child] = _data
+
+    with open(_json_db, "w") as f:
+        json.dump(json_data, f)
+
+
+def build():
+    reducer()
+
+    section, latest_reduced = load_config()
+
+    smdb, basename = select_database(section["smdb"])
+    missing = os.path.join(section["missing"], smdb)
+    romimport = os.path.join(section["romimport"], basename)
+
+    folder = os.path.join(section["folder"], basename)
+    smdb = os.path.join(section["smdb"], smdb)
+    masters = os.path.join(section["masters"], basename)
+
+    if os.path.exists(masters):
+        masters = os.path.join(
+            masters,
+            f"{basename}.7z.001" if len(os.listdir(masters)) > 1 else f"{basename}.7z",
+        )
+
+        uncompress_7z(masters, romimport)
     else:
-        return os.path.join(os.path.dirname(_path), 'build_pack.py'), x
+        if not os.path.exists(folder):
+            return print(f"{os.path.basename(folder)} not found")
 
-def database_folder(_path):
-    os.chdir(_path)
-    smdb_list = populate_files('*.txt')
-    index = selection_screen(smdb_list, 'Select one SMDB file: ')
-    
-    return smdb_list[index]
+        shutil.move(folder, romimport)
 
-def destination_folder(_path):
-    x = int(input('0. MiSTer\n1. Collection\n2. Single file\nSelect a folder destination: '))
-    if x == 0:
-        outputPath = os.path.join(_path, 'mister', 'games')
-        
-        directory_mister = [x.name for x in os.scandir(outputPath) if x.is_dir()]
-        directory_mister.sort(key=str.lower)
-        
-        index = selection_screen(directory_mister, 'Select one folder core: ')
+    build = f"python {section['script']} --input_folder '{romimport}' --database '{smdb}' --output_folder '{folder}' --missing '{missing}' --skip_existing --drop_initial_directory --file_strategy hardlink"
 
-        return os.path.join(outputPath, directory_mister[index])
-    elif x == 1:
-        return os.path.join(_path, 'Collection')
-    elif x == 2:
-        return os.path.join(_path, 'Collection', 'Single files SMDB')
+    os.system(build)
 
-def build_script(_cmd):
-    input(_cmd)
-    os.system(_cmd)
-    input("Press any key to continue...")
+    # shutil.rmtree(romimport)
 
-def verify_script(_cmd):
-    input(_cmd)
-    os.system(_cmd)
-    input('Press any key to continue...')
+    update_missing(missing, basename)
+    write_to_child(basename, "verifiedWith", latest_reduced)
 
-def main():
-    #Load config in file .ini
-    orig_smdb, new_smdb = load_config()
 
-    source_repo = os.path.normpath(os.getcwd())
-    root = Path(__file__).parents[2]
-    repos_path = os.path.dirname(source_repo)
-    path_smdb = os.path.normpath(os.path.join(repos_path, orig_smdb))
-    scripPath, x = script_path(path_smdb)
-    folder = os.path.splitext(database_folder(path_smdb))[0]
-    smdbPath = os.path.join(path_smdb, f'{folder}.txt')
-    missingPath = os.path.join(root, 'missingroms', f'{folder}.txt')
-    outputPath = os.path.join(destination_folder(root), folder)
-    
-    if x == 0:
-        unorganizedPath = os.path.join(root, 'romimport')
-        build_cmd = f"python3 '{scripPath}' --input_folder '{unorganizedPath}' --database '{smdbPath}' --output_folder '{outputPath}' --missing '{missingPath}' --skip_existing --drop_initial_directory --file_strategy hardlink"
-
-        build_script(build_cmd)
-    else:
-        verify_cmd = f"python3 '{scripPath}' --folder '{outputPath}' --database '{smdbPath}' --mismatch '{missingPath}' --drop_initial_directory"
-        
-        verify_script(verify_cmd)
-
-main()
+if __name__ == "__main__":
+    build()
