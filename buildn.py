@@ -34,13 +34,28 @@ def compress_7z(_basename, _path):
     os.system(f"7z a '{_basename}.7z' '{_path}/*' '-xr!{_path}'")
 
 
-def updateDB(_missing):
-    if os.path.exists(_missing):
-        with open(_missing, "r") as f:
-            data = csv.reader(f, delimiter="\t")
-            print(data)
+def update_missing(_missing, _basename):
+    if not os.path.exists(_missing):
+        return
 
-    print("Updating DB")
+    json_data = {}
+
+    with open(_missing, "r") as f:
+        missing_data = list(csv.reader(f, delimiter="\t"))
+
+        try:
+            with open("db.json", "r") as f:
+                json_data = json.load(f)
+        except json.decoder.JSONDecodeError:
+            pass
+
+        if _basename not in json_data:
+            json_data[_basename] = {}
+
+        json_data[_basename]["missing"] = missing_data
+
+        with open("db.json", "w") as f:
+            json.dump(json_data, f)
 
 
 def main():
@@ -62,8 +77,10 @@ def main():
 
         uncompress_7z(masters, romimport)
     else:
-        print("No latest folder found")
-        exit()
+        if not os.path.exists(folder):
+            exit(f"{os.path.basename(folder)} not found")
+
+        shutil.move(folder, romimport)
 
     build = f"python {section['script']} --input_folder '{romimport}' --database '{smdb}' --output_folder '{folder}' --missing '{missing}' --skip_existing --drop_initial_directory --file_strategy hardlink"
 
@@ -71,7 +88,7 @@ def main():
 
     shutil.rmtree(romimport)
 
-    updateDB(missing)
+    update_missing(missing, basename)
 
 
 main()
