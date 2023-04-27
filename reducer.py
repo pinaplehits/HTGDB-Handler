@@ -1,6 +1,6 @@
 from configparser import ConfigParser
 from git import Repo, GitCommandError
-from gitHandler import CloneProgress
+from gitHandler import CloneProgress, gitDifference
 import csv
 import os
 
@@ -104,6 +104,11 @@ def reducer():
 
     path_smdb = os.path.normpath(os.path.join(os.getcwd(), section["orig_smdb"]))
     path_reduced_smdb = os.path.normpath(os.path.join(os.getcwd(), section["new_smdb"]))
+
+    update_changes = gitDifference(section["latest_reduced"], htgdb_sha1)
+
+    print(update_changes)
+    exit()
 
     remove_files(path_reduced_smdb)
 

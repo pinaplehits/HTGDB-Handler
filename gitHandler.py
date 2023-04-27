@@ -49,3 +49,13 @@ def gitDifference(
             }[item.change_type]()
 
     return changes
+
+
+def gitCommit(_repo="Hardware-Target-Game-Database", _message=""):
+    repo = Repo(_repo)
+
+    repo.index.add_all()
+    repo.index.commit(_message)
+
+    origin = repo.remote(name="origin")
+    origin.push()
