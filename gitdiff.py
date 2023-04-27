@@ -1,10 +1,10 @@
-import git
+from git import Repo
 import json
 import os
 
-repo = git.Repo("Hardware-Target-Game-Database")
+repo = Repo("Hardware-Target-Game-Database")
 
-old_commit = repo.commit("HEAD~150")
+old_commit = repo.commit("HEAD~50")
 new_commit = repo.commit("HEAD")
 
 index = old_commit.diff(new_commit)
@@ -12,29 +12,24 @@ index = old_commit.diff(new_commit)
 changes = {"add": [], "delete": [], "modified": [], "renamed": []}
 
 for item in index:
-    is_new_smdb = item.b_path.startswith(
-        "EverDrive Pack SMDBs"
-    ) and item.b_path.endswith(".txt")
-    is_deleted = item.change_type == "D"
-    is_modified = item.change_type == "M"
-    is_added = item.change_type == "A"
-    is_renamed = item.change_type == "R"
+    if item.b_path.startswith("EverDrive Pack SMDBs") and item.b_path.endswith(".txt"):
+        if item.a_blob is not None:
+            a_path = os.path.basename(item.a_blob.path)
 
-    if is_new_smdb:
-        if is_deleted:
-            changes["delete"].append(os.path.basename(item.a_blob.path))
-        elif is_modified:
-            changes["modified"].append(os.path.basename(item.b_blob.path))
-        elif is_added:
-            changes["add"].append(os.path.basename(item.b_blob.path))
-        elif is_renamed:
-            changes["renamed"].append(
+        if item.b_blob is not None:
+            b_path = os.path.basename(item.b_blob.path)
+
+        {
+            "D": lambda: changes["delete"].append(a_path),
+            "M": lambda: changes["modified"].append(b_path),
+            "A": lambda: changes["add"].append(b_path),
+            "R": lambda: changes["renamed"].append(
                 {
-                    "from": os.path.basename(item.a_blob.path),
-                    "to": os.path.basename(item.b_blob.path),
+                    "from": a_path,
+                    "to": b_path,
                 }
-            )
-
+            ),
+        }[item.change_type]()
 
 changes_json = json.dumps(changes, indent=2)
 

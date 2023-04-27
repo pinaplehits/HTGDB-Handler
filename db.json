@@ -1,28 +1,7 @@
 {
   "Analogue Nt Mini Legacy Jailbreak SMDB": {
-    "missing": [
-      {
-        "filename": "#gscept Intro by blindio (PD).sms",
-        "key": "8189a63464ab057ef6353033fd9ddd9314b0a542b89ef000a4a456542416aec7"
-      },
-      {
-        "filename": "89 Dennou Kyuusei Uranai (Japan).nes",
-        "key": "40e26bcb367391389d6dc96b4b832eaece23da7e859cbd402f678182a8e1758d"
-      },
-      {
-        "filename": "(Core) Demo (2007) (wAMMA) (PAL).a26",
-        "key": "34130c5184f0d7dd5829e7affea2df1a00bdb6c3c5c4c824d26f92ff2b431e0c"
-      },
-      {
-        "filename": "(Core) Demo (NTSC Conversion + Looping) (2007) (wAMMA, David Galloway).a26",
-        "key": "f144057d157739b12cc242978d1b710010e6d8668f90a33aa8c6287227e1863c"
-      },
-      {
-        "filename": "(Core) Demo (NTSC Conversion) (2007) (wAMMA, David Galloway).a26",
-        "key": "373c0d411dda03e1689389cae0e6f5bf82b4d24e0d60090a6047b887b9b41475"
-      }
-    ],
-    "verifiedWith": "27bd2990ffa310075b0b914cdf165e7f2c1b6e2f"
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Super EverDrive & SD2SNES SMDB": {
     "missing": [

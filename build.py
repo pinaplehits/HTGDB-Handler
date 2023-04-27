@@ -35,28 +35,13 @@ def compress_7z(_basename, _path):
 
 def update_missing(_missing, _basename):
     if not os.path.exists(_missing):
+        write_to_child(_basename, "missing", [])
         return
 
     with open(_missing, "r") as f:
         missing_data = list(csv.reader(f, delimiter="\t"))
 
         write_to_child(_basename, "missing", missing_data)
-
-        # test new function from this part
-        # try:
-        #     with open(json_db, "r") as f:
-        #         json_data = json.load(f)
-        # except json.decoder.JSONDecodeError:
-        #     pass
-
-        # if _basename not in json_data:
-        #     json_data[_basename] = {}
-
-        # json_data[_basename]["missing"] = missing_data
-
-        # with open(json_db, "w") as f:
-        #     json.dump(json_data, f)
-    # test new function until this part
 
 
 def write_to_child(_basename, _child, _data, _json_db="db.json"):
