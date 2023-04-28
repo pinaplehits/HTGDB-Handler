@@ -24,7 +24,7 @@ def gitDifference(
 
     index = old_commit.diff(new_commit)
 
-    changes = {"add": [], "delete": [], "modified": [], "renamed": []}
+    changes = {"added": [], "deleted": [], "modified": [], "renamed": []}
 
     for item in index:
         if item.b_path.startswith("EverDrive Pack SMDBs") and item.b_path.endswith(
@@ -37,9 +37,9 @@ def gitDifference(
                 b_path = os.path.basename(item.b_blob.path)
 
             {
-                "D": lambda: changes["delete"].append(a_path),
+                "D": lambda: changes["deleted"].append(a_path),
                 "M": lambda: changes["modified"].append(b_path),
-                "A": lambda: changes["add"].append(b_path),
+                "A": lambda: changes["added"].append(b_path),
                 "R": lambda: changes["renamed"].append(
                     {
                         "from": a_path,

@@ -1,6 +1,7 @@
 from configparser import ConfigParser
 from git import Repo, GitCommandError
 from gitHandler import CloneProgress, gitDifference
+from jsonHandler import get_top_level_keys
 import csv
 import os
 
@@ -90,8 +91,8 @@ def write_latest_commit(_config_file="config.ini", _sha1=""):
         config.write(f)
 
 
-def remove_files(_path):
-    for file in os.listdir(_path):
+def remove_files(_path, files):
+    for file in files:
         os.remove(os.path.join(_path, file))
 
 
@@ -107,14 +108,24 @@ def reducer():
 
     update_changes = gitDifference(section["latest_reduced"], htgdb_sha1)
 
-    print(update_changes)
-    exit()
+    if update_changes["deleted"]:
+        input("Some files will be deleted, press enter to continue...")
 
-    remove_files(path_reduced_smdb)
+        # db_keys = get_top_level_keys()
+        # check if update_changes["deleted"] is a subset of db_keys
+        # if yes delete it from the db
+        # dbkeys in update_changes["deleted"]
+
+        remove_files(path_reduced_smdb, update_changes["deleted"])
+
+    if update_changes["renamed"]:
+        input("Some files will be renamed, the program will end...")
+        exit()
 
     databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
 
-    for database in databases:
+    # for database in databases:
+    for database in update_changes["modified"] + update_changes["added"]:
         data = populate_list(os.path.join(path_smdb, database))
         print(get_extensions(data))
 
