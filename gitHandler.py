@@ -14,7 +14,7 @@ class CloneProgress(RemoteProgress):
         self.pbar.refresh()
 
 
-def gitDifference(
+def git_difference(
     _old_commit, _new_commit="HEAD", repo_name="Hardware-Target-Game-Database"
 ):
     repo = Repo(repo_name)
@@ -51,7 +51,7 @@ def gitDifference(
     return changes
 
 
-def gitCommit(_repo="Hardware-Target-Game-Database", _message=""):
+def git_commit(_repo="Hardware-Target-Game-Database", _message=""):
     repo = Repo(_repo)
 
     repo.index.add_all()

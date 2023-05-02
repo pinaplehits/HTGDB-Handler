@@ -1,9 +1,10 @@
 from configparser import ConfigParser
+from reducer import reducer
 import csv
 import json
 import os
-from reducer import reducer
 import shutil
+from jsonHandler import write_to_child
 
 
 def load_config(_section="build_reduced", _file="config.ini"):
@@ -44,24 +45,6 @@ def update_missing(_missing, _basename):
         write_to_child(_basename, "missing", missing_data)
 
     os.remove(_missing)
-
-
-def write_to_child(_basename, _child, _data, _json_db="db.json"):
-    json_data = {}
-
-    try:
-        with open(_json_db, "r") as f:
-            json_data = json.load(f)
-    except json.decoder.JSONDecodeError:
-        pass
-
-    if _basename not in json_data:
-        json_data[_basename] = {}
-
-    json_data[_basename][_child] = _data
-
-    with open(_json_db, "w") as f:
-        json.dump(json_data, f, indent=2, sort_keys=True)
 
 
 def build():

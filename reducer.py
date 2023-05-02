@@ -1,9 +1,10 @@
 from configparser import ConfigParser
 from git import Repo, GitCommandError
-from gitHandler import CloneProgress, gitDifference
-from jsonHandler import get_top_level_keys, delete_key
+from gitHandler import CloneProgress, git_difference
+from jsonHandler import get_top_level_keys, delete_key, write_to_child
 import csv
 import os
+import shutil
 
 
 def load_config(_section="reducer", _file="config.ini"):
@@ -96,48 +97,78 @@ def remove_files(_path, files):
         os.remove(os.path.join(_path, file))
 
 
-def remove_keys(_deleted, _path):
-    if not _deleted:
-        return
-
-    input("Some files will be deleted, press enter to continue...")
-
-    db_keys = get_top_level_keys()
-
-    delete_keys = [
-        elem for elem in db_keys if any(elem in substring for substring in _deleted)
-    ]
-
-    for key in delete_keys:
+def remove_keys(_deleted):
+    for key in get_list_intersection(_deleted):
         delete_key(key)
 
-    remove_files(_path, _deleted)
+    return True
+
+
+def get_list_intersection(_list):
+    return [
+        elem
+        for elem in get_top_level_keys()
+        if any(elem in substring for substring in _list)
+    ]
+
+
+def move_to_legacy(_path_master, _path_build, _path_legacy):
+    if os.path.exists(_path_master):
+        if os.listdir(_path_master):
+            shutil.rmtree(_path_build)
+            shutil.move(_path_master, _path_legacy)
+            return print("Build folder deleted and master folder moved to legacy")
+
+        shutil.rmtree(_path_master)
+
+    if os.path.exists(_path_build):
+        shutil.move(_path_build, _path_legacy)
+        return print("Build folder moved to legacy")
 
 
 def reducer():
-    htgdb_sha1 = update_repo()
+    # htgdb_sha1 = update_repo()
     section = load_config()
+    path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
 
+    databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
+
+    for db in databases:
+        basename = os.path.splitext(db)
+        data = populate_list(os.path.join(path_smdb, db))
+        write_to_child(basename[0], "extensions", get_extensions(data))
+
+    return
     if section["latest_reduced"] == htgdb_sha1:
         return print("Nothing new to reduce")
 
-    path_smdb = os.path.normpath(os.path.join(os.getcwd(), section["orig_smdb"]))
-    path_reduced_smdb = os.path.normpath(os.path.join(os.getcwd(), section["new_smdb"]))
+    path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
+    path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
 
-    update_changes = gitDifference(section["latest_reduced"], htgdb_sha1)
+    update_changes = git_difference(section["latest_reduced"], htgdb_sha1)
 
-    remove_keys(update_changes["deleted"], path_smdb)
+    if update_changes["deleted"]:
+        basename = [
+            os.path.splitext(os.path.basename(x))[0] for x in update_changes["deleted"]
+        ]
+
+        remove_keys(update_changes["deleted"])
+        remove_files(path_smdb, update_changes["deleted"])
+
+        for key in basename:
+            move_to_legacy(
+                os.path.join(section["master"], key),
+                os.path.join(section["build"], key),
+                os.path.join(section["legacy"], key),
+            )
 
     if update_changes["renamed"]:
         input("Some files will be renamed, the program will end...")
         exit()
 
-    databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
-
-    # for database in databases:
     for database in update_changes["modified"] + update_changes["added"]:
         data = populate_list(os.path.join(path_smdb, database))
-        print(get_extensions(data))
+        # print(get_extensions(data))
 
         new_file(os.path.join(path_reduced_smdb, database), "\t", single_file_db(data))
 

@@ -15,3 +15,21 @@ def delete_key(_key, json_file="db.json"):
 
     with open(json_file, "w") as file:
         json.dump(data, file, indent=2, sort_keys=True)
+
+
+def write_to_child(_basename, _child, _data, _json_db="db.json"):
+    json_data = {}
+
+    try:
+        with open(_json_db, "r") as f:
+            json_data = json.load(f)
+    except json.decoder.JSONDecodeError:
+        pass
+
+    if _basename not in json_data:
+        json_data[_basename] = {}
+
+    json_data[_basename][_child] = _data
+
+    with open(_json_db, "w") as f:
+        json.dump(json_data, f, indent=2, sort_keys=True)
