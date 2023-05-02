@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 from git import Repo, GitCommandError
 from gitHandler import CloneProgress, gitDifference
-from jsonHandler import get_top_level_keys
+from jsonHandler import get_top_level_keys, delete_key
 import csv
 import os
 
@@ -96,6 +96,24 @@ def remove_files(_path, files):
         os.remove(os.path.join(_path, file))
 
 
+def remove_keys(_deleted, _path):
+    if not _deleted:
+        return
+
+    input("Some files will be deleted, press enter to continue...")
+
+    db_keys = get_top_level_keys()
+
+    delete_keys = [
+        elem for elem in db_keys if any(elem in substring for substring in _deleted)
+    ]
+
+    for key in delete_keys:
+        delete_key(key)
+
+    remove_files(_path, _deleted)
+
+
 def reducer():
     htgdb_sha1 = update_repo()
     section = load_config()
@@ -108,15 +126,7 @@ def reducer():
 
     update_changes = gitDifference(section["latest_reduced"], htgdb_sha1)
 
-    if update_changes["deleted"]:
-        input("Some files will be deleted, press enter to continue...")
-
-        # db_keys = get_top_level_keys()
-        # check if update_changes["deleted"] is a subset of db_keys
-        # if yes delete it from the db
-        # dbkeys in update_changes["deleted"]
-
-        remove_files(path_reduced_smdb, update_changes["deleted"])
+    remove_keys(update_changes["deleted"], path_smdb)
 
     if update_changes["renamed"]:
         input("Some files will be renamed, the program will end...")

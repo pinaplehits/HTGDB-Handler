@@ -3,6 +3,763 @@
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
+  "Analogue Nt Mini Noir Jailbreak SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Apocalypse": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Atari 2600 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Atari 5200 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Atari 7800 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Atari Jaguar SMDB": {
+    "missing": [
+      [
+        "1943 (ST) GD.mrq",
+        "b1b6e421943df1087ea1bf43405852dbe13ed5097b7f71c1b828f02ddab364b7"
+      ],
+      [
+        "1943 (ST) GD.rom",
+        "624de0e0eeaf0d032368c5ab6e0e6ddee669a2fcdadace468fbf6f9683c587ce"
+      ],
+      [
+        "4Play Demo.jcd",
+        "36b839b6be0a9f2cd9241828fdd42bee0f993b116e511c09c697aac2e2e1b042"
+      ],
+      [
+        "8Biteer (2013).jcd",
+        "8e6ee52bf04b478196efaf6646f20a1104ab5fce6f26c00836aff9012f0fa3c1"
+      ],
+      [
+        "Action Fighter (ST) GD.mrq",
+        "580f95b5d57d64ee5458c058a0332cbf7b012abe2ecfd9c635ca2bc50a70f4d0"
+      ],
+      [
+        "Action Fighter (ST) GD.rom",
+        "b43eeae21d06036d77816744795a40a1572cdb2b8232993777cec1b942813d72"
+      ],
+      [
+        "Alien Syndrome (ST) GD.mrq",
+        "3139f6a77fb3ca96d914e0cfb25176c4a2f3b77f95cbb8c38b4a383bfc5d5b68"
+      ],
+      [
+        "Alien Syndrome (ST) GD.rom",
+        "8f2b7c70db1bbe3a10517778394bb56d0c9809e2f9525134682b078b970f69eb"
+      ],
+      [
+        "American Hero 2.jcd",
+        "fc82f9cf95ce1ee6677ac9b12599b66342fdb4f7201cfb302fc52492bbed932f"
+      ],
+      [
+        "American Hero.jcd",
+        "ea2de5c49e0fe990308de23584bef8121acf8a5c6f285f409316ccd9fecf3223"
+      ],
+      [
+        "Ants (PD) v3 ari2600land 2017-05-26.rom",
+        "0638d6122367fb0f68184ff295d6205ea329247e9ba68de2002a3067ff912c31"
+      ],
+      [
+        "Ants (USA) (Unl).jcd",
+        "4fdcad7bd714583d3f428387e499883bbbebb91b1861fb89a3243685af015a67"
+      ],
+      [
+        "Arkanoid Revenge of DOH (ST) GD.mrq",
+        "9559a26501ac7f5af8651009c391a4f9b5e103a5aea8ef774fb881ddefb5a183"
+      ],
+      [
+        "Arkanoid Revenge of DOH (ST) GD.rom",
+        "b11b58743eacd4d15fd11b72a9c5438201562e699d5cf52ab90865f77a3eee7f"
+      ],
+      [
+        "Bad Apple GD.mrq",
+        "32301587ef79e50afa5a7b0d6c3f58711cb4c5fb7830d6cc52cee834ef71c326"
+      ],
+      [
+        "Bad Apple GD.rom",
+        "063c1e2615f3ba31af044a5add54d0767eb801f69f08978257219809e221d221"
+      ],
+      [
+        "Badlands (ST) GD.mrq",
+        "89e39bd3e8aa818129ddfe109351d7425dd1ac6b077c441ea31b9855c4696aab"
+      ],
+      [
+        "Badlands (ST) GD.rom",
+        "7345bfc8a0dadeb405e7ef36a94140cab8185cca6802ac4ad256aff7871e7f6d"
+      ],
+      [
+        "Baldies (USA) (Rev 1).jcd",
+        "129a4d1c6338ab5febc172d776cc3272f75530ebcc43a112d6b8823c92332409"
+      ],
+      [
+        "Baldies (USA) (Rev 1).mrq",
+        "bb151a4f2c8d4d3001235a4f655d6dd6809dc7b202a5664c3a3d40cc49ab25ac"
+      ],
+      [
+        "Barbarian (ST).mrq",
+        "d26bcb526d9143fc27e0fa213300597a6526b9cce18d7a6b5b24a11608195a3e"
+      ],
+      [
+        "Barbarian (ST).rom",
+        "a46320ab8759801df8a18f8f29a994b75037c6256832b93461e54c67fd013f35"
+      ],
+      [
+        "Barkley Shut Up and Jam (World).mrq",
+        "c88b12f6bed918dde65164486b16d6c1a9b2dfc12c31255c70219b159a530ea0"
+      ],
+      [
+        "Battle Morph (USA).jcd",
+        "52ea21be422fe7f966109ab445745b8a4e53b567da680729fb9f16c803480250"
+      ],
+      [
+        "Battle Morph (USA).mrq",
+        "10ae8b44bc3d29481937dae326149c18cca67f08e3bffa46335760715c282af3"
+      ],
+      [
+        "Battle Sphere (World).mrq",
+        "c318d8cccb83003c913fc63f53c22ff8b4f7d610869888fcb9c317a4c9b52c3a"
+      ],
+      [
+        "Beast Busters (ST) GD.mrq",
+        "60f9f70b5969c1d524c5311c974b86f99e8c20eebdc2aef873500fa5f02b5bbb"
+      ],
+      [
+        "Beast Busters (ST) GD.rom",
+        "e1170fe7e2d0afd613cfa226f0c29dff02e5022d504d93cfd096bcf34b5b4045"
+      ],
+      [
+        "Beebris SE (2010).jcd",
+        "b2731e983b827effc475ec555340bc3156dee61ae31b7b9b64901b9b3f0343b5"
+      ],
+      [
+        "Bexagon Party Version (PD) Bello Games.rom",
+        "d20baea9af95ad84ff6e39c89d105867bb21e2a196f58f76d2aee40f0600ebe3"
+      ],
+      [
+        "Bionic Commando (ST) GD.mrq",
+        "8437ad0cea42028b8810bdbe4f3126b4c93a30878e559724961994a8730b2d67"
+      ],
+      [
+        "Bionic Commando (ST) GD.rom",
+        "9d8d365b262c9828a1be6529cd3476d6edd5760e1cb0f58255370b9b1c6489ac"
+      ],
+      [
+        "Black Ice White Noise.jcd",
+        "f5159901095aed746e894996a42050e2e97d1cde7c8c8172d97508a8f7fd45c9"
+      ],
+      [
+        "Black Lamp (ST).mrq",
+        "532cd8ebd8caea5fb5b954591c097b599bac5a25a2efb951cf6018857d31f2c6"
+      ],
+      [
+        "Black Lamp (ST).rom",
+        "e71c4c0d6d7bbe665d0fba267c2fc53f449fd3e9acc64de4848fa539ca768f2a"
+      ],
+      [
+        "Blue Lightning (USA).jcd",
+        "bb479a1257bb420ec96f9488ac8c6f08f78ae55bed6da0e141f85edd259e1166"
+      ],
+      [
+        "Blue Lightning (USA).mrq",
+        "656a706a2edf46228290624330c5348189939fe0592e8143e4654ade73834b01"
+      ],
+      [
+        "BrainDead 13 (USA).jcd",
+        "90f95cdfc96045837cfaf36de5e9abbee09d7b626a0a355b62324aee6d1dd7a4"
+      ],
+      [
+        "BrainDead 13 (USA).mrq",
+        "3f28e400bb1fd2c06efff049a97bf2dbc8d149c12f0085077656fa3af3cb3846"
+      ],
+      [
+        "Bubble Bobble Arcade (ST).mrq",
+        "8e474363e6e03ffbef08577143f265f2651ca8dca35d49235a6da73e7cd087a6"
+      ],
+      [
+        "Bubble Bobble Arcade (ST).rom",
+        "ccf39062468d6a36c3def6a1c797453c4406e5aaa362e2698ac3067c0a04fb68"
+      ],
+      [
+        "Caves Of Fear 1.jcd",
+        "80425059e6f7d5db64279e7c3d1c6da38c04bb851e2a610e3ab8cadc0fcfebbb"
+      ],
+      [
+        "Caves Of Fear.jcd",
+        "31a820b4e07b552c162ec03f9c6760a1e44c94c64f6cdcf110586b98af8fe4ca"
+      ],
+      [
+        "Classic Kong Demo (PD) swapd0.rom",
+        "606c031d4a248826f967babc0d28ea539bcac4eb1115f13377fc2d3d8e1f98ad"
+      ],
+      [
+        "Commando (ST) GD.mrq",
+        "8ceac643dc5c1032c5c1ccf4e137aa21816321382c5436fc14b8de4e9231e9ab"
+      ],
+      [
+        "Commando (ST) GD.rom",
+        "b54964a39f402cc5311aae77f3c881545f52fcd4f93bf21e4566c54cbcd9db11"
+      ],
+      [
+        "Cybernoid - The Fighting Machine (ST).mrq",
+        "9e8a35bfa42f7a0890dc63de9b135ba941d079d19c9767a8c6f194cfa7ed00b8"
+      ],
+      [
+        "Cybernoid - The Fighting Machine (ST).rom",
+        "9a094afc269d775f6d681b8d0c9d0b88c35a1bc44fd4a6c12766fa7f47791370"
+      ],
+      [
+        "Cybernoid II - The Revenge (ST).mrq",
+        "3acd36747490a8c7ff37a4407a3b7abef48ffd5c066d69dbc3673b1af9977542"
+      ],
+      [
+        "DEGZ (2012).jcd",
+        "0c0258ee8836a16ac5cc3994eebe6e7c3333427e7a4ece6d6a71e99a3256b14e"
+      ],
+      [
+        "Dance Dance Xirius Dance Party - AC2012.jcd",
+        "4801a4f05f5de882612008be2b3c730eaf3c17d60b8ca23183ecd64301542463"
+      ],
+      [
+        "Darius+ (ST) GD.rom",
+        "340f42ccda41a33e98579b8e468434595a5d1f77d27c03d10ccaaee8774b349a"
+      ],
+      [
+        "Deflektor (ST).mrq",
+        "bd8232b6498219b08477e026b41ce93168e6637cec1b00e75c2cd8caef7a6ce8"
+      ],
+      [
+        "Deflektor (ST).rom",
+        "a98d7a4e24150cc593d2b6e6b46d7523435afb0aa715e04c5b74316043090eaa"
+      ],
+      [
+        "Degz (PD) Reboot Games.mrq",
+        "ff4404b6c9627019266144d89dbb2cc08ecc92f2d13b1b867c2dd347cd2963a8"
+      ],
+      [
+        "Degz (PD) Reboot Games.rom",
+        "4043787a300d919c55bf7c0aca088b3185f5afd1aabb7bafcc850f941c7a1a7a"
+      ],
+      [
+        "Demolition Man.jcd",
+        "c5b09208afe8d5a15d36707625814899cadbe4374dd1100be7ea99806a5c4880"
+      ],
+      [
+        "Downfall (2011).jcd",
+        "7d2a5be67c2bab936142ee7da60528852023bf99d89d1ae5cd15e7cfee4401f6"
+      ],
+      [
+        "Downfall (PD) Reboot Games.mrq",
+        "51fc0ccea4f23ef4cf2bb507e74965fdb710cff8744b4200a1a803c2f48c7608"
+      ],
+      [
+        "Downfall (PD) Reboot Games.rom",
+        "6c76f75bda59ac67321749878207f5df9ebdd1c862fc7d857fc2cb959cc11351"
+      ],
+      [
+        "Dragon Breed (ST) GD.mrq",
+        "6f51f9a0ee448621d10e378d0f15acace413c010aa4ce92c8b914294e9a703eb"
+      ],
+      [
+        "Dragon Breed (ST) GD.rom",
+        "2d685ca07a6ed38a4fc6219c473f1475e2f1039251d8a865d17057c9240c7144"
+      ],
+      [
+        "Dragon's Lair (USA).jcd",
+        "c7a2a8f5ca4431a08eccc3a17fcd09b67c32faa3354ff0e2e0bff3ce58aa0664"
+      ],
+      [
+        "Dragon's Lair (USA).mrq",
+        "1a2391305418e6639b1c938a4a7adf81fa4c009c7a1dbfc5b72f60f1c35e9fd3"
+      ],
+      [
+        "DragonKeep (PD) v1.01 CyranoJ.rom",
+        "9803fd37800a5fc621b510d829ae387b290cb5a9f5b36535504f2ec60f48e2d5"
+      ],
+      [
+        "Elansar (PD) Orionsoft.rom",
+        "bbbdbb5084a06323316ccaa7d1b94403fbf2dbe118c35638d3618c6461995a06"
+      ],
+      [
+        "Escape From the Planet of the Robot Monsters (ST) GD.mrq",
+        "c1c6ea7fc6b52a23b894eef76ac08816968cd5b845304dda7f5181b11ba0190d"
+      ],
+      [
+        "Escape From the Planet of the Robot Monsters (ST) GD.rom",
+        "600d289470b17cbb7d5687f63cea4305b5f4ebdf7df9e707ed6779792f15f8e1"
+      ],
+      [
+        "Expressway (2013).jcd",
+        "7611a1c372553f76145054474f809addd32a240511cd4463ca23e5d420ad8957"
+      ],
+      [
+        "Expressway (PD) Reboot Games.mrq",
+        "8d791b8a678ec3924d1dbf1be40428991ec45ed7f42210ce7e775a3a5b8fc072"
+      ],
+      [
+        "Expressway (PD) Reboot Games.rom",
+        "3060a4ce75d0fc393e98c4afebcc127e338e2ba8c43e65376887da4f8e5f3e0a"
+      ],
+      [
+        "Fallen Angels.jcd",
+        "a000866b000df977844d107df7de296df8b04298c4f32e9a5547a90ce06c8919"
+      ],
+      [
+        "Fast Food 64 - Holiday Snacks (USA) (Unl).jcd",
+        "4bd45b1295d354b4b637fcaa6021c8c1d4b4d5126094c8a0fe5a1a38d460f566"
+      ],
+      [
+        "Fernandez Must Die (ST) v1.1.mrq",
+        "a7a3a4416f95481bb86253bb53dce47685e3354a206816121e552777cc072fba"
+      ],
+      [
+        "Flying Shark (ST) GD.mrq",
+        "aeb9dd7e7196eaf4884d2f2acc15e7f72056d181bcdcc0fa62730e73644b26de"
+      ],
+      [
+        "Flying Shark (ST) GD.rom",
+        "2f73f5b46452640de58d52f68de27a3b52e7b70305a9fd14191339040a7e2a6d"
+      ],
+      [
+        "Frog Feast (USA) (Unl).jcd",
+        "06c9594a9a94606545f0cf708f68aabb7eb4fbaf3c4dc427f47b30ffa3c4cf9a"
+      ],
+      [
+        "Frogz 64 (USA) (Unl).jcd",
+        "4f80b9f4e1d2b256da011dff1a46db0ad10b4ff3c47adb956b197b997a704945"
+      ],
+      [
+        "Full Circle - Rocketeer (PD) Reboot Games.mrq",
+        "eec62c7a10e418f70a02a17169815771721d4972b4699ffb02cd127e75c33842"
+      ],
+      [
+        "GORF.jcd",
+        "6b426e3a65c77c905e807ef6e9a86226b34c850597c8e0e2acfefcb1f1fd22a1"
+      ],
+      [
+        "Gauntlet II (ST).mrq",
+        "fed076aee83283eb07f38a37ce2f6c69b38402bb9f5ca5bdb90ffbdcd582e263"
+      ],
+      [
+        "Gauntlet II (ST).rom",
+        "b4742a2ed9bd672ddebe237871dbba7459c5a19854e44dac5753432f3a52459f"
+      ],
+      [
+        "Ghouls'n'Ghosts (ST) GD.mrq",
+        "ecb78436bdd1df352618c0c1e30dd4454c1c15a30f2d4858e27f28044fd89ffd"
+      ],
+      [
+        "Ghouls'n'Ghosts (ST) GD.rom",
+        "c32af61c708c77bdbee4732b2c88bb272ef3b2fc2bda1b188a230a366b3d592b"
+      ],
+      [
+        "Golden Axe (ST).rom",
+        "bc06c273cf1a997a20de7c6359e1ebd7d63c1a8aa9b3fd6f93a31aef50bac301"
+      ],
+      [
+        "Golden Axe BitJag Appreciation Version (ST).rom",
+        "4b461808baa17c8edfe6a0ede7ee3abd885e01226fb1c03cd225000753207772"
+      ],
+      [
+        "HMS Raptor (2012).jcd",
+        "ee424e0c92235e6988fba1b789e1399510516d8a3ed155f10b4f6edbce8e814e"
+      ],
+      [
+        "HMS Raptor (PD) Reboot Games.mrq",
+        "3a71612cae01b2dc92b94e9f52b458e4e1b89ad49e2ba8aa27e1cf9ff544fe0b"
+      ],
+      [
+        "HMS Raptor (PD) Reboot Games.rom",
+        "84241335ccca45ad0faef91f7959b85c90e70902c366aa9a401c66d4467a907a"
+      ],
+      [
+        "Highlander - The Last of the MacLeods (USA).jcd",
+        "56b129a9b5aab6071f71dee5a15cbfd354b582fbfecc7e903952a3f0196e06ea"
+      ],
+      [
+        "Highlander - The Last of the MacLeods (USA).mrq",
+        "826ee78abe4984f3175ecf2a1e41999d5cd571bf6e4265f2862ef367163a8170"
+      ],
+      [
+        "Hover Strike - Unconquered Lands (USA).jcd",
+        "eb8e7163e133a6fbb535611f0f788c9f3c427d1c08666fd5b3a6383418762ed7"
+      ],
+      [
+        "Hover Strike - Unconquered Lands (USA).mrq",
+        "425531c9c5494d1fa9a6364170f260675fe2456b7156b4190b0be277b27ee105"
+      ],
+      [
+        "Invitro Silly Venture (2013).jcd",
+        "ebf56ba106f8c4e17d1a41d2b8dd1b22cde015f9d7cc40fa8289718e82d89ac3"
+      ],
+      [
+        "Iron Soldier 2 (USA) (Songbird).jcd",
+        "5edc3ca31641991332496647107ed6ba5006172bf6fe478a819c06fb33a525d5"
+      ],
+      [
+        "Iron Soldier 2 (USA) (Songbird).mrq",
+        "55280e78bef73c2e56ab31546ae5d781c1b90267b9996a043f6ba311e87fc95f"
+      ],
+      [
+        "JagCode 500 (2007).jcd",
+        "6b174c33f20ca41228d9b211e38a4c11b3cf1a2cb66d2966bfa5d6953ab57b54"
+      ],
+      [
+        "JagMIND (2005).jcd",
+        "064b04fccb5a0c6d8f14f2e45541986bd7aeaafc62f0668a5afce2cb4793ea84"
+      ],
+      [
+        "Jagtopia FreeBoot CD (2010).jcd",
+        "d43b5c2fa4f642bfe00faab4bd6787e6eb5fb82f1ccbbe5e1ef460b17c4c362f"
+      ],
+      [
+        "Jeff Minter Demos  (2007-12-15).jcd",
+        "8196f88831a323f96734f3ebac53990fcfb9535596723399769e3b3ea4d7f501"
+      ],
+      [
+        "Joust (ST).mrq",
+        "a62aa20678a1418447b6a821a964930843287a91762d4eaf4257541691b349cd"
+      ],
+      [
+        "Joust (ST).rom",
+        "25f62722def62d9f6024302fc7a1bf34fc29aca1fa9c438ceedf92909cf4c0b1"
+      ],
+      [
+        "Klax (ST).mrq",
+        "53fa578b6d6d113a881949dbc9eb458ec4192f4ea02af593832cb2335082e18f"
+      ],
+      [
+        "Klax (ST).rom",
+        "d071c8e7e43e4a9938c529c013350686d0c83ffbc618ecb498789f477a934963"
+      ],
+      [
+        "Kobayashi Maru (2011).jcd",
+        "0fbafaccafd6fe74327b5b46ec4e3309a0f6192d24fa7e1f9e5a3c903cc83022"
+      ],
+      [
+        "Kobayashi Maru - Final (PD) Reboot Games.mrq",
+        "4371afd293a7b1d559b1b7bd3e8c658ec95371bd121ad0604c1fdcaf9d4d7676"
+      ],
+      [
+        "Kobayashi Maru - Final (PD) Reboot Games.rom",
+        "a0d2fba23d0d43319b87e68e672174bc69d56072740fc0b050bc74003b39fa50"
+      ],
+      [
+        "Lost Treasures (2006).jcd",
+        "5c6f1e56d3772e41bcedc10b77ab208e2a74c256dab177986759fff6c6743ca0"
+      ],
+      [
+        "Mandelbrot Demo (2008).jcd",
+        "c7e01c16d355772ccdf2c35aeeec04aa1effd531bdcafd558d0d598428f0f77f"
+      ],
+      [
+        "Maxx Demo (PD).rom",
+        "d1f182e348f1eb55e98bab256f0d3644bb34105208f08d3a2653ff624a9d1d31"
+      ],
+      [
+        "Midnight Resistance (ST) GD.mrq",
+        "b47548c5afb6ae2ab3584cc687f95d775882f7eb89353c3527e774c33beb81c5"
+      ],
+      [
+        "Midnight Resistance (ST) GD.rom",
+        "98aff889995566275bd610bf772612839ab786d6a082a65a8fad52afceb353b6"
+      ],
+      [
+        "Moon Patrol (ST).mrq",
+        "0d2b7721e1b94d14f36ad23fa08339f7b161166da6ff0696932f66803efae672"
+      ],
+      [
+        "Moon Patrol (ST).rom",
+        "f3ce2903d243a784a463845d9408031a0fd072787ca7e21e38b5da899d92b71b"
+      ],
+      [
+        "Mr HELI (ST) GD.mrq",
+        "ba4d577b684bacf68572bd516988e6bdd0268756ae8534bb36d4ec61d244546c"
+      ],
+      [
+        "Mr HELI (ST) GD.rom",
+        "da27071e96c66587e56c058d8c7856b2e1f4058e10a57a6ebfe78a42a4f53ef4"
+      ],
+      [
+        "Myst (USA).jcd",
+        "e807f36267102fd4cdf0b15d5daa99e969f3e64aef0e38dc83984342f22b6671"
+      ],
+      [
+        "Myst (USA).mrq",
+        "fa5a4415b8fa0401881fe562a9a3a7e04fcb9a82fa91ec4be1081b25d51399a8"
+      ],
+      [
+        "Native (2006).jcd",
+        "11b60e19237d82ca9195ea473b132e9990337bd98666e05de03f57a56a4bf186"
+      ],
+      [
+        "Ninja Mission (ST).mrq",
+        "287ef1de54a3e0b89f29a8abbef52b0b909dab1863a45b2a4942cffd603c91cc"
+      ],
+      [
+        "Ninja Mission (ST).rom",
+        "2d728ee3eb240030ee7d68941ccc68ac6f49310020293c9ebb67eb562da1e702"
+      ],
+      [
+        "Not Outrun (PD) v241215.abs",
+        "854bf1c617a10f98f1ef7205464eeb90b1a8c0f42d88fcd7b38a166d3cef3a11"
+      ],
+      [
+        "Ocean Depths (2004).jcd",
+        "802e3c40c744dd4c5e2a542fbf770edc675bd69deff438099ad76d48e0c23387"
+      ],
+      [
+        "Operation Thunderbolt (ST) v1.rom",
+        "83ce3dc061624bd389fbf6d80bb9ac297cd07bdf719bed432732baea7ed29b61"
+      ],
+      [
+        "Orion's Jaguar Collection Compilation (PD) v1 Orionsoft.rom",
+        "89872b30efabd09eb5dc7b1c814e30fdcb970c391f588e99407b66715b32f447"
+      ],
+      [
+        "Passing Shot (ST).rom",
+        "85984a27a131e3ab0136fed940e30624d5c73f7b37f5055c2e4e68683b84634d"
+      ],
+      [
+        "Phase Zero (World).mrq",
+        "664fce58c487396a5e033da226ed0db00790444721437e1e2feb16a9097a2544"
+      ],
+      [
+        "Pong (PD) v1 Virtual Xperience.bin",
+        "ac4f6e37416c9b23c33f0be855af9dbb2788000ad213479816df551a235fcc17"
+      ],
+      [
+        "Primal Rage (USA).jcd",
+        "177135fc91e67fb9bddcfdd5b69ef1921942a92aae0d20627c5be5b8b6b41e4c"
+      ],
+      [
+        "Primal Rage (USA).mrq",
+        "29d919fe2c537e6abe658524b3afc4a91146b5084b798dfb9d772eb9199caf59"
+      ],
+      [
+        "Project One (PD) Reboot Games.mrq",
+        "b755a5644ae0aae36e387b9e6d39134f1c3a3a3cc5297d437b1c860e5031d856"
+      ],
+      [
+        "Project W (PD).bin",
+        "9a3bb9ea6cd66e20385d19a42a480d356a1ff0b2e9c6ba496f499589bcad17b3"
+      ],
+      [
+        "Protector (World).mrq",
+        "1d427cde8e41bc1c1da71ad9d68ece83dbb6b748fcbca13ca32702a7f68e7434"
+      ],
+      [
+        "R-Type (ST).mrq",
+        "82b1c9b7813aef7fbf537a1e34f94e6bcb6f3ecd6332f34aa366b4dbcae80ad3"
+      ],
+      [
+        "R-Type (ST).rom",
+        "bbe86d4d8986c3b0be4bbc0ef628617e83da9af3b307b96749e9c93d531fe9ed"
+      ],
+      [
+        "R-Type II (ST).mrq",
+        "93d13481aeb0748c4ae7c1ea028b3ff06159537565dbba3ea388359a7a317331"
+      ],
+      [
+        "R-Type II (ST).rom",
+        "a38b7523b4c7020f5e4508883b322d3f4f087eb7711216e64a364598aec6cc11"
+      ],
+      [
+        "Rampage (ST) GD.mrq",
+        "5af4bf2ff6e48fe4798aedf0e7a67c9014a66137a09d3ad2584fcbc33a8f3e8b"
+      ],
+      [
+        "Rampage (ST) GD.rom",
+        "c5db7b76418c0af86ec4baae94c5a5ab7d20918f0abb1120ab8ed5507c574886"
+      ],
+      [
+        "Revenge of the Mutant Camels (ST).mrq",
+        "d420e723a59f03095fce4afc6396c67c4571744e27b5bf19756d8b5af01792db"
+      ],
+      [
+        "Rick Dangerous (ST).mrq",
+        "ed054cd828e044fa61aacea14294357ae778509139c815f39cbceb858fbceefc"
+      ],
+      [
+        "Rick Dangerous (ST).rom",
+        "8e2689df703b1c6387c0544daa28bb4b42710fe59207575d31f85f3bb52bb521"
+      ],
+      [
+        "Rick Dangerous 2 (ST) GD.mrq",
+        "bdb6739a941bd1b01d61b1b0be77ce1a9fbcfbbad86e8bf7b884dfe67e8794a4"
+      ],
+      [
+        "Rick Dangerous 2 (ST) GD.rom",
+        "f17e7792488b03071bb9a9d5a8dcf440d5bf1b5591803bbf3bb006763d02a923"
+      ],
+      [
+        "Robinson's Requiem (USA) (Unl).jcd",
+        "62312a43da129226c34df73a45ede51f74138e5191c26afa5d55141b989cc6d8"
+      ],
+      [
+        "Rocks Off (2013).jcd",
+        "bd8af747022aca7a6884b5408625f754ef62146371144b54788bf9480872cfdc"
+      ],
+      [
+        "Saucer Wars (USA) (Unl).jcd",
+        "cc22b490e8ab71f50770bd2e80c6a64e6b5e4265987412ebe13fc27ca733f024"
+      ],
+      [
+        "Shoot'em Up (2012).jcd",
+        "0b658115111730eb6ef4f2a28fff264d461ef27b7bc7bfc83566c15cc6e630ce"
+      ],
+      [
+        "Simone (Unl) Risc Games.jcd",
+        "b735b1ebaaad9a6344fff8f80bb077ac9532b251315220d2a625758fba617954"
+      ],
+      [
+        "SkyCopter II (PD).mrq",
+        "ed96ea40beebe316c921e4f7c327c116e8b6a467afce1d3d4fd3b7fa4b624303"
+      ],
+      [
+        "Solomons Key (ST).mrq",
+        "91d53443baae26aa7c806a9a508da9fcdbc78d0a72f280c57a503d727d5c3983"
+      ],
+      [
+        "Solomons Key (ST).rom",
+        "847f07b3bfc705972d8321b55723a019ee1aa54ada937f0ca443e871e322c7b6"
+      ],
+      [
+        "Soulstar.jcd",
+        "9f58738a58ac3c0e24f9c0826e132d59a3a4f7bfcc59f588ec0cc281eabacc1b"
+      ],
+      [
+        "Space Ace (USA).jcd",
+        "720a3791419f04ed3cb5b918ff3ab8e55546c23725a09f6af6a23854fa92e6aa"
+      ],
+      [
+        "Space Ace (USA).mrq",
+        "cdb74d3cd2483720aa640c30fb010904abaf352404f1c137db38bdcae49f58a5"
+      ],
+      [
+        "Speedster II (proto).j64",
+        "34c3d9b9afe4d0b617c60b5411853b39f0106f19fbcc4b0954a0290ed60de7b8"
+      ],
+      [
+        "Speedster II (proto).mrq",
+        "5f2ec83c4b406cc43b5b98bd60fd2f9f0f97c04e23ca57fe5b5b6ba315cb38ef"
+      ],
+      [
+        "Spikey In Transylvania (ST).mrq",
+        "fe81a6ea737d63689b8e92524bdc0109c96c4b43e535d0dcdf5186306ddb141d"
+      ],
+      [
+        "Star Wars - The Empire Strikes Back (ST).mrq",
+        "840991356479c2301cbfbce0803e7baecbaff5b007587718637f9213e58687e4"
+      ],
+      [
+        "Star Wars - The Empire Strikes Back (ST).rom",
+        "383ae57b32ef5c5e0de15563f465e5fb0da96ab31d78b99a6985b54f320b2f89"
+      ],
+      [
+        "Star Wars Arcade (ST) GD.mrq",
+        "92534d20751cadece426cfa54d734a06d2bb3646dfdb51f312433947a317eaba"
+      ],
+      [
+        "Star Wars Arcade (ST) GD.rom",
+        "eda7b2b3594f72684f2f0a5c61d76a346818de0e65f9cf88853117f98373cf05"
+      ],
+      [
+        "Strider (ST).rom",
+        "95794b007e1619256ab219d4f1dfd0ef88f30eabb81f8208ec7d1f8012a1cd2a"
+      ],
+      [
+        "Stunt Car Racer (ST) GD.mrq",
+        "36fac843f6715f46ed2d30c0790b5bf559700246ab93e9ccac88c70a99f62593"
+      ],
+      [
+        "Stunt Car Racer (ST) GD.rom",
+        "aa006ff46d17a461201e8e220950b457daf9baa8104acc3aec1f943b528bf0df"
+      ],
+      [
+        "SuperFly DX v1.1 (2010).jcd",
+        "06580efec797d8e90d5473becacf1b482cad503c4b9f465ab53683f7d4b5db85"
+      ],
+      [
+        "Superfly DX (PD) Reboot Games.mrq",
+        "d68950d96d05ef170918cf30d8345daefbad36bf05cb0fd323e95977d3ae4928"
+      ],
+      [
+        "Teenage Mutant Hero Turtles (ST) GD.mrq",
+        "8fa6d32522c13ebdea78aeb642a16bf8df4f9ecbb3c67086556a80d14d7728db"
+      ],
+      [
+        "Teenage Mutant Hero Turtles (ST) GD.rom",
+        "9dac61eb1fd4f9a5caf19d129ed495f7acf8724f0ffbee62c1c13ab2a2f79bd2"
+      ],
+      [
+        "Total Carnage (World).mrq",
+        "4a935c933701c3fad90a51116b20e617e90df964773f278b1e867021ada7711b"
+      ],
+      [
+        "Tube (2012).jcd",
+        "10e2b701eca5b3027485ec8bd1a7f2347b2f3e52369431c75129fcb29de2214b"
+      ],
+      [
+        "Uwol - Quest for Money (PD) Final.rom",
+        "fac66d177855fdb92d52571c6747d3ae15131edff47b9ba15c266b680475bc59"
+      ],
+      [
+        "Uwol - Quest for Money Demo (PD) 2019.cof",
+        "747dabf5c2eefc37fc83cc6bbb901cb3a4becd2e56d7d7af8ee6827adcad7ee6"
+      ],
+      [
+        "Varunasforces.jcd",
+        "7574c7375dbb15e0df3292befef880a01c7e54026fe0bfea2e097dadbb0837b8"
+      ],
+      [
+        "Vid Grid (USA).jcd",
+        "7ce2899ac5c5fd67e62a2216ed3a64e7aa32998609337149e166c790db8409f1"
+      ],
+      [
+        "Vid Grid (USA).mrq",
+        "c257a917ed7fb4a17faf011c1bf34a73e0a3e09e5b22483ed5786b1257d2e5b6"
+      ],
+      [
+        "World Tour Racing (USA) (Songbird).jcd",
+        "c6af6000564c2ef1398113686625a7f681e70521e69be0a7e4ad61d37605d544"
+      ],
+      [
+        "World Tour Racing (USA) (Songbird).mrq",
+        "2e5241a84c1898e123b82cb9a075891c6b7b7ef09deb1e56b3ed3900266dd78c"
+      ],
+      [
+        "Yopaz.jcd",
+        "b7a6a51007feff000ac505b4fa99d4bcbc1c29bc00582cff3889b4fc6ef539ce"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Atari Lynx SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Colecovision SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Darksoft CPS2 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "PlayStation Redump Supplement": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
   "Super EverDrive & SD2SNES SMDB": {
     "missing": [
       [
@@ -105,6 +862,4268 @@
         "Tokimeki Memorial - Densetsu no Ki no Shita de (J) T+Eng v3 Tom.sfc",
         "db02263fe7f27a3083f76feded7c1d68ed9ba0dab5efd4749c3bdf010115f6f7"
       ]
-    ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Darksoft CPS3 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Darksoft Namco System 1 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Darksoft Neo Geo SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Darksoft STV SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Darksoft Taito F3 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "EverDrive 64 & 64drive SMDB": {
+    "missing": [
+      [
+        "3D Model RGB Test Program (USA) (Test Program).z64",
+        "c907f2d572a623e5458fa5b474849e0d66b9e86eefe6a72e302ed7a0506d6eb1"
+      ],
+      [
+        "40 Winks (USA) (Proto) (2000-01-10).z64",
+        "9316ffbe863051a7464e33b9837d6deff11845389a6b275ce6541eded4caa7b0"
+      ],
+      [
+        "Bassmasters 2000 (USA) (Beta).z64",
+        "8c638f6d2e7ad367d7bd207fbdf4d62b12734dd23a54e195427ee6adfe114cd0"
+      ],
+      [
+        "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20).z64",
+        "89c1bedc4035cc14af28d11b5e223ca83bab824b2f6ab5940c9bac158b39d25c"
+      ],
+      [
+        "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53).z64",
+        "b749fcead39e4f02e362620f7e3efba4efe4967dc82b89cbf7facea3ccdbefba"
+      ],
+      [
+        "Bomberman 64 (Japan).z64",
+        "5c7fb711f3885f3d8682955e5c88e4bb47c9bfbb996d8423b6da8f1e8f8884a2"
+      ],
+      [
+        "Carnivale - Cenzo's Adventure (USA) (Proto).z64",
+        "60f8f17ea6aad44caeceab262345d326234800f0b23430b7dd76b1c10c06aab3"
+      ],
+      [
+        "Charlie Blast's Territory (USA).z64",
+        "7a201d5cc030a921425aa1583edcecdf4394a258819be46c3a0d557c8d1fd7e5"
+      ],
+      [
+        "Controller Kensa-ki NUS-yo N Cassette (Japan) (Test Program).z64",
+        "69e616893d731d55a64fdcf16ebf02dbf1219ca75c87e5fcf2b33065e0da4df1"
+      ],
+      [
+        "Dinosaur Planet (USA) (Proto) (2000-12-01).z64",
+        "22830780902f51aea442825c574b88d404ccf30d726219e4b000edc64bcc60a6"
+      ],
+      [
+        "Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It).z64",
+        "16948956781b76c13206444a14549adfaa39f4fe9242c6014a9a0ae024fcbe54"
+      ],
+      [
+        "Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It).z64",
+        "f74318c58ef60f72df354c3b6c647763f09b2c1545ecd8ded7c95e1ca962a8fd"
+      ],
+      [
+        "Doubutsu Banchou (Japan) (Proto).z64",
+        "62d3fb29147b3f7021a15f9810f4732e5e79e4ebe8a19242e6957fdf7edae38c"
+      ],
+      [
+        "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta) (2000-03-07).z64",
+        "d40569054d74b28b3d57e6e17446665d79f6bd59368d3e3cc263355fdb3278f7"
+      ],
+      [
+        "ECW Hardcore Revolution (USA) (Beta).z64",
+        "245a8859d079dd5425cc3847186e9fb8ee5d0a3a18ecd388749c74d77c839950"
+      ],
+      [
+        "F-Zero X (USA) (Beta) (The Legend of Zelda Ocarina of Time Overdump).z64",
+        "8cef0e399c0524052b758109abe894c709a72540a42c4a2118064a5cddf01b6d"
+      ],
+      [
+        "F1 Racing Championship (USA) (Beta).z64",
+        "2fe66b2acd642d8557250df6c5c8b92d58e76997ea09acdca9ccba8387c305a2"
+      ],
+      [
+        "Fighters Destiny (France).z64",
+        "2e2bb4113ad0f987fb51b13250c015eec6fe8def0244d98be33b8675c82b0649"
+      ],
+      [
+        "Glover (USA) (Proto) (1998-09-04).z64",
+        "7bfbdce623cdfdffcebdfc95db1317ab46de8d3189e13c790d1def46b2ff6710"
+      ],
+      [
+        "Glover 2 (USA) (Proto 1).z64",
+        "dad6ce070cbe50be06634c6fb2d306530159c00ae628361926b60439125e3feb"
+      ],
+      [
+        "Glover 2 (USA) (Proto 2).z64",
+        "a099f381d12f3b92c52ca28a4e42cfd8c57c56d27bf7a7c74606bb99db914951"
+      ],
+      [
+        "Hercules - The Legendary Journeys (Unknown) (Beta).z64",
+        "2689f7e4264bba0a9ec2a52f1c712af3a2438a80e17505a8ace8667b6fe85a90"
+      ],
+      [
+        "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02).z64",
+        "7540ee55ab721c657e86a73b4e98174e13d47880c35f003833cfe5b90a5124aa"
+      ],
+      [
+        "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30).z64",
+        "ff573185ac868da487adc666beafb76966691b82e9b8ca3457d113e34d725fb9"
+      ],
+      [
+        "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube).z64",
+        "f2ed79515542faecfdb054cc5228b3f755bfa6c5fd4df52811240cbaaaa979e1"
+      ],
+      [
+        "Legend of Zelda, The - Ocarina of Time (USA) (Beta).z64",
+        "68bbdd74169510d128e193b93047cad9197e689c33dbbd52ba7414f5b2ffb1ca"
+      ],
+      [
+        "Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (Debug) (GameCube).z64",
+        "dd30b6f31f764e024d5d79d6bf4c27f077a2ff917ae7d5e73f79e8967f64144e"
+      ],
+      [
+        "Mace - The Dark Age (USA) (Beta).z64",
+        "7be225fb574fcccd1a7f46f0a2c2e0e44709e555a0ec1badb38385246dfaf3b7"
+      ],
+      [
+        "Mario Party 3 (USA) (Beta).z64",
+        "06661f5715023a75cc92ec40a1b520f6a84a4bb6f12db126a5ea759e1a8bf8cf"
+      ],
+      [
+        "Nintendo 64 Modem (Japan) (Add-on).z64",
+        "c2c9edaadac5aa6680cd454368941a8553824474e53c1acdf03dc9bf9f3bb210"
+      ],
+      [
+        "Nuclear Strike 64 (Germany) (Beta) (1999-11-17).z64",
+        "208f3562cb00621e1a6fac045f2c40d04227ab98ee772827da9eb61f77ceffbc"
+      ],
+      [
+        "Parlor! Pro 64 - Pachinko Jikki Simulation Game (Japan).z64",
+        "bd0a1843c934edadd92e62b7a44793b8c2ce156b6b5688ae7d644a45c2065dea"
+      ],
+      [
+        "Pyoro 64 (Italy) (Aftermarket) (Homebrew).n64",
+        "0b070aec1fe852915ec295b877108b0d774c9a1bcd930306ced1698df00ced24"
+      ],
+      [
+        "Pyoro 64 (USA) (Aftermarket) (Homebrew).n64",
+        "fc3539c45589f79fea2b30a7d5586b4f5d7c3dfbed4eef263bbecec1bfbefcd8"
+      ],
+      [
+        "Pyoro 64 (Unknown) (Aftermarket) (Homebrew).n64",
+        "20153369e3be2bd47e3e7a5f8280ed3129c45aaef8904cf3e4fc85ecccc05186"
+      ],
+      [
+        "Rally '99 (Japan).z64",
+        "cd7b68d4eadc48d7182d18ba7a6fa5afe6aacba1f99d310d5f7874fcf312ee25"
+      ],
+      [
+        "Road Rash 64 (Europe) (Beta) (1999-10-12).z64",
+        "7d0047fe373a032756bb97468c4db59929468abf3a42b45544e31cc5cbfdbc80"
+      ],
+      [
+        "Robotron 64 (USA).z64",
+        "3ef7690f97d3957af7294eab4432fa1673a15bba0435664cc9fa2fd757168804"
+      ],
+      [
+        "South Park Rally (Europe) (Beta).z64",
+        "c432b645a583dc5ea0eb9ec9bcc9c8a56777b6c270bac88f8d8b08b8651ec392"
+      ],
+      [
+        "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-16).z64",
+        "12f6f14c38c3a19fa332d2068bcf11f36ab2d82982c40788ea6c17655e50872c"
+      ],
+      [
+        "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26).z64",
+        "3489e1b20daf77e67a5fc6a20973a8bc2fd4ed83c35ac512be5d7bcfe9909df0"
+      ],
+      [
+        "Whack 'n' Roll (USA) (Beta) (1998-02-05).z64",
+        "ff781fc0998e8cff0e76d576ce77ebee7420c43765187f54400161195f07b323"
+      ],
+      [
+        "X'treme Roller (USA) (Proto).z64",
+        "1465517b5c2486b4ba83b1b03ca2b140fd46e3da37d8a9987c6c0b1b92613a77"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "EverDrive GB SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "EverDrive GBA SMDB": {
+    "missing": [
+      [
+        "Ace Combat Advance (Europe) (En,Fr,De,Es,It) (Beta).gba",
+        "280ee65b5cf5602996c6afa034fafd5f2a160a2cabbcbaa3b43156860a3cd111"
+      ],
+      [
+        "Asterix & Obelix XXL (Europe) (En,Fr,De,Es,It,Nl) (Beta 2).gba",
+        "4720f372880d5f69990b05798c2672ce35b9f7d4d6fa90e4e2dd1e89ff710231"
+      ],
+      [
+        "Atomic Betty (USA, Europe) (Beta).gba",
+        "b4a4a48e4af993226b4fbb280a322ea1bab2cb8110b82ef26a016a608aa02c41"
+      ],
+      [
+        "Bakuten Shoot Beyblade - Gekitou! Saikyou Blader (Japan).gba",
+        "740dcfdaaa4f39f013cd4b69095328edc462f506c7720717b32234436b2d3b92"
+      ],
+      [
+        "Banjo-Pilot (Europe) (En,Fr,De,Es,It) (Beta 2) (2004-09-29).gba",
+        "0696889f1a1a9a2aacd4a5430c3b4fdc28930ec69c34a3d00348c9a5188f773c"
+      ],
+      [
+        "Beyblade V-Force - Ultimate Blader Jam (Europe) (En,Fr,De,Es,It) (Beta).gba",
+        "52ddc443a7a0e7b82ed5ae5373311827163c8ed4ec163ac9eaeec025731261c5"
+      ],
+      [
+        "Celeste Classic (World) (v1.0) (Aftermarket) (Homebrew).gba",
+        "8b25b94f806625e6b8776e8b8a490090a5e82b76c6c4389f2d762a288a45af00"
+      ],
+      [
+        "Celeste Classic (World) (v1.1) (Aftermarket) (Homebrew).gba",
+        "bc961b3c67487fe9fc6fabc4bbc8b40391176112ce5e0535a00f4cc9d79f682a"
+      ],
+      [
+        "Celeste Classic (World) (v1.2) (Aftermarket) (Homebrew).gba",
+        "4463620519f9c60a435ef0a6fa2cca123409380881fb0d00c63f2daed0c4f85b"
+      ],
+      [
+        "Chaoji Maliou DX (Taiwan) (Unl).gba",
+        "f4fc72cfd7907c9213b3b5a9f6de831297be3d8cad425831128869a2f24256a6"
+      ],
+      [
+        "Crash Advance IV (USA) (Unl).gba",
+        "949ce2b7e925518626e8f6508229d3bf0fcdf30e00144a0024b06c1bf9706ecc"
+      ],
+      [
+        "Digimon - Ruby and Sapphire (USA) (Unl).gba",
+        "c74fab5c49a7e63575022cbc4e3977a0f4a2f81ec8e65ea2c459bafdf611d640"
+      ],
+      [
+        "Digimon Rury (USA) (Unl).gba",
+        "cdab194ae6db20513655a0ed7de4128812e8634c6906973a25f34fbe0bc9acbb"
+      ],
+      [
+        "Digimon Sapphire (USA) (Unl).gba",
+        "dc5e2b7fd488f81368a6ee49b13063040ce1b9817c4d0796c7001b6313cd02e4"
+      ],
+      [
+        "Donkey Kong 2 (USA) (Unl).gba",
+        "6744d162f57dbc3aca3cd9dbddb857925114221aa177b5a47058ad9207b57c50"
+      ],
+      [
+        "Dragon Ball Z - Taiketsu (USA) (Beta).gba",
+        "0d2c9a684faf3055d54c7d1c7506a1ff5bb822d366d397ed966645a3f6948297"
+      ],
+      [
+        "Driv3r (Europe) (Beta 3).gba",
+        "f7e5b6ece22322d6cf6526ab9cab105f569c45d03fd4ca8737684fee6d4b84bf"
+      ],
+      [
+        "Driv3r (Europe) (Es) (Beta 2).gba",
+        "51c7d2a1742ae97e12d7bf9388910a95f62f1e1fca122bc8cf79503707691975"
+      ],
+      [
+        "Duel Masters (Japan).gba",
+        "04cf1536570d5f208729c966da135fc85c4ad3972be58eab0691aafcbcc5d622"
+      ],
+      [
+        "Duel Masters - Sempai Legends (Europe) (En,Fr,De,Es,It) (Beta).gba",
+        "ae8580c286631bb3bb611cb9ad511bc69747e36f9c9abeeffab20f800b03e24e"
+      ],
+      [
+        "Dungeons & Dragons - Eye of the Beholder (Europe) (En,Fr,De,Es,It) (Beta).gba",
+        "ffe806f2784715382ecd28198468442e1ee1a8a22d6dc2d3e48677e76d990327"
+      ],
+      [
+        "GT Racers (Europe) (En,Fr,De,Es,It).gba",
+        "a90613baaddbe1747a42d05b791120e32a4fbef9525940084b358935a4c94e68"
+      ],
+      [
+        "Game Boy Advance Video - Disney Channel Collection - Volume 2 (USA) (Rev 5).gba",
+        "84d36144766734f2ea827bc1d106a60a3653f3410ab08a827ea8e88f04f5f317"
+      ],
+      [
+        "Gu Huo Lang 4 (Taiwan) (Unl).gba",
+        "c766491e0d2c47bbdb51499ccb067a4204f219257c01ffd3a0000f8402313435"
+      ],
+      [
+        "Ha Li Bo Te IV (Taiwan) (Unl).gba",
+        "f49fb00ad22f2704187092d40d0939c998a5cf831d8c610e9d2884fe6d64ba2f"
+      ],
+      [
+        "Harry Potter IV (USA) (Unl).gba",
+        "cb2eecb59cc1c00a61b2b200c52fd8b100195168ee08b575e855675ae3a7e1b0"
+      ],
+      [
+        "Ji Xie Ren Da Zhan - Zhong Jie Ban (Taiwan) (Unl).gba",
+        "bc615ee0716aa206d5ace352f4c68dd6cea59f52486a65cc6069f73337cf088e"
+      ],
+      [
+        "Juezhan Sanguo (Taiwan) (Unl).gba",
+        "f2cd23e8669cd1648806fccbd17e8ccb10837325eb391a402a8dd12b1ecd9aa5"
+      ],
+      [
+        "Leiman IV - Guangming Zhi Lv (Taiwan) (Unl).gba",
+        "93c6b814c39e4d356e2e7d4396c8972c88ac6b4175640d60fe8dd64ee45719a1"
+      ],
+      [
+        "Lord of the Rings IV, The - The Fellowship of the Ring (USA) (Unl).gba",
+        "683dc26a5d9f53c81e1d2fdf3cfb4df5615a92df9e7f89988c4eb51e1df12ec2"
+      ],
+      [
+        "Lord of the Rings, The - The Return of the King (USA) (Unl).gba",
+        "46cddd9e05a83f4d8427da620d454b5df7e62ed42cafaa5b75e02e79fbdcc6e8"
+      ],
+      [
+        "Mario DX (USA) (Unl).gba",
+        "af421133b5f954309f63bf6e87c77a8e9d846678ece913825ea949981e881c8a"
+      ],
+      [
+        "Misfortune Advance (World) (Aftermarket) (Homebrew).gba",
+        "565084982e0f726ef3a40c78500824ea69b89111567b2b829214a941f9488793"
+      ],
+      [
+        "Mo Jie Qibing (Taiwan) (Unl).gba",
+        "62cc23fa000115715a1411c7cd45e117e747458556bc60e7829ed8c94f941edf"
+      ],
+      [
+        "Nekketsu Monogatari Advance (Japan) (Demo) (Aftermarket) (Unl).gba",
+        "be4676a7db5a762312333d82f3effbac3d0fc7f6abdfe78181783b8b49e0ff26"
+      ],
+      [
+        "Nicktoons Racing (USA) (Beta).gba",
+        "92420f720fa390af264f923285417be7e2dea80a1f9118a80cd39989398b826a"
+      ],
+      [
+        "Play-Yan (Japan).gba",
+        "dafc062def38af51534d1738be2fb0646c58b0d60dec8daa25754b8b97af050a"
+      ],
+      [
+        "Play-Yan Micro (Japan).gba",
+        "4a46655eda7ba75e426cecc26b79cad46de33358d011fd6b2709f01d5a23e166"
+      ],
+      [
+        "Pokemon - Leaf Green (USA) (Pirate).gba",
+        "6e9f623a069b4cb8657ebb5e1929ad07b10c1e51611cdef8104026fc0de80f05"
+      ],
+      [
+        "Pokemon - Sapphire Version - Gotta Catch 'em All! (USA) (Unl).gba",
+        "91402c881595a39b3e34b9b5648f565d9625fb1e93f423c23428ed8e23c81f25"
+      ],
+      [
+        "Quake (USA) (Proto).gba",
+        "1cc084d228983744ac954dc0a40f847f442f124f8369438b17625270b00a7404"
+      ],
+      [
+        "Ratatouille (Greece) (En).gba",
+        "2babd5c8beb7fc772335c98a385f166ac2efb1de6b9b6bdccfea9bc37e4a4b53"
+      ],
+      [
+        "Rayman IV (Russia) (Unl).gba",
+        "bca473cb87df2eb3d2a9924d60c972fa7d092847c17f37637912d3fdfef366e8"
+      ],
+      [
+        "Rayman IV (USA) (Unl).gba",
+        "87bb99bd5ade8572638ad98df6c51388bb30aa11823187289a33f1ed304f4adc"
+      ],
+      [
+        "Rebelstar - Tactical Command (Europe) (En,Fr,De,Es,It) (Beta).gba",
+        "11782f8009c2bfba7781c582290184a1048463c2e3c081d3461706efc66167d4"
+      ],
+      [
+        "Ren Zhe Shen Gui 2 (Taiwan) (Unl).gba",
+        "9f5a3ae38924281ec043bb4764c90afdc0364f68790b3379ff2b56d12b78b7c6"
+      ],
+      [
+        "Revenge of the Smurfs, The (Europe) (Beta) (2002-03-22).gba",
+        "a2ef04e82bc0ae12e99a7451bf57023145f0e3813f525578a571fefec9daa796"
+      ],
+      [
+        "Rockman & Crystal (USA) (Unl).gba",
+        "130665b55d41081f5e9b34da23758c10b00bfa2d7edf2d1f6d3c6e650c793e1e"
+      ],
+      [
+        "SEGA Rally Championship (Europe) (Beta).gba",
+        "3ab7d4f4923fb3732eabd7bfeb1ed2d472217162d024e033a5f10c46c94feff0"
+      ],
+      [
+        "Shamu's Deep Sea Adventures (Europe).gba",
+        "2153175d97c14fb6ba035d95a732e45e6a56e7f1ed7cebbdbc268647c4748fb6"
+      ],
+      [
+        "Shi Rui Ke II - Yu Mei Ren (Taiwan) (Unl).gba",
+        "2c08e1fc4995876c253c48355a41406ea25fa8ed25196b1504798665834f84d8"
+      ],
+      [
+        "Shrek Prezessin (Russia) (Unl).gba",
+        "634383429797d68d249ca451776a4b7d77c33634137eceef1fbb370d6dc3313a"
+      ],
+      [
+        "Shuma Guaishou - Hongbaoshi Ban (Taiwan) (Unl).gba",
+        "c0cb00689c0de163e7364b27ba02c040f3c85ae42b03e17f833e975d3ffea4cd"
+      ],
+      [
+        "Sonic 3 - Fighter Sonic (USA) (Unl).gba",
+        "e7a4fec4dd7e72fc09570fbd63e3c5e947365c4725a4bbfece612cdac088fd5a"
+      ],
+      [
+        "Sonic Advance (USA) (En,Ja) (Beta) (2001-10-31).gba",
+        "bca1e8e75f24a6a48ddd47c2765e426c21d82341ff09ac5698d3daac5b995e77"
+      ],
+      [
+        "Sonic Advance 2 (USA) (Beta).gba",
+        "f77c546f528c7bed2f09de8ab8a68a0a5392d9201caa2897e2f684fc300009bb"
+      ],
+      [
+        "Spider-Man 3 (USA) (Unl).gba",
+        "d28977d7f67c182b4c6732c68d3f5989778c4dcd2325ee67f5d622e07485a924"
+      ],
+      [
+        "Star Wars Trilogy - Apprentice of the Force (USA) (Beta).gba",
+        "3c75c4326997a92309b73a7fa26df68fdafaa55b564fb1757723b78db35b6ac3"
+      ],
+      [
+        "Stuart Little 2 (Europe) (Rev 1).gba",
+        "0f5bc9988efdaafb1856b222d8fdd3c8aae22a6eb39984404dbb9314a7f4a00d"
+      ],
+      [
+        "Super Monkey Ball Jr. (USA) (Beta) (2002-08-06).gba",
+        "823af9f7c0ac1784df2517d9cbd39970ada33d8c68e695a1636ad751b6efd2fc"
+      ],
+      [
+        "Super Panda (USA) (Unl).gba",
+        "56fde5fad4fd5bf99c3e643a1c2b6c44a0e7285cc4873d67bee90288466b7658"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles 2 (USA) (Unl).gba",
+        "a5de88831c5c0e36cb27171813503458e112654a33561ce53976e75b72b86c3d"
+      ],
+      [
+        "Totally Spies! 2 - Undercover (Europe) (En,Fr,De,Es,It,Nl) (Beta).gba",
+        "f4489c836db9baeae311101151ac76433c28fdd3591de331659c2d75791feb18"
+      ],
+      [
+        "Tremblay Island (World) (Fr) (v.1.10) (Solid State Version) (Aftermarket) (Homebrew).gba",
+        "cbc8e15e4da75cca4c3c85e7f7874c1951dfbe759a2206caa2d1c4942c22fd0d"
+      ],
+      [
+        "Tremblay Island (World) (Kickstarter Edition) (Aftermarket) (Homebrew).gba",
+        "0fd981d64650104a84b87414f286537b21656d31507215ffb2ba307c405cba15"
+      ],
+      [
+        "Tremblay Island (World) (v.1.10) (Aftermarket) (Homebrew).gba",
+        "02ca463629442b81c1d9f1fedfb9d7d7afec33ff0505ac117bf83b0118233bd3"
+      ],
+      [
+        "Tremblay Island (World) (v.1.10) (Solid State Version) (Aftermarket) (Homebrew).gba",
+        "b288fc10d62dbffe1c0d70d588bcf07cec947e965627cee51d99f554fb134f83"
+      ],
+      [
+        "Ultraman - Confrontation Between Justice and Evil (Russia) (Unl).gba",
+        "26967bcfbb173874f8733d5946350c10e9387a6fa9eb7f211bc3823eba6b5e5b"
+      ],
+      [
+        "X Zhan Jing (Taiwan) (Unl).gba",
+        "93972b71d7cb54724ea4fb1164332d0d50563f405621355ffd22e65daa240542"
+      ],
+      [
+        "X-Man - Armour of Might (Russia) (Unl).gba",
+        "331a217aaa57f1b68d4ad78bb929426861e6c705c33978451b42e17f159616fc"
+      ],
+      [
+        "Yu-Gi-Oh! Double Pack 2 (USA) (En,Fr,De,Es,It).gba",
+        "b56ff2d3ea4cd1f553f8e2a90c2487a9983bd7c3a3da281c5b6090bb6c20e2c6"
+      ],
+      [
+        "Zook Man ZX4 (Taiwan) (Unl).gba",
+        "52af6d9323f43254fe958c90f07d08bb48adafc534517433a14fddf18eca4b37"
+      ],
+      [
+        "bit Generations - Boundish (Japan) (En).gba",
+        "f37ee29693a3c4dafe9afd7624c19dbe0fc042371f3ed17b0b7ab1aeb70295b8"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "EverDrive GG SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "EverDrive N8 & PowerPak SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Fairchild Channel F SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Famicom Disk System SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Game Boy Color SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Game Boy SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Master EverDrive SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Mega EverDrive SMDB": {
+    "missing": [
+      [
+        "Sonic & Knuckles (World) (Lock-on).bin",
+        "e184f5982a99c6ebf7799383f16a8624221755786056a3573944598283a4b8cf"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer Acorn Archimedes Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer Amiga Add-On": {
+    "missing": [
+      [
+        "Anarchy - 3D Demo II (v2.01)(1993).adf",
+        "5da0ec8e95d05a2030316fb8e6bc601262122a520da118d0a710f584e5442766"
+      ],
+      [
+        "Batman Group - Batman Rises (2022)(Disk 1 of 2).adf",
+        "b7b0266678dc2ed4812ec187d0b19c652c9f4382c772f4b21de2840646a3fa6f"
+      ],
+      [
+        "Batman Group - Batman Rises (2022)(Disk 2 of 2).adf",
+        "4d82e82e5b1257861cc5f6f34b653952797dc80585143cba0965b488b59c5679"
+      ],
+      [
+        "Kickstart v2.05 r37.350 (1992) (A600HD).rom",
+        "8d57d6e9d976df42d91ff9d10a5eedaede1a00e3b4b34cad750ca5ff7229f28a"
+      ],
+      [
+        "Kickstart-1.2-r33.180.rom",
+        "87cddb1f499e32758de20145e73031a84bab299e3f6e5c8487e76d02b2ee9d16"
+      ],
+      [
+        "MegaAGS-Saves.hdf",
+        "af7563da98e0d244bc79a900c50d4f0108f0ef6c4ac41f24dbe5343c6ca633a0"
+      ],
+      [
+        "MegaAGS.hdf",
+        "542bcc4bd9a5ac8ea4bdc8ac00004b9fa35a17f30f330abdcbdf2c6b49e09222"
+      ],
+      [
+        "The Electronic Knights - Transhuman Pachinkoland (2022).adf",
+        "b948bbb91391dcb4754867e947b604182d10de8d3617aea59c9706accc41c617"
+      ],
+      [
+        "Workbench-1.3-HD.hdf",
+        "1d896deaae1ee8c48c548e12f29352d7ebf02d3832ec122a67896e7bb4b1d53e"
+      ],
+      [
+        "Workbench-2.1-HD.hdf",
+        "ba263d4525be8dbe62fc0e8d28ebcd4491b96f46ef38a63b989a4e5085d3f732"
+      ],
+      [
+        "kickstart-1.3-scsi-patched.rom",
+        "ff162f27eb71feef610c6dcbcc82c24064d60941c38795f9d699e190352aeace"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer ao486 Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer AtariST Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer C64 Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer C64 Demos Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer CPS-1 Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer MSX Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer Neo Geo Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer PC8801 Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer Spectrum Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer TSConf Add-On": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MiSTer": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "NES2.0 SMDB": {
+    "missing": [
+      [
+        "0-to-X (USA) (Numbered Edition) (Aftermarket) (Unl).nes",
+        "a2e39b5765c39e1e97bfd8e45772c73fa3d42be4140d4a11303df8576f7c6de6"
+      ],
+      [
+        "0-to-X (World) (Demo) (Aftermarket) (Unl).nes",
+        "5f0a770dfc43adb3cf6f6ef11ddf987ba7f72e68f236aa183daa8de2c5d02914"
+      ],
+      [
+        "1007 Bolts (World) (Aftermarket) (Homebrew).nes",
+        "aabe24a89012340cf5bc358971ac80835c98e453bbc428a9de162735ae04c142"
+      ],
+      [
+        "1943 (Japan) (FamicomBox).nes",
+        "9650a14012f9bf923c82091e076553435f1d5b0bf17739985004cc2add83d394"
+      ],
+      [
+        "2 in 1 Geminim-Siamond (World) (Aftermarket) (Unl).nes",
+        "264f91c369e00920b4af40d279d406a60b765572e954cafbb742acef7d3901ab"
+      ],
+      [
+        "2048 (World) (Rev 5) (Aftermarket) (Homebrew).nes",
+        "1cd66363b344c06df5d3b81cfc5bd6836c486c31619d39a99f97529da84610bd"
+      ],
+      [
+        "240p Test Suite (World) (v0.01) (Aftermarket) (Homebrew).nes",
+        "d31acb5866607705fd6df01815e6ce3203582067f931efcea7afc243ffdfd465"
+      ],
+      [
+        "240p Test Suite (World) (v0.02) (Aftermarket) (Homebrew).nes",
+        "cffa6f2bafc5a312c2996d01d3589bae08cceb449f17ea69b21c26b7fa5fe8ae"
+      ],
+      [
+        "240p Test Suite (World) (v0.03) (Aftermarket) (Homebrew).nes",
+        "56d69dacf91c82a251f8c5a78c8452e8274083d3efd25d13e8ae6979fe0eadb0"
+      ],
+      [
+        "240p Test Suite (World) (v0.04) (Aftermarket) (Homebrew).nes",
+        "a00f93084907ed92aa3c7b461b8f2414d3f816d4a5baf8d42b0545b6613b088b"
+      ],
+      [
+        "240p Test Suite (World) (v0.05) (Aftermarket) (Homebrew).nes",
+        "77697754cf8e6b8f888529dd7e14f638e53993bb12e9e3d519c9e15989ae2451"
+      ],
+      [
+        "240p Test Suite (World) (v0.06) (Aftermarket) (Homebrew).nes",
+        "1350ecbf64e0e2bef8c310ff696e55ccf624bd6c9413405f9cbc42b67cb90e48"
+      ],
+      [
+        "240p Test Suite (World) (v0.07) (Aftermarket) (Homebrew).nes",
+        "e59ba18008963d03e9c6ad82c18233f4c8786b26cd27f751ab8dca9d3586889c"
+      ],
+      [
+        "240p Test Suite (World) (v0.08) (Aftermarket) (Homebrew) (Alt).nes",
+        "7f139e1190123532b9de14304ab11c2a0de0cac1882b470506cb1d03a3f56024"
+      ],
+      [
+        "240p Test Suite (World) (v0.08) (Aftermarket) (Homebrew).nes",
+        "0d6a9c81b5a0cc40950661713cada237d48666e99c100ddcd0e96338d9f27aa9"
+      ],
+      [
+        "240p Test Suite (World) (v0.09) (Aftermarket) (Homebrew) (Alt).nes",
+        "fce432541ca8417ab36cddfd8b2d5cadb03d899520ec59ce5095fedc3dba924f"
+      ],
+      [
+        "240p Test Suite (World) (v0.09) (Aftermarket) (Homebrew).nes",
+        "22f74ae7247a2d7ec280f980ee4f31d8ab163d5fc75c1f8d03d64f42839d8296"
+      ],
+      [
+        "240p Test Suite (World) (v0.10) (Aftermarket) (Homebrew) (Alt).nes",
+        "28b1dced9ea0554cc6d38c791929433de4b234d2d68b2ad02173ee99db09afec"
+      ],
+      [
+        "240p Test Suite (World) (v0.10) (Aftermarket) (Homebrew).nes",
+        "2d755ad374e4651e48509625fb0b9a76e6f008aa3e10e3ff402825733e3f9954"
+      ],
+      [
+        "240p Test Suite (World) (v0.11) (Aftermarket) (Homebrew) (Alt).nes",
+        "a2d2fa8573cb2744c5d434fc21ec65b957ea5eecb5b715107ed6f485922e59f1"
+      ],
+      [
+        "240p Test Suite (World) (v0.11) (Aftermarket) (Homebrew).nes",
+        "77e0d8c9f6aeef65916e961a12862ce03550ba96325462544f71cdc816631231"
+      ],
+      [
+        "240p Test Suite (World) (v0.12) (Aftermarket) (Homebrew) (Alt).nes",
+        "8e5ee663a64c11bff1386b47d7cad8cf086ac69f2f37a6d300ce24f748faf4f6"
+      ],
+      [
+        "240p Test Suite (World) (v0.12) (Aftermarket) (Homebrew).nes",
+        "dc7206fd28497bf1a27cb9dbe89631ab2afd45dbc82c9cab0c68346e9bfddfaf"
+      ],
+      [
+        "240p Test Suite (World) (v0.13) (Aftermarket) (Homebrew) (Alt).nes",
+        "ff5d309508a4ed7a58fed201e24e21a4b56b66bd148e0d003cb84cf32355dcad"
+      ],
+      [
+        "240p Test Suite (World) (v0.13) (Aftermarket) (Homebrew).nes",
+        "6e6495fd5db5c1e2e38a8163fcd9c3250b823cb95296d85a32fd177d49dc9f22"
+      ],
+      [
+        "240p Test Suite (World) (v0.14) (Aftermarket) (Homebrew) (Alt).nes",
+        "739513df69259f24c197e3960397ff97e730e13e07f40b8a3d37c30c0cc2cd50"
+      ],
+      [
+        "240p Test Suite (World) (v0.14) (Aftermarket) (Homebrew).nes",
+        "3e6cbcf396fcf95d3eabb52ebf3ef263f120a67447e37378b9b4d6d1f674815a"
+      ],
+      [
+        "240p Test Suite (World) (v0.15) (Aftermarket) (Homebrew) (Alt).nes",
+        "386d676b46ecf58425ceb5bd62e7193415f2a1bc3d4b3a360a8e98ef315bc260"
+      ],
+      [
+        "240p Test Suite (World) (v0.15) (Aftermarket) (Homebrew).nes",
+        "a474490ab7495396968511c4dfa30455308d3b1ba3fa2f05679f8e4b12e1c43c"
+      ],
+      [
+        "240p Test Suite (World) (v0.16) (Aftermarket) (Homebrew) (Alt).nes",
+        "47e2b46d1781b72518c421328b3774eaf60923823dd4620413c62fd3a2bd05cc"
+      ],
+      [
+        "240p Test Suite (World) (v0.16) (Aftermarket) (Homebrew).nes",
+        "d33d0ad26321ffb3556584fe5dda032b596a7aedb71db13ce9ee0db22be42731"
+      ],
+      [
+        "240p Test Suite (World) (v0.17) (Aftermarket) (Homebrew) (Alt).nes",
+        "5c21c3b4b823dbcb7a7c42c4fa83bc18838ceb1a4b6b4c7eb92eb51d9a3ab037"
+      ],
+      [
+        "240p Test Suite (World) (v0.17) (Aftermarket) (Homebrew).nes",
+        "8e37a38468d2c994652801b759e772d1ce46f1a8df40af33a865ee9028f346c0"
+      ],
+      [
+        "240p Test Suite (World) (v0.18) (Aftermarket) (Homebrew) (Alt).nes",
+        "ee4abdb2e507d868118ea4c4a529bf637615bd5f054b5c9612a0511f1a1c4bfb"
+      ],
+      [
+        "240p Test Suite (World) (v0.18) (Aftermarket) (Homebrew).nes",
+        "871827a96f2aa26f644d4dec0690e4c17c569f1e4d1960ba85e09c51edc3ba73"
+      ],
+      [
+        "240p Test Suite (World) (v0.19) (Aftermarket) (Homebrew) (Alt).nes",
+        "d51c173cce64e653de9547342a366c837454d575f3c6f851b547638a6ea74542"
+      ],
+      [
+        "240p Test Suite (World) (v0.19) (Aftermarket) (Homebrew).nes",
+        "0850bcd4143f4c51c3011c5df7bd4780b5f4496d63bf5746881ac3289555028c"
+      ],
+      [
+        "240p Test Suite (World) (v0.20) (Aftermarket) (Homebrew) (Alt).nes",
+        "68924ddf44bc8838eb220136cf44c68a4a3d1ca5ccf7ba594e665959bfb4c2f2"
+      ],
+      [
+        "240p Test Suite (World) (v0.20) (Aftermarket) (Homebrew).nes",
+        "f61c99a109959829d490abfbf3e3e89397bc8ad1398e9c3e98cbc8c9bcc65a54"
+      ],
+      [
+        "240p Test Suite (World) (v0.21) (Aftermarket) (Homebrew) (Alt).nes",
+        "75c76cac365157fe0ab582b503527c8035bb476f1fdb4f3342f19d83dc61579e"
+      ],
+      [
+        "240p Test Suite (World) (v0.21) (Aftermarket) (Homebrew).nes",
+        "ff388eda6a65f40f5ceb2fa816f379c98f52c7661a79a8cd32fca49c034ded63"
+      ],
+      [
+        "240p Test Suite (World) (v0.22) (Aftermarket) (Homebrew) (Alt).nes",
+        "ee0a73cbed53c9ced12df49cb63d04f48063082a39ac230b54e0fbb8fba3e0d7"
+      ],
+      [
+        "240p Test Suite (World) (v0.22) (Aftermarket) (Homebrew).nes",
+        "f1207616e04634e52f252f251b4952510b3ca7462c7dba550e686d5bd666ef95"
+      ],
+      [
+        "2600 AD (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "36989a16b031561a6d17edb1ed2f35c13ba63a2eeb6a81bf6fc5529000b2c74e"
+      ],
+      [
+        "2A03 Puritans (World) (Aftermarket) (Unl).nes",
+        "c27119725c9474354162f00b3f51bea117e4279a96edcdd6b6070bcd1e27fae6"
+      ],
+      [
+        "3-in-1 2p Pak (World) (Rob Bryant's) (Aftermarket) (Homebrew).nes",
+        "6b0f485a4fd63d4ed6e0a70febd850591376b1b5f8d87edf8ad27093a7e49d72"
+      ],
+      [
+        "3-in-1 2p Pak (World) (Sly Dog Studios) (Aftermarket) (Homebrew).nes",
+        "f90af8b0256a9ef50e9b2f3765bef9d0e05af2c1ca9adad934b73c3e4fc25eb4"
+      ],
+      [
+        "64-in-1 (Asia) (En) (Pirate).nes",
+        "47fdefaed775677226888baec45b9fcd53e04e39951a633d4c0c98b1c9259844"
+      ],
+      [
+        "ANNA (World) (Demo 1) (Aftermarket) (Homebrew).nes",
+        "e96ab9913f627e3d04dedefc537f92ee7ab5e77529b72963ee0d7fc86815af4f"
+      ],
+      [
+        "ANNA (World) (Demo 2) (Aftermarket) (Homebrew).nes",
+        "0ce409893ceeb41791d49f704e2efcd1e9d7a9efad95155023f2eef39634acaa"
+      ],
+      [
+        "ANTR - Another NES Tetris Remake (World) (Aftermarket) (Homebrew).nes",
+        "2338ca4390483a33ca8893ffd8f29a5174751ca93ef1ef0afa75644dfd591127"
+      ],
+      [
+        "Action 53 Function 16 Volume One (World) (Aftermarket) (Homebrew).nes",
+        "471ce558bf68c857ed81ebdc21c707480a80fad926fa23e98535ae16513646c6"
+      ],
+      [
+        "Action 53 Vol. 3 - Revenge of the Twins (World) (2018-03-06) (Aftermarket) (Homebrew).nes",
+        "3b4b22bce3211a89fef420e718808e39679790538203a014e11f391e4632a62f"
+      ],
+      [
+        "Action 53 Vol. 3 - Revenge of the Twins (World) (Aftermarket) (Homebrew).nes",
+        "6911b683f6af839ccd8e0ed06d9ed97665748d077d128cd711212419daf6f4d5"
+      ],
+      [
+        "Action 53 Vol. 3 - Revenge of the Twins (World) (Disk 1) (Aftermarket) (Homebrew).nes",
+        "ca8897fd327880fb283dd4310c3676ef61ae3488b4dd2687f1a7edeeb6249854"
+      ],
+      [
+        "Action 53 Vol. 3 - Revenge of the Twins (World) (Disk 2) (Aftermarket) (Homebrew).nes",
+        "5e6fdcbb0706c37397ff8431bc43fcf9a8d076fb14d05de9b3906187e7e47bf5"
+      ],
+      [
+        "Action 53 Vol. 4 - Actually 54 (World) (Aftermarket) (Homebrew).nes",
+        "3c07bbe284f1c5464cb70b0d7005abfdd23d58220fe31ee856aa07e7f66ae39d"
+      ],
+      [
+        "Action 53 Vol. 4 - Actually 54 (World) (Disk 1) (Aftermarket) (Homebrew).nes",
+        "15e94a84ab12f94f69c44e902e5a6239e8bff817173c8fb8e740d558fea60044"
+      ],
+      [
+        "Action 53 Vol. 4 - Actually 54 (World) (Disk 2) (Aftermarket) (Homebrew).nes",
+        "edc8a17b0ad08f5ed73f2ccfc7c51074d549676b9f8a4028bc2c75030afb69ef"
+      ],
+      [
+        "Action 53 Vol. 4 - Actually 54 (World) (Disk 3) (Aftermarket) (Homebrew).nes",
+        "13c159214c01c1b5dc0f8207f9bd8deed40967541a24bf354fb6d897516319e8"
+      ],
+      [
+        "Action 53 Vol. 4 - Actually 54 (World) (Disk 4) (Aftermarket) (Homebrew).nes",
+        "eb49e029635a4316b1c13decb31c9e863884dfecf2d6f3541a998bf45d457860"
+      ],
+      [
+        "Adventures of Lex and Grim, The (World) (Aftermarket) (Homebrew).nes",
+        "52b27c8fbca4f0911821bf89f0c8360c3bdce27446ff24751cabbf34f6c9ea23"
+      ],
+      [
+        "Adventures of Panzer 2, The (World) (v0.06) (Demo) (Aftermarket) (Homebrew).nes",
+        "3845325d8876ef1c788e9ab3a265c2ca3a06e98e8740dcdb65207bfbe461939e"
+      ],
+      [
+        "Adventures of Panzer 2, The (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "3128e0b07b2714c744e47239453e2a54df7377fb42133f1949c8e74d61697cfc"
+      ],
+      [
+        "Adventures of Panzer, The (World) (v1.2) (Demo) (Aftermarket) (Homebrew).nes",
+        "a3d64fbb7f8954448cd778caf62c4dc1b39345faa87ec15ea6ec9e83739ede56"
+      ],
+      [
+        "Adventures of Panzer, The (World) (v1.3) (Aftermarket) (Homebrew).nes",
+        "40ffc421751985e629767f25f6716817978f40262436b92998ee6f8a71f935d2"
+      ],
+      [
+        "Adventures of Panzer, The (World) (v1.4) (Aftermarket) (Homebrew).nes",
+        "2f30f93464c7ac3cc82b441b8282f2db96603eda362a8b3a2e2a4f17b8cd25ee"
+      ],
+      [
+        "Adventures of Panzer, The (World) (v1.5) (Aftermarket) (Homebrew).nes",
+        "98c6dfe7737be1881a8d23eae01a0a2cd0a9b7e130756f2911d2ea97d40ee8b1"
+      ],
+      [
+        "Adventures of Panzer, The - DMuscles (World) (v1.3) (Beta) (Aftermarket) (Homebrew).nes",
+        "f86f1055d4e2a15242306c24b8daa1b85c97fa8a6f6feb78bb59151723794484"
+      ],
+      [
+        "Adventures of Panzer, The - DMuscles (World) (v1.4) (Beta) (Aftermarket) (Homebrew).nes",
+        "52ba4cccd55c13ec5a0b9389c739f7781cf9b8633dd469f87e68a8334ec8c255"
+      ],
+      [
+        "AfterWorld DELUXE (World) (Aftermarket) (Homebrew).nes",
+        "1008e6bc6f542e09adfa8e7a51c18d4d130c235625842fe92e7b33faad60cf93"
+      ],
+      [
+        "Alex Islands (World) (Aftermarket) (Homebrew).nes",
+        "c9ac28f000d37a9ea71fb950cedb82b087655babae18daf8b6d640c16c9e2fbc"
+      ],
+      [
+        "Alfonzo Game, The (World) (Aftermarket) (Homebrew).nes",
+        "770e03639928b8926803f5a718b5ec5efc694ee1b2d7d4cca51ac36e82640bef"
+      ],
+      [
+        "Alfonzo Melee! (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "5dac075a3840e9bbe467796b4a6d0d0373d6271fb8eaaa34e73a35e336432fa0"
+      ],
+      [
+        "Alfonzo's Arctic Adventure (World) (2020-03-16) (Aftermarket) (Homebrew).nes",
+        "3a4582ef3471d3f10993e9a5e885fbadf876e7329f5c99addaa4a2711042d5d2"
+      ],
+      [
+        "Alfonzo's Arctic Adventure (World) (2021-08-03) (Aftermarket) (Homebrew) (Alt).nes",
+        "56fe38fbe6d737258c6988de062f1de0038ec288554e18a325f0abe3abd732ec"
+      ],
+      [
+        "Alfonzo's Arctic Adventure (World) (2021-08-03) (Aftermarket) (Homebrew).nes",
+        "05131149f0a047c99bdbbfdfb942cc27aa64a0746a98f49dd33df8188f70caf4"
+      ],
+      [
+        "Alfonzo's Arctic Adventure (World) (Aftermarket) (Homebrew).nes",
+        "0d09f29dceefb4cc8156ebb54acccea6ea94fc42b5873aede342c6faa45d0740"
+      ],
+      [
+        "Alfonzo's Arctic Adventure (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "cae63fef236b7f1a0c9ee943b4cc82d078dea61caa34325a8469ebc5f0e2802a"
+      ],
+      [
+        "Alfonzo's Arctic Adventure (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "4001f80ff875a181b3a47b1166cae0ff2e0ae64a099d52155f5efc96e88d001a"
+      ],
+      [
+        "Allison Of Astra - Allison Doesn't Go Hawaiian (World) (Aftermarket) (Homebrew).nes",
+        "31d2ed201608941fc5be5902332094f17a40a210f5d47d97be43bb16fd45da20"
+      ],
+      [
+        "Allison Of Astra - Allison's Booty Quest (World) (Aftermarket) (Homebrew).nes",
+        "833d7726b1c60d63180e0db10022c4a07075f4be7d0ad5b52af6d30b6f005151"
+      ],
+      [
+        "Allison Of Astra - Allison's Scribble Quest (World) (Aftermarket) (Homebrew).nes",
+        "b3e2b8af724e5b01cc6583a70f2b0577917c6ef23199fa15f1ed0d3be4e7ced2"
+      ],
+      [
+        "Allison Of Astra - Finity Train (World) (Aftermarket) (Homebrew).nes",
+        "ee4fcccbbd5431031f9582ef97c16071069c4fb8a7340f538bf2ba6ae3859704"
+      ],
+      [
+        "Allison Of Astra - Margarita (World) (Aftermarket) (Homebrew).nes",
+        "8ede71c6d9752198120289fc257f3e425ab3f1764c1122ea1a54d726bd65dbec"
+      ],
+      [
+        "Allison Of Astra - Margarita Mix (World) (Aftermarket) (Homebrew).nes",
+        "6f2ebb548594c9a111b8d969748b0e90e5d667e5a3fcb45121ff3e7bc5a3055d"
+      ],
+      [
+        "Allison of Astra Starring in PRGE the Game (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "ddd65f6a2aa1f20ba75dca91f33390dea57cd7e7a071f114ddcca96d8b2a63de"
+      ],
+      [
+        "Allison of Astra in - Timeless and Spaceless (World) (Demo) (Byte-Off 2020) (Aftermarket) (Homebrew).nes",
+        "62ca0d410ddd79c45fdd4a52d924619b41f39d6a7ef0f071183d9b1f7bc4dce0"
+      ],
+      [
+        "Almika The Star Rider Densetsu Gaiden (World) (Aftermarket) (Homebrew).nes",
+        "df3f2d9da7dd3a0dc0faf6a330ee5db70f52d8ef311f99b9eca4d885148e59bb"
+      ],
+      [
+        "Alter Ego (World) (2011-12-16) (Aftermarket) (Homebrew).nes",
+        "023ebe61e8a4ba7a439f7fe9f7cbd31b364e5f63853dcbc0f7fa2183f023ef47"
+      ],
+      [
+        "Alter Ego (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "2ccafc96e07d14ea2b3bb7e25cd6fc9ae5350a5b1dd3db5064fee42263d83773"
+      ],
+      [
+        "Alter Ego (World) (Aftermarket) (Homebrew).nes",
+        "c0eafd5c67cc8246485f91cded380c43436594a101b45468fcbe2d165b388434"
+      ],
+      [
+        "Altercation (World) (Aftermarket) (Homebrew).nes",
+        "fbb3fb5f8b6bdf7f7ca09cde0cbb3c61e3010497b9e280780aa65138a7174916"
+      ],
+      [
+        "Angry Birds (Europe, Asia) (En) (Aftermarket) (Pirate).nes",
+        "67edbd2855af9edda1d1ac9b6208a45cb5b3719453097b33dc81caca6cdb4146"
+      ],
+      [
+        "Anguna - Scourge of the Goblin King (USA) (Beta) (Aftermarket) (Homebrew).nes",
+        "95acfe6137b547b1db51fb40fe35cf9e8b36db0afd038261f35824ef59794bca"
+      ],
+      [
+        "Anguna - Scourge of the Goblin King (USA) (Patreon Demo 0320) (Aftermarket) (Homebrew).nes",
+        "03d71e3c1ebba964be08d01d9202bbce770375791241ecc5e2e11920213490e5"
+      ],
+      [
+        "Anguna - Scourge of the Goblin King (USA, Europe) (Aftermarket) (Homebrew).nes",
+        "eb901d4a0ba27a5dc67b8045106a03742bef5e6faa465551252b83c19580f27d"
+      ],
+      [
+        "Anguna - Scourge of the Goblin King (USA, Europe) (Limited Edition) (Aftermarket) (Homebrew).nes",
+        "0055addccc72ff0a9ed5a4d4f5e0cab2fb9bf023d0b33477301fda17f07cf557"
+      ],
+      [
+        "Anguna - Scourge of the Goblin King (USA, Europe) (Rev A) (Aftermarket) (Homebrew).nes",
+        "5d83e34ae0f52ca543136e995f6deb35befb60eb994c17445f4808c1c080843e"
+      ],
+      [
+        "Animal Clipper (World) (Aftermarket) (Homebrew).nes",
+        "58560a9ae294e2886729728c2e80ec8b7a8c1e90d43b9738eb799c7335d15f1b"
+      ],
+      [
+        "Animalia Dreamland (World) (Aftermarket) (Homebrew).nes",
+        "1d8177466145bc81eb03e0c298ab7b479f1ffab00dce2b1b71ecf3445ae291cb"
+      ],
+      [
+        "Ankoro Mochi Manufacturing Factory (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "a438b0b999c724bbb97913f34073c313d5c6f6eed4d436daa3c1176fa78f56fc"
+      ],
+      [
+        "Another World (USA) (Aftermarket) (Homebrew).nes",
+        "3fd3eac02e7903a3985e383e18526dd4865212fa3a630c59d3ec888f930978c1"
+      ],
+      [
+        "Antenna Antics (World) (Aftermarket) (Homebrew).nes",
+        "6edf461a68c4c1476bdbcff63abdbd58bf0b5fbdfe2eadfa1a27e1584184fed8"
+      ],
+      [
+        "Apuntalo, Cheril! (World) (Es) (Aftermarket) (Homebrew).nes",
+        "1a8795cd4811cc9dfd146aafde51f7b7795986bbac60f73c5b525fdb9c32fcb8"
+      ],
+      [
+        "Arkade Rush (World) (2021-03-10) (Aftermarket) (Homebrew).nes",
+        "66454a77061b5750d81864eea314a8682c2068a55540fdd16f72af14bc8ed854"
+      ],
+      [
+        "Arkade Rush (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "156122d085f55f041cd3b4074b6ea873ee8683e9ee6e05c92c6e81017b055b74"
+      ],
+      [
+        "Arkade Rush (World) (Aftermarket) (Homebrew).nes",
+        "63b853a759b5070304b1a0605534f5a314dc341d9d4e523f9f2ae37f2ab340ef"
+      ],
+      [
+        "Arkade Rush (World) (NESDev 2020) (Aftermarket) (Homebrew).nes",
+        "a7f4ff65295297b406378102ed60b1602b81dcbc0a7acf8a1eff3241d1a99f12"
+      ],
+      [
+        "Arm Wrestling Classic, The (World) (Aftermarket) (Homebrew).nes",
+        "0e36462dab8ed400b250af74887fcbb8e3f2aea94a8ef0f2698dd9134e94676a"
+      ],
+      [
+        "Ashen House (World) (v0.2) (Demo) (Aftermarket) (Homebrew).nes",
+        "f1c008cffa1cfcacee3bec90c7abfa6326a6d2b036cffee8260cc76fdcfb7d9e"
+      ],
+      [
+        "Aspect Star 'N' (World) (Aftermarket) (Homebrew).nes",
+        "4bff48ec6abf6d6f36c39f3a1a16940c73bcd3246b83172108937ca05de9cc05"
+      ],
+      [
+        "Assimilate (USA) (RetroUSB) (Aftermarket) (Homebrew) (Alt).nes",
+        "5f6892ecef7508d1581f1c07a742b451e7a88ff6527e67289b6feeee243a3b2f"
+      ],
+      [
+        "Assimilate (USA) (RetroUSB) (Aftermarket) (Homebrew).nes",
+        "238caf470ee4f8403c347274776120a1c5d86821c600c65d8d54adcffd2a712e"
+      ],
+      [
+        "Assimilate (World) (Nessylum Games) (Aftermarket) (Homebrew).nes",
+        "42cf9e48053f1959cf0105809f56a162935a8d64e4c2f4199d51f6d6b98dc205"
+      ],
+      [
+        "BMX Simulator (World) (Unl).nes",
+        "516f00b9826d6b8d5ccb4a1c1e8a108f22598631a47618ad726086fb4d2f8931"
+      ],
+      [
+        "Babel Blox (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "2474165522b02c3a306cbd9b83ed6e85de33e762c00156d8dbfb99316ac2cb9c"
+      ],
+      [
+        "Babel Blox (World) (Rob Bryant's) (Aftermarket) (Homebrew).nes",
+        "56875d1adf987068457f5e50018b55e2e5705bd9bcf6395d3ef5d4aa4e871212"
+      ],
+      [
+        "Babel Blox (World) (Sly Dog Studios) (Aftermarket) (Homebrew).nes",
+        "7ef6f2ad34652873fbebf82dc101bba74ee627d660f6a9b246451c1078bc0dac"
+      ],
+      [
+        "Ball'N'Flag (World) (Aftermarket) (Homebrew).nes",
+        "097de04d2bc3f26c05237b20aebb9a177b5ab7ba47de482f061fc3c9a2d8f54b"
+      ],
+      [
+        "Ball'N'Flag (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "75069f94a60667a4ea59cf554fc3d237048f905d2a24ee3217df808b683c8a07"
+      ],
+      [
+        "Banketh, The (World) (v1.3) (Demo) (Aftermarket) (Homebrew).nes",
+        "9c0300a354e6e844912d082aa4ddd5c0a90f21b4a8a921f5de0bb1dc0002f18b"
+      ],
+      [
+        "Bare Metal (World) (Aftermarket) (Homebrew).nes",
+        "f8bb99f430b97b16d237bdf9097c7b41965e0e040d30b83a46ec173fa45deb37"
+      ],
+      [
+        "Bare Metal (World) (Pt-BR) (Aftermarket) (Homebrew).nes",
+        "280f56b5500d0469f4eb16b55e8803c2ee90bf59417d3815d3d8b85f32a1422d"
+      ],
+      [
+        "Basic Championship Wrestling (World) (Aftermarket) (Homebrew).nes",
+        "77a0aaa1d1f61e2302cfaab94b9e93aebe6e82173bf4d7d35e0b909a09f959c1"
+      ],
+      [
+        "Basse Def Adventures (USA, Europe) (Fr) (Aftermarket) (Homebrew).nes",
+        "7d28fd6169162dc8dc51aa6c69ef04ff9d7555040785019d7196342ba6065a28"
+      ],
+      [
+        "Bat Lizard Bonanza (World) (Aftermarket) (Homebrew).nes",
+        "33d378d78dcaa528cc70e834c0ec10c3c6257dc3dd115d7e4d2084fbae172158"
+      ],
+      [
+        "Battletoads (Japan) (Aftermarket) (Unl).nes",
+        "7fb420506b08bc8cbeadcccf20a88dbad5a78f36badb23ec491ae9c6cfa21702"
+      ],
+      [
+        "Be A Pirate (World) (Proto) (04-22-2022) (Aftermarket) (Homebrew).nes",
+        "e40349a9c38e84161adda620d6f46c6ad31046ffb14b4eb906989df8d8275d2a"
+      ],
+      [
+        "Big City Sliding Blaster (World) (2014-06-02) (Aftermarket) (Homebrew).nes",
+        "c25446d7822bbedae8daf5dd0cc5636f67537e0e378efec35dc3952335767d32"
+      ],
+      [
+        "Big City Sliding Blaster (World) (Aftermarket) (Homebrew).nes",
+        "013a1fc937cbe0738c461569a90c6fbb43f8881959a93c82e0771fae99042e3c"
+      ],
+      [
+        "Biocats (World) (v1.04) (Aftermarket) (Homebrew).nes",
+        "ffc8bba459b4fdc672c1b72cda03aa71c8f0b7706555d7c7b0264fe211943865"
+      ],
+      [
+        "Bionic Commando (USA) (Capcom Classics Mini Mix) (Aftermarket).nes",
+        "70e7e6ca7480e650c51d59a28e481cee903913233ede882478ae13968ec071c3"
+      ],
+      [
+        "Black Box Challenge (World) (2016-01-02) (Beta) (Aftermarket) (Homebrew).nes",
+        "3982992da6995d2af4a0167e6b002267706d6e1eaa09da5827c60929d224d7e8"
+      ],
+      [
+        "Black Box Challenge (World) (2016-12-08) (Beta) (Jeffrey Wittenhagen's) (Aftermarket) (Homebrew).nes",
+        "212cb57fc94f5badc98c20d2a8cbdd1b412251f4da82ad8c74a3d2c75cf834ad"
+      ],
+      [
+        "Black Box Challenge (World) (2017-02-03) (Beta) (Jeffrey Wittenhagen's) (Aftermarket) (Homebrew).nes",
+        "2927751318ab1a96977a33f873b9074c621beec5956269a8636c3d3586d42d24"
+      ],
+      [
+        "Black Box Challenge (World) (2017-03-15) (Beta) (Jeffrey Wittenhagen's) (Aftermarket) (Homebrew).nes",
+        "a624c6e025096e43198cdc77c047e58f5c8439f973bd75e02f7c7366d45b4719"
+      ],
+      [
+        "Black Box Challenge (World) (2017-06-29) (Beta) (Jeffrey Wittenhagen's) (Aftermarket) (Homebrew).nes",
+        "e21dc5383bb95708093b2faebffe0b6b9b440fa00e27ca4b3619004c39899ecc"
+      ],
+      [
+        "Black Box Challenge (World) (2017-07-01) (Beta) (Aftermarket) (Homebrew).nes",
+        "f955cabba3bf09e7f97cb1b96775fe98a52b6447d21d03e83dadf847c3610d87"
+      ],
+      [
+        "Black Box Challenge (World) (2017-09-17) (Aftermarket) (Homebrew).nes",
+        "ef1abfe0860e480b133a82267d259e935731fbe598197912e08b94763c3fd6fd"
+      ],
+      [
+        "Black Box Challenge (World) (Aftermarket) (Homebrew).nes",
+        "3e17fb9717f14c0538d0f01b0b7fc3dd8b9bb4c10f7899f2106ed6271bbc9d81"
+      ],
+      [
+        "Black Box Challenge (World) (Jeffrey Wittenhagen's) (Aftermarket) (Homebrew) (Alt).nes",
+        "d595c804e410b41f9b89e32f41ce05264f1f3ddb52080f1962c1776d988a53a1"
+      ],
+      [
+        "Black Box Challenge (World) (Jeffrey Wittenhagen's) (Aftermarket) (Homebrew).nes",
+        "d189ee4cd5f5f8c4bed5ac8fb95d7d0990befe7d439648c86219c1999ded48e9"
+      ],
+      [
+        "Black Box Challenge (World) (Rob Bryant's) (Aftermarket) (Homebrew).nes",
+        "402462203d7d74d28a42f53c470a05f8108d683c0ee16da51b9476f947db504f"
+      ],
+      [
+        "Black Jewel Reborn (World) (v0.1) (Demo) (Aftermarket) (Homebrew).nes",
+        "5f268cce30f1703ef1981d61a493451dcbdde8d6befb5854f850c6b453e6d2ae"
+      ],
+      [
+        "Black Jewel Reborn (World) (v0.14) (Demo) (Aftermarket) (Homebrew).nes",
+        "2b3a057f5ed6f484051343b4c304525cc600fffd82250c63c91bd5131d8cb164"
+      ],
+      [
+        "Black Jewel Reborn (World) (v0.16) (Demo) (Aftermarket) (Homebrew).nes",
+        "c5a166a9302272645854326d3bed3e8609d942653813ba2d0b3745fd528f0062"
+      ],
+      [
+        "Black Jewel Reborn (World) (v0.161) (Demo) (Aftermarket) (Homebrew).nes",
+        "a8e09d02526cddcbecd77b78feabb3f039d0c1c2e0a3b081690feb6c13875a29"
+      ],
+      [
+        "Black Jewel Reborn (World) (v0.165) (Demo) (Aftermarket) (Homebrew).nes",
+        "44b3c57b40dde28753dcfafcd39b906131019880d0cfa6b3c664a446e014690e"
+      ],
+      [
+        "Blazing Rangers (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "f13255acfc6306dbac4e5d331f83a0d6e5469e8965ead8b37061825fb1719c43"
+      ],
+      [
+        "Blob Land (World) (Aftermarket) (Homebrew).nes",
+        "4310b08f5064042cc1901165bc9d7e77f57c62c38bd62813b7bc9bc9caa38ffe"
+      ],
+      [
+        "Blobert (World) (Aftermarket) (Homebrew).nes",
+        "75bb3ab0779ed3f58a3654e42e6991119c58e8c2a9d85ad255b6990d550e30af"
+      ],
+      [
+        "Blockage (World) (Aftermarket) (Homebrew).nes",
+        "bf38f686d32c576606495345064dc5200f6ba8c3a1676779df80cccffc1c1c39"
+      ],
+      [
+        "Blurred Lines 2048 (World) (Aftermarket) (Homebrew).nes",
+        "3a5f0cee7fc0184443e3813d5c03f7d595a37986437c10a494690450b34bce82"
+      ],
+      [
+        "Bobl (World) (Aftermarket) (Homebrew).nes",
+        "3406b3e9fa12866f3c9a91e3cb944626f13d06ef162462c042adb00c43462c67"
+      ],
+      [
+        "Bobl (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "c41693c81c04cfa837cc26cd3419b7572ccbc089ab497f0442f569377e451d53"
+      ],
+      [
+        "Bobl (World) (v1.2) (Aftermarket) (Homebrew).nes",
+        "22ee2f63be39895fb74dad12f0904bf1095ceba4a6b259fdd70e6fee0a9b6c9f"
+      ],
+      [
+        "Bootee (World) (Aftermarket) (Homebrew).nes",
+        "8f52035cb9b0531141314e6d5de9a6689f8524d5d4f10af803592240253dc7f9"
+      ],
+      [
+        "Bovinium Quest - Batteries Not Included (USA) (Aftermarket) (Homebrew).nes",
+        "3108c293a73aeffd17a5400a5e0ccb92040d3254deb0100ecc14512ecb754df3"
+      ],
+      [
+        "Box Boy (World) (Aftermarket) (Homebrew).nes",
+        "2f482d40a074d4d464fa123fd0ab2469cfcf9d4d93caf9eb9108d24ac535d605"
+      ],
+      [
+        "Brony Blaster (World) (Prototype) (Aftermarket) (Homebrew).nes",
+        "39581ddec058da3942b7e1f638c1d67363394f557fab6e3c99f2b941e66550b3"
+      ],
+      [
+        "Bugs Bunny Birthday Bash (USA) (Beta).nes",
+        "ab3d0e5476c4c13f8f9cbf2a5d0165df5c21ab1b5bf1438bd41be6235639bb75"
+      ],
+      [
+        "Bustina and the Search for Booty (World) (v0.2a) (Demo) (Aftermarket) (Homebrew).nes",
+        "de897979b019a58f40982a94a6ed678a624df3b26c10a2ecb2b292994221b870"
+      ],
+      [
+        "CHE-MAN (World) (Aftermarket) (Homebrew).nes",
+        "396b3df6f9a9fb6a01a1dcd9981e8d49bb65ded34728675da71b4eba10f8b66e"
+      ],
+      [
+        "CORGS Simulator (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "cfe499369d34a7a6b08c24693b371426587f8d07828b6f901995fa76156c4724"
+      ],
+      [
+        "CORGS Simulator (World) (Aftermarket) (Homebrew).nes",
+        "a5c3ffa23d4b849c623b25e3f982811e0d86bf278512f1f80251b8fb2218584e"
+      ],
+      [
+        "CYO (World) (Aftermarket) (Homebrew).nes",
+        "1f9ace56a58e816311e9bf245c386876e35e576e4c2e8a70924e8f4dfe13f1d3"
+      ],
+      [
+        "Candelabra - Estoscerro (World) (Aftermarket) (Homebrew).nes",
+        "0d3f88e1b71b29a78ec672e2825b5f4c303930bdd210cff15b8f399ff6b9f54c"
+      ],
+      [
+        "Candelabra - Estoscerro (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "1ae4921d83b2a42e6af8a765c55c89fdb7cf648ffe590c8a2c2fb68772a56df0"
+      ],
+      [
+        "Carpet Shark (World) (Aftermarket) (Homebrew).nes",
+        "b84a4667567dbe2eb4f1ad491fcec547ed1fba8482b097741a7f598fe60c2423"
+      ],
+      [
+        "Cave Driller (World) (v2.0) (Aftermarket) (Homebrew).nes",
+        "9b7a0a268a808b73b7d9e55978afecbfb5f81a35a2c403430477870c5f471e50"
+      ],
+      [
+        "Cave Driller (World) (v2.2) (Aftermarket) (Homebrew).nes",
+        "80b11d5ce6807c30d4e386d0a57335f3e4db3737f449d5a48d76efb18c8b65c2"
+      ],
+      [
+        "Chase (World) (Aftermarket) (Homebrew).nes",
+        "a16ffd66142e6b0c8d3b040410b2b76dbec084414af716179b3e93ddcfd7dee8"
+      ],
+      [
+        "Cheril Perils Classic (World) (Aftermarket) (Homebrew).nes",
+        "98c52f7bb75ffa57156e064151dca4476c9f6e9952c96f2c0f1eede555d06d17"
+      ],
+      [
+        "Cheril Perils Classic (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "b5bd26b960c861802fcb52f55af8c5cf5512bd2f608f56236eb4de8a3f0a603d"
+      ],
+      [
+        "Cheril in Cadaverion (World) (Aftermarket) (Homebrew).nes",
+        "b88a207b35a23bb0504c1a461da26706d00eac7ff3ddd88f5e53ad9fcbd0a6f6"
+      ],
+      [
+        "Cheril in the Cave (World) (Aftermarket) (Homebrew).nes",
+        "0e0cb769030f0f52b6a2da6023fbe811a5c8d9e5c407a4584056a1dae2e86f6d"
+      ],
+      [
+        "Cheril in the Cave (World) (Es) (Aftermarket) (Homebrew).nes",
+        "9d03ca4ec0068d987c0b4dfd6a263af2478ead3333f31bb5fcdf30d52057fca0"
+      ],
+      [
+        "Cheril the Goddess (World) (Aftermarket) (Homebrew).nes",
+        "10183e76ee125cd3d05867bfd8fc77c26909243044aaf7a378ebf16f45e4ebdb"
+      ],
+      [
+        "Cheril the Writer (World) (Aftermarket) (Homebrew).nes",
+        "548428380a420c01ab98e57ea564e94640dc461a1d68ca017450e1c9f8918fee"
+      ],
+      [
+        "Chiptune Hell (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "92e96f5ba556f5f6c2f77d6d668328e604c176e426c13291e771c88224c4104e"
+      ],
+      [
+        "Chiptune Hell (World) (Ja) (Demo) (Aftermarket) (Homebrew).nes",
+        "8ee85139706d026dc0c31b1cf1ada71511b4d3aa3930d127a73acc5b6bedc877"
+      ],
+      [
+        "ChronoKnight (World) (Byte-Off 2020) (Aftermarket) (Homebrew).nes",
+        "7651a076536943a4a597c63246690feece3ff25ae1a1f8e7818f0a9edfd3ad1c"
+      ],
+      [
+        "Closing In! Barney's Daring Escape (World) (Aftermarket) (Homebrew).nes",
+        "811500367cb1b25609ec1cb851efdff8423f290b366ab1539b9907a18d75f269"
+      ],
+      [
+        "Closing In! Barney's Daring Escape (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "45ff94c1d7482e7f06104032067f9f9e5d0dcb3c1d131330f17b9c01248bcd82"
+      ],
+      [
+        "Closing In! Barney's Daring Escape (World) (v1.2) (Aftermarket) (Homebrew).nes",
+        "2cca85455c818426d2995e7746ead34e5e077d2a338e79eeefc05c6821460af6"
+      ],
+      [
+        "Closing In! Barney's Daring Escape (World) (v1.3) (Aftermarket) (Homebrew).nes",
+        "de0c27a90db5699596f816f7d386aad2a378628952e04001f548643e360d4278"
+      ],
+      [
+        "Coin World (World) (Aftermarket) (Homebrew).nes",
+        "348a6585c1819247c1713c1a9e170a4264e1913af68393f8c530733d6570937f"
+      ],
+      [
+        "Commie Killer (USA) (Aftermarket) (Homebrew).nes",
+        "4adb15da2a752563e6018c55fd114fbdff44a19697153705f2e3330f6bb45a1a"
+      ],
+      [
+        "Computers Are Easy, Love is Kind (World) (Aftermarket) (Homebrew).nes",
+        "dbc648d1a035ae206dfd78a184e1866cdc1905d85b96b05525bcb87856d6d3a8"
+      ],
+      [
+        "ConTroll (World) (Aftermarket) (Homebrew).nes",
+        "2c4f0b1dc6172d1e7d0214bcc90c273488f4014a8ef4aa05b94d6fa01dddaf4e"
+      ],
+      [
+        "Concentration Room (World) (v0.02) (Aftermarket) (Homebrew).nes",
+        "b974a526506b87e05df58c38bf364497fdaaf9de0a6997dae458c234c5ae90ad"
+      ],
+      [
+        "Controller Test Program (Japan) (En) (Test Program).nes",
+        "b6637f61a3075503f776dfaa9e7a0d2b2c47ffc1e0f9bc76561c2f5b321ff3ea"
+      ],
+      [
+        "Cookie Clicker (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "c27d454bd2a2646014927a41f07080197cb5360616841bab0239bd2ddb532e2a"
+      ],
+      [
+        "Copper Jacket (World) (Demo 1) (Aftermarket) (Homebrew).nes",
+        "d925b241dc7beff8ea996349de422fc5a4edf94c999dd85f130fea017aa5b39f"
+      ],
+      [
+        "Copper Jacket (World) (Demo 2) (Aftermarket) (Homebrew).nes",
+        "2511dbb705e5d8293f9db1e868e0bf95b3cd78503209b7f7a60c50be92545109"
+      ],
+      [
+        "Cowlitz Gamers Adventure, The (World) (Aftermarket) (Homebrew).nes",
+        "fa8a928124922b36475337659184959657aae3715ceda04a29c8b6528b4f47f3"
+      ],
+      [
+        "Cowlitz Gamers' 2nd Adventure, The (World) (Aftermarket) (Homebrew).nes",
+        "ccc97af8ab6a45e0bf512ef5f1ff1f91765a3f73118fe5d308bd16a7ea6dde08"
+      ],
+      [
+        "Cowlitz Gamers' Lost Adventure, The (World) (Aftermarket) (Homebrew).nes",
+        "948fd345f4c20aa2265b56d3c8aec6dd358c6355b17a5bcb5966ba6f53e5fe95"
+      ],
+      [
+        "Crap Job! (World) (Aftermarket) (Homebrew).nes",
+        "998f73f9e6da03ee13a67eb03d597c3295dd63a6dc4988b29774a1260c58582a"
+      ],
+      [
+        "CrazyBus (World) (Aftermarket) (Homebrew).nes",
+        "73e00c2052af46648a2504e311f613c5ade5d8020c8891b17b1fed19044ce665"
+      ],
+      [
+        "Cross-Strait Independence (Taiwan) (En) (Aftermarket) (Homebrew).nes",
+        "d99283c6d5faeaa5dce1e43eab6362fbb439d0cbc229e5c5f4df14ccd6f09251"
+      ],
+      [
+        "CrossPaint (World) (v0.45) (Demo) (Aftermarket) (Homebrew).nes",
+        "c4a654e6ad5dabbfac6bfcdda27f0ff5037ed346d669a59ea4b4d64ee9cabeeb"
+      ],
+      [
+        "CrossPaint (World) (v0.46) (Demo) (Aftermarket) (Homebrew).nes",
+        "00e292aa93a1c0a8c3a99dec36a36ec8521646a92506176f00fc0518e3c4367f"
+      ],
+      [
+        "CrossPaint (World) (v0.47) (Demo) (Aftermarket) (Homebrew).nes",
+        "30be921c0376546847b6d9dcf564599536632fdbbed153320501573340fcb6ae"
+      ],
+      [
+        "Crypto (World) (Beta) (GGJ 2016) (Aftermarket) (Homebrew).nes",
+        "eff7b0e1dcb1b053c576137dd98eb281c50a1b54b09f385645d2ce68b6603d12"
+      ],
+      [
+        "Crypto (World) (v1.12) (Aftermarket) (Homebrew).nes",
+        "697f5f751b9446c3c5422014234664d7d060c73179f1431874eacb1e9162ca7f"
+      ],
+      [
+        "Crypto-Fascist (World) (Aftermarket) (Homebrew).nes",
+        "1748cf936de00f600302e6d4d38678d679416968be26d28aecb434ed6b95d4f8"
+      ],
+      [
+        "DENDYcompoII (World) (NTSC) (Aftermarket) (Homebrew).nes",
+        "ad7f46a0441cef226f6349bce7abf6b469ae8d41646d2d023e3b13bbb1f2aee0"
+      ],
+      [
+        "DENDYcompoII (World) (PAL) (Aftermarket) (Homebrew).nes",
+        "592e2865c264caed532dd9ebd7b9ae5f44a71d6592ae8f531f341abf069f5b66"
+      ],
+      [
+        "DVD Screensaver for NES (World) (Program) (Aftermarket) (Homebrew).nes",
+        "2f31a73557a0a227119c8fb5febc81c776911b1c6d9c37ad00a78b31b8772f3c"
+      ],
+      [
+        "Dark (Japan) (En) (Family BASIC) (Homebrew).nes",
+        "4a5aaa7fa6b3be52dfbe7816c8b1c4e31058b0be4c10ff92002a9d173ce5c82d"
+      ],
+      [
+        "Deckard (World) (Aftermarket) (Homebrew).nes",
+        "ac081b46c36189d478ba30e8fb473929ab8365de223d1721ec36c849e5c42953"
+      ],
+      [
+        "Deja Vu (USA) (1990-04-28) (Beta).nes",
+        "cbb76fbf39fb64128102b83a06d7895117158cc25bdb36673af4870074ee976f"
+      ],
+      [
+        "Deja Vu (USA) (1990-05-08) (Beta).nes",
+        "d67ae15f9b9182421916144555fba00d83c5d7c16f7e9b410a5fbf34480b8e01"
+      ],
+      [
+        "Deja Vu (USA) (1990-05-15) (Beta).nes",
+        "e54e391cbca68381f5aad184fc53700ce525cf522c7ebe78f0f067adec6ad0ec"
+      ],
+      [
+        "Deja Vu (USA) (1990-07-03) (Beta).nes",
+        "5329cfe778bea8e13e9b695ad793a961f3a7efa2348b651b35dc9a1eec33e3ff"
+      ],
+      [
+        "Depths (World) (Ludum Dare 44 Version) (Aftermarket) (Homebrew).nes",
+        "5076b904637fdbb262b95705f9c7f0a335bc177f3603b9d5ef65ac5d1342e1bc"
+      ],
+      [
+        "Depths (World) (v2.0) (Aftermarket) (Homebrew).nes",
+        "7bc0b4169002c07b96a943fca381ff42f7c1728cc65a20ad1d6449e247ec99c8"
+      ],
+      [
+        "Deth Complex 2 (World) (Aftermarket) (Homebrew).nes",
+        "bd972d6eaea0f45c7913c733641026b7e4e13c352647b43f5a2a64c0e53bef62"
+      ],
+      [
+        "Deth Complex! (World) (Aftermarket) (Homebrew).nes",
+        "cf71608a51547d6210549ec43b1faf7464549135b324fdf68327c20356b6ec63"
+      ],
+      [
+        "Dimension Shift (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "d2dd2964c27839e7c2f9b9921372c084cbc46c6450389ca071a123b2a24976d8"
+      ],
+      [
+        "Dizzy Sheep Disaster (World) (Aftermarket) (Homebrew).nes",
+        "87246780113fed58b72e0737d79bf5991d322c0b3094f78eae41b09b9efb5543"
+      ],
+      [
+        "Donsol (World) (v15) (Aftermarket) (Homebrew).nes",
+        "ef5cf4e29e5288d92bdbd4a6e52e69cc9ae121fcce1d4718e373eb94cc950b27"
+      ],
+      [
+        "Doodle World (World) (Aftermarket) (Homebrew).nes",
+        "ae631235934ca15717b73499bc3022343b16f39d5577c9d8758ca4e785b56faa"
+      ],
+      [
+        "Doodle World (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "367a8c5b481c3188df788093754cb9c26271a8c76f1f2b99ac665733db62bc5c"
+      ],
+      [
+        "Doodle World (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "dbba20d5ee4bb6cb78a801914a1f81eec252e321f30245ec93e3ef0c48bceed2"
+      ],
+      [
+        "Double Action 53 - Volume 2 (World) (Aftermarket) (Homebrew).nes",
+        "7ce6ab350163e8a09fac49b5ec20d7f36daa4ccbd35b2b78b494e45d6166dde7"
+      ],
+      [
+        "Dream Dog Dilemma (World) (Aftermarket) (Homebrew).nes",
+        "cdb5718ac43642735579f30305e2c362f2f81cafc629bb291b45a6eaff7f06ff"
+      ],
+      [
+        "Dream Dog Dilemma (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "1dd2d2e5ab8e96a1ba9512ab8d722971eab77983d6fda615443508dfda658ba0"
+      ],
+      [
+        "Driar (World) (Aftermarket) (Homebrew).nes",
+        "2606ed5824be4bea4f5063ebba83299eadecacfdc91882fa3b875848442824f3"
+      ],
+      [
+        "Drift Trial (World) (v0.01) (Aftermarket) (Homebrew).nes",
+        "8a6241fa1d9bb4f455ead56dedb2b36251849de84590e28f6c359edf9d5d588a"
+      ],
+      [
+        "Duck Tails (USA) (Aftermarket) (Homebrew).nes",
+        "a6a0897b0d367f14d04c447788e841d6680b62230bcd0c21419c2993a02d7719"
+      ],
+      [
+        "Duckstroma (World) (v0.28) (Proto) (Byte-Off 2020) (Aftermarket) (Homebrew).nes",
+        "bfa47c9ddcc9915546624815882814e0eb8b94fba4e09e98dfa93fdfd11273aa"
+      ],
+      [
+        "Dungeon Explorer (World) (Aftermarket) (Homebrew).nes",
+        "687cd6032550deb05aed6005253352baa61e9908de41d0741f9176603269fcee"
+      ],
+      [
+        "Earthworm Jim 2 (Europe, Asia) (En) (Super Game) (Aftermarket) (Pirate).nes",
+        "b257453df44c1c1b2d9c84c726ba0251faeb760e1427073a9e5ae8bf05f43f9e"
+      ],
+      [
+        "Eelectric (World) (Aftermarket) (Homebrew).nes",
+        "923e21b7c84379671028314fcc861f38d17fcf93311cb515e41c343e98c21eef"
+      ],
+      [
+        "Electronic Sweet-N-Fun Fortune Teller (World) (Aftermarket) (Homebrew).nes",
+        "d5e1a5a380d32c580de43c5a314261945655875994842bee5e2933264df96e0c"
+      ],
+      [
+        "Enormous Adventures (World) (Aftermarket) (Homebrew).nes",
+        "6ba77eb224d2688ecb8a965d2664636db7ca6ba02000ed95dd793604368a1de3"
+      ],
+      [
+        "Enormous Adventures (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "2e69500d3fd05dcac5ed5609c9384d760cc0f0dbb3b58b6e040ab6494f1a0861"
+      ],
+      [
+        "Eskimo Bob Starring Alfonzo (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "73cc376f34f76c9940ae42891e0186e39dba279ba62479ee28fb92aab880fe79"
+      ],
+      [
+        "Eskimo Bob Starring Alfonzo - Deluxe Edition (World) (2019-11-01) (Aftermarket) (Homebrew).nes",
+        "4514cfb6e8be080b2f83314cbf8e38f3c982382ab57bfb4209b23292ade17ddc"
+      ],
+      [
+        "Eskimo Bob Starring Alfonzo - Deluxe Edition (World) (Aftermarket) (Homebrew).nes",
+        "7f241da9cc9aa1741dc4b2f1658f860b26c6153f0d025ed72f64c7820d1fd0f2"
+      ],
+      [
+        "Eskimo Bob Starring Alfonzo - Deluxe Edition (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "0239aab998502ac03e9a5b377122f0d82ce648f3c5933eeb90bdc591a243cf98"
+      ],
+      [
+        "Espitenen und Herr Pimponen (World) (Aftermarket) (Homebrew).nes",
+        "8ae1af4d698df774539708c574bf8fd41cd4b4c91d7a84b6435282b6b530eef7"
+      ],
+      [
+        "Espitenen und Herr Pimponen (World) (Es) (Aftermarket) (Homebrew).nes",
+        "a9b03e9c670707ab7ba0656c2def0baab9854543998106cd8a9c89dcfaea6e0c"
+      ],
+      [
+        "Eternal GladNES (World) (Aftermarket) (Homebrew).nes",
+        "6f37ec1743dc65eda06a9d2a0ac4ad3d5ffcecb304923868d4050a3c3638289c"
+      ],
+      [
+        "Euchre (World) (Aftermarket) (Homebrew).nes",
+        "6e7ea08096852bb33cfbc61cce0bc7cc742a364a0cc35e4f0e816d967ed3dbb4"
+      ],
+      [
+        "Exit Loop (USA) (Aftermarket) (Homebrew).nes",
+        "2d13b35d1b4841a5965a856eaa4d1051ec8026fb3fe417daa9f36fb99b1164a3"
+      ],
+      [
+        "F-FF (World) (Aftermarket) (Homebrew).nes",
+        "134c4eea8b98d2d6b9a7f03bc71e7d5c9aafd1e06ca6ebb80752766656917c14"
+      ],
+      [
+        "Falling (World) (v1.0) (Aftermarket) (Homebrew).nes",
+        "791901b7d3aa827dfadf9036c750d1ecd968591f3bec49b69ce0965405f537a5"
+      ],
+      [
+        "Falling (World) (v1.01) (Aftermarket) (Homebrew).nes",
+        "c22bd428e6031d17820cf43605d37908abc15f6e96ee2540c77d2122062fa444"
+      ],
+      [
+        "Falling (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "bbe58645af7d0fdf8b6fe99c12100a80f5acb4354cb01af1fad8c80561de2b48"
+      ],
+      [
+        "Famicom de Pon (World) (Aftermarket) (Homebrew).nes",
+        "897e9413f7c46db197992d042671d30121609afb7d4192eaaf0d9e9133777ed4"
+      ],
+      [
+        "Farming Mushrooms in LOWAS (World) (Aftermarket) (Homebrew).nes",
+        "3bee24a6c18f5fde98ea797d08810d073b4c7459d2580d565411e93bf585e893"
+      ],
+      [
+        "Feline Flood Fiasco (World) (Aftermarket) (Homebrew).nes",
+        "6c97f4dcda90dfec8351f0d4414ac449155b029aae51d7dd5fa4fb4057ae871e"
+      ],
+      [
+        "File Fixers (World) (Aftermarket) (Homebrew).nes",
+        "330223d61702b51db3510aaa5ac4c8f11a06fc133e6950d3c9bfca06905fa9e2"
+      ],
+      [
+        "Final Fantasy VII (China) (Aftermarket) (Pirate).nes",
+        "cb4c42066de2ae4bda4f3858c6049da0a0f1c7384827fd225f2ad2a74dcf7d4a"
+      ],
+      [
+        "Fire of Rebellion (World) (Pt-BR) (Aftermarket) (Homebrew).nes",
+        "5f514b2b353d06213514aed2030930ec719e1aa9021f77ef7b04213897736ef6"
+      ],
+      [
+        "Fisraduth - Castle of Tyramis (Japan) (Easy Version) (Family BASIC) (Homebrew).nes",
+        "f51baab8f157cb5d916eee6a290ccfd75b2a100f85a98154c6f8dc571ddc6c1c"
+      ],
+      [
+        "Fisraduth - Castle of Tyramis (Japan) (Family BASIC) (Homebrew).nes",
+        "01395e2de6e175ea095ffea46f3d25ccbff84949322d3dd3b38ce0431b2fa109"
+      ],
+      [
+        "Fisraduth - Castle of Tyramis (Japan) (Very Easy Version) (Family BASIC) (Homebrew).nes",
+        "939df5e9c6882cfd17168df5a6d6e6271d8bc220d12ce0aa7812ef155d5b4261"
+      ],
+      [
+        "Flappy Bird (World) (Aftermarket) (Homebrew).nes",
+        "9b01289500ccb1eb4389e2232242a5087b86c3629915a3917a125c3225f961cd"
+      ],
+      [
+        "Flappy Bird (World) (Easier) (Aftermarket) (Homebrew).nes",
+        "1f4ee36251faa1154229e0bb6cd388f64cc88fcfee120a6f9934b1a3f2c81dac"
+      ],
+      [
+        "Flies (Japan) (En) (Family BASIC) (Homebrew).nes",
+        "5f0b8f9170e2fd121fffd329374f85339f8384c4ac781dab6ad10ea1177cd255"
+      ],
+      [
+        "Fluffy Space Escape (World) (Aftermarket) (Homebrew).nes",
+        "2b1693711577f4dc5385e6eec521928c37f7bf278f684aeb328ab40e0ddbf95d"
+      ],
+      [
+        "Fly A Way (World) (Aftermarket) (Homebrew).nes",
+        "134051c885bf95b18589f97436077aa6dfd85da70ea099e34ef0dfc9faad7ddb"
+      ],
+      [
+        "Forehead Block Guy (World) (2011-05-26) (Aftermarket) (Homebrew).nes",
+        "3b45d2db33bcfc89a90570f6c3bd383f26520d588f8dbe3bc535b41277aabddd"
+      ],
+      [
+        "Frog (World) (Aftermarket) (Homebrew).nes",
+        "33cbb13740f253219ab38916a11113f41a9bfb184c582c8141a2419aa1d8dbfb"
+      ],
+      [
+        "GRAVEYARD DUDE (World) (2022-06-06) (Demo) (Aftermarket) (Homebrew).nes",
+        "a9218023669c22aa3263404f839b4692ba3a4675e0abc1c43540d84923ad6962"
+      ],
+      [
+        "GRAVEYARD DUDE (World) (2022-07-28) (Aftermarket) (Homebrew).nes",
+        "51809a312ee22093c973a27f7a8db1ff7e61f952e06c85dac63d8a5daec50349"
+      ],
+      [
+        "GRAVEYARD DUDE (World) (Aftermarket) (Homebrew).nes",
+        "57739848efb6a311f31c84489997cc24b4e4cbfb54ab0b5402277a215556dd4c"
+      ],
+      [
+        "GRAVEYARD DUDE (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "704c7e2009d5599b2a4a7e7129e2dc326d18e9e90f5ff77d9fab8afc779f30cc"
+      ],
+      [
+        "Galactic Ascension (USA) (Aftermarket) (Homebrew).nes",
+        "bbea0e5e415ae678d76ee899814344b56b6f38850894e5ad4342a83fb1a43281"
+      ],
+      [
+        "Galaxxon - The Third War (World) (Aftermarket) (Homebrew).nes",
+        "57c7256ade99d74e4ebcd6ee353dc55b5a8281a863f6ac7480ab7a9405b816b7"
+      ],
+      [
+        "Game Gyaru EX (World) (Aftermarket) (Homebrew).nes",
+        "6d765f5299e233a6389b6b7341168ccd26357c51bdbc2bba6c41da3802441c5d"
+      ],
+      [
+        "Gekikame Ninja Den (Japan) (The Cowabunga Collection) (Aftermarket).nes",
+        "e3b990f99fd805cef066b59f4ed6f64f63a840365f358b85ca2f2e2dc1a6f363"
+      ],
+      [
+        "GemVenture (USA) (Aftermarket) (Homebrew).nes",
+        "42435f2a2a8c8a541a58e8ab99cee61ccf3c4a52752a3da97b657dfe3c5ebdac"
+      ],
+      [
+        "GemVenture (USA) (Beta) (Aftermarket) (Homebrew).nes",
+        "ff27780491aac4a3e99c4dd767c5ed75cc8285a77c615893fd0892f7df99a5cd"
+      ],
+      [
+        "Geminim (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "1a7c2863de615ba7f86ef1a6d8592aeba8a66770434676413627e9218f08084f"
+      ],
+      [
+        "Geminim (World) (v0.990) (Aftermarket) (Homebrew).nes",
+        "4fa057f450701172404dc4952718e5200b1e30e733977d11eaf547ce38b096dc"
+      ],
+      [
+        "Get It! (World) (Aftermarket) (Homebrew).nes",
+        "e8d372ef94add5ab92173868e9eccd5012e0d3c0ca62ecaf114f7675bdc1c2af"
+      ],
+      [
+        "Ghoul Grind - Night of the Necromancer (World) (2020-12-01) (Demo) (Aftermarket) (Homebrew).nes",
+        "c6a06c36dc6c30fe41b3bf661caef33adc60d666f2e7f2d1d633bf5557b72c2b"
+      ],
+      [
+        "Ghoul Grind - Night of the Necromancer (World) (2021-10-28) (Demo) (Aftermarket) (Homebrew).nes",
+        "740b3c90ea8db84787146de897c09fda88fdb99dc747201f37dbd301a0b653ea"
+      ],
+      [
+        "Ghoul Grind - Night of the Necromancer (World) (Aftermarket) (Homebrew).nes",
+        "c4738f1c1689fe7e26e5def901b75a53080f7c5d0b820bcae0e673675ec0e534"
+      ],
+      [
+        "Ghoul Grind - Night of the Necromancer (World) (Dreamcast Version) (Aftermarket) (Homebrew).nes",
+        "1fac3a67d3be0f3d0e93d56c3b81a6f386dd93e4de61b90488319d0edb226c05"
+      ],
+      [
+        "Ghoul Grind - Night of the Necromancer (World) (Dreamcast Version) (Demo) (Aftermarket) (Homebrew).nes",
+        "ab7c2fcd71e5e6b615e0aa471176f641dbc154f3756d284adfef56198ef22868"
+      ],
+      [
+        "Gift (World) (Pt-BR) (Aftermarket) (Homebrew).nes",
+        "0116bc3473a4a52452693919221cf343192ca94c33445ae0e01f6e8ffc9b3eff"
+      ],
+      [
+        "Go! Dizzy Go! (World) (Unl).nes",
+        "6ffb981cf072a2040d205f1a37f3c91296bec1724fd43c44b9556b40e0fe7ed0"
+      ],
+      [
+        "Godzilla - King of the Monsters (World) (2015-04-16) (Demo) (Aftermarket) (Homebrew).nes",
+        "a7c0c1c114d4ebe42d13929f7dfb8285c5e088118d68c40e5c15a355ba61e233"
+      ],
+      [
+        "Godzilla - King of the Monsters (World) (2015-04-22) (Demo) (Aftermarket) (Homebrew).nes",
+        "e3de5abce3539b7fa758cbfd706f8d58a11d92639bbdd6cefab668e817b4d6e2"
+      ],
+      [
+        "Godzilla - King of the Monsters (World) (2015-05-10) (Demo) (Aftermarket) (Homebrew).nes",
+        "a2e1293836a83f4fe31591b5e54a5a0e8083c6ed6cc97028366e0c244041f482"
+      ],
+      [
+        "Gold Guardian Gun Girl (World) (Trial Version) (Aftermarket) (Homebrew).nes",
+        "ace2152d028955a30898ab989e0446a488e396564041ec457a0302c919787e6d"
+      ],
+      [
+        "Gruniozerca (World) (Pl) (Aftermarket) (Homebrew).nes",
+        "0da55d81e471abf79e5f0f5aa2e2c1b29297f6c7159550a3750f23829eb09125"
+      ],
+      [
+        "Gruniozerca 2 (World) (En,Pl) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "fc5631fd4eed293fd95a1a5b7355addd554b267fde77917679a5b7253e92f14a"
+      ],
+      [
+        "Gruniozerca 2 (World) (En,Pl) (Rev 1) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "2363cd1e23ef03b9d268bfb6798da98eaf5568ffb3888ac781751aa660fb7d2c"
+      ],
+      [
+        "Gruniozerca 2 - The Great Cavy Rescue! (World) (En,Pl) (Aftermarket) (Homebrew).nes",
+        "c437498308136e8ff4bdd388662561bb5516ccbd49078d438ee985baf00b7935"
+      ],
+      [
+        "Gruniozerca 3 - The Great Cavy Clean-Up! (World) (En,Pl) (Aftermarket) (Homebrew).nes",
+        "e50e583ee79cc8f53a669af966e3eba98e6bf6e82b802dfcdaf51be22069ed68"
+      ],
+      [
+        "GunTneR (USA) (v1.2) (Demo) (Aftermarket) (Homebrew).nes",
+        "4175fdb73f575c1939a61c2434f32cd68eaf1b422acb1c1207963de5106f356f"
+      ],
+      [
+        "Hack-Match (USA, Europe) (NTSC) (Aftermarket) (Homebrew).nes",
+        "4a68bad80652c31b76e646a93be13e2df4fc0412730398ccb7a8582ac2f877b7"
+      ],
+      [
+        "Hack-Match (USA, Europe) (PAL) (Aftermarket) (Homebrew).nes",
+        "068b1b347b0d5f253f8a30b60007d6eac1f12519face15d8031787fe4e3008ce"
+      ],
+      [
+        "Halloween 2015 NA Scare Cart (USA) (Aftermarket) (Homebrew).nes",
+        "3be552fc600b53255417d01f193d0999ff84d15913855ab828cd40487ad59d78"
+      ],
+      [
+        "Halloween 2016 NA Scare Cart (USA) (Aftermarket) (Homebrew).nes",
+        "4ce2f9218914897e9b67dcc1101c40a8b6567bc568bf2eff999c6974f7c636b1"
+      ],
+      [
+        "Halloween 2017 NA Scare Cart (USA) (Aftermarket) (Homebrew).nes",
+        "5d96bd70778f4f546edd6a703df818f8cf188033530dfe758cedfb0c55121bff"
+      ],
+      [
+        "Hamburgers En Route to Switzerland (USA) (Aftermarket) (Homebrew).nes",
+        "4455f5603ca8391769ee12da0aa2540523f86e4147f17b32f7d9fbc24c3d26d4"
+      ],
+      [
+        "Hano no Rangerman (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "931c335353bd84b51ae742fc96e1f3829279e71a3bd06ca00663e5d60738be1b"
+      ],
+      [
+        "Hano no Rangerman (World) (Ja) (Demo) (Aftermarket) (Homebrew).nes",
+        "f86b700d75aa5456d6c82b4284b10544bb912e60536a905e7203aab9cdb34847"
+      ],
+      [
+        "Happy Hour (World) (Aftermarket) (Homebrew).nes",
+        "8db034cd904a8df02855f77bd7cf47d8b4bcb9d0ebf7bd0c7dd318b244e9c14d"
+      ],
+      [
+        "HappyNESs (World) (Aftermarket) (Homebrew).nes",
+        "990d280805d886a21596e1c113201b83a36175b848e549c3a2e1683c87ade2d0"
+      ],
+      [
+        "Haradius Zero (Japan) (En) (Aftermarket) (Homebrew).nes",
+        "29d36288a08d17846a37edc6279078c670284dc096d3d96041fde4065cbdc48a"
+      ],
+      [
+        "Haradius Zero (USA) (Aftermarket) (Homebrew).nes",
+        "41a5a27f9144067de666e915d02ad8f2ac0d3a4626cd5cf33459619315be236c"
+      ],
+      [
+        "Haratyler HG (Japan) (En) (Aftermarket) (Homebrew).nes",
+        "7fad693fa873b50b186f2141f9a1ae334f10501132d93604041e303731b47980"
+      ],
+      [
+        "Harlee, Barlee and Charlee in Whacky Water Wiles (World) (Aftermarket) (Homebrew).nes",
+        "984abf1e4cb0b65f966aec79dbb6b01802d49dbd435a7e5d173782d1f565df8f"
+      ],
+      [
+        "Harry Dwarf (World) (Aftermarket) (Homebrew).nes",
+        "7ce7b9e45e0cf9c9710087018f6fc0dedae4a39c73a700bd0196159976b1e2ad"
+      ],
+      [
+        "Harry's Legend (Asia) (En) (Aftermarket) (Pirate).nes",
+        "753c92867d144503404c4e9a6f2fdf25b15f2e93fcd1ad9bc9bb0067f214d12b"
+      ],
+      [
+        "Heavy Shreddin' (USA) (Beta).nes",
+        "79f4df884634076ccc1ca478e1b00f52a4d6ac7dcf91fb012509b670deac1f3f"
+      ],
+      [
+        "Heosphoros - Embered Recollections (World) (Aftermarket) (Homebrew).nes",
+        "6a1dc59cf9ff6f5fb04fde7acd55b7c8d0dd1a8fb482364d598c964285329667"
+      ],
+      [
+        "HexS (World) (Aftermarket) (Homebrew).nes",
+        "6b1d803fdd38b23ef222356b7d3a4ef16f817bd39e2bfa514906a958425b5871"
+      ],
+      [
+        "Hey Reset (World) (Aftermarket) (Homebrew).nes",
+        "4471faf9b576c85c73554bc2efac57c0db0122f11af1cb14fc43c439a4149d53"
+      ],
+      [
+        "Hey Reset (World) (Byte-Off 2019) (Aftermarket) (Homebrew).nes",
+        "a5256ce77cee1e432465e8328e0e06cb3e8aa8351da6a7ec56a1e57966cb255c"
+      ],
+      [
+        "Hey Reset (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "34f7879e44d0d2539a3e8fc53a449a4ca218fa78ca7d7890d8d146c30fd87ecd"
+      ],
+      [
+        "Homebrew World Championships 2012 (USA) (Aftermarket) (Homebrew).nes",
+        "4044ef34eb5f9eb184f2ec9014d52c0f895f4b16a5bcd870b4ca9f548b3eff26"
+      ],
+      [
+        "Hot Seat Harry (World) (Aftermarket) (Homebrew).nes",
+        "a560259407faf6985cd5a33f2c9da0caf04c7579f4d009e5bf346c30583f44c7"
+      ],
+      [
+        "Hyperbeatz (World) (v1.2.1) (Aftermarket) (Homebrew).nes",
+        "49878bd6cb8e568cb1c7c1eccab995164c47c2143fb2f9aaedd7a3e1a45d3f2e"
+      ],
+      [
+        "I Wanna Flip the Sky (World) (Aftermarket) (Homebrew).nes",
+        "0c4808df1d22e87dfbf508414b76335786ac110576f7e170b768032a84ef3347"
+      ],
+      [
+        "Improbability Fighter (World) (Aftermarket) (Homebrew).nes",
+        "6030f3362af1d313391d6d95c6e18b23fe217df51e61644016021065c93e3fda"
+      ],
+      [
+        "Improbability Fighter (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "96e95d1b2dbee4b8a56cff3700bde4c2720088f21d219b979c4aa01a7d463537"
+      ],
+      [
+        "Incident, The - Standalone Level Creator (USA) (Aftermarket) (Homebrew).nes",
+        "07705869e33e380208af3d675168dd5d34286b37d3f7e3163305a6d792839a38"
+      ],
+      [
+        "Inherent Smile (World) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "e2bc00daad6c2e97662717aff9897f693eb4b11a9ceab533363376171bc04c99"
+      ],
+      [
+        "International Cricket (Europe, Asia) (En) (Aftermarket) (Pirate) (Alt).nes",
+        "fc1c650f8b0141396d3678e20e7c824ebdd552593b8d11a51a7384e3fa06c63c"
+      ],
+      [
+        "International Cricket (Europe, Asia) (En) (Aftermarket) (Pirate).nes",
+        "5310c17d21ce580367ae683adf3489ffb877a3d416a078339379098f70d53caf"
+      ],
+      [
+        "Isle Quest (World) (v0.1) (Alpha) (Aftermarket) (Homebrew).nes",
+        "b7909467d7816a4ed2e95b99d5c415c860435754c3d757210330267dc1923f89"
+      ],
+      [
+        "Isle Quest (World) (v0.1b) (Alpha) (Aftermarket) (Homebrew).nes",
+        "9c54521190c780af3742d82a9fc670bf72907723ff549a30a307e7813c3b6b23"
+      ],
+      [
+        "Isle Quest (World) (v0.1c) (Alpha) (Aftermarket) (Homebrew).nes",
+        "ae08eb22cc89fd0bdc17c3ec9e4796bcf1803d640e015af70ec1e139f9ae6070"
+      ],
+      [
+        "Isostasy (World) (Aftermarket) (Homebrew).nes",
+        "9af84474291570e2d980f8288763c7f8c485ce875422736235a0e48dc8a11675"
+      ],
+      [
+        "Isostasy (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "ad16ad52ed5cdba90d7c8d7542c2812e89d251fa4303b6e08af2402cdf39356f"
+      ],
+      [
+        "Jammin Honey (World) (Aftermarket) (Homebrew).nes",
+        "89cd5de7044626686657e063ed7ed20e1aea7c27ba93366f1e664bbc4c3e332d"
+      ],
+      [
+        "Jammin Honey (World) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "0897e681930fb13d76efb7843f96e592e8ae9a81d3128e82244b31490f8a2235"
+      ],
+      [
+        "Jet-Paco, Hyper Special Space Agent! (World) (Aftermarket) (Homebrew).nes",
+        "f59b52fbe024bacc3310aa9973413a16d0bf0249418a656e2dc3869c6e6484f3"
+      ],
+      [
+        "Jimmy (World) (Aftermarket) (Homebrew).nes",
+        "32c4f0c9c1eb0f9af42f0f7616bdd57f8dad95eb0cce8262fc6eabcda776b698"
+      ],
+      [
+        "Journey to the Centre of the Alien (World) (Aftermarket) (Homebrew).nes",
+        "ded3fd18366bd92477fc9072f334ae49a3194550c3d1ba3ed0dd473f8b43a7a4"
+      ],
+      [
+        "Journey to the Centre of the Alien (World) (Es) (Aftermarket) (Homebrew).nes",
+        "bb98dff7eebb652034c2113c718a1b3d7a2b00a337ce3ed418e503e83ba330ee"
+      ],
+      [
+        "Juhannusolumppialaiset 2017 (World) (Fi) (Aftermarket) (Homebrew).nes",
+        "0638c715b190454b72de8be23c77d3227122a467030a0a2a57dd0271d361adfd"
+      ],
+      [
+        "Juhannussauna 2016 (World) (Fi) (Aftermarket) (Homebrew).nes",
+        "320689fcd7012878a78e9a726823cc643eea58623b0c5b53f566300cb2c8e668"
+      ],
+      [
+        "Juhannussauna 2016 (World) (Fi) (Illegal Pirated Copy Version) (Aftermarket) (Homebrew).nes",
+        "7621820295ae7d4c9508df56b4fde299398dfcf2d96b256cb5c5e1a5364a556d"
+      ],
+      [
+        "KIRU! (World) (Aftermarket) (Homebrew).nes",
+        "26e1e5d9f86f28d43c1a9ca18fcc373d50dd54eab20481d01315bc6c9c7463b4"
+      ],
+      [
+        "KUBO (World) (Fr) (Demo) (Aftermarket) (Homebrew).nes",
+        "4d3028771d874458de8edc47b51514cb4eba23d2e23f38a59bae1e32d4945f2a"
+      ],
+      [
+        "KUBO 2 - L'Aventurier Courageux (World) (Fr) (Demo) (Aftermarket) (Homebrew).nes",
+        "04efa246f3cf6fd6b98ebaccae22a95144085f658e08a77ee631fca8931f4dbf"
+      ],
+      [
+        "KUBO 3 (Japan) (En,Ja) (Rev E) (Aftermarket) (Homebrew).nes",
+        "6f1744cda6c6f6d7e97f5814884ec77d3ffa032c9cc82e66bdacaa948c583b0d"
+      ],
+      [
+        "KUBO 3 (World) (En,Fr) (Aftermarket) (Homebrew).nes",
+        "1a201327c1c2056d9974c8cecaecb01ac40c12283d29d47bef66d915138bbb3e"
+      ],
+      [
+        "KUBO 3 (World) (En,Fr) (Rev B) (Aftermarket) (Homebrew).nes",
+        "53c231f1eaaba90ea7984a133c097df02b5a6e834e451701745c82b00ab48047"
+      ],
+      [
+        "KUBO 3 (World) (En,Fr) (Rev C) (Aftermarket) (Homebrew).nes",
+        "c8806a700bc07a70e61ea67c97f3e7c9f5b42382c69604b66d157985d75d2e55"
+      ],
+      [
+        "KUBO 3 (World) (En,Fr) (Rev F) (Aftermarket) (Homebrew).nes",
+        "81812726512f3c7864606b8edde9d34ed8b029037ddb94cfe77cc3a22f880ebf"
+      ],
+      [
+        "KUBO 3 (World) (En,Fr) (Rev H) (Aftermarket) (Homebrew).nes",
+        "3d513f422334d7c998cb9c65d4bea43ae01cc7ed2b71cd1b656c1145dce7c205"
+      ],
+      [
+        "KUBO 3 (World) (Fr) (Rev A) (Aftermarket) (Homebrew).nes",
+        "589b0de38cd12f6806ff6669b677ec0c52b59b20ea7f21eceb16dc80213b74a6"
+      ],
+      [
+        "Kevin Power in Concert Carnage (USA) (Aftermarket) (Homebrew).nes",
+        "f03dc752110f6ed498a81187c6dc166bfb3124794b2b338a081605fb0d05e351"
+      ],
+      [
+        "Kid Funky (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "9298856ea27f93e5a68ea54eed8854769f5abaf0a5405d97de1d58ef89c9db21"
+      ],
+      [
+        "Kingdom Crisis (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "5dd2d0d091eab5e0f59321b13a3e4ce084989a011d3f6aff66f33eb6c0c5526d"
+      ],
+      [
+        "Kira Kira Star Night - Furusato Nouzei Fujimino-ban (Japan) (Disc) (Aftermarket) (Homebrew).nes",
+        "30908db880ca2f126bee7fd670ca9501e554fe28c4afcf4c2786ba797710dfcd"
+      ],
+      [
+        "Knurps Egg Rescue (World) (v1.01) (Aftermarket) (Homebrew).nes",
+        "5bf0f334cb8941ba9870f94e2dda9a3ac29f083588caf01484ad0c8bc4fa9990"
+      ],
+      [
+        "Kuku-Ruku (World) (Demo 1) (Aftermarket) (Homebrew).nes",
+        "07ffb4b1b7b37c905fb70ea5f0cd4932bdfceffdfa2d813a61bb1a2e7143083a"
+      ],
+      [
+        "Kuku-Ruku (World) (Demo 2) (Aftermarket) (Homebrew).nes",
+        "679dedee56aca3043dffda495395374ec2e10d203120b589665b6e0bc1a29f59"
+      ],
+      [
+        "LAN Master (World) (Aftermarket) (Homebrew).nes",
+        "671ddb27358b6976b6d4fd4a31482548df525a69572adf7acd41110311b56d97"
+      ],
+      [
+        "Lala The Magical (World) (Aftermarket) (Homebrew).nes",
+        "30ad67f1a21a31d3eceb4ca54ef53a3cbe4a8620df5444055621f6d05ad05870"
+      ],
+      [
+        "Lawn Mower (World) (Aftermarket) (Homebrew).nes",
+        "4a9ca5a30b530fbe0c4b23b5d91ef050df5b09e757dd94e2bdcdb2ff2a24a2e1"
+      ],
+      [
+        "Lawn Mower (World) (NESDev 2011) (Aftermarket) (Homebrew).nes",
+        "68d7b0b8dcb7a8ab9d95329854a6c166dd0b74d9a2e0bf1ff810baefc2e65dc1"
+      ],
+      [
+        "Legend of Weed N' Stiff, The (World) (Aftermarket) (Homebrew).nes",
+        "83e347e801279248f0b78ae5aae52beb760719825d89ea9bdd6c7cb3890f48d8"
+      ],
+      [
+        "Legend of Weed N' Stiff, The (World) (Super Deluxe Version) (Aftermarket) (Homebrew).nes",
+        "adc4d5881c177c171c8f3740a75cabee78ddcbcbc7d614bc32017491b2bfc73f"
+      ],
+      [
+        "Legend of Zelda, The - A Link to the Past (China) (Aftermarket) (Pirate).nes",
+        "d2780010a53dc6901ec28d113429b1d3d319b9d80cde9fafccf7450c88e3718f"
+      ],
+      [
+        "Leggite Luta Livre (World) (Aftermarket) (Homebrew).nes",
+        "dcc22a21c6beba7a6395292f31902a10f954dd03cce8f614c5b915ad6b5283d0"
+      ],
+      [
+        "Leggite Luta Livre (World) (Remastered) (Aftermarket) (Homebrew).nes",
+        "d2f42885e49f4c68c83edf319d2b737f07a3f29f932b56de1214dac84d09e2ee"
+      ],
+      [
+        "Light From Within (World) (v1.4) (Demo) (Aftermarket) (Homebrew).nes",
+        "8888ea9472bafae3711205b8b5b01728c0b63353632192b66fc69362a1428cd8"
+      ],
+      [
+        "Light From Within (World) (v1.5) (Demo) (Aftermarket) (Homebrew).nes",
+        "6156c68d725c589a06b4f3550aba4aaf777dd369fa7803e51536af1635e69468"
+      ],
+      [
+        "Light Shields (World) (Aftermarket) (Homebrew).nes",
+        "ed00fbfeec79b05d6a09543fd420687a579e3da2c412f3b7f1a91ec64545e9db"
+      ],
+      [
+        "Lizard (World) (Aftermarket) (Homebrew).nes",
+        "523f6f79d7d4cca8eb79a69fb621cad0823eb7c4f339f40c4e6f24730bbcb246"
+      ],
+      [
+        "Lizard (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "54cbfbf1eb1ca87fe5daa80ca133fdf38ec5f4d373f36ed00d9ccd056f0f6a6f"
+      ],
+      [
+        "Lizard (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "1972efe6598c4d03a593eeb41efda2ff86c1f64f4c45fb94d97679a97556c9f0"
+      ],
+      [
+        "MOMOC (World) (v7619) (Demo) (Aftermarket) (Homebrew).nes",
+        "5393f4a38f888673e444d0d8a006cd9006692a3abd53c6321b78e33ecaf3084e"
+      ],
+      [
+        "Machine Cave (World) (v1.15) (Aftermarket) (Homebrew).nes",
+        "f76bc2c416ec3845c30858d74bdbcc5ce50e2892f0b3830ba489f86b139cdd10"
+      ],
+      [
+        "Machine Cave (World) (v1.18b) (Aftermarket) (Homebrew).nes",
+        "af15470a58486a36cb216905b408f439b9dbc432285365ce49951125ff198481"
+      ],
+      [
+        "Machine Cave (World) (v1.19) (Aftermarket) (Homebrew).nes",
+        "a2390b21fd0cb616b13053b20f5e03d60220438826ea37c8a76dad7c6a9700b9"
+      ],
+      [
+        "Mad Wizard, The - A Candelabra Chronicle (World) (2014-11-25) (Aftermarket) (Homebrew).nes",
+        "1ae897cf7efa381a5118808eeb3c795c8d31984135b59595a5dd72f036c67411"
+      ],
+      [
+        "Mad Wizard, The - A Candelabra Chronicle (World) (2014-12-19) (Aftermarket) (Homebrew).nes",
+        "0e41dca2cfbce02bbfca4c65db96796730a699cdfa1265d1283f7cce902b97f7"
+      ],
+      [
+        "Mad Wizard, The - A Candelabra Chronicle (World) (2015-01-07) (Aftermarket) (Homebrew).nes",
+        "ff74f83d2f2142011fbb959ce51ec26f929f556c4ed3eee37a21c0a92f00e273"
+      ],
+      [
+        "Mad Wizard, The - A Candelabra Chronicle (World) (Aftermarket) (Homebrew).nes",
+        "f3fc653085c49009ff228cdae092094c7683a28db4a4533b89d7e54b883ac4c5"
+      ],
+      [
+        "Mad Wizard, The - A Candelabra Chronicle (World) (RetroUSB Cartridge) (Aftermarket) (Homebrew).nes",
+        "527deac289281740514626db049c2bea371e48a912d9ca21ea6972acb56dbca9"
+      ],
+      [
+        "Magic Floor (World) (Aftermarket) (Homebrew).nes",
+        "fa4e98ee9c9dd1979fa611ea5d6f711fa13d1513101cc238e8a22e03641a9337"
+      ],
+      [
+        "Magnilo Case, The (World) (Demo) (Byte-Off 2020) (Aftermarket) (Homebrew).nes",
+        "a3af06540bfc7c9b6eef802b1b28925fb60dbbce05ebc54af337dd80a8a936f9"
+      ],
+      [
+        "Magnilo Case, The (World) (Digital Version) (Aftermarket) (Homebrew).nes",
+        "8c8548f096a43c17bddfd3e78b18f267b850fbaab752dbfc52b387972ea7d34d"
+      ],
+      [
+        "Magnilo Case, The (World) (v1.1) (Digital Version) (Aftermarket) (Homebrew).nes",
+        "e63ba2aaa23298881738add7c4a31d20af33ea9a6dc934793e627f9322758bd5"
+      ],
+      [
+        "Magnilo Case, The (World) (v2.0) (Demo) (Digital Version) (Aftermarket) (Homebrew).nes",
+        "80cbdcd2d7d2acb6a554759b37663ba39ae270988a31899cf654c18d4523fccf"
+      ],
+      [
+        "Magnilo Case, The (World) (v5.0) (Demo) (Aftermarket) (Homebrew).nes",
+        "58e8b8883d99dab0d86371681d6a2a1cce68dce2e46786b5b7ff5344d7615633"
+      ],
+      [
+        "Mandelbrot Set (World) (Aftermarket) (Homebrew).nes",
+        "b1c0fc6a12d9ffbe971b56f8d9edda21169ac3c5c4bcc3fbf74e28f1c1679268"
+      ],
+      [
+        "Mark of the Beast (World) (Demo 2) (Aftermarket) (Homebrew).nes",
+        "f566e07ed9898be31669ee669847c03031ea5c5fd825d4c9cf8587ddfaafc094"
+      ],
+      [
+        "Mawthorne (World) (Aftermarket) (Homebrew).nes",
+        "2419e31bc65b9a6b7622b7fbd8da54166a9c14e2985bbaf4a876feaeeae66c83"
+      ],
+      [
+        "Mawthorne (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "8fb6b92324313a8fc85d85b4e28e270258ddbf9b1d4e3d29677ea967148fbafa"
+      ],
+      [
+        "Meet Me In The Parking Lot (World) (Aftermarket) (Homebrew).nes",
+        "5a1823748a03a8b54c359f32f391762ca8da7abade753b19e611db91d6d5c7aa"
+      ],
+      [
+        "Mega Man 2 (USA) (Mega Man iam8bit 30th Anniversary) (Aftermarket) (Unl).nes",
+        "5c4097ea01a46e418cb523e9869cbaf02e5097b891d80ba273f8fff79d3243de"
+      ],
+      [
+        "Meribo (World) (Aftermarket) (Homebrew).nes",
+        "61b7a9ff67ae0f858cf50449e94ea6ad2e82ddc1054228a7a3595d1af516122a"
+      ],
+      [
+        "Metal Arms (Japan) (En) (Family BASIC) (Homebrew).nes",
+        "ad0b3f24a53f2b7c05c429d519a71f753e26fc7116b74ce3273cacccf86cb533"
+      ],
+      [
+        "Metal Arms (Japan) (Family BASIC) (Ending Credits Program) (Homebrew).nes",
+        "4f8b708f270b3bdca7d435c24d56d947d26b3c4249c7f29053f2d6a876eb2f45"
+      ],
+      [
+        "Metal Slug Advance (Europe, Asia) (En) (Aftermarket) (Pirate).nes",
+        "335ee30e88f36a830949fc5bfb40fc42cd9351ca15f0aa9b40dc9d63c7a699af"
+      ],
+      [
+        "Metal Storm (USA, Europe) (Aftermarket) (Unl).nes",
+        "9f7945980d724c54bf2404c9da74c828e777c13c71b9a8d6c04c4efec15433fb"
+      ],
+      [
+        "Micro Mages (World) (Aftermarket) (Homebrew).nes",
+        "2a2785da21e88eb49db8613c1c032fd4afa3c7e3990ca60ad7974d30c984dff5"
+      ],
+      [
+        "MiedoW (World) (Aftermarket) (Homebrew).nes",
+        "78c8093fb9959b7eefa6bc3bbe7d32b63448815ee76e78a73651cebc68075243"
+      ],
+      [
+        "Mighty Final Fight (USA) (Capcom Classics Mini Mix) (Aftermarket).nes",
+        "f3bb239f25022a0d87a4d79cb3244c55121b7540d1c9385ff8c33eeb1c7d3207"
+      ],
+      [
+        "MilioNESy (World) (Aftermarket) (Homebrew).nes",
+        "dbd42c8345116606d4accd120457f779d46bdaccbf126525fd5dda4297a35fc6"
+      ],
+      [
+        "Mine Mayhem (World) (Aftermarket) (Homebrew).nes",
+        "59873a2dbd80c5521bf8ea66a14368c5849cfd61ef32d686ff335afee6c23f75"
+      ],
+      [
+        "Mine Shaft (World) (Aftermarket) (Homebrew).nes",
+        "24fccf40d6852e6d7b7ed0af6a794e883daf22b549d34530a12f0acfb67df693"
+      ],
+      [
+        "Missing Lands (World) (Aftermarket) (Homebrew).nes",
+        "bfff739ddc9583657f00258f42b4514c055a63adc6fd84324f691060f78f6078"
+      ],
+      [
+        "Missing Lands (World) (v2.0) (Aftermarket) (Homebrew).nes",
+        "4f4c5aa08bbec823ac3f7e4e84cfeea61ec676cceb12e9a18f0e3b79314ea194"
+      ],
+      [
+        "Mojon Twins Gran Sabiduria - 31 in 1 REAL GAME! (World) (Aftermarket) (Homebrew).nes",
+        "e595cf7b3d5786bd9c49c73f2b5e6c20518443ea586b1d3846102d980cee164b"
+      ],
+      [
+        "Mojon Twins Gran Sabiduria - 31 in 1 REAL GAME! (World) (v2.0) (Aftermarket) (Homebrew).nes",
+        "c4ad0aeea6c96027132d8b2b54c6bcc9cec304dee6a193686780d5064d801517"
+      ],
+      [
+        "Montezuma's Revenge (USA) (Aftermarket) (Homebrew).nes",
+        "453a6a9198b11cf6f948f5b61ab98dd7e6fbf7928a7b257941d4f5e7aa4a54fb"
+      ],
+      [
+        "Moonfall - A Legend of Zelda Compilation (USA) (Aftermarket) (Homebrew).nes",
+        "4ca15e34ef9e480acd2e4a96b1e72c2c6413433ee28b6c3a3f039a676ea948ad"
+      ],
+      [
+        "More Glider (USA) (Aftermarket) (Homebrew).nes",
+        "93354678aaf15be510fa026f09937164b0d8984e5cf64ff92c64178a5241f9ec"
+      ],
+      [
+        "Mortal Kombat 3 - Extra 60 (Taiwan) (En) (Aftermarket) (Pirate).nes",
+        "e8bf2b2e7775daab907d2d58a5a57119e41a3ac1e07da55634979b7e9253eccb"
+      ],
+      [
+        "Mortal Kombat II (Asia) (En) (Rev B) (Aftermarket) (Pirate).nes",
+        "58ec47e98764ed319746564060f21352805d5d842d20b39735e73d08f66662d7"
+      ],
+      [
+        "Mortal Kombat III Special (Taiwan) (En) (Aftermarket) (Pirate).nes",
+        "9f0913c35abb522f59afd20dfa1b4f8055397d082247c1cb608edacebf18b539"
+      ],
+      [
+        "Mr. Maymunshine's Christmas Land (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "c8da781447ed2b4ec530b1e1e805f9bfed825c3700aec60f1f5d6d37e7448cde"
+      ],
+      [
+        "Mr. Maymunshine's Christmas Land (World) (Aftermarket) (Homebrew).nes",
+        "8b9c0b48d0ddd49382568d6569116094716fb012b8ac99aa8a00070b6a990070"
+      ],
+      [
+        "Mr. Splash (France) (Omake Books Version) (Aftermarket) (Homebrew).nes",
+        "aa76538c65fd83646ba7aa2e3cf037a3fb29e67c471ad191c40b63215f336a3e"
+      ],
+      [
+        "Mr. Splash (Japan) (En) (Mondo21 Version) (Aftermarket) (Homebrew).nes",
+        "c395b0dd81b3c6fee6c9fb04e7ab7d91e261697aad6a20ee8efd18d47061affd"
+      ],
+      [
+        "Musical Quest (World) (Beta) (NTSC) (Aftermarket) (Homebrew).nes",
+        "458be096ab4ab047002a728804d8420290c5c3ade531b5ae77b6c84de5ed7b56"
+      ],
+      [
+        "Musical Quest (World) (Beta) (PAL) (Aftermarket) (Homebrew).nes",
+        "348619623deb610a53908529317477aff03aa08761c03f4ddfa11f65cb8a53cb"
+      ],
+      [
+        "Mystic PIllars (USA) (Aftermarket) (Homebrew).nes",
+        "15967dfe6964ce83e4105e35a113da047cb22aa68f4b90c79fc4f1acfd4b263b"
+      ],
+      [
+        "Myth of Zayla, The (World) (Aftermarket) (Homebrew).nes",
+        "04d7c7a54d6ebc3c9f71a37b1024a6713184bcad905b65d734ff3246e72723be"
+      ],
+      [
+        "Myth of Zayla, The (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "fccd00a1964269392855df3c16d0d0539c1d1db5c9934ac466e5fee9addaeda7"
+      ],
+      [
+        "NARC (USA) (Beta).nes",
+        "6711447a7fdc9967cddddd85fbf0304e98c7c4101495611c640565a008297de3"
+      ],
+      [
+        "NES Calculator (World) (Program) (Aftermarket) (Homebrew).nes",
+        "2428492b8c71247b62bdaf58069f1278228f06a275296ab69f4b0f6a633cf044"
+      ],
+      [
+        "NES Speech Synthesizer (World) (Program) (Aftermarket) (Homebrew).nes",
+        "97ec2295ba30aa051f2c8f5098abbce7668beb9d68291ef4c0a3ae36d0edd1b1"
+      ],
+      [
+        "NES Virus Cleaner (World) (Airwalk Studios) (Aftermarket) (Homebrew).nes",
+        "a33859519a69296cc9e7e9365a8d4e62fe2f3d6c715f7dbc34adeffe7683ddf7"
+      ],
+      [
+        "NES Virus Cleaner (World) (Non-Published Version) (Aftermarket) (Homebrew).nes",
+        "fe9fd1de4f03d24c30d0cb84d367b11a18a8c68c495c49a87449900165878a94"
+      ],
+      [
+        "NES Virus Cleaner (World) (Second Dimension) (Aftermarket) (Homebrew).nes",
+        "f3a03d29e12115079426289112d55f549c94f22d46db9f9f43bc9938c1987d78"
+      ],
+      [
+        "NESDev '19 Compo Cart (World) (Aftermarket) (Homebrew).nes",
+        "3773255c0d54504e644140c7274ad7ff8c287031a23ccea329a898a6d7b5c094"
+      ],
+      [
+        "NESZIP (World) (Example) (Program) (Aftermarket) (Homebrew).nes",
+        "4fd64617621c3ce3ae1ef25c38865185f34041c1dd9f62c02b89f565b35a2aba"
+      ],
+      [
+        "NESert Golfing (World) (Aftermarket) (Homebrew).nes",
+        "244690f908a41b71b2bad6cb3c32fe243374a9c7f55a754895981e70a757d598"
+      ],
+      [
+        "NESert Golfing (World) (Tournament Edition) (Aftermarket) (Homebrew).nes",
+        "d58f6f8966c435c65eec568611ad4860f308dc884d27a6f12d1a9d3470476775"
+      ],
+      [
+        "NESertBus (World) (Aftermarket) (Homebrew).nes",
+        "76c6cc2e9e1b66615f567adcefe7787eaa5709e8402b3ee25c76a6ed67b4ae06"
+      ],
+      [
+        "NESnake 2 (World) (v1.2) (NTSC) (Aftermarket) (Homebrew).nes",
+        "fac619914c056f87109e6b22999c05403c169a8e25da5658892d74c953b8d232"
+      ],
+      [
+        "NESnake 2 (World) (v1.2) (PAL) (Aftermarket) (Homebrew).nes",
+        "7da464a3e199c9855b72ff28f5d67aaeaa8111d3caed440baab8083b055cf3eb"
+      ],
+      [
+        "NESnake 2 (World) (v1.3) (Aftermarket) (Homebrew).nes",
+        "446843983851a1835af31d4084b8853dfae4c0f3f1c2618b855860a763ce8a4d"
+      ],
+      [
+        "NNNNNN (World) (Aftermarket) (Homebrew).nes",
+        "fc7ccadcf61fe12adbfc78ae7961ef3f8df0f9a3b5a03d35540685af66c584b5"
+      ],
+      [
+        "NOFX Cover Cart Vol. 1 (World) (Aftermarket) (Homebrew).nes",
+        "8d0d0092e900e78daeea0a5de79dd51a9be8f866d0ad58dbb0a89fc4adde2bb6"
+      ],
+      [
+        "NTRQ (World) (v1.9) (NTSC) (Music Program) (Aftermarket) (Homebrew).nes",
+        "7ccd1c3704de062f0a2368b750427b511e751a896e6d2a6bea3cc8cf626f8137"
+      ],
+      [
+        "NTRQ (World) (v1.9) (PAL) (Music Program) (Aftermarket) (Homebrew).nes",
+        "4424a0eed8e776dadba5405ea1497d435f4214b32913c70b2a4474814d07cf1d"
+      ],
+      [
+        "Nalleland (World) (v0.4.0) (Aftermarket) (Homebrew).nes",
+        "a1fea130b555e12d233b89b183690961e9102870640b653ef22e22a3dabb8294"
+      ],
+      [
+        "Nebs 'n Debs (World) (Aftermarket) (Homebrew).nes",
+        "11c9a56fd78b9678318fd8059eb57508ba44d529da85131410577fd539b2ef8b"
+      ],
+      [
+        "Nebs 'n Debs (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "4272d2c7d9ca1dd7cf8254eace1820c347edb966d7b9f441b53c33cffd0db24f"
+      ],
+      [
+        "Nebs 'n Debs (World) (Kaizo) (Aftermarket) (Homebrew).nes",
+        "abb44a8ca744ba237ecebb4969cd30c2bb4597e745f38d7b1b174af0d652fc1f"
+      ],
+      [
+        "Nebs 'n Debs (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "57c71ceda863e941a2575c32c7aefe51521a229351435f38b30c746416800afc"
+      ],
+      [
+        "Neotoxin (World) (2004-02-15) (Beta) (Aftermarket) (Homebrew).nes",
+        "46bef544302c95a57e580831c276e7ea471c4883f27e991bc26042c0aa0dcf5a"
+      ],
+      [
+        "Neotoxin (World) (2005-01-09) (Beta) (Aftermarket) (Homebrew).nes",
+        "f192f1a828079507fe3d6fb1c5f22d750079b788f1a707dcf48a0116e9cdbbe9"
+      ],
+      [
+        "Neotoxin (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "26be48658be0d1e4461da75f6233f6d8526915a5f40c1d12a57c87bda2d92f6c"
+      ],
+      [
+        "Nesglovphone (World) (Music Program) (Aftermarket) (Homebrew).nes",
+        "37e71943a81d2c0c29dbb15505b44d7befcc7beefc190bbd42a8bb9da07c801e"
+      ],
+      [
+        "Nessy the NES Robot (World) (v1.30) (Aftermarket) (Homebrew).nes",
+        "fcabf10778ea234303349afade5b74e0898590e338f824a2e82e4dc7a914828f"
+      ],
+      [
+        "Nessy the NES Robot (World) (v1.30) (Demo) (Aftermarket) (Homebrew).nes",
+        "461f5d2d3454f3c25527d2363161dd8a533cd8139ee79c4e9f4d954620d24f8d"
+      ],
+      [
+        "Nim & Nom (World) (Aftermarket) (Homebrew).nes",
+        "af886b5b77a50b6e244cae4cea032186a3a246b23ac156d6d86f12f5a4d76d9c"
+      ],
+      [
+        "Nim & Nom (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "34d75d52e174c668bdd76d104fc0d7556a9ff9bf5e53ce75aac164d543af3780"
+      ],
+      [
+        "Nim & Nom (World) (v1.2) (Aftermarket) (Homebrew).nes",
+        "0ff8eb26d10e00c38675ee5d4d2a8bc3fd5513b6d1f3fee39db7554ac50a3c41"
+      ],
+      [
+        "Ninja (USA) (Aftermarket) (Homebrew).nes",
+        "29b2b16bcdca9e0c75cc1423fae23cc0a9371932c3b1698e770a9fafb499b1d1"
+      ],
+      [
+        "Ninja I & II (World) (Aftermarket) (Homebrew).nes",
+        "e61f59eef67799c37b1db77aaa8721246048d18d7a923a1264ae83cffde21b13"
+      ],
+      [
+        "Ninja II (USA) (Aftermarket) (Homebrew).nes",
+        "3c0159b2573465a859cb7d2846fa125bd075e8fcf47fddda5a064d671046a169"
+      ],
+      [
+        "Ninja Slapper (World) (Aftermarket) (Homebrew).nes",
+        "c70f8b00cacd4c58eb20aac0939e52d288e906116f2eb4f41f7bd046c9bb1f0c"
+      ],
+      [
+        "Ninja of the 4 Seasons, The (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "95178b743af4852a532e53e7deeffc1022d6ce7f87268258abdabd3bfa8e0dd5"
+      ],
+      [
+        "Nintencat - The Parody (World) (Rob Bryant's) (Aftermarket) (Homebrew).nes",
+        "ad02b1d3f31b0c67b7e831d0ede6f88eee827518d4e048d13ea33cb046f5f558"
+      ],
+      [
+        "Nintencat - The Parody (World) (Sly Dog Studios) (Aftermarket) (Homebrew).nes",
+        "73a1dc48bec20d75aa2fb88ba2e8610391d30cc6e5c41906dfb68ba2d88d0947"
+      ],
+      [
+        "NintendoAge Halloween 2009 (USA) (Aftermarket) (Homebrew).nes",
+        "76953e1a381ca49bdd5fa1fdb83f0c22b02834d4b672c0e3bc15f68f325b941f"
+      ],
+      [
+        "Nix - The Paradox Relic (World) (v1.2) (Demo) (Aftermarket) (Homebrew).nes",
+        "0b2fed6710ac375c5673c90fac4a86ae33aaee4a73049cf67b704049207e9c3c"
+      ],
+      [
+        "Nix - The Paradox Relic (World) (v1.9) (Aftermarket) (Homebrew).nes",
+        "22e8006f0b114c5ea7ee89a149895d503b9ef59558ef55585b1c7cb0ea9d8599"
+      ],
+      [
+        "Nix - The Paradox Relic (World) (v1.91 NoFlash) (Aftermarket) (Homebrew).nes",
+        "ac97a97a77d740d7b2531ffd09fac6ebcd328278d70fded688c4a7e2ee8e2487"
+      ],
+      [
+        "Noah's Ark (World) (Aftermarket) (Homebrew).nes",
+        "2ee9cf3c3206a8d7cbf0fc5998bc6f52631355cfe8206833be6835686e2dcc92"
+      ],
+      [
+        "Nothing Good Can Come of This (World) (Aftermarket) (Homebrew).nes",
+        "c8b5600713e9c53aa11435b42fd9d85643b394dcb70e8e5a1569387a0c98c47b"
+      ],
+      [
+        "Nova the Squirrel (World) (Alt) (Aftermarket) (Homebrew).nes",
+        "89884b7c751fd0776773c16f5c1e56b804b5c2f94d0b596dbceb403866d2293d"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.00) (Aftermarket) (Homebrew).nes",
+        "9ee7d16448ea2b04043651ccb48a8fd5298d94574419d9bc9d96db8ab8bcc792"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.01) (Aftermarket) (Homebrew).nes",
+        "101412346222de5bf6a190f45859331b5de0aee83faf57074db3cde06885d4a6"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.02) (Aftermarket) (Homebrew).nes",
+        "a5fc8b11457df83318a8e6ea67d416d1465c2289eb0b17841544394250a79a2d"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.03) (Aftermarket) (Homebrew).nes",
+        "a21c25f3519ebd7b246f3be744be39155e5a929fed1cf4a705b498194fd080d1"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.04) (Aftermarket) (Homebrew).nes",
+        "bb6d12f4d1197bb5c8174cf1e18d7d7a73e1fdc4fa4affad228540a28a8003ee"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.05) (Aftermarket) (Homebrew).nes",
+        "adb8cc516b98346e8d50bfc39668118c3e432c15116a9a1f12a4a25a87739fad"
+      ],
+      [
+        "Nova the Squirrel (World) (v1.06) (Aftermarket) (Homebrew).nes",
+        "184810f939e7ba9ed272051a54c10fc2c290d2bc770561a8f87954eab4b23826"
+      ],
+      [
+        "Noxious Liquid (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "d33c96a23ac8bcd2c476439581c7b4603c54c5e0c9b0552c973c1d12a976de13"
+      ],
+      [
+        "Okkotoshi Puzzle - Tonjan! (Japan) (Beta).nes",
+        "19778f106ff4d4467d0ce6518162191f00f06771164a12803cd28c44bc3ed5cf"
+      ],
+      [
+        "Oof McBrewster's Haunted House Adventure (World) (Aftermarket) (Homebrew).nes",
+        "b74eaeb729b272d280213f5cbfafde77c4130de83a0904c15817cec9034f2664"
+      ],
+      [
+        "Oopie's Quest (World) (Aftermarket) (Homebrew).nes",
+        "c5d99a7211f116303f358f82c276e8281c59e7f056f3204a42861616d9d3fd45"
+      ],
+      [
+        "Ooze Redux (World) (Aftermarket) (Homebrew).nes",
+        "5b71513762a35f9fcef116d24a4b98265484aa7d56602f20ad59723ad45dec24"
+      ],
+      [
+        "Oratorio (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "70a3e65f098db4b7db9e9f5a7cbf01ce19cc505e718b81b1c98eabbb1039f50a"
+      ],
+      [
+        "Orebody - Binder's Tale (World) (Aftermarket) (Homebrew).nes",
+        "08143b50b1ff443cc0da534497e3cd0b2e02a543a1b18d5e42dd33defe684158"
+      ],
+      [
+        "Orebody - Binder's Tale (World) (Demo 1) (Aftermarket) (Homebrew).nes",
+        "b1f4ade4b5976e04284940e057ef716c4e57b31c9a1299d48fdf2b852c93f0bd"
+      ],
+      [
+        "Orebody - Binder's Tale (World) (Demo 2) (Aftermarket) (Homebrew).nes",
+        "350f5d78f5a37faedfc69dcd7a90e52db8e7c41a8d981b14694641948852b4ac"
+      ],
+      [
+        "Orebody - Sand Ripples (World) (Aftermarket) (Homebrew).nes",
+        "9445b0ea553526927e19a7a9cd56b7248f53481b3e63c1e4b3641b7e29308bfd"
+      ],
+      [
+        "Orebody - Sand Ripples (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "278599c3616039bbb34c9623a93228960337948d96f88f50b476a4de4c639f44"
+      ],
+      [
+        "Orphea (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "a447f764e39d2dd25cd3ea58edda896ac123f9f120fc5f7c83003f29a7555275"
+      ],
+      [
+        "Ouroboros (World) (Aftermarket) (Homebrew).nes",
+        "9a667bb345a9352cc28bfe52d1dab859838797cd937f90edcd02e67d282fac34"
+      ],
+      [
+        "Ouroboros (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "06dc29adf3a19a095f8c14c60a6118905987edd0caface4569b7e443bfc4e37d"
+      ],
+      [
+        "PERKELE - Suomi 100 Vuotta - 5th Anniversary Edition (World) (Fi) (Aftermarket) (Homebrew).nes",
+        "3ad74281b69b674b5af521e4ff9469763b95389b4f5a6cd9a0954db228831053"
+      ],
+      [
+        "PR8 (World) (v1.01) (Music Program) (Aftermarket) (Homebrew).nes",
+        "b0b89709a6e040526ac8ce57e526226f76d8c0b27032acb2dc3438b70d610e94"
+      ],
+      [
+        "PROTO DERE .NES (World) (2019-01-28) (Aftermarket) (Homebrew).nes",
+        "999948589626ada0d4fae98a0be87883742341666d80fa314e18d19f59485b80"
+      ],
+      [
+        "PROTO DERE .NES (World) (2022-03-06) (Aftermarket) (Homebrew).nes",
+        "94b65dd221bdadeb059c819768466c71af128bb164acb82f267b5465c534c209"
+      ],
+      [
+        "PROTO DERE .NES (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "6cd006a946ff04d953856a2224aaeecb4b64336db14e0ea95aae21e26b1b1622"
+      ],
+      [
+        "PROTO DERE .NES (World) (v1.3) (Aftermarket) (Homebrew).nes",
+        "63b3ce6200f9110bb5c1afa4f2686e2308638d044a3461d62916da836ed23e9a"
+      ],
+      [
+        "Panesian Power (World) (Aftermarket) (Homebrew).nes",
+        "cc8eaa8bef4634dba8e37bd28380595eb4330cac0c291d250549e88d07e08ed9"
+      ],
+      [
+        "Pegs (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "1d271b5aa6c08a7d2d23d00b0681d82546834d43cd61c0d233bbdf53786236a7"
+      ],
+      [
+        "Pegs (World) (Aftermarket) (Homebrew).nes",
+        "3aa09de2f240d42c6b2b186719f379237f7e0e35db35a697fedcc772fa9dfd02"
+      ],
+      [
+        "Pen Pen (Japan) (En) (Family BASIC) (Homebrew).nes",
+        "f12e4c5d19b779731e1899051fa1a8d82f328a40ea9e829d1c513e8698cebc93"
+      ],
+      [
+        "Perfect Pair (World) (Aftermarket) (Homebrew).nes",
+        "501beeff839a707e9ccb41ffa06f6d340e8a96dfddcf60df67ca45867c996612"
+      ],
+      [
+        "Pico Pico Grand Adventure (Japan) (Aftermarket) (Homebrew).nes",
+        "4c6555bb1a3608dee6f6f3b3f06ddb73abe69c0ae93293a97a5da8aecc7cb3dc"
+      ],
+      [
+        "Pinky (World) (Aftermarket) (Homebrew).nes",
+        "bb556acec0a8bfbbee00eef7d852451980b8ca10b3a50d0f95321e307b971621"
+      ],
+      [
+        "Pinky (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "c4dda816a73ad56b20eceaabb28dacdd6977dd6a16e83d6ee8a05cf17ef944fc"
+      ],
+      [
+        "Pinky Xmas (World) (Aftermarket) (Homebrew).nes",
+        "844290fa429a890c16621d0bb41ac286dc2cb4346914d38be760ec496384f414"
+      ],
+      [
+        "Pixel Poops - Number Two (World) (Aftermarket) (Homebrew).nes",
+        "ff1a466ba2e6cad523c8341d395716d0c4be953bb5f559d45cf3a4863e734f7a"
+      ],
+      [
+        "Pixel Poops - Number Two (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "e13b91a26ce1bc5a9dc9cec7f6c54357bc1ff5e088b6db77f05ba2b73de5284c"
+      ],
+      [
+        "Pixel Poops - Number Two (World) (Rev B) (Aftermarket) (Homebrew).nes",
+        "0858a4ad2a7dd520ecf43ac1a29d136facce01e373e8a8046c8c87b7dc118f7e"
+      ],
+      [
+        "Pizza Party! (World) (Aftermarket) (Homebrew).nes",
+        "01865d0946d93a0b9700dbe1ec99801e7b802e1364979dcf927358c771de493f"
+      ],
+      [
+        "Pizza Party! (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "3b9a620f230a40864e8d98660a3a6bb19fe722f321b37dffe4e5a55498f95e75"
+      ],
+      [
+        "Planter (World) (Aftermarket) (Homebrew).nes",
+        "f7570b1a978dffee7298b53bb9ca9f521223afc2e889f4882a92e329d492118f"
+      ],
+      [
+        "Plummet Challenge Game (World) (Aftermarket) (Homebrew).nes",
+        "68f8125e7da784f38a979720ed77cc878509bd609a3447fc1be3eafcd0c619c7"
+      ],
+      [
+        "Pong and Head Bounce (World) (Aftermarket) (Homebrew).nes",
+        "ec49a0593d408f071d99b2af7fc812139417a8d9e94610d5e34e86aae398ee90"
+      ],
+      [
+        "Power Coloring (USA) (Aftermarket) (Homebrew).nes",
+        "73c6ec352f5c138c81b7e7b9bd60279881d7ee0d93b9d2424b205daf82a3d46a"
+      ],
+      [
+        "Power Pad Test (World) (v0.1) (Beta) (Test Program) (Aftermarket) (Homebrew).nes",
+        "6959c06f9a95267a24c7c7a7dfba79148b2f6ade02266d116fe0ae3e46b1cc91"
+      ],
+      [
+        "Press Start Again (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "2bf8036633eca50d91db0df8bbe7b4219c7cdc4621e4cd9af0682092f5c36f8c"
+      ],
+      [
+        "Press Start Game (World) (Proto) (Aftermarket) (Homebrew).nes",
+        "a9903f0cd81c1d8bc755e75a17c4d8a9997718342ef4099832cdcdafb40bbbd3"
+      ],
+      [
+        "Project Blue (USA) (Aftermarket) (Homebrew).nes",
+        "73b6d8a76b91bfbabb01ceba8ef14ad447b1523511db5a6b5b72b2d9590ce5fa"
+      ],
+      [
+        "Project Blue (World) (2017-12-03) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "906781db0b2cab7e2a45dd9cce4f58943bd894e9dc99f29bd2937cb38b071e61"
+      ],
+      [
+        "Project Blue (World) (2018-05-01) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "15ff8847d31497d81f6f68e43f0ee68bcebed7aa087d204906d562db6ac2fdb0"
+      ],
+      [
+        "Project Blue (World) (Aftermarket) (Homebrew).nes",
+        "ddd507ff8ebb766e709dbed890c84f9bb677c0011f337458151b00435860e4f7"
+      ],
+      [
+        "Project Blue (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "73a337ca3f1891a5309d4dda2eb7ba0070c24140a026036e75dfdf64975a736f"
+      ],
+      [
+        "Project Blue (World) (Gender Swap Version) (Aftermarket) (Homebrew).nes",
+        "d90d2a48ec945b51d9fa46b6f96ba0bdc5a55808b08ff6a005777afc2fdd7698"
+      ],
+      [
+        "Project Blue (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "2c8f187153e09a196ccb0c7e9344d72404ea2ec3334267dd4f83542a4313fb61"
+      ],
+      [
+        "Project Blue (World) (Ja) (Special Edition) (Aftermarket) (Homebrew).nes",
+        "9d22d53a75b4aa302b81ccf3630a42789739e670b34c61fcc9be4ec23336878b"
+      ],
+      [
+        "Project Blue (World) (Kickstarter Demo) (Aftermarket) (Homebrew).nes",
+        "55577850ab20e773fa395460c245724b37c4339f8ea698534a176e27b580f51d"
+      ],
+      [
+        "Project DART (World) (Aftermarket) (Homebrew).nes",
+        "f566853160cd907f02f3f4095883f8f6078aed14abcfe64cc1a085d9e5e7c853"
+      ],
+      [
+        "Project PAL (World) (NTSC) (Aftermarket) (Homebrew).nes",
+        "7304926f174fec98e69ca58b601a66aec18ee708be6b685f2410616891aa4536"
+      ],
+      [
+        "Project PAL (World) (PAL) (Aftermarket) (Homebrew).nes",
+        "242c98086a2df77e4aac86c43bf38542b1cb17dfccf78c45cfd799ca96552c19"
+      ],
+      [
+        "Prying Eye, The (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "3ea881b89321d0af1f97950b5e8e674e4fc3d14c9b4d80ec01f0a9b4f933418b"
+      ],
+      [
+        "Pulsar (World) (v1.04) (Music Program) (Aftermarket) (Homebrew).nes",
+        "e5b8832679b55c6693f72875b922f96b6d817cc1e0fe51c3ccc922cc2a645825"
+      ],
+      [
+        "Pulsewave Invitation (World) (2007-11-03) (Aftermarket) (Homebrew).nes",
+        "e273c6dabcc905d4d3f392dc509621df975eb9b96a7406739e54ca4b2bd5f918"
+      ],
+      [
+        "Punch-Out!! (Japan) (FamicomBox).nes",
+        "188961ef1b101221b4670489aa964146584226ee7c55318221a6c65804ff2e65"
+      ],
+      [
+        "Purple Cape Man - Vigilante Ninja (World) (Aftermarket) (Homebrew).nes",
+        "46f95a70ddea4d5529ecd6d876a92f57649c9bbfae19c8d6d0754041609a114b"
+      ],
+      [
+        "Quadralords (USA) (Aftermarket) (Homebrew).nes",
+        "ee3ad22cdd73d4cb02a88f8659561568b29a6a450f13662181964fed48458de7"
+      ],
+      [
+        "Quest-IONS (World) (Aftermarket) (Homebrew).nes",
+        "83515b94e358791d89872fdc4c33adfbef3d20cac9f192ef0f60eba3295e4c5b"
+      ],
+      [
+        "Quiet (USA) (Aftermarket) (Homebrew).nes",
+        "d406d66df0f6f722adf9c20dfab7c7044d1180b636850464b8896b422d2e72b5"
+      ],
+      [
+        "RC2 Rally (World) (v1.00) (Aftermarket) (Homebrew).nes",
+        "e47074f96f0eb0e7757b7809e8ddbde3697889bc49eac06b68aef161a0a84d56"
+      ],
+      [
+        "RC2 Rally (World) (v1.01) (Aftermarket) (Homebrew).nes",
+        "591f41ef26bfd7e79d4339f75e761dfd8c16585d6e9cdddbd86ee8268c876510"
+      ],
+      [
+        "REKT (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "0988c4264af2ac5dd4261d315807e5cb0866a3f8270fbda41ae227c34b8c3d06"
+      ],
+      [
+        "RGB (World) (Aftermarket) (Homebrew).nes",
+        "b3c4cb6e63bedfc51fba2e344d1581f2771ad731998342c37e14051e5e5a85b4"
+      ],
+      [
+        "ROB.N (World) (Fr) (Demo) (Aftermarket) (Homebrew).nes",
+        "56c2ba68b199d9d4bd4341d6141f92fe5552970705131d4afc5c80d9cdf46eb6"
+      ],
+      [
+        "Raddio (World) (Aftermarket) (Homebrew).nes",
+        "e66278797b65b7d22ba24fd352d221a3eafe8d7066694395bff9085eec9402dc"
+      ],
+      [
+        "Ralph 4 (World) (Aftermarket) (Homebrew).nes",
+        "e65bbdb34b19b10c651a407264713942abaf8494f104fa381da6ef3602130fe6"
+      ],
+      [
+        "Ralph 4 (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "670406d4ff75b939963ae0198f8b07c38f6835edfd34f1412953031de0d67282"
+      ],
+      [
+        "Randy in Sokobanland (World) (Aftermarket) (Homebrew).nes",
+        "03f74b3e6e1dcb0da8b7a276b0a272679017488d428d60d6a65529b75822a0f8"
+      ],
+      [
+        "Reknum - The Awakening (World) (Aftermarket) (Homebrew).nes",
+        "50f4b677aa93e2359b5d3abf19e5f3ffa96d2a1be256bb5d2224a3e4c4a53b0a"
+      ],
+      [
+        "Rescue Time (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "f9b06f742ef799d0f4509dad03ead4d15ad02d9c58b1057aa6823a66e76ec22a"
+      ],
+      [
+        "Retro Puzzle Maker (World) (v1.1) (Program) (Aftermarket) (Homebrew).nes",
+        "59673c43b4cb754e1af63dda63e97fdafb53c3eec6b53130a170b5e3ed96501b"
+      ],
+      [
+        "Retrogathering 2010 (World) (Aftermarket) (Homebrew).nes",
+        "e6aad70e299ea829172d271b915be9a6f4b0825535b107da7384dbac28e576b8"
+      ],
+      [
+        "Retropia (World) (Aftermarket) (Homebrew).nes",
+        "d5d5285658817c32867a669dc105dcf8b387603472aa49e63f532567d798a02b"
+      ],
+      [
+        "Retropia (World) (Pt-BR) (Aftermarket) (Homebrew).nes",
+        "28a6373ee75e3832dfef99d0a2cc74c36475f05c7cf663d1de2686d9f9c3a7bb"
+      ],
+      [
+        "Retroplayer.nl Championship 2015 (World) (Beta 1) (Aftermarket) (Homebrew).nes",
+        "53af8177de19c65122afb43d9d5df474e1f3d897340de04039453433ceae0d58"
+      ],
+      [
+        "Retroplayer.nl Championship 2015 (World) (Beta 2) (Aftermarket) (Homebrew).nes",
+        "c8b11a56d5aee620e405d415b80c335c829b8f2746e33b50380d3fc580942b70"
+      ],
+      [
+        "Retrospelsmassan 2011 (World) (Sv) (Aftermarket) (Homebrew).nes",
+        "29a76327a27f24effb92b59e2e33d4ebb85057cc50ed753c0a72bd96a66bea6b"
+      ],
+      [
+        "Retrospelsmassan 2012 (World) (Sv) (Aftermarket) (Homebrew).nes",
+        "95d219d2d78074249642525382f034617173fedea5fe4b0cf9e6114ee7afd202"
+      ],
+      [
+        "Revolving Gems (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "0a7f6406b67d052cc029d05d96d4fb2d14654f5923e15d326d94a7c00e5f5a31"
+      ],
+      [
+        "Rick Rolled! (World) (Aftermarket) (Homebrew).nes",
+        "9a2aa10e9af1d3b1a0fbcf9ce0505588cc3c81e5a8d08a1eee6ce84db980dc92"
+      ],
+      [
+        "Rise of Amondus, The (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "c2423df165a31cff3f9a2eaf599e4e517d5a261e243d2d31eb722f3d6571b2bd"
+      ],
+      [
+        "Rise of Amondus, The (World) (Aftermarket) (Homebrew).nes",
+        "f2d8f62913bcf5578b7d264a5ae93cb31ef0c5507c50131c615bc30a83f095af"
+      ],
+      [
+        "Robo-Ninja Climb (World) (Aftermarket) (Homebrew).nes",
+        "df7837c2db9e9be228e04e9a30532dc3dacff1893946bb364b4ccce054c50b2f"
+      ],
+      [
+        "Rock Paper Scissors (World) (Aftermarket) (Homebrew).nes",
+        "8b524b233f65dcd57d0c6ae543f51f5aa280e3b47393c18b6659243a29ae42e5"
+      ],
+      [
+        "Rock Paper Scissors Lizard Sbock (World) (Build 9b) (Aftermarket) (Homebrew).nes",
+        "8934a7b8964eff0247dd36a99b752275466f3837f41c61814ee5894d5c93098f"
+      ],
+      [
+        "Rock Paper Scissors Lizard Sbock (World) (NESDev 2016) (Aftermarket) (Homebrew).nes",
+        "58975d023419e1a1b0fc3ba39754520f93a97e1fab483aa6b6f17806983d17cc"
+      ],
+      [
+        "Roguelore (World) (Pt-BR) (v1.1.0) (Aftermarket) (Homebrew).nes",
+        "4aa9f7fa0e1e8383b80078ec89ae384ed512224e3ef0d26ea6d1c91a2e788819"
+      ],
+      [
+        "Rollie (World) (NTSC) (Aftermarket) (Homebrew).nes",
+        "bdb3f5dceaeef99ab7dce488fc3de044beb1cf58382093b8417336dc7e70cbea"
+      ],
+      [
+        "Rollie (World) (PAL) (Aftermarket) (Homebrew).nes",
+        "ef98d60a0447973b7a5c80333c4a75624a8ae73de2129b9ad5943b2ccd133533"
+      ],
+      [
+        "Rumblefest '89 (World) (Aftermarket) (Homebrew).nes",
+        "655e9089c72e227e536c276e7347aec3154bff24d54cd93f0670fa67c07a68a5"
+      ],
+      [
+        "Russian Roulette (World) (Intendon) (Aftermarket) (Homebrew).nes",
+        "9204d521724d32df25c5534eb9ba9fc777068efda7b3b232306b18352f5826a9"
+      ],
+      [
+        "S.T.I.N.G. (World) (Aftermarket) (Homebrew).nes",
+        "71273aceb62c25bc83d6a0b5ea8dd62ac280b6c5b69326afd8536f1c3a72c87c"
+      ],
+      [
+        "SMMM (World) (v1.01) (Music Program) (Aftermarket) (Homebrew).nes",
+        "c6eedb352b3cda8fb1a99cb5d12993045d74b087158bdd07b2f345bffbbdb8ba"
+      ],
+      [
+        "Santa's Magical Christmas Sleigh (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "52c1e3509a4d6b4201bcf0a7558d68dde7da2f1c1efbdd1a4ce29afc8eebffd2"
+      ],
+      [
+        "Saturn Smash (World) (Aftermarket) (Homebrew).nes",
+        "e6e0ced18d3bb809dc5900da5370aab3a5b9352b949118fdff8f71d08eb9784e"
+      ],
+      [
+        "Scramble (USA) (Aftermarket) (Homebrew).nes",
+        "3ab95e52938a91990d34e18f3de61c9342f4f4b79b20bf3c9070a8d1624140ef"
+      ],
+      [
+        "Sgt. Helmet Training Day (World) (Aftermarket) (Homebrew).nes",
+        "c2df32772a665530e4040e0bf04b4141f4a2f9902643de14b798d4a2cdf0b532"
+      ],
+      [
+        "Shadow Animus (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "612187c2bb73a775c50084661100e7fd685e3bcf75c944129c121c75e90d4daf"
+      ],
+      [
+        "Shadowgate (Japan) (Beta) (1988-11).nes",
+        "0a5c80f9f108bff26594e27b428c47630eb57cc1489ae756da26b33fe4fbbe33"
+      ],
+      [
+        "Shera and the 40 Thieves (World) (Digital Version) (Aftermarket) (Homebrew).nes",
+        "8f65d1f1accce3dffe94006d4c4cde8b1c1f8a262da34d34dc871f73eaadee95"
+      ],
+      [
+        "Shi Kong Zhi Lun (China) (Aftermarket) (Pirate).nes",
+        "c98bf57106137d44f38d7e15dbdf5cc6b6ad7e22a880f9e445c928ea23c847eb"
+      ],
+      [
+        "ShmupSpeed (World) (Program) (Aftermarket) (Homebrew).nes",
+        "4db0e1775167eea51aa95947914ea82819b69a2416a346b545d0780cf18ca095"
+      ],
+      [
+        "Siamond (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "a1238e47c428cacf748774906c7a2eede2d8e40b957f778fb92e3647fc927e6c"
+      ],
+      [
+        "Siamond (World) (v0.950) (Aftermarket) (Homebrew).nes",
+        "31a6343d46eadeb1433b1be78e372fd79024483b2d7a07e6a33f7a64394b7d2a"
+      ],
+      [
+        "Siamond (World) (v0.980) (Aftermarket) (Homebrew).nes",
+        "5d35841930d38df6b66c274f56247cb70847921c1ce95f020fb0311b24881125"
+      ],
+      [
+        "Sir Ababol (World) (Aftermarket) (Homebrew).nes",
+        "5c349ae3ee7121548ae942f3533c0eb3c3191cf50e147458e11716b7b7510560"
+      ],
+      [
+        "Sir Ababol (World) (Remastered) (Aftermarket) (Homebrew).nes",
+        "76f8d1de34b7252d10e26a685061794101b6c51a75ee711035bbaa9d9cfff983"
+      ],
+      [
+        "SkateCat (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "7b7be6df89949f2446900541490a75d678165be34c30ea1429eca02fcfb60776"
+      ],
+      [
+        "SkateCat (World) (Fr) (Demo) (Aftermarket) (Homebrew).nes",
+        "1c4fdf47d89982eaa9d5071e813957e3c82d1e055c479ee0a490086b988ff7ed"
+      ],
+      [
+        "Skatemasta Tcheco (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "5990b7e767df55af8797ac10dbb712b3f3372fe0fa60c1e9bab8a9d375c967f8"
+      ],
+      [
+        "Slow Mole (World) (v1.2b) (Aftermarket) (Homebrew).nes",
+        "92d05e282a178eab36a7dbc4261ca527af9937c5ac15b8cf6623910449348f96"
+      ],
+      [
+        "SnailNES (World) (Aftermarket) (Homebrew).nes",
+        "10ad915cc6897faf64647d8ea55e5b1108c59d62289bac016d38e14dbf40f949"
+      ],
+      [
+        "Sokoban (World) (Aftermarket) (Homebrew).nes",
+        "2067372c8c63267922cf1b26423716f54123a2fb6ff487886f9a9c8fe0f46013"
+      ],
+      [
+        "Solar Wars (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "34c3c395b72de02b51f47aaa19a3a3204b9416a9b5826458a3211338afff9ea8"
+      ],
+      [
+        "Solar Wars (World) (Aftermarket) (Homebrew).nes",
+        "5c9edbdafd563ffdbb1ec68e02db7da225c872d89811ee51bacdb1bf865386b1"
+      ],
+      [
+        "Solar Wars (World) (v1) (Aftermarket) (Homebrew).nes",
+        "9517dc21ffbc372083f315965340d47a3a1b833735e435e1056fccc880d422ff"
+      ],
+      [
+        "Solar Wars (World) (v1.5) (Aftermarket) (Homebrew).nes",
+        "9c8a0662eb78f084113b1786e76b55f18e93347d5933fa0ae09130ed6cab11c9"
+      ],
+      [
+        "Solar Wars (World) (v2) (Aftermarket) (Homebrew).nes",
+        "986f050b3174168695973fd1f73abab85b1abb3dd29ac6a18836bd454e5cefa9"
+      ],
+      [
+        "Solaris (USA) (Aftermarket) (Homebrew).nes",
+        "50441bf3865e73ca04245ccec5b7809c3a65f7fa516a5829e964ed1c5057ee1f"
+      ],
+      [
+        "Somari (Asia) (En) (Aftermarket) (Pirate).nes",
+        "66b13cffba6b29acfe28843d79b03d4b3052e54afd5594e07aa2658b47f5b990"
+      ],
+      [
+        "Somari (Asia) (En) (Rev 1) (Aftermarket) (Pirate).nes",
+        "80fd4e1c33fb2a99d29e3efc32687f7e5b55961dd29a0f8a6681689e9ce3bc42"
+      ],
+      [
+        "SoundTest 2 (World) (Program) (Aftermarket) (Homebrew).nes",
+        "e8339ca983c6d2a41b1a0f9f26b046b3192c51e0c862c9c2b4b0a9d7d03fe777"
+      ],
+      [
+        "Space Blaze (World) (Aftermarket) (Homebrew).nes",
+        "f8a4029d2debbf8a5780d85cc2edc7ff0275998d8b1c6867f81aab41bd331a3f"
+      ],
+      [
+        "Space Gulls (World) (Aftermarket) (Homebrew).nes",
+        "b4ca442d25c7d9651914cca26f248151134184254c7d811ec26bd862a8581e12"
+      ],
+      [
+        "Space Gulls (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "9cea9361300f56caadd300f147278c4f2f2b611b28d9f6c7556c540d6ac74378"
+      ],
+      [
+        "Space Parody (World) (Aftermarket) (Homebrew).nes",
+        "27deee5722f8e523dda7340d5d8dc2af778e93997247b2aa8f4d77e67df17670"
+      ],
+      [
+        "Space Raft (World) (Aftermarket) (Homebrew).nes",
+        "a9f8fcdb60addc7ded3cbed9dbfdf55db68792ead8292c957b42ba8f137ea046"
+      ],
+      [
+        "Space Soviets (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "8dbc3f4145369f519c1931320513527c9f1e8a3f400ffd657e2a260d81dce777"
+      ],
+      [
+        "Spacey McRacey (World) (Aftermarket) (Homebrew).nes",
+        "9e8b6ae8ed2e7e98d0824a5a7e0942d1ef44fc44c18626673c106dc2650eb54f"
+      ],
+      [
+        "Spacey McRacey (World) (NESDev 2016) (Aftermarket) (Homebrew).nes",
+        "57d7d47a432fccacd3029c312d72a32c0e9fe68ea53518d1199ebf1c33dd5d92"
+      ],
+      [
+        "Spirit of Satan, The (Japan) (En) (Family BASIC) (Homebrew).nes",
+        "3ce15b9c3a7578222b2b435183590852840b4f0d296341fbfa45a7290bfdb9c6"
+      ],
+      [
+        "SplatooD (World) (v1.0.1) (Aftermarket) (Homebrew).nes",
+        "c4ba5d69951a0ed51419467ca47eada0bbaad76a020b24770ba240621c203ab4"
+      ],
+      [
+        "SplatooD (World) (v1.0.2) (Aftermarket) (Homebrew).nes",
+        "f492add13fe52e375ac6c06a5baaace1a3595c5a75b1801c1604bdf7f31545ff"
+      ],
+      [
+        "SplatooD (World) (v1.0.3) (Aftermarket) (Homebrew).nes",
+        "1d3694f46147114f140b19bdb771c1eb10ae6c52960c9a61eac7f3334e038c27"
+      ],
+      [
+        "SplatooD (World) (v1.0.4) (Aftermarket) (Homebrew).nes",
+        "53b7b4fc579a98a7c9e2d6a1614f01884f28ec8d9ace0e5fd9d611b99b91f7f9"
+      ],
+      [
+        "SplatooD (World) (v1.0.5) (Aftermarket) (Homebrew).nes",
+        "70d44214780f324f8ecf3c50ab5bbe33f2840aa107c0354b11fc5941f8a8ff9c"
+      ],
+      [
+        "SplatooD (World) (v1.0.6) (Aftermarket) (Homebrew).nes",
+        "02cfeb79484b187a48c314eaddb4d156d5bf8bfe5f5f6191b0bcdcf16e545af4"
+      ],
+      [
+        "Split Second (World) (Aftermarket) (Homebrew).nes",
+        "d5cb60e9b98a8aefdea5dcad305d6619e409818a3723b563dfa3ad1cfec412f9"
+      ],
+      [
+        "Split Second (World) (NESDev 2018) (Aftermarket) (Homebrew).nes",
+        "8bd44ba1d2822ffd2a60ad91cdf9728424feb681fc803cf120c95a7d73029fcd"
+      ],
+      [
+        "Squirell Chaser (World) (Aftermarket) (Homebrew).nes",
+        "f0dc0185c361ac149475f32865dc1a03ae5662b61b745e7610a8772aa405e0f8"
+      ],
+      [
+        "Stallar (World) (Aftermarket) (Homebrew).nes",
+        "2ee209bf831f9c7f48ca95eaeb7361a3bdda76eb0d6af1d63ac4c9cd9fd2bd7e"
+      ],
+      [
+        "Stallar (World) (Rev 1) (Aftermarket) (Homebrew).nes",
+        "0eec8756bffc1d563106798116c8ff54eabf0fd674c66a6dc602b15e2073e760"
+      ],
+      [
+        "Star Evil (World) (v1) (NESDev 2017) (Aftermarket) (Homebrew).nes",
+        "c934da1003038ebe286c3fc89bb9e00875ab31f7eab4504575a3da6e9fd9797e"
+      ],
+      [
+        "Star Evil (World) (v2) (Aftermarket) (Homebrew).nes",
+        "bfd336453f1d15cdb6aac7cef0d9e59094793fed5fcabeef2449c98ed3c26fdb"
+      ],
+      [
+        "Star Luster (Japan) (Namco Anthology 1).nes",
+        "7dad11549eeabd5abdb504999f10efce258b3e05dbf5505908b4a2fb5d299ced"
+      ],
+      [
+        "Street Fighter II - Nostalgic Edition (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "479262c5b0512095604c3907cd41251594b6a43c42a926bde64b0d9224b3e35b"
+      ],
+      [
+        "Sudoku (World) (NESWORLD Edition) (Aftermarket) (Homebrew).nes",
+        "f886ebbcadc8d74261eb02e7c0874928df4f9c3ce8f39e3d3ad21483dd245bdb"
+      ],
+      [
+        "Super 9999 in 1 (World) (Aftermarket) (Homebrew).nes",
+        "a42d38062134b8113ff5d0aa2930ba3455ea142a15db28d5a1f752de834d52a6"
+      ],
+      [
+        "Super Child Bros. 3 (World) (Aftermarket) (Homebrew).nes",
+        "8ab99e43bc3502ce40d56b9dff1d044bf199c07ef841de70afa9014ae05d6921"
+      ],
+      [
+        "Super City Mayor (World) (Aftermarket) (Homebrew).nes",
+        "41749a7153ad039b71845596a52a8e80b4d88c9f484657c14a5c91d1098c915c"
+      ],
+      [
+        "Super City Mayor (World) (Global Game Jam 2020) (Aftermarket) (Homebrew).nes",
+        "9c16e7e10c0cf5024754bdde9b5000c963eac18f94c119ba1120d6b2ac5aeb05"
+      ],
+      [
+        "Super Crusher Fighters (World) (Aftermarket) (Homebrew).nes",
+        "ed1e18ebf22df52b0aaab6a874180d2421b0443798aae53e43d8dd1b4bddf6ce"
+      ],
+      [
+        "Super Homebrew War (World) (Aftermarket) (Homebrew).nes",
+        "47591ec396d48f7368e40d5760211b6321fd685cc02d036225d9dc54fdd7482d"
+      ],
+      [
+        "Super Homebrew War (World) (Alt) (Aftermarket) (Homebrew).nes",
+        "ddd6aa317557e15d2b4e9b9f6605782934c4686a168ff36308b75ac504d993ee"
+      ],
+      [
+        "Super Honza (World) (Aftermarket) (Homebrew).nes",
+        "d926beb31ad2fbaf00935e4e8102361a056afc7524edafffae693f4a56b4a9a0"
+      ],
+      [
+        "Super NeSnake 2 (USA) (Aftermarket) (Homebrew).nes",
+        "d47ce45208c4730f1641866932f50fb8b336a17bfaf0073494da81378a6da830"
+      ],
+      [
+        "Super NeSnake 2 (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "9bab2c1ed9891e7a4cfe685909bd27b12e5f35ff7f5d6c404616f32580e55f64"
+      ],
+      [
+        "Super Robin Hood (Europe, Asia) (En) (Unl).nes",
+        "ae6c7a412732cba05490a4d355b7a619e201583b7f5b99d0148d888293a88076"
+      ],
+      [
+        "Super Snake Off (World) (Aftermarket) (Homebrew).nes",
+        "d990ded3c5761911fa63cd48c923f03f2658d30b0de968116ea1c21fbe90d960"
+      ],
+      [
+        "Super Sports Challenge - Quattro Sports (Europe) (V3) (Unl).nes",
+        "a22f7fc280b201a721e42760f09bf615aade1ffd1cac45220ac9956a397729d5"
+      ],
+      [
+        "Super Tilt Bro. (World) (v2.alpha-12) (Aftermarket) (Homebrew).nes",
+        "6d8766149e9b62b1fca3e596dba2c9c92a4d29b8ee71a9233b679fbb54d0df66"
+      ],
+      [
+        "Super Uwol (World) (Aftermarket) (Homebrew).nes",
+        "4e7f7c1b97122bed427ac3dccb3191779e65f64f2aa2dd36aebf0aa59cb76886"
+      ],
+      [
+        "Sweet Dreams Nonogram (World) (Aftermarket) (Homebrew).nes",
+        "efd54aab196606ba6c438a24b55eab4af26237030f60a7d6f5875e60fea60248"
+      ],
+      [
+        "TBAS Interpreter V1 (World) (Program) (Aftermarket) (Homebrew).nes",
+        "8eea0cd5aa08f818763924b8f98edaec824942569e6dd98503612503084b96e9"
+      ],
+      [
+        "TRACK+FEEL II (World) (Aftermarket) (Homebrew).nes",
+        "719706b6df6365b497c823789c96cdcea20f68d51f3f4386454865660494fe18"
+      ],
+      [
+        "TYMKRS Rabbit Hole (World) (Aftermarket) (Homebrew).nes",
+        "9dde09076b6263322c2e111a88e0437bde195902b2e5244703d3110f0c46af20"
+      ],
+      [
+        "Tailgate Party (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "8d908f2ae67425ea6067cb707e794f73e583abefff86f0ce148db8751764635f"
+      ],
+      [
+        "Tailgate Party (World) (Aftermarket) (Homebrew).nes",
+        "574715972d94a7617d143d619dc010685c19f5351fec5e962c070d0bd756321e"
+      ],
+      [
+        "Tailgate Party (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "2993134f64c75cfbc83943979738fa222d3caf865576c3ae0ca4131f5daf4cca"
+      ],
+      [
+        "TapeDump (World) (NTSC) (Program) (Aftermarket) (Homebrew).nes",
+        "a88a5eedb709f98b81e43843f4c537d104d078b49b622b0cb60840e1cd41cf9f"
+      ],
+      [
+        "TapeDump (World) (PAL) (Program) (Aftermarket) (Homebrew).nes",
+        "83d8b95bc889ba26dd354d6315cf10d0a7b75150f71a68d2a7e1de51424eea2f"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles (Japan) (En) (The Cowabunga Collection) (Aftermarket).nes",
+        "7a4d7e13ed87bd886f6d4cb0b5c1fb0a66806b645982188f5b838178b697f4a3"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles (USA) (The Cowabunga Collection) (Aftermarket).nes",
+        "57b85e221b33f6ea30e5fa97e4d4390eeb937846fee46417e3050778fa074865"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Tournament Fighters (USA) (The Cowabunga Collection) (Aftermarket).nes",
+        "ba5a570a7e1ddf266acc4f5deb24a89ab3a95bb3ec4414e0e6cd9c3b832d3e42"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles 2 - The Manhattan Project (Japan) (The Cowabunga Collection) (Aftermarket).nes",
+        "a385990c223b1290d1a509631893b79dc18eab0ad0e105af6730f50be52dd964"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles II - The Arcade Game (USA) (The Cowabunga Collection) (Aftermarket).nes",
+        "3cb3bae3c404ba68978e10514109b470d8b3c56347f10e80cd6ce5ba0819e68f"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles III - The Manhattan Project (USA) (The Cowabunga Collection) (Aftermarket).nes",
+        "ec9a683bedb9da071412c75067878d6257b783c798868eec41b673b88eae1811"
+      ],
+      [
+        "Teletime (World) (Aftermarket) (Homebrew).nes",
+        "32242d7446f9a2d143c2b5730da69966969651e287370fcc7e263cfc35b4ce64"
+      ],
+      [
+        "Temple Dilemma (World) (v2.0) (Demo) (Aftermarket) (Homebrew).nes",
+        "ce56eb8fc17cce683f8f9aae678bd07f504a93c9863d3a58fb3267ad045b1e19"
+      ],
+      [
+        "Temple Runner (World) (Aftermarket) (Homebrew).nes",
+        "dca83ba6275201c4ee3d0335a14beb2af65e1b9a6154043d02a502e3e0d6427e"
+      ],
+      [
+        "The Paper Plane in Subsoil (World) (v1) (Aftermarket) (Homebrew).nes",
+        "0f36b11ec0f556132c729e276bf6e8942de38b359094860691c21bbfe3b087ca"
+      ],
+      [
+        "The Paper Plane in Subsoil (World) (v2) (Aftermarket) (Homebrew).nes",
+        "8b288694972a7d775ff80be338d2bea4f5ffa508074c4e28d3e96b4d8a6bcab1"
+      ],
+      [
+        "The Void (World) (Aftermarket) (Homebrew).nes",
+        "93af8c1ab1ee6f742380c67a77d95d3b95d543c610409c533f59a838859e550a"
+      ],
+      [
+        "Thornby (USA) (Aftermarket) (Homebrew).nes",
+        "fbc13aec1dee391d4cb03fb84c50bd68c28174e20038b530fad5f8a47ca491d8"
+      ],
+      [
+        "Through Dimensions (World) (Aftermarket) (Homebrew).nes",
+        "b6d8ba95fb996bdc874475897d80a555d7b7ce7fc4e651535eb2b3d41d3e5f21"
+      ],
+      [
+        "Through Dimensions (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "f2225a98d7be20655b968e729ba6e6604340ee8e681e81ebd476f783d8b01f6f"
+      ],
+      [
+        "Through Dimensions (World) (v1.2) (Aftermarket) (Homebrew).nes",
+        "8fbaea199aa85c66e43556c66f9d028a595bc32082cb40d68f6aba496df77fe0"
+      ],
+      [
+        "Thwaite (World) (v0.01) (Aftermarket) (Homebrew).nes",
+        "5fba5c8f21828f44fbd078854e2182836c3072ccaffd84cf94344a321c2d2c0d"
+      ],
+      [
+        "Thwaite (World) (v0.03) (Aftermarket) (Homebrew).nes",
+        "5481fdc59bffdd0e86b4e3d74a2f3a47be64dd39d00b80343ba3568be03749b6"
+      ],
+      [
+        "Thwaite (World) (v0.04) (Aftermarket) (Homebrew).nes",
+        "698a61a9502f462b15ae4a4664e106a6725bcff893db2088e2ff3f8d1aa6a313"
+      ],
+      [
+        "Tola (World) (Aftermarket) (Homebrew).nes",
+        "55a6f31033ab9e2af73a3ad46a1857fb388a24fed1b85f39042c9e8a17fa410a"
+      ],
+      [
+        "Tomb of Ice (World) (Aftermarket) (Homebrew).nes",
+        "6b9878a7c98c556d6928f220ba5db4e71fac184bd8d3a5d816fb3468de47360e"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.43) (Aftermarket) (Homebrew).nes",
+        "9fa28472f48ddbb76d158001b2514ad0cd05584f999b93a3d589ecd2bf546dcc"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.44) (Aftermarket) (Homebrew).nes",
+        "c7b26a31ead0e5d6bd48b8d3593219825ac6b07ee786d7dd4b7aecf6232b67a3"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.45) (Aftermarket) (Homebrew).nes",
+        "168ca550574c38bdae0dea02fc76f8c295a6b4ad3bae0b1ac8cf74f095348294"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.46) (Aftermarket) (Homebrew).nes",
+        "009a758bdeffcab800e56bebb721d70a3d4ffcdd1877af53c0582946e8972ed2"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.47) (Aftermarket) (Homebrew).nes",
+        "984df5b68a6b2c7c0cea6e6587546dd8cff50a794a08b7675b46d984fe6fe426"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.50) (Aftermarket) (Homebrew).nes",
+        "0537b6c4cde56973f7f9109ed5cb0f5f02041b7864f42f367ce56eeef327dc36"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.51) (Aftermarket) (Homebrew).nes",
+        "5546947bb83c519bc59bd1a0078114bb22749dfeb31fbfb159167453377e1806"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.58) (Aftermarket) (Homebrew).nes",
+        "c0174f7c0b046b246bab337b516d3dc2b9889539840fb37885e7bb05cac8d9fa"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.60) (Aftermarket) (Homebrew).nes",
+        "edacd238d1826ae5f83b6553c3b0df62b23fd13450ef1fd2f8eb4aec92e19153"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.61) (Aftermarket) (Homebrew).nes",
+        "65b8183677e6b870dfe06e412029071000a0786a420d00d245b3a59e749711ef"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.62) (Aftermarket) (Homebrew).nes",
+        "138e821950b19d26eb9b0ff9c27cff4081c9b0dd930394d76491b7668efb20a8"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.68) (Aftermarket) (Homebrew).nes",
+        "1e318df3add1d1546a7ebb1c1be23845fadacca052acf9edabb15b353de36aa6"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.70) (Aftermarket) (Homebrew).nes",
+        "a32a8e84f4abd59ece7b26ae5fca3790f1b408b0052b6ff71ef2a34b78329e5d"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.71) (Aftermarket) (Homebrew).nes",
+        "828d90c8285d9fd9681938233c362c7abfb9ccf69ae54bc0706ff2b5e862c1ac"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.80) (Aftermarket) (Homebrew).nes",
+        "ba67582c3f6b44f05578db4220cf23b49f89bd02483ff83cb2fb745fd30b0f12"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.81) (Aftermarket) (Homebrew).nes",
+        "ab7c34ee3edcbb006f7d7bc582ba46bfd37d95810fe1847bc873f25beb379a7c"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.84) (Aftermarket) (Homebrew).nes",
+        "25e87dde1a514ff9acc2be952a97b92f8b297c7f9a5c52266d21c2d4f81902c7"
+      ],
+      [
+        "Touhou Rououmu (World) (Ja) (v0.86) (Aftermarket) (Homebrew).nes",
+        "2c601df24f228eea7ec9e7483675fe15707795db1156b54b5201b4cab98354ad"
+      ],
+      [
+        "Tourtoise (World) (Aftermarket) (Homebrew).nes",
+        "ff1a5ad3dedf60badc48e7dabef9f3e4695e434b4300b4d85a6272e40fa1ea0e"
+      ],
+      [
+        "Tower of Turmoil, The (World) (v1.03) (Aftermarket) (Homebrew).nes",
+        "659b5a0a237b88156833c1ead2905fe21c56d726d92b38743486ee8000a3c275"
+      ],
+      [
+        "Tracy's NEScapades (World) (Aftermarket) (Homebrew).nes",
+        "abd98ff405450ebdd589e4ef6da084839fff80b9acd15db41d03dc493372df85"
+      ],
+      [
+        "Tragedy of Ryohyukan, The (Japan) (Family BASIC) (Homebrew).nes",
+        "ef1a5ea214cbcc26d552e012443243000d6ec137e554fe33ead37b947b750d71"
+      ],
+      [
+        "Treasure Island Dizzy (World) (Unl).nes",
+        "f3c66e04c36408a9ddd7ebf6865132417a985d6673e8727c703073f87bc47fdf"
+      ],
+      [
+        "Trinca (World) (Aftermarket) (Homebrew).nes",
+        "436c84a46124ab874c8766ee28bea8c8d36b67ca6385f93531085dfda0f573b2"
+      ],
+      [
+        "Troll Burner (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "a9a0f998f3b449eee6bdda653c233a466b75efd983c3d2ae456cc983941e3f87"
+      ],
+      [
+        "Trouble at 2a03 (World) (Aftermarket) (Homebrew).nes",
+        "9073961725c816b4a24e477ba15b0c5f65d278677a3adc8a8afdbd132c23fa20"
+      ],
+      [
+        "Turquoise Palace (World) (Aftermarket) (Homebrew).nes",
+        "6e94e775348a88fa022ffbf585787f149bc775f580ce477175e4201973ac86c7"
+      ],
+      [
+        "Turtle Paint - Volume 1 (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "eec50713ca246204f728fd603a20e2cb28d420f6039e32f42e4757dcebbdce7a"
+      ],
+      [
+        "Turtle Paint - Volume 1 (World) (Aftermarket) (Homebrew).nes",
+        "00e696b1371125127281849b3a7e44c1ac218730fa75d9463d03b97c93bdd089"
+      ],
+      [
+        "Turtle Rescue - Unwrapped Holiday Edition (World) (Aftermarket) (Homebrew).nes",
+        "045cc809dfbeb04f81b42aaf37cae4c0fc0f1e28b158ad216ffb8347f8e243aa"
+      ],
+      [
+        "Twelve Seconds (USA) (Aftermarket) (Homebrew).nes",
+        "6f6440eb840eb52df934c7e4a5bec5ef2a8639f0f1cfd4e3d3de82a814157cdc"
+      ],
+      [
+        "UFO Sighted! (World) (v0.04) (Proto) (Aftermarket) (Homebrew).nes",
+        "03d59b49d55c5cacfc4f36e975e23b90f91bd7e8c9f0595f5dc55c589d9b5905"
+      ],
+      [
+        "UTACO (World) (En,Ja,Es) (2013-03-13) (Aftermarket) (Homebrew).nes",
+        "c342aeef27852a75a0943602f47b4df8a0113cdb7df96f7321590bfd16e36b93"
+      ],
+      [
+        "UTACO (World) (En,Ja,Es) (Aftermarket) (Homebrew).nes",
+        "a849407a5d5299fd512a3a595885fbd275eb8efc74c22c2e410792d4340438a2"
+      ],
+      [
+        "UXO - Unexploded Ordnance (USA) (Aftermarket) (Homebrew).nes",
+        "c48a36265a0f64be16857c9009b13d915f4fa5da5ab6329e4c8a4426eadedfd3"
+      ],
+      [
+        "UXO - Unexploded Ordnance (USA) (TMG Exclusive Edition) (Aftermarket) (Homebrew).nes",
+        "0d131ea4ed015e2075ce28456c8d023674dc892147f000f374637da1012b3e08"
+      ],
+      [
+        "Underground Adventure (World) (Aftermarket) (Homebrew).nes",
+        "1a0e3832ece92c94c4de364f7431ac46b63d89394bd37293b80a7228a34ea937"
+      ],
+      [
+        "Uninvited (USA) (Beta) (1990-07-04).nes",
+        "0efefa9c640703296f7a44a3c14b73e74dd2831c0babf1255533b61f1c55484b"
+      ],
+      [
+        "Uninvited (USA) (Beta) (1990-08-23).nes",
+        "21b5cb4277f455fc6a5b9c183ec97fae1ec57a604d662643c1e999ce6d6cf391"
+      ],
+      [
+        "Uninvited (USA) (Beta) (1990-09-10).nes",
+        "7c828335e4f1bd0e8e062ad9a6b00653e4ad2cf996a1d96a194fc9a04e557445"
+      ],
+      [
+        "Unknown Soldier (World) (Aftermarket) (Homebrew).nes",
+        "fb0c58baff1acddf81dd19bc6f9e826a655d71518f6fb486fae1b31e62354488"
+      ],
+      [
+        "Vegavox II (USA) (Aftermarket) (Homebrew).nes",
+        "a88be0833f11a550538f08cf8080a5065f08c631ba2ed9e4a7eefb733b9bf5c1"
+      ],
+      [
+        "Vigilante Ninja II (World) (Aftermarket) (Homebrew).nes",
+        "81b57b8623c60e3f69ae3dc25538aa2f190c54eea896e86fcd1bab447f694744"
+      ],
+      [
+        "Waddles the Duck (World) (Aftermarket) (Homebrew).nes",
+        "8d89c81e7ec7eb8fab719143e088edd8e61043da079150f1dec0c5f3332a5d8a"
+      ],
+      [
+        "Wampus DX (World) (2022-06-09) (Aftermarket) (Homebrew).nes",
+        "d5519dfc3b23b2d828b026ded25251f8d43fabd02df364302ddd49be896bacac"
+      ],
+      [
+        "Wampus DX (World) (Aftermarket) (Homebrew) (Alt).nes",
+        "5f92d59322bc54204e7d3e52d29a48f9339357acffc36ee34062614e778a85a4"
+      ],
+      [
+        "Wampus DX (World) (Aftermarket) (Homebrew).nes",
+        "0629a2f3126ecf1d1293e40cb64f215ac928ccd5f8f426b263dc76478c53a9ef"
+      ],
+      [
+        "Wart Worm Wingding! (World) (Aftermarket) (Homebrew).nes",
+        "e8c642e3297a2e93566b1f9917307a97c02b873d51fd5fa01cbb502ec404504d"
+      ],
+      [
+        "Weed N'Stiff 2 - Bobson's Revenge (World) (Aftermarket) (Homebrew).nes",
+        "1ff9fb4cc6f897cae308d1369998dc60bb41f50a86dac4679e105a9ed9269d1d"
+      ],
+      [
+        "Weed N'Stiff 2 - Bobson's Revenge (World) (v1F) (Aftermarket) (Homebrew).nes",
+        "c150d3fce7cb6c686eb12145ffc8bb6682ff8f79dd8f258adbd4121a718fd971"
+      ],
+      [
+        "Welcome To Eville (USA) (Aftermarket) (Homebrew).nes",
+        "97bcc6b28e68451bfe5635d38c5ce7822048c522707eca850d1e4dfbffcf935f"
+      ],
+      [
+        "What Remains (World) (v1.01) (Aftermarket) (Homebrew).nes",
+        "4ca4c50938a512e83c9b0b84607d95f097c842c35230421cee9acb304fae5a1b"
+      ],
+      [
+        "Wit.nes, The (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "e482f725c8624d69457cdd3ca30e981ca9f523991f44fa29a2ee841657d3d544"
+      ],
+      [
+        "Witch n' Wiz (World) (Aftermarket) (Homebrew).nes",
+        "3fc0d855f721f2a6731fa3d75e1395a1b4ba690c694a148ead36cb120a977197"
+      ],
+      [
+        "Witch n' Wiz (World) (Beta) (Aftermarket) (Homebrew).nes",
+        "3f6025ab93e15b49794696e8b97d0156d1f84405fe50fd557b02b7c01cffcd3a"
+      ],
+      [
+        "Wo xiang niao niao (World) (Aftermarket) (Homebrew).nes",
+        "296754ad0436f7c88fe4fb83f714dbc95c1e72466ae0da4cbc478b8fda980db7"
+      ],
+      [
+        "Wolf Spirit (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "3664e74d4ea68732b46d9056f2b7b8aef3e730e675394d0792c0d45d986de4e8"
+      ],
+      [
+        "Wolf Spirit (World) (v1.1) (Demo) (Aftermarket) (Homebrew).nes",
+        "ef945d257506ec457f1a203d4afef06653029f3969ee579f1f7c8945206737a1"
+      ],
+      [
+        "Wolfling (World) (v1.4) (Aftermarket) (Homebrew).nes",
+        "55f9dabf2918f4679b574fd45bf62e2931be868a15cab9a5456afac8be4ad9c0"
+      ],
+      [
+        "Wordle (World) (v1.02) (Aftermarket) (Homebrew).nes",
+        "ec41ad3eeaa7c2b7b6561e82cdfca2396c594549b494adb074889518dc9bc302"
+      ],
+      [
+        "Wordle (World) (v1.1) (Aftermarket) (Homebrew).nes",
+        "f699fe6e71c03a60e301779f4bb5c1baefaf11b46d951dd20aa109e7c26724cf"
+      ],
+      [
+        "Yacht (World) (Aftermarket) (Homebrew).nes",
+        "26496932f945984bb42851d1192e69ed029ccfa30d486af8289df370897977d5"
+      ],
+      [
+        "Yun (World) (Aftermarket) (Homebrew).nes",
+        "f772a496a68ba5a8613dc8e6395bf038430a814b5074690e45b423fd29706332"
+      ],
+      [
+        "Yun (World) (v5) (Aftermarket) (Homebrew).nes",
+        "493d40a8561fc87b68449b0ad74f92f3c4aa121adebcf06a6a729abd564e171c"
+      ],
+      [
+        "Zdey The Game (France) (En,Fr) (Aftermarket) (Homebrew).nes",
+        "6c72ed6b1c2ca634f9e44452ef98b46b768864334a279dde80105d4a2e3568f7"
+      ],
+      [
+        "Zdey The Game (World) (2020-12-21) (Beta) (Aftermarket) (Homebrew).nes",
+        "6669debd43a73eab8f9a5cd1f93c4dbf4f9bdcbc46845ed3e5f0c925f4d4c857"
+      ],
+      [
+        "Zdey The Game (World) (En,Fr) (2021-08-21) (Beta) (Aftermarket) (Homebrew).nes",
+        "5f0c1fe4418ff103635af03467a5cee840fb79c87e424054260913c2a44ef4d7"
+      ],
+      [
+        "Zooming Secretary (World) (v1.02) (Aftermarket) (Homebrew).nes",
+        "222938233e7ee0528c03b7864f8cc648f108a7ccfb54131ee822447fe3248e57"
+      ],
+      [
+        "cajoNES (World) (Music Program) (Aftermarket) (Homebrew).nes",
+        "d3f421520e2b5e0641a814ee3d973f745d8ca7cea83082d9258d7ba4223124d9"
+      ],
+      [
+        "cajoNES DELUXE! (World) (Music Program) (Aftermarket) (Homebrew).nes",
+        "9556429455b0a4643563eb9b3fa943695e4c788a5a441e484c5553ba00c804d4"
+      ],
+      [
+        "glitchNES (World) (v0.1) (Program) (Aftermarket) (Homebrew).nes",
+        "29c251d2e44eb3eacadc52a46c5471749c6e9b8171a2f3ec9bb04177fe2c246a"
+      ],
+      [
+        "glitchNES (World) (v0.15) (Program) (Aftermarket) (Homebrew).nes",
+        "4ac4371ce9b80b9b296df05959ea53ee3a8fce3473151fbba5e6873e0b99c2b7"
+      ],
+      [
+        "glitchNES (World) (v0.2) (Program) (Aftermarket) (Homebrew).nes",
+        "5a214c3057adb456fff99ca671f72b5d1c193db85e7515669b14eb72334476a4"
+      ],
+      [
+        "glitchNES 2022 (USA) (Program) (Aftermarket) (Homebrew).nes",
+        "724d182a84a36b65a038865209b76f59f28ca7baa2e9cba0a41cb59d8b98452c"
+      ],
+      [
+        "mini GETCHi (World) (Ja) (Aftermarket) (Homebrew).nes",
+        "9461203f58532b103989cc7d0a75f724e2490e78d658011ec3ebb1e91368a0c1"
+      ],
+      [
+        "neMULEsis (World) (2022-04-27) (Aftermarket) (Homebrew).nes",
+        "73aca68318dc4a2c43b8195839eee94a61f5cdd914572dd1350ec85721d408bb"
+      ],
+      [
+        "neMULEsis (World) (2022-08-28) (Aftermarket) (Homebrew).nes",
+        "3bacbb8e263b934492132eb2ecf9d72499855ac9d94472b5d1aa5426143a4924"
+      ],
+      [
+        "neMULEsis (World) (Demo) (Aftermarket) (Homebrew).nes",
+        "8b993237e295094a0f0160bb652eba285d44f129d99f842277157bf45cf5c346"
+      ],
+      [
+        "robotfindskitten (World) (v0.5.095) (Damian Yerrick) (Aftermarket) (Homebrew).nes",
+        "92e66ed6188691ec2b6a5e5cc9bea248f142af68ae31d06d17cfdc032e194cad"
+      ],
+      [
+        "robotfindskitten (World) (v0.9.106) (Damian Yerrick) (Aftermarket) (Homebrew).nes",
+        "670bab6bf3508b27e4e1e96037cbd8b6614ef73f7d4e9e02771e91a79ac9bfe3"
+      ],
+      [
+        "robotfindskitten (World) (v1.1) (Scott Holder) (Aftermarket) (Homebrew).nes",
+        "e3ebdbcd6b49a73bacb4c8ae8b5cffeb773da61dd2b8630398f06a5fd43817f8"
+      ],
+      [
+        "robotfindskitten (World) (v1.2) (Scott Holder) (Aftermarket) (Homebrew).nes",
+        "25ecb0e900d2d5df8e54bc548a43713da14e42e1e186a3f32612f39aa57b8787"
+      ],
+      [
+        "scrollNES (World) (v0.1) (Program) (Aftermarket) (Homebrew).nes",
+        "6e8af6ed8a6ae029452b719373f08d2930e2f48995ac68648dc7783bdd1a7f8f"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "NGPC RetroHQ SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "NSF Music SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "PC Engine CD Redump Supplement": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Project Peacock - All PCE platform shooters": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Saturn Redump Supplement": {
+    "missing": [
+      [
+        "Shinsetsu_Samurai_Spirits_Bushidou_Retsuden_HACKED_BY_YZB_20200819.ccd",
+        "c86247fd9df1c659e1b8fc861305ef68070b09c622efa802feeacf7e5ad1f077"
+      ],
+      [
+        "Shinsetsu_Samurai_Spirits_Bushidou_Retsuden_HACKED_BY_YZB_20200819.cue",
+        "a7c064decf1ef6ba849da5b1673ab610136669a000eae0484887b80b24f91f77"
+      ],
+      [
+        "Shinsetsu_Samurai_Spirits_Bushidou_Retsuden_HACKED_BY_YZB_20200819.img",
+        "5edcaeff85384fb79e2f5022249e34930076de3ee46726fec0e157ef9d97d7df"
+      ],
+      [
+        "Shinsetsu_Samurai_Spirits_Bushidou_Retsuden_HACKED_BY_YZB_20200819.sub",
+        "e3dea9cd4618066afac72c59791d2aeeea94c5dd1a336779c0c0f135b87b3a93"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Sega 32X SMDB": {
+    "missing": [
+      [
+        "Doom 32X Resurrection (Europe, Japan, USA) (Hack) v2.1 D32XR Team.32x",
+        "0b4587b7061bc4be4500e01a9c245152ba002442ccbed15010dfca31ce5dccda"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Sega SG-1000 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "SegaCD": {
+    "missing": [
+      [
+        "CD.bin",
+        "04d380668384ce9d02c14f0bbede3934de437c920a1c4084bf8e519c95ce8fac"
+      ],
+      [
+        "CD.cue",
+        "23136ef1756b5566914ed5a72c96af7b442d44cb3feaf82fe3f347f998b1a7dd"
+      ],
+      [
+        "FIFA International Soccer - Championship Edition (Europe) (En,Fr,De,Es).cue",
+        "11e9e17992f018ba9cf31e531dc3558325bc3332b3e021e630dd9f7e8a269beb"
+      ],
+      [
+        "Gen'ei Toshi - Illusion City (Japan).cue",
+        "967871598f37c4123e8392074491f326317ee95a5442f362a28ec7a16b22687e"
+      ],
+      [
+        "Gyuwambler Jiko Chuushinha 2 - Gekitou! Tokyo Mahjongland-hen (Japan).cue",
+        "0c1c58845e17c66e9ff3f65903afb0deed1cf98febdd5fb32d43f642238e9001"
+      ],
+      [
+        "Nostalgia 1907 - In North Atlantic Sea (Japan).cue",
+        "d92b583082db05f5f065d8248e500484959aa28ba7041c84dc051319dc5f341c"
+      ],
+      [
+        "San Diego Zoo Presents... The Animals!, The (USA).cue",
+        "a3db8a878a4742d2bc10e3cf2558d19878e1c64ce691ad611eeed4ba0173c0e4"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "SPC Music SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Turbo EverDrive & Super SD System 3 SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Vectrex SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Virtual Boy SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Watara Supervision SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "Wonderswan SMDB": {
+    "missing": [],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
+  },
+  "MegaSD SMDB": {
+    "missing": [
+      [
+        "00 Go Straight.wav",
+        "6d7402c8e4ecedb9e6a32ae5a5334062cf7d01617ca37e537cc3fcb2db5319d4"
+      ],
+      [
+        "00)TMNT-Fire!(loop).wav",
+        "891e67b0518859bea14db19bdb307be8b0ee67e3c89f618a948d571dad49ff5a"
+      ],
+      [
+        "01 Go Straight (Beatmix).wav",
+        "82ecbb2ec6ce9b827db7a5ee2e5ffaa0984a274fc2e7c7334d8f1923dbe4c067"
+      ],
+      [
+        "01)BKIISE-GoStraightIn-Game(loop).wav",
+        "7173f0b57531956a5ece075248270f49b6eef6f9d241dd9ae55d599ef4f0bec3"
+      ],
+      [
+        "01-Premonition.wav",
+        "6f3151c9691e1a7b7be85e914feb9e7e57077ab4b267678ea9a3eb5a2298e4b4"
+      ],
+      [
+        "02 Never Return Alive.wav",
+        "ad436ca74868b7b397188286c151014f288092d27dfe8e886702876fcd91e4ab"
+      ],
+      [
+        "02)TMNT-Fight!(Boss)(loop).wav",
+        "712863b9cfa2b281385ce1693d10b1e64b512e095cdadad8a68da01c403dadc9"
+      ],
+      [
+        "02-Introduction.wav",
+        "b45293bb507bd916d4bea2ddbd972965d32b5bd9903d8c26854288c0f33d2837"
+      ],
+      [
+        "03,04)MJ'sMoonwalker-SmoothCriminal(loop).wav",
+        "98bf8bdccb37eda3cec40eb3c5c5730b02f6e8e507ae2541484ec1ff511aa3f5"
+      ],
+      [
+        "03-SarinaVillage.wav",
+        "719b0efc47a73bb88d4ce229c429654b2c473211ef32d7a6d121cda23f3578ab"
+      ],
+      [
+        "03_04 In The Bar.wav",
+        "70f4effb8d031326156137d2dde02eecf155b3abee0ec54c93104e4b8a256c5f"
+      ],
+      [
+        "04)SFII-Guile.wav",
+        "728a65f15399bad069074ce54fffab2953d32104552ecc67e1d247cc347503b9"
+      ],
+      [
+        "04-Welcome.wav",
+        "ed88ddb4d13c96cacab083142b766a39d438ddbc4f0dabb1510b2341260e9c0f"
+      ],
+      [
+        "05 Jungle Base.wav",
+        "3b6e6712aa310f4a8eec3a0a8c68e90478d5fe970abbb823417309107636ac1e"
+      ],
+      [
+        "05)StevenSeagalistheFinalOption(loop).wav",
+        "8b0f199f102d99fd33714b2afe0aef66208646aaf2e966e501bcbe54aa7d94db"
+      ],
+      [
+        "05-QuietMoment.wav",
+        "f51c572be58ffcaca822e800262357de1e48040e321d0470e699ba6161930d1d"
+      ],
+      [
+        "06 Slow Moon.wav",
+        "b8c092efbdf7bf4091b828fe7be0daab221135bb3d148fcc32e4e67b998f4036"
+      ],
+      [
+        "06)BKIISE-SlowMoon(loop).wav",
+        "c96748ad0319db4be0aabd20242a5a57c94c2d3326ae6f929e3f5503437a5ab4"
+      ],
+      [
+        "06-Prolog.wav",
+        "1e240b41a684134f106e0739f261f9b7ba5707bd4dedc013afd3fee850090e5c"
+      ],
+      [
+        "07 Spin On The Bridge.wav",
+        "f33893fe535716a32013221d155715469d48da0a45bc814f8d7c4d6c24903754"
+      ],
+      [
+        "07)TMNTinTime-BigApple,3am(loop).wav",
+        "eb23abbb85fef58d5a10281dd162fbb34e252c8d79f8850787c87c4591cb4c3c"
+      ],
+      [
+        "07-WingedBoy.wav",
+        "b74a0d3f64e37cff458c341715d189ad7985c3e7cc97bc74b735e4af1ada3ccd"
+      ],
+      [
+        "08 Too Deep.wav",
+        "00e14b790f0e2c4624c5d24ea6def09c3eb994b2526e62ab9f072499dae1cb6a"
+      ],
+      [
+        "08)HyperstoneHeist-DowntheElevator(loop).wav",
+        "b38c22484cd599f9f554314cf943a07bf8c19148bca63425367e608b6df904ea"
+      ],
+      [
+        "08-BeCareful.wav",
+        "811be636ba318e3493d685d7ef65a040ad416f87e253a0dc597d1ca9483a7601"
+      ],
+      [
+        "09 Little Money Avenue.wav",
+        "e6f06e21d64d2fd452eddd279e645f11d151615052cca61678d3f2796aa817fa"
+      ],
+      [
+        "09)TMNTinTime-SkullandCrossbones(loop).wav",
+        "7202f7a918b03e2c907c47d6d1b4876bf9af28b9ac91b673bdb0622541094fb8"
+      ],
+      [
+        "09-BlackMonster.wav",
+        "f38baa4085bacd2a02c431428789f16b2b0d0637b865be50b042260b1b14f840"
+      ],
+      [
+        "1-SmoothCriminal-MJ.wav",
+        "d0e431ab0fb04bf58c1b47530492564534d8c951ddfb63d281eeb20d8ca908ab"
+      ],
+      [
+        "1. Magical Sound Shower CVT.wav",
+        "582a23ce23910c55bed13e9c566432392f679c9965d10adf7a2c5763e5a3e294"
+      ],
+      [
+        "1. Splash Wave.wav",
+        "f71dc930df0e52d72567f92c802df699863612714c4c70802a88ba7702aab2b1"
+      ],
+      [
+        "10 SOR Super Mix (Introduction).wav",
+        "83bd075ff89f926d9eb75ac8859835ae892f743834ec9bdb9228cfb7e424f915"
+      ],
+      [
+        "10)BKIISE-SORSuperMix(noloopneeded).wav",
+        "cbca109b998f61e8227ee4684ac1574a25ac73823dec35b38810c878d2c235fc"
+      ],
+      [
+        "10-DeathShock.wav",
+        "1966476463fa743157274c3d136be1ced59e78a8575cb0b6664f0a6870e17d12"
+      ],
+      [
+        "11 Level Complete.wav",
+        "c9b7254d664caed92532dd405016eb6003a1b4fd74d24fcda7bac66219444021"
+      ],
+      [
+        "11)TMNT-ClearTwo(Cleared2)(noloopneeded).wav",
+        "3c4e9676ce776697ec604771184a8c4d75089615ee1e9228ed55702b018c062e"
+      ],
+      [
+        "11-AlcainoRuins.wav",
+        "5ccd371e74c1d15f45f76a4dd9cc1e72f7e2f2c2f04db363b0d536856cdb876f"
+      ],
+      [
+        "12 Wave 131.wav",
+        "bf272ce9c458cc15bf647ff0bd636ee77bc82cee5eb73661845a7e76031c7202"
+      ],
+      [
+        "12)BKIISE-Wave131(loop).wav",
+        "54ceab1524cb2954b71eecb498005cc4b19d617513c3ba83786500eda4e87434"
+      ],
+      [
+        "12-HeatedBattle.wav",
+        "f0bd471ce7eded20e2f71f6f40a89847ce9bd4fb02d87969d8a73138deb22454"
+      ],
+      [
+        "13 Max Man.wav",
+        "9239804e93e4ec75563c5880faad43b5a20110a3b93c01e8967d4cfb3fe71750"
+      ],
+      [
+        "13)TMNT-Shredder(FinalBoss)(loop).wav",
+        "bdfcd2bfe48a146b684fe2576842a0ecac0d86481b74bcf71a8afee4e1771dc1"
+      ],
+      [
+        "13-ChestersTheme.wav",
+        "ab7c500f9e8cb8aa6a633e4dea8f99eea0f8f78cc82a38af6981272a2d37288a"
+      ],
+      [
+        "14 Dreamer.wav",
+        "1916384cfe225acff871a1fc2217a7615a48ccf157ff5fdf45dfd9128215029a"
+      ],
+      [
+        "14)BKIISE-Dreamer(loop).wav",
+        "15cc7a4755ff39ec4bd3f5c3605c8f549399707a06279f534933049699f0f348"
+      ],
+      [
+        "14-BlackSetUp.wav",
+        "cffe10a57103d9b60b5b5553f5c2c20e6529fea1fcc99c856ff3eb31a2515cd8"
+      ],
+      [
+        "15 Under Logic.wav",
+        "a7ace700a19fd53ab2207ada5f1d305bce9ef871fca9b9accca3ca731732f43d"
+      ],
+      [
+        "15)BKIISE-UnderLogic(loop).wav",
+        "66e27f727c53a5cbf653ff4ee7739644fb12e0842b573f45193c3064d9781234"
+      ],
+      [
+        "15-FightingSoul.wav",
+        "42f610e2ca5e3cc877c3c460c8c38911a5ea700b006482a8016eeb23b277a260"
+      ],
+      [
+        "16 Never Return Alive 2.wav",
+        "79ed580f30684bf5b4d1ca38ea31fefb99250eba7eaa7b4e9ac5cf17738ec048"
+      ],
+      [
+        "16)BKIISE-NeverReturnAlive(loop).wav",
+        "374667e0476c5ed3a8f5aaf77bbfcfd72408086179ec291d68903f0459d91ccd"
+      ],
+      [
+        "16-ValestineCastle.wav",
+        "35aaa520346ba484310f2aea1519c6418905c5590474c99417a7617047700476"
+      ],
+      [
+        "17 Revenge Of Mr. X.wav",
+        "214825bb2b3740cd47d2cf5799bcd018f5da167fc705e656243284a236fd725d"
+      ],
+      [
+        "17)BKIISE-RevengeofMrX(loop).wav",
+        "6233793f48625601073c8970f1646c4cf9c0563016a1d8018621bb56659075fa"
+      ],
+      [
+        "17-PrayForMercy.wav",
+        "0ad5e048564ce1962acef2bad9463f391cdce5903432a22d3fed038eaa38abc1"
+      ],
+      [
+        "18 Alien Power.wav",
+        "3c3071f8528110c7caaf21086a6feb25ca60b899261ede9ec5cc4c8994cbfc51"
+      ],
+      [
+        "18)TMNT-Underground(loop).wav",
+        "2385a3af10ee4e2a3957fec8261f0507ad3284b62793c15d70703614617bceda"
+      ],
+      [
+        "18-KeyOfLight.wav",
+        "8123b9538b74d0e571be3c975456c7dce44c0b1234cc7b6c67fedea2abfe49a4"
+      ],
+      [
+        "19 Expander.wav",
+        "54b89b45c0c498179a35faf61da8e34b1e06ac5acafda1f4d47ecab5e7422eea"
+      ],
+      [
+        "19)TMNTIV-BuryMyShellatWoundedKnee(loop).wav",
+        "030684fcfe8bf2d96bf901a072f05dd4e2db0176fd6ad629008a4a643d9dac86"
+      ],
+      [
+        "19-SealingTime.wav",
+        "671815a4ddd8d80bf5278c56ef08ca6cf44398971b3b22b3cc395ba34399fb8e"
+      ],
+      [
+        "2-BeatIt-MJ.wav",
+        "36db22248cbbbb91a164f3dd372b594541b5c7106cbf5625df3c52bb4555e206"
+      ],
+      [
+        "2. Magical Sound Shower.wav",
+        "8ed20be75f7ef204fd0ec93e2c5187b849cef324b8f269a1f9aeff9c675c9774"
+      ],
+      [
+        "2. Passing Breeze CVT.wav",
+        "5851d27963d4b75efd2c45ae25d037560f097c1e5024bf487623d2b8861bdaad"
+      ],
+      [
+        "20,21)BKIISE-ReadyFunk(loop).wav",
+        "384bca17d2493a898aabdb48e6c3b0e967fd08e35be81e33804edde9b5b96f48"
+      ],
+      [
+        "20-MyDearElena.wav",
+        "cce825adb5951aeb48450798ca15d20cd70af9671145b106be5b04d579a65ed7"
+      ],
+      [
+        "20_21 Ready Funk.wav",
+        "1dd92286fc7c3135522455532244536287b3db2d2ed573797fee154ff0edf92b"
+      ],
+      [
+        "21-TearfulTwilight.wav",
+        "a066e0eb3a13b369769107a0ce8d94b0d44945756ce77dac6724bf82c09d2754"
+      ],
+      [
+        "22 Player Select.wav",
+        "3ae177a4743cb4865a6f84d0331061e9e356b1a7b8a331b895843dd9111916d9"
+      ],
+      [
+        "22)HyperstoneHeist-SelectYourTurtle!(loop).wav",
+        "9bfcc8b01eedb0eb81a76a043ff5e4fc74dff2ffa610d3341b830166e6af8d7f"
+      ],
+      [
+        "22-DeathBeat.wav",
+        "2bebe207687ca5c67a6ab86daaf032d0e426a2b61128a59a8440ddab6eb64a8b"
+      ],
+      [
+        "23 Game Over.wav",
+        "e8db902050bb4933d9f75cbd1197b334eaf81e2b2b489a914540a54ed2f90be5"
+      ],
+      [
+        "23)TMNT-GameOver(noloopneeded).wav",
+        "4a286f3ca97b6a6deefd814115a737babab0fdcc7ae6f6bf17950138496fe72b"
+      ],
+      [
+        "23-FateTower.wav",
+        "a0e96b6488a12044c237738bd7b830830b3af8bd40ff66d49daea61f7b13af1b"
+      ],
+      [
+        "24 Back To The Industry.wav",
+        "b970dde6992eb2f5ffc8adad87377009bb3cea31c316f684e7548e00e768fee1"
+      ],
+      [
+        "24)BKIISE-BacktotheIndustry(loop).wav",
+        "76464b432ae1310c5f29ebd7812493893378aa5f4c85be0e5953798d156ea12d"
+      ],
+      [
+        "24-LookAtDis.wav",
+        "a5df8c70b9d3026c0a4fe11c856b3eaedf31e33fc3329a6748fad2138f6f44eb"
+      ],
+      [
+        "25 Good Ending.wav",
+        "6df098ff20da0f9cf84fa0b7254374298abe7e68e5aff0050f57b90b94268408"
+      ],
+      [
+        "25)TMNTIV-FlyingHigh(noloopneeded).wav",
+        "39fc9d6d9afa8bb82c6ddb0d292c0220d48985e271cb2ee8d1d98814f2d1ca75"
+      ],
+      [
+        "25-FInalFight.wav",
+        "349fb8e2db9ce11add5f8f6f286a069020db57ee66fe2f0cd74639263f600a46"
+      ],
+      [
+        "26-DearMyBrother.wav",
+        "2f578b56498c9bcaa74e4ee673500ce3c2f422a18007d2692ebc5314b44bf5d4"
+      ],
+      [
+        "27-MorningJourney.wav",
+        "0606ae2deb844e0aa7d0d2e67472593e2f8f168d7679d40eda2af405e7b16259"
+      ],
+      [
+        "28-WanderersFromYs.wav",
+        "2ef3237bd8ca65e86b07c477142b57a8d216c8b202daad7f431fe8e53b6679e1"
+      ],
+      [
+        "29-GetItem.wav",
+        "feecb7a74c0893b11674259f51111cdcf3335df6eedc700abc8d22c54e54c407"
+      ],
+      [
+        "3-Thriller-MJ.wav",
+        "4a361ddae3ae3a70e9eaa894dcec5a522e356689520e310abba7fa3a88e98c72"
+      ],
+      [
+        "3. Passing Breeze.wav",
+        "0e694a534195e22e836eecb692ec5c820127549f4d54a843d9832ba4c39f4de6"
+      ],
+      [
+        "3. Splash Wave CVT.wav",
+        "f3d07efe1e164bd4e238c206fb878049925dde85c74e4956fe13a222e20d2537"
+      ],
+      [
+        "30-FleetingDream.wav",
+        "026990fc791203295811c6854d9e2d96efaf173c45a05c406f915711ebce7261"
+      ],
+      [
+        "31-DancingOnTheRoad.wav",
+        "a0ad4d22972c712d0de6f22637d30e9bd7c69eb62f64f8c2695ad6c745ab0c0f"
+      ],
+      [
+        "4-BillieJean-MJ.wav",
+        "bf11d495e2aaa013238b7853ba226f40f2c6998c9907ea424d5ac00b081af5fa"
+      ],
+      [
+        "4. Risky Ride1.wav",
+        "f9eea9d9818a2d5dfbf123185fc4f29a137a080c16c6a91c3fc46034ccccd181"
+      ],
+      [
+        "4. Shake The Street CVT.wav",
+        "3093abd2db5d2e2e2f2ea6b060f647015eb36c708dfd2717eb4db3c7f27354e3"
+      ],
+      [
+        "5-Bad-MJ.wav",
+        "5a4f019f10b10b6e318fe7b7eb5710fcbcc93de11902617fc097c5149c44f44c"
+      ],
+      [
+        "5. Rush A Difficulty CVT.wav",
+        "491b1e6d6b022d909a82ed26f60fc10ab4d8b30f5a5082ad96916e45889449f5"
+      ],
+      [
+        "5. Shiny World.wav",
+        "5eef31637bb57160dc6f76937f4ebcd63de2467c75e4c026f560cedfab3d6511"
+      ],
+      [
+        "6. Night Flight.wav",
+        "d1f9780c406c732d0ff5009b7f6723f1993abe0fa9f5e43857952d9879299bd1"
+      ],
+      [
+        "6. Who Are You CVT.wav",
+        "491eb70b47e3cf400148cfc1b2a08db98c46bd2228ce90d15673245947879139"
+      ],
+      [
+        "7. Keep Your Heart CVT.wav",
+        "457f35a7476f79d04933217c775d0663d1c7ccaa5ad35e93c10196bcb68db0ec"
+      ],
+      [
+        "7. Life Was A Bore.wav",
+        "9e90db4656c794312d62f8165f2bd75f6a20258259598c56b563cb3604da4f47"
+      ],
+      [
+        "8. Last Wave.wav",
+        "bfd94b94cd3377e89b12ce859219a9044f8b5a89940859876e58d421cc8d11fb"
+      ],
+      [
+        "Golden Axe MD+.cue",
+        "2b16f3c4a81d9af961094ccaa623128e1a8dfb74a0fa4e99179e6b368d77b939"
+      ],
+      [
+        "Golden Axe MD+.md",
+        "8a928939f5a850afe7c16c5540b0f99cd7f54aa640f4cc27dc16b55a571070e0"
+      ],
+      [
+        "Keiou Yuugekitai (Japan) (Sample).cue",
+        "70ac291473e75481899ee585f00ad35929b0db7a2cf0a1d53a5527290e6d18ab"
+      ],
+      [
+        "Keiou Yuugekitai (Japan).cue",
+        "20dc6b4327023570539edde574f59c8d9f1943b6499b0a2b941ed934c355bdf6"
+      ],
+      [
+        "LunarEternalBlueUnWorkedV2.cue",
+        "6499983177de947e9d2320dbe0cef74ee3fff5045c12a6a73bd62c781e19ae79"
+      ],
+      [
+        "Michael Jackson's Moonwalker.md",
+        "fd192059cd6075e394d009f54f54e66eac7b13be9d30882bc7363aa0cea8f7ee"
+      ],
+      [
+        "Moonwalker with vocals.cue",
+        "19bfea6c4535af2cdaaf8ff272b63bd5a0a4254f9e64f5226418353d9929ae47"
+      ],
+      [
+        "Night Trap (Japan) (Sample).cue",
+        "0210cf12f1cc7640d7783399b8ff872b77dec3973de069949ee38e0bdb9083da"
+      ],
+      [
+        "OutRun (USA, Europe) CDDA.md",
+        "5f94cbce5adc1bc902f1fdc4f4b88f9465b609087406290154a36be81b0e80fd"
+      ],
+      [
+        "OutRun Arcade OST.cue",
+        "65609f7ddbd50d755298ef5fcdef4acb5c6cdfab6ea388e8bc46bea2de852c52"
+      ],
+      [
+        "PopfulMail (Japan) (Sample).cue",
+        "b1204a2b094f858496bd904b45de729d90a50cced645856a721c60e7b37d9075"
+      ],
+      [
+        "Record of Lodoss War (Japan) (Sample).cue",
+        "e92330b42aa5a1d842eacc7399838437dc3f5d1e99fdee44a1e9ce5db25de3db"
+      ],
+      [
+        "Silpheed (Japan) (Sample).cue",
+        "0440952663a11ff762b261747fd9f5275118aa6cd3dd33650e3879cf3f4f5422"
+      ],
+      [
+        "Streets Of Rage 2 (Remake OST).cue",
+        "5320bea063663242a3ef644dc5db566ffa83fb5e8ce0ecc4de6fd047b9db0697"
+      ],
+      [
+        "Streets of Rage 2 Enhanced Audio.md",
+        "ee303406c7a4000d3b49ef1a3358a3051d97bc9f9b3bcece638e2fb904c37231"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles of Rage MD+ Remix v1.06.6 [U] [h].cue",
+        "35a5eb5883af9ea6df87c6f5f79fea1889f9356244a217488bdb2161de5f4eb1"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles of Rage MD+ Remix.md",
+        "575397717d2d40313d0fca07c352d3bb09643fd79cd87a8836a6131bb4024c08"
+      ],
+      [
+        "Throne.cue",
+        "a52aae4f7f1841361be964cdfb103b0229340349f6e55f4511222b17ab9830fb"
+      ],
+      [
+        "Urusei Yatsura - Dear My Friends (Japan) (Sample).cue",
+        "ec09fba5f1e5e7e22ce4ed16930925662eeace4dbb4d525cbbe67453ab2fc406"
+      ],
+      [
+        "Ys3 - Oath in Felghana.cue",
+        "8b5cac72264080803d2c519c1560a3bb4f672e2fe91a5c15ca3830cd085842d9"
+      ]
+    ],
+    "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   }
 }

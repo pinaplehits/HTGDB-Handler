@@ -43,6 +43,8 @@ def update_missing(_missing, _basename):
 
         write_to_child(_basename, "missing", missing_data)
 
+    os.remove(_missing)
+
 
 def write_to_child(_basename, _child, _data, _json_db="db.json"):
     json_data = {}
@@ -59,11 +61,11 @@ def write_to_child(_basename, _child, _data, _json_db="db.json"):
     json_data[_basename][_child] = _data
 
     with open(_json_db, "w") as f:
-        json.dump(json_data, f)
+        json.dump(json_data, f, indent=2)
 
 
 def build():
-    reducer()
+    # reducer()
 
     section, latest_reduced = load_config()
 
@@ -78,7 +80,9 @@ def build():
     if os.path.exists(masters):
         masters = os.path.join(
             masters,
-            f"{basename}.7z.001" if len(os.listdir(masters)) > 1 else f"{basename}.7z",
+            f"{basename}.7z.001"
+            if os.path.exists(os.path.join(masters, f"{basename}.7z.001"))
+            else f"{basename}.7z",
         )
 
         uncompress_7z(masters, romimport)
@@ -92,7 +96,7 @@ def build():
 
     os.system(build)
 
-    # shutil.rmtree(romimport)
+    shutil.rmtree(romimport)
 
     update_missing(missing, basename)
     write_to_child(basename, "verifiedWith", latest_reduced)
