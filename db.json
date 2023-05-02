@@ -757,7 +757,64 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "PlayStation Redump Supplement": {
-    "missing": [],
+    "missing": [
+      [
+        "Aconcagua (J) T+Eng v1 Hilltop (Disc 1).bin",
+        "c55c38c18792eb9b389b30381c16107c2f8e058093f3d6b4ad6cdb736a258acd"
+      ],
+      [
+        "Aconcagua (J) T+Eng v1 Hilltop (Disc 1).cue",
+        "2be953a4079d6f966512a1619be8c6b9b64fdd8338c99b7ed6c60bb6c0b98411"
+      ],
+      [
+        "Aconcagua (J) T+Eng v1 Hilltop (Disc 2).bin",
+        "b125588e772e5e59e27d743c661c9491300d055614e46b3763706227ac22180e"
+      ],
+      [
+        "Aconcagua (J) T+Eng v1 Hilltop (Disc 2).cue",
+        "bdb8fad598d963cb7ba1272435ad742f041b7cd9b9b6ed6682149af8fa33706c"
+      ],
+      [
+        "Beavis and Butt-Head - Virtual Aho Shoukougun (J) T+Eng v1 Mr.Nobody.bin",
+        "3c871f98ff183d8be8c953cda0b7697d6a3a890727121ef48d95cfa79e08dfa8"
+      ],
+      [
+        "Beavis and Butt-Head - Virtual Aho Shoukougun (J) T+Eng v1 Mr.Nobody.cue",
+        "97583f88c5563bbd0b3882e82a925cefe0945d3e812877598d7eabfd410a3755"
+      ],
+      [
+        "Dr. Slump (J) T+Eng + Classic Arale v1.1 Hilltop.bin",
+        "81fe9001b5e8ffac56bfc42e5430c244c0f6e98d96fd362ca58890e69788978a"
+      ],
+      [
+        "Dr. Slump (J) T+Eng + Classic Arale v1.1 Hilltop.cue",
+        "2aab330d68fb668c4387898e524c21e77579f6604cdf35b761f66d2d7d9d21f5"
+      ],
+      [
+        "Dr. Slump (J) T+Eng v1.1 Hilltop.bin",
+        "b6daa549509654d3e6de22f4824a040032b00ed854e2e19d91ee478e024f446a"
+      ],
+      [
+        "Dr. Slump (J) T+Eng v1.1 Hilltop.cue",
+        "c71581eeb30685b5fd2123a6ea609a456e74debff036d1bfd7574c1404f34b64"
+      ],
+      [
+        "Harmful Park (J) T+Eng v1.1 Hilltop.bin",
+        "bc8aa26acc28ef4585287a56787aed52e45a9887c8e62e687ec56d10d12a3015"
+      ],
+      [
+        "Harmful Park (J) T+Eng v1.1 Hilltop.cue",
+        "6472127e8869466c3bda4f97c79115c781c5cd542ff6e29905f38abb806cf8bc"
+      ],
+      [
+        "Iru! (J) T+Eng v1 SnowyAria.bin",
+        "6079d1611fabc1f91dfda7e30525ac682a9a34162463cc68e1bf0163a9772524"
+      ],
+      [
+        "Iru! (J) T+Eng v1 SnowyAria.cue",
+        "750744cb61c96a6f71df3cdc593d6058589382e2802fb3dacc79258237d2f70f"
+      ]
+    ],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Super EverDrive & SD2SNES SMDB": {

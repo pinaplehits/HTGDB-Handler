@@ -61,7 +61,7 @@ def write_to_child(_basename, _child, _data, _json_db="db.json"):
     json_data[_basename][_child] = _data
 
     with open(_json_db, "w") as f:
-        json.dump(json_data, f, indent=2)
+        json.dump(json_data, f, indent=2, sort_keys=True)
 
 
 def build():

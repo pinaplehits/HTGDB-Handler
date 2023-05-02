@@ -14,4 +14,4 @@ def delete_key(_key, json_file="db.json"):
         del data[_key]
 
     with open(json_file, "w") as file:
-        json.dump(data, file, indent=2)
+        json.dump(data, file, indent=2, sort_keys=True)
