@@ -163,31 +163,17 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Atari 2600 SMDB": {
-    "extensions": [
-      ".a26",
-      ".bin",
-      ".sc"
-    ],
+    "extensions": [".a26", ".bin", ".sc"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Atari 5200 SMDB": {
-    "extensions": [
-      ".a52",
-      ".atr",
-      ".bin",
-      ".car",
-      ".hyb",
-      ".rom",
-      ".set"
-    ],
+    "extensions": [".a52", ".atr", ".bin", ".car", ".hyb", ".rom", ".set"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Atari 7800 SMDB": {
-    "extensions": [
-      ".a78"
-    ],
+    "extensions": [".a78"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
@@ -925,23 +911,12 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Atari Lynx SMDB": {
-    "extensions": [
-      "",
-      ".lnx",
-      ".o"
-    ],
+    "extensions": ["", ".lnx", ".o"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Colecovision SMDB": {
-    "extensions": [
-      ".bin",
-      ".ce0",
-      ".ce1",
-      ".cf0",
-      ".col",
-      ".rom"
-    ],
+    "extensions": [".bin", ".ce0", ".ce1", ".cf0", ".col", ".rom"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
@@ -967,23 +942,17 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Darksoft CPS3 SMDB": {
-    "extensions": [
-      ".bin"
-    ],
+    "extensions": [".bin"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Darksoft Namco System 1 SMDB": {
-    "extensions": [
-      ".bin"
-    ],
+    "extensions": [".bin"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Darksoft Neo Geo SMDB": {
-    "extensions": [
-      ""
-    ],
+    "extensions": [""],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
@@ -1040,11 +1009,7 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "EverDrive 64 & 64drive SMDB": {
-    "extensions": [
-      ".bin",
-      ".n64",
-      ".z64"
-    ],
+    "extensions": [".bin", ".n64", ".z64"],
     "missing": [
       [
         "3D Model RGB Test Program (USA) (Test Program).z64",
@@ -1222,20 +1187,12 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "EverDrive GB SMDB": {
-    "extensions": [
-      "",
-      ".gb",
-      ".gbc"
-    ],
+    "extensions": ["", ".gb", ".gbc"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "EverDrive GBA SMDB": {
-    "extensions": [
-      "",
-      ".bin",
-      ".gba"
-    ],
+    "extensions": ["", ".bin", ".gba"],
     "missing": [
       [
         "Ace Combat Advance (Europe) (En,Fr,De,Es,It) (Beta).gba",
@@ -1533,77 +1490,42 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "EverDrive GG SMDB": {
-    "extensions": [
-      "",
-      ".gg",
-      ".sms"
-    ],
+    "extensions": ["", ".gg", ".sms"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "EverDrive N8 & PowerPak SMDB": {
-    "extensions": [
-      "",
-      ".fds",
-      ".nes",
-      ".unh",
-      ".unif"
-    ],
+    "extensions": ["", ".fds", ".nes", ".unh", ".unif"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Fairchild Channel F SMDB": {
-    "extensions": [
-      ".bin"
-    ],
+    "extensions": [".bin"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Famicom Disk System SMDB": {
-    "extensions": [
-      ".bin",
-      ".fds",
-      ".qd"
-    ],
+    "extensions": [".bin", ".fds", ".qd"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Game Boy Color SMDB": {
-    "extensions": [
-      ".gb",
-      ".gbc"
-    ],
+    "extensions": [".gb", ".gbc"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Game Boy SMDB": {
-    "extensions": [
-      ".gb",
-      ".gbc"
-    ],
+    "extensions": [".gb", ".gbc"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Master EverDrive SMDB": {
-    "extensions": [
-      "",
-      ".sg",
-      ".sms"
-    ],
+    "extensions": ["", ".sg", ".sms"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Mega EverDrive SMDB": {
-    "extensions": [
-      "",
-      ".32x",
-      ".bin",
-      ".gen",
-      ".gg",
-      ".md",
-      ".smd",
-      ".sms"
-    ],
+    "extensions": ["", ".32x", ".bin", ".gen", ".gg", ".md", ".smd", ".sms"],
     "missing": [
       [
         "Sonic & Knuckles (World) (Lock-on).bin",
@@ -2147,21 +2069,12 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer Acorn Archimedes Add-On": {
-    "extensions": [
-      ".adf",
-      ".hdf",
-      ".rom"
-    ],
+    "extensions": [".adf", ".hdf", ".rom"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer Amiga Add-On": {
-    "extensions": [
-      ".adf",
-      ".hdf",
-      ".info",
-      ".rom"
-    ],
+    "extensions": [".adf", ".hdf", ".info", ".rom"],
     "missing": [
       [
         "Anarchy - 3D Demo II (v2.01)(1993).adf",
@@ -2211,106 +2124,57 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer AtariST Add-On": {
-    "extensions": [
-      ".st",
-      ".vhd"
-    ],
+    "extensions": [".st", ".vhd"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer C64 Add-On": {
-    "extensions": [
-      ".crt",
-      ".d64",
-      ".prg",
-      ".tap"
-    ],
+    "extensions": [".crt", ".d64", ".prg", ".tap"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer C64 Demos Add-On": {
-    "extensions": [
-      ".crt",
-      ".d64",
-      ".prg",
-      ".tap"
-    ],
+    "extensions": [".crt", ".d64", ".prg", ".tap"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer CPS-1 Add-On": {
-    "extensions": [
-      ".mra",
-      ".zip"
-    ],
+    "extensions": [".mra", ".zip"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
-  "MiSTer CreatiVision Add-On": {
-    "extensions": [
-      ".bas",
-      ".bin",
-      ".cas",
-      ".rom"
-    ]
-  },
   "MiSTer MSX Add-On": {
-    "extensions": [
-      ".cfg",
-      ".txt",
-      ".vhd"
-    ],
+    "extensions": [".cfg", ".txt", ".vhd"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer Neo Geo Add-On": {
-    "extensions": [
-      ".neo",
-      ".zip"
-    ],
+    "extensions": [".neo", ".zip"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer PC8801 Add-On": {
-    "extensions": [
-      ".d88",
-      ".rom"
-    ],
+    "extensions": [".d88", ".rom"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer Spectrum Add-On": {
-    "extensions": [
-      ".dsk",
-      ".mgt",
-      ".scl",
-      ".tap",
-      ".trd",
-      ".z80"
-    ],
+    "extensions": [".dsk", ".mgt", ".scl", ".tap", ".trd", ".z80"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer TSConf Add-On": {
-    "extensions": [
-      ".vhd"
-    ],
+    "extensions": [".vhd"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "MiSTer ao486 Add-On": {
-    "extensions": [
-      ".vhd"
-    ],
+    "extensions": [".vhd"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "NES2.0 SMDB": {
-    "extensions": [
-      "",
-      ".nes",
-      ".sav"
-    ],
+    "extensions": ["", ".nes", ".sav"],
     "missing": [
       [
         "0-to-X (USA) (Numbered Edition) (Aftermarket) (Unl).nes",
@@ -5348,37 +5212,22 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "NGPC RetroHQ SMDB": {
-    "extensions": [
-      ".ngc",
-      ".ngp"
-    ],
+    "extensions": [".ngc", ".ngp"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "NSF Music SMDB": {
-    "extensions": [
-      ".nsf"
-    ],
+    "extensions": [".nsf"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "PC Engine CD Redump Supplement": {
-    "extensions": [
-      "",
-      ".bin",
-      ".cue",
-      ".iso",
-      ".rom",
-      ".wav"
-    ],
+    "extensions": ["", ".bin", ".cue", ".iso", ".rom", ".wav"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "PlayStation Redump Supplement": {
-    "extensions": [
-      ".bin",
-      ".cue"
-    ],
+    "extensions": [".bin", ".cue"],
     "missing": [
       [
         "Aconcagua (J) T+Eng v1 Hilltop (Disc 1).bin",
@@ -5454,10 +5303,7 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "SPC Music SMDB": {
-    "extensions": [
-      ".sp2",
-      ".spc"
-    ],
+    "extensions": [".sp2", ".spc"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
@@ -5493,10 +5339,7 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Sega 32X SMDB": {
-    "extensions": [
-      ".32x",
-      ".bin"
-    ],
+    "extensions": [".32x", ".bin"],
     "missing": [
       [
         "Doom 32X Resurrection (Europe, Japan, USA) (Hack) v2.1 D32XR Team.32x",
@@ -5506,12 +5349,7 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Sega SG-1000 SMDB": {
-    "extensions": [
-      ".sc",
-      ".sf",
-      ".sg",
-      ".sms"
-    ],
+    "extensions": [".sc", ".sf", ".sg", ".sms"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
@@ -5562,14 +5400,7 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Super EverDrive & SD2SNES SMDB": {
-    "extensions": [
-      "",
-      ".bin",
-      ".bs",
-      ".fig",
-      ".sfc",
-      ".smc"
-    ],
+    "extensions": ["", ".bin", ".bs", ".fig", ".sfc", ".smc"],
     "missing": [
       [
         "240p Test Suite NTSC (PD) Artemio v1.061.sfc",
@@ -5675,46 +5506,27 @@
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Turbo EverDrive & Super SD System 3 SMDB": {
-    "extensions": [
-      ".pce",
-      ".sgx"
-    ],
+    "extensions": [".pce", ".sgx"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Vectrex SMDB": {
-    "extensions": [
-      ".bin",
-      ".vec"
-    ],
+    "extensions": [".bin", ".vec"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Virtual Boy SMDB": {
-    "extensions": [
-      ".bin",
-      ".dll",
-      ".gb",
-      ".gbc",
-      ".imp",
-      ".ocx",
-      ".vb"
-    ],
+    "extensions": [".bin", ".dll", ".gb", ".gbc", ".imp", ".ocx", ".vb"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Watara Supervision SMDB": {
-    "extensions": [
-      ".sv"
-    ],
+    "extensions": [".sv"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   },
   "Wonderswan SMDB": {
-    "extensions": [
-      ".ws",
-      ".wsc"
-    ],
+    "extensions": [".ws", ".wsc"],
     "missing": [],
     "verifiedWith": "39fe2236de7c4db6d2f70c380a96a925e4866ca5"
   }
