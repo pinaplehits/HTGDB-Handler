@@ -1,6 +1,5 @@
 from configparser import ConfigParser
-from git import Repo, GitCommandError
-from gitHandler import CloneProgress, git_difference
+from gitHandler import update_repo, git_difference
 from jsonHandler import get_top_level_keys, delete_key, write_to_child
 import csv
 import os
@@ -52,37 +51,6 @@ def new_file(_path, _delimiter, _data):
     return print(f"File {os.path.basename(_path)} is created")
 
 
-def update_repo(_repo_name="Hardware-Target-Game-Database"):
-    if os.path.exists(_repo_name):
-        print("Updating repo...")
-        repo = Repo(_repo_name)
-        current_sha1 = repo.head.object.hexsha
-        repo.git.checkout("master")
-        repo.git.reset("--hard", repo.head.commit)
-
-        try:
-            repo.remotes.origin.pull(progress=CloneProgress())
-        except GitCommandError as e:
-            print("An error occurred while pulling changes: ", e)
-
-        new_sha1 = repo.head.object.hexsha
-
-        if current_sha1 == new_sha1:
-            print("No new commits")
-            return new_sha1
-
-        print(f"Updated from {current_sha1} to {new_sha1}")
-        return new_sha1
-
-    Repo.clone_from(
-        url="https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
-        to_path=_repo_name,
-        progress=CloneProgress(),
-    )
-
-    return Repo(_repo_name).head.object.hexsha
-
-
 def write_latest_commit(_config_file="config.ini", _sha1=""):
     config = ConfigParser()
     config.read(_config_file)
@@ -92,30 +60,12 @@ def write_latest_commit(_config_file="config.ini", _sha1=""):
         config.write(f)
 
 
-def remove_files(_path, files):
-    for file in files:
-        os.remove(os.path.join(_path, file))
-
-
-def remove_keys(_deleted):
-    for key in get_list_intersection(_deleted):
-        delete_key(key)
-
-    return True
-
-
-def get_list_intersection(_list):
-    return [
-        elem
-        for elem in get_top_level_keys()
-        if any(elem in substring for substring in _list)
-    ]
-
-
 def move_to_legacy(_path_master, _path_build, _path_legacy):
     if os.path.exists(_path_master):
         if os.listdir(_path_master):
-            shutil.rmtree(_path_build)
+            if os.path.exists(_path_build):
+                shutil.rmtree(_path_build)
+
             shutil.move(_path_master, _path_legacy)
             return print("Build folder deleted and master folder moved to legacy")
 
@@ -125,20 +75,22 @@ def move_to_legacy(_path_master, _path_build, _path_legacy):
         shutil.move(_path_build, _path_legacy)
         return print("Build folder moved to legacy")
 
+    exit(print("No master or build folder found"))
+
+
+# def write_extensions():
+# databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
+
+# for db in databases:
+#     basename = os.path.splitext(db)[0]
+#     data = populate_list(os.path.join(path_smdb, db))
+#     write_to_child(basename, "extensions", get_extensions(data))
+
 
 def reducer():
-    # htgdb_sha1 = update_repo()
+    htgdb_sha1 = update_repo()
     section = load_config()
-    path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
 
-    databases = [file for file in os.listdir(path_smdb) if file.endswith(".txt")]
-
-    for db in databases:
-        basename = os.path.splitext(db)
-        data = populate_list(os.path.join(path_smdb, db))
-        write_to_child(basename[0], "extensions", get_extensions(data))
-
-    return
     if section["latest_reduced"] == htgdb_sha1:
         return print("Nothing new to reduce")
 
@@ -147,28 +99,42 @@ def reducer():
 
     update_changes = git_difference(section["latest_reduced"], htgdb_sha1)
 
-    if update_changes["deleted"]:
-        basename = [
-            os.path.splitext(os.path.basename(x))[0] for x in update_changes["deleted"]
-        ]
+    if update_changes["renamed"]:
+        input("Some files will be renamed, the program will end...")
+        exit()
 
-        remove_keys(update_changes["deleted"])
-        remove_files(path_smdb, update_changes["deleted"])
+    if update_changes["added"]:
+        input("Some files will be renamed, the program will end...")
+        exit()
+
+    if update_changes["deleted"]:
+        basename = [os.path.splitext(name)[0] for name in update_changes["deleted"]]
 
         for key in basename:
+            print(f"Removing {key} from SMDB...")
+
+            delete_key(key)
+
+            os.remove(os.path.join(path_reduced_smdb, f"{key}.txt"))
+
             move_to_legacy(
                 os.path.join(section["master"], key),
                 os.path.join(section["build"], key),
                 os.path.join(section["legacy"], key),
             )
 
-    if update_changes["renamed"]:
-        input("Some files will be renamed, the program will end...")
-        exit()
+    if update_changes["modified"]:
+        basename = [os.path.splitext(name)[0] for name in update_changes["modified"]]
+
+        json_data = get_top_level_keys()
+
+        removed = [i for i in json_data if i not in basename]
+
+        for key in removed:
+            write_to_child(key, "verifiedWith", htgdb_sha1)
 
     for database in update_changes["modified"] + update_changes["added"]:
         data = populate_list(os.path.join(path_smdb, database))
-        # print(get_extensions(data))
 
         new_file(os.path.join(path_reduced_smdb, database), "\t", single_file_db(data))
 

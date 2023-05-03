@@ -1,10 +1,9 @@
 from configparser import ConfigParser
+from jsonHandler import write_to_child
 from reducer import reducer
 import csv
-import json
 import os
 import shutil
-from jsonHandler import write_to_child
 
 
 def load_config(_section="build_reduced", _file="config.ini"):
