@@ -40,14 +40,39 @@ def update_missing(_missing, _basename):
 
     with open(_missing, "r") as f:
         missing_data = list(csv.reader(f, delimiter="\t"))
-
         write_to_child(_basename, "missing", missing_data)
 
     os.remove(_missing)
 
 
+def build_from_masters(_masters, _basename, _romimport):
+    if not os.path.exists(_masters):
+        return False
+
+    if not os.listdir(_masters):
+        return False
+
+    _masters = os.path.join(
+        _masters,
+        f"{_basename}.7z.001"
+        if os.path.exists(os.path.join(_masters, f"{_basename}.7z.001"))
+        else f"{_basename}.7z",
+    )
+
+    uncompress_7z(_masters, _romimport)
+
+    return True
+
+
+def build_from_uncompress(_romimport, _folder):
+    if not os.path.exists(_folder):
+        exit("No files to build")
+
+    shutil.move(_folder, _romimport)
+
+
 def build():
-    # reducer()
+    reducer()
 
     section, latest_reduced = load_config()
 
@@ -59,20 +84,8 @@ def build():
     smdb = os.path.join(section["smdb"], smdb)
     masters = os.path.join(section["masters"], basename)
 
-    if os.path.exists(masters):
-        masters = os.path.join(
-            masters,
-            f"{basename}.7z.001"
-            if os.path.exists(os.path.join(masters, f"{basename}.7z.001"))
-            else f"{basename}.7z",
-        )
-
-        uncompress_7z(masters, romimport)
-    else:
-        if not os.path.exists(folder):
-            return print(f"{os.path.basename(folder)} not found")
-
-        shutil.move(folder, romimport)
+    if not build_from_masters(masters, basename, romimport):
+        build_from_uncompress()
 
     build = f"python {section['script']} --input_folder '{romimport}' --database '{smdb}' --output_folder '{folder}' --missing '{missing}' --skip_existing --drop_initial_directory --file_strategy hardlink"
 
