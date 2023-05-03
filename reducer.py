@@ -2,6 +2,7 @@ from configparser import ConfigParser
 from gitHandler import update_repo, git_difference
 from jsonHandler import get_top_level_keys, delete_key, write_to_child
 import csv
+import json
 import os
 import shutil
 
@@ -98,6 +99,8 @@ def reducer():
     path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
 
     update_changes = git_difference(section["latest_reduced"], htgdb_sha1)
+
+    print(json.dumps(update_changes, indent=4))
 
     if update_changes["renamed"]:
         input("Some files will be renamed, the program will end...")
