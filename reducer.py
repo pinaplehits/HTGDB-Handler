@@ -63,7 +63,7 @@ def write_latest_commit(_config_file="config.ini", _sha1=""):
 
 def move_to_legacy(_path_master, _path_build, _path_legacy):
     if not os.path.exists(_path_master) and not os.path.exists(_path_build):
-        exit("No master or build folder found")
+        exit(print("No master or build folder found"))
 
     if os.path.exists(_path_master):
         if not os.listdir(_path_master):

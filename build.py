@@ -66,7 +66,7 @@ def build_from_masters(_masters, _basename, _romimport):
 
 def build_from_uncompress(_romimport, _folder):
     if not os.path.exists(_folder):
-        exit("No files to build")
+        exit(print("No files to build"))
 
     shutil.move(_folder, _romimport)
 
