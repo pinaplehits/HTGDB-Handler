@@ -66,15 +66,20 @@ def move_to_legacy(_path_master, _path_build, _path_legacy):
         exit(print("No master or build folder found"))
 
     if os.path.exists(_path_master):
-        if not os.listdir(_path_master):
-            shutil.rmtree(_path_master)
-        else:
-            shutil.move(_path_master, _path_legacy)
+        shutil.move(_path_master, _path_legacy)
 
-            if os.path.exists(_path_build):
-                shutil.rmtree(_path_build)
+        if os.path.exists(_path_build):
+            shutil.rmtree(_path_build)
 
-            return print("Master folder moved to legacy")
+        return print("Master folder moved to legacy")
+
+    if os.path.exists(_path_build):
+        if os.path.exists(_path_legacy):
+            shutil.rmtree(_path_legacy)
+
+        shutil.move(_path_build, _path_legacy)
+
+        return print("Build folder moved to legacy")
 
     if os.path.exists(_path_build):
         shutil.move(_path_build, _path_legacy)
