@@ -47,9 +47,11 @@ def update_missing(_missing, _basename):
 
 def build_from_masters(_masters, _basename, _romimport):
     if not os.path.exists(_masters):
+        print(f"Masters folder {_masters} doesn't exist")
         return False
 
     if not os.listdir(_masters):
+        print(f"Masters folder {_masters} is empty")
         return False
 
     _masters = os.path.join(
@@ -64,11 +66,18 @@ def build_from_masters(_masters, _basename, _romimport):
     return True
 
 
-def build_from_uncompress(_romimport, _folder):
+def build_from_main(_folder, _romimport):
     if not os.path.exists(_folder):
-        exit(print("No files to build"))
+        print(f"Main folder {_folder} doesn't exist")
+        return False
+
+    if not os.listdir(_folder):
+        print(f"Main folder {_folder} is empty")
+        return False
 
     shutil.move(_folder, _romimport)
+
+    return True
 
 
 def build():
@@ -84,8 +93,9 @@ def build():
     smdb = os.path.join(section["smdb"], smdb)
     masters = os.path.join(section["masters"], basename)
 
-    if not build_from_masters(masters, basename, romimport):
-        build_from_uncompress()
+    if not build_from_main(folder, romimport):
+        if not build_from_masters(masters, basename, romimport):
+            return print("No files to build")
 
     build = f"python {section['script']} --input_folder '{romimport}' --database '{smdb}' --output_folder '{folder}' --missing '{missing}' --skip_existing --drop_initial_directory --file_strategy hardlink"
 

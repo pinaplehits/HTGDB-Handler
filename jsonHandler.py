@@ -1,4 +1,5 @@
 import json
+import os
 
 
 def get_top_level_keys(json_file="db.json"):
@@ -68,10 +69,18 @@ def read_from_key(_key, _json_db="db.json"):
     return json_data[_key]
 
 
-# db = get_top_level_keys()
+# def missing_db():
+#     db = get_top_level_keys()
 
-# for key in db:
-#     missing = read_from_child(key, "missing")
-#     if missing:
-#         print(f"{key} is missing {len(missing)} items")
-#         write_to_child(key, "missing", missing, "missing.json")
+#     if not os.path.exists("missing.json"):
+#         with open("missing.json", "w") as f:
+#             json.dump({}, f)
+
+#     for key in db:
+#         missing = read_from_child(key, "missing")
+#         if missing:
+#             print(f"{key} is missing {len(missing)} items")
+#             write_to_child(key, "missing", missing, "missing.json")
+
+
+# missing_db()
