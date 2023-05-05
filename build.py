@@ -1,5 +1,6 @@
 from configparser import ConfigParser
-from jsonHandler import write_to_child
+import json
+from jsonHandler import write_to_child, get_top_level_keys, read_from_child
 from reducer import reducer
 import csv
 import os
@@ -13,13 +14,42 @@ def load_config(_section="build_reduced", _file="config.ini"):
     return dict(config.items(_section)), config["reducer"]["latest_reduced"]
 
 
-def select_database(_path):
-    smdb = sorted([x for x in os.listdir(_path) if x.endswith(".txt")], key=str.lower)
+def select_database(_path, _sha1):
+    smdb, basename = get_missing_smdb(_sha1)
 
+    [print(index, value) for index, value in enumerate(basename)]
+    print("999 for all SMDB files")
+    index = input("Select one SMDB file: ")
+
+    if index == "999":
+        return get_all_smdb(_path)
+
+    return smdb[int(index)], basename[int(index)]
+
+
+def get_missing_smdb(_sha1):
+    db = get_top_level_keys()
+    missing = [x for x in db if read_from_child(x, "missing")]
+    not_verified = [
+        x
+        for x in db
+        if read_from_child(x, "verifiedWith") != _sha1
+        or not read_from_child(x, "verifiedWith")
+    ]
+
+    basename = sorted(set(missing + not_verified))
+    smdb = [f"{x}.txt" for x in basename]
+
+    return smdb, basename
+
+
+def get_all_smdb(_path):
+    os.system("clear" if os.name == "posix" else "cls")
+
+    smdb = sorted([x for x in os.listdir(_path) if x.endswith(".txt")], key=str.lower)
     basename = [os.path.splitext(os.path.basename(x))[0] for x in smdb]
 
     [print(index, value) for index, value in enumerate(basename)]
-
     index = input("Select one SMDB file: ")
 
     return smdb[int(index)], basename[int(index)]
@@ -85,7 +115,7 @@ def build():
 
     section, latest_reduced = load_config()
 
-    smdb, basename = select_database(section["smdb"])
+    smdb, basename = select_database(section["smdb"], latest_reduced)
     missing = os.path.join(section["missing"], smdb)
     romimport = os.path.join(section["romimport"], basename)
 

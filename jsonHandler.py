@@ -46,10 +46,10 @@ def read_from_child(_basename, _child, _json_db="db.json"):
         pass
 
     if _basename not in json_data:
-        return {}
+        return False
 
     if _child not in json_data[_basename]:
-        return {}
+        return False
 
     return json_data[_basename][_child]
 
