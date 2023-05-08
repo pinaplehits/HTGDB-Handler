@@ -72,9 +72,11 @@ def read_from_key(_key, _json_db="db.json"):
 # def missing_db():
 #     db = get_top_level_keys()
 
-#     if not os.path.exists("missing.json"):
-#         with open("missing.json", "w") as f:
-#             json.dump({}, f)
+#     if os.path.exists("missing.json"):
+#         os.remove("missing.json")
+
+#     with open("missing.json", "w") as f:
+#         json.dump({}, f)
 
 #     for key in db:
 #         missing = read_from_child(key, "missing")
