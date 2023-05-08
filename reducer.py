@@ -1,6 +1,7 @@
 from configparser import ConfigParser
 from gitHandler import update_repo, git_difference
 from jsonHandler import get_top_level_keys, delete_key, write_to_child
+from smdbHandler import get_extensions
 import csv
 import json
 import os
@@ -17,12 +18,6 @@ def load_config(_section="reducer", _file="config.ini"):
 def populate_list(_path):
     with open(str(_path), newline="") as file:
         return list(csv.reader(file, delimiter="\t"))
-
-
-def get_extensions(_items):
-    return sorted(
-        set([os.path.splitext(os.path.basename(item[1]))[1].lower() for item in _items])
-    )
 
 
 def single_file_db(_items):
