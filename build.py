@@ -1,6 +1,5 @@
 from configparser import ConfigParser
-import json
-from jsonHandler import write_to_child, get_top_level_keys, read_from_child
+from jsonHandler import write_to_child, get_top_level_keys, read_from_child, sort_json
 from reducer import reducer
 import csv
 import os
@@ -135,6 +134,7 @@ def build():
 
     update_missing(missing, basename)
     write_to_child(basename, "verifiedWith", latest_reduced)
+    sort_json()
 
 
 if __name__ == "__main__":

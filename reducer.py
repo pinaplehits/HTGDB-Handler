@@ -1,9 +1,8 @@
 from configparser import ConfigParser
 from gitHandler import update_repo, git_difference
-from jsonHandler import get_top_level_keys, delete_key, write_to_child
-from smdbHandler import get_extensions
+from jsonHandler import get_top_level_keys, delete_key, write_to_child, sort_json
+from smdbHandler import get_extensions, read_file
 import csv
-import json
 import os
 import shutil
 
@@ -15,12 +14,7 @@ def load_config(_section="reducer", _file="config.ini"):
     return dict(config.items(_section))
 
 
-def populate_list(_path):
-    with open(str(_path), newline="") as file:
-        return list(csv.reader(file, delimiter="\t"))
-
-
-def single_file_db(_items):
+def reduce_db(_items):
     dataset = set([item[0] for item in _items])
 
     if len(dataset) == len(_items):
@@ -38,7 +32,7 @@ def single_file_db(_items):
     return newdb
 
 
-def new_file(_path, _delimiter, _data):
+def new_file(_path, _data, _delimiter="\t"):
     print(f"Creating {os.path.basename(_path)} file...")
 
     with open(_path, "w", newline="") as file:
@@ -95,6 +89,8 @@ def handle_modified(_modified, _sha1):
     for key in removed:
         write_to_child(key, "verifiedWith", _sha1)
 
+    sort_json()
+
 
 def handle_deleted(_deleted, _path, _section):
     if not _deleted:
@@ -114,6 +110,7 @@ def handle_deleted(_deleted, _path, _section):
             os.path.join(_section["build"], key),
             os.path.join(_section["legacy"], key),
         )
+    sort_json()
 
 
 def reducer():
@@ -128,8 +125,6 @@ def reducer():
 
     update_changes = git_difference(section["latest_reduced"], htgdb_sha1)
 
-    input(json.dumps(update_changes, indent=4))
-
     if update_changes["renamed"]:
         input("Some files will be renamed, the program will end...")
         exit()
@@ -143,12 +138,13 @@ def reducer():
     handle_modified(update_changes["modified"], htgdb_sha1)
 
     for database in update_changes["modified"] + update_changes["added"]:
-        data = populate_list(os.path.join(path_smdb, database))
+        data = read_file(os.path.join(path_smdb, database))
         basename = os.path.splitext(database)[0]
 
-        new_file(os.path.join(path_reduced_smdb, database), "\t", single_file_db(data))
+        new_file(os.path.join(path_reduced_smdb, database), reduce_db(data))
         write_to_child(basename, "extensions", get_extensions(data))
 
+    sort_json()
     write_latest_commit(_sha1=htgdb_sha1)
 
 
