@@ -44,36 +44,64 @@ def read_missing(_path):
         write_to_child(basename, "missing", missing_data)
 
 
+def reduced_master(_path="Reduced SMDBs/"):
+    smdb = get_txt_files(_path)
+    data = [line for file in smdb for line in read_file(file)]
+
+    dataset = set([item[0] for item in data])
+
+    newdb = [
+        item for item in data if item[0] in dataset and dataset.remove(item[0]) is None
+    ]
+
+    return newdb
+
+
 def reduced_smdb(_path="Reduced SMDBs/"):
     _path = os.path.normpath(_path)
     json_db = get_top_level_keys()
     smdb = get_txt_files(_path)
 
+    len_reduced = 0
+
     for file in smdb:
+        len_smdb = get_number_of_items(file)
+        len_reduced += len_smdb
+        # continue
         basename = os.path.splitext(os.path.basename(file))[0]
 
         if basename in json_db:
             data = read_file(file)
 
-            write_to_child(basename, "reducedTo", get_number_of_items(file))
+            write_to_child(basename, "reducedTo", len_smdb)
             write_to_child(basename, "extensions", get_extensions(data))
+
+    return len_reduced
 
 
 def original_smdb(_path="Hardware-Target-Game-Database/EverDrive Pack SMDBs/"):
     _path = os.path.normpath(_path)
     json_db = get_top_level_keys()
-
     smdb = get_txt_files(_path)
 
+    len_original = 0
+
     for file in smdb:
+        len_smdb = get_number_of_items(file)
+        len_original += len_smdb
+        # continue
         basename = os.path.splitext(os.path.basename(file))[0]
+
         if basename in json_db:
-            write_to_child(basename, "reducedFrom", get_number_of_items(file))
+            write_to_child(basename, "reducedFrom", len_smdb)
+
+    return len_original
 
 
 if __name__ == "__main__":
-    # reduced_smdb()
-    # original_smdb()
+    # print(reduced_smdb())
+    # print(original_smdb() - reduced_smdb())
 
     # read_missing("D:\\MegaSD SMDB.txt")
-    sort_json()
+    # sort_json()
+    reduced_master()
