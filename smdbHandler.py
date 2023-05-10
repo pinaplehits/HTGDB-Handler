@@ -1,6 +1,6 @@
-import os
-import csv
 from jsonHandler import write_to_child, get_top_level_keys, sort_json
+import csv
+import os
 
 
 def get_extensions(_items):
@@ -32,14 +32,26 @@ def read_file(_path, _delimiter="\t", _newline=""):
         return list(csv.reader(file, delimiter=_delimiter))
 
 
+def read_missing(_path):
+    _path = os.path.normpath(_path)
+    basename = os.path.splitext(os.path.basename(_path))[0]
+
+    if basename not in get_top_level_keys():
+        return
+
+    with open(_path, "r") as f:
+        missing_data = list(csv.reader(f, delimiter="\t"))
+        write_to_child(basename, "missing", missing_data)
+
+
 def reduced_smdb(_path="Reduced SMDBs/"):
     _path = os.path.normpath(_path)
     json_db = get_top_level_keys()
-
     smdb = get_txt_files(_path)
 
     for file in smdb:
         basename = os.path.splitext(os.path.basename(file))[0]
+
         if basename in json_db:
             data = read_file(file)
 
@@ -60,6 +72,8 @@ def original_smdb(_path="Hardware-Target-Game-Database/EverDrive Pack SMDBs/"):
 
 
 if __name__ == "__main__":
-    reduced_smdb()
-    original_smdb()
+    # reduced_smdb()
+    # original_smdb()
+
+    # read_missing("D:\\MegaSD SMDB.txt")
     sort_json()
