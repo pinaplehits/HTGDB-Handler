@@ -26,7 +26,7 @@
     "missing": [],
     "reducedFrom": 14095,
     "reducedTo": 9721,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Analogue Nt Mini Noir Jailbreak SMDB": {
     "extensions": [
@@ -59,7 +59,7 @@
     "missing": [],
     "reducedFrom": 12747,
     "reducedTo": 7481,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Apocalypse": {
     "extensions": [
@@ -165,7 +165,7 @@
     "missing": [],
     "reducedFrom": 398,
     "reducedTo": 371,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Atari 2600 SMDB": {
     "extensions": [
@@ -175,7 +175,7 @@
     "missing": [],
     "reducedFrom": 6609,
     "reducedTo": 4006,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Atari 5200 SMDB": {
     "extensions": [
@@ -190,7 +190,7 @@
     "missing": [],
     "reducedFrom": 507,
     "reducedTo": 227,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Atari 7800 SMDB": {
     "extensions": [
@@ -199,7 +199,7 @@
     "missing": [],
     "reducedFrom": 1095,
     "reducedTo": 891,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Atari Jaguar SMDB": {
     "extensions": [
@@ -217,7 +217,7 @@
     "missing": [],
     "reducedFrom": 1154,
     "reducedTo": 659,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Atari Lynx SMDB": {
     "extensions": [
@@ -228,21 +228,52 @@
     "missing": [],
     "reducedFrom": 563,
     "reducedTo": 267,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Colecovision SMDB": {
     "extensions": [
-      ".bin",
       ".ce0",
       ".ce1",
       ".cf0",
-      ".col",
-      ".rom"
+      ".col"
     ],
-    "missing": [],
+    "missing": [
+      [
+        "Defender (USA) (BUG Fixed).col",
+        "502ada91f53faf87221c2cb107d740cc6623e569a4be82a3b8412feebbf35f5c"
+      ],
+      [
+        "Energy Quiz (Canada) (En,Fr-CA) (1983-06-06) (Proto).col",
+        "df7d5525a010f28f3d180daf1a19f69c406200f1bc2a6e690b48f837b8725690"
+      ],
+      [
+        "Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15).col",
+        "bcb3beab8ec0217b6bbfe62ff7c4676de2079af6a84e4c6edeb8fe33b0a782b0"
+      ],
+      [
+        "James Bond 007 (USA).col",
+        "965f1e65b3fc8230f8da0ebe7d778b55a5136acdc803956f0289ba18383413ad"
+      ],
+      [
+        "Mazy (2022 Inufuto).col",
+        "c34f48d096b1135ee737093329894cc9eb99952d8d33b444eca1e04a939e0e92"
+      ],
+      [
+        "Power Lords - Quest for Volcan (USA) (Proto 1).col",
+        "f97659a6d4b4523f5decf29f0d1c8e88b726c65d68a5aa1a4be772969b3820dc"
+      ],
+      [
+        "Star Fire (USA) (Proto).col",
+        "f8a6fc5d9c89d7598460c49b539e8a4b4391931673b2731b381b608f99b2d3ee"
+      ],
+      [
+        "Star Wars - The Arcade Game (USA) (Beta) (1984-04-12).col",
+        "bda3acc1d0eb13b5f2e552072a4c8b3ee0cc88cd938b89f9e7809ec0eaec3fd9"
+      ]
+    ],
     "reducedFrom": 1186,
     "reducedTo": 521,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Darksoft CPS2 SMDB": {
     "extensions": [
@@ -263,7 +294,7 @@
     "missing": [],
     "reducedFrom": 4209,
     "reducedTo": 1135,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Darksoft CPS3 SMDB": {
     "extensions": [
@@ -272,7 +303,7 @@
     "missing": [],
     "reducedFrom": 12,
     "reducedTo": 12,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Darksoft Namco System 1 SMDB": {
     "extensions": [
@@ -281,7 +312,7 @@
     "missing": [],
     "reducedFrom": 6,
     "reducedTo": 6,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Darksoft Neo Geo SMDB": {
     "extensions": [
@@ -290,7 +321,7 @@
     "missing": [],
     "reducedFrom": 1453,
     "reducedTo": 981,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Darksoft STV SMDB": {
     "extensions": [
@@ -323,7 +354,7 @@
     "missing": [],
     "reducedFrom": 413,
     "reducedTo": 406,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Darksoft Taito F3 SMDB": {
     "extensions": [
@@ -346,7 +377,7 @@
     "missing": [],
     "reducedFrom": 1642,
     "reducedTo": 666,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "EverDrive 64 & 64drive SMDB": {
     "extensions": [
@@ -354,10 +385,151 @@
       ".n64",
       ".z64"
     ],
-    "missing": [],
+    "missing": [
+      [
+        "40 Winks (USA) (Aftermarket) (Unl).z64",
+        "057232ef7618e25f5645df50d3cd45f08cb5a2cccb3e2fdf48faa8755c4ddb1a"
+      ],
+      [
+        "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02).z64",
+        "954843718bd0ba6d19d214aead72895df8c47fe96505fa9c2caa57f2ff89a261"
+      ],
+      [
+        "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10).z64",
+        "d6bfc15751cfcfb668cca0d2038cb0919873bc39c15f77dfa3d32f8f72dd0c90"
+      ],
+      [
+        "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05).z64",
+        "468efe1af342f60b93461c50cbcc471f41f48f4e54c81ef622b69820a9d00c32"
+      ],
+      [
+        "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21).z64",
+        "bb85e7dc83d645755967e70ac3e557afc31217474805884f4a31d4f750060b0d"
+      ],
+      [
+        "Destruction Derby 64 (USA) (Beta) (1998-07-31).z64",
+        "eead2f3ed135e51794131ddef086264c337879458974a4bad223bdf4c037df0c"
+      ],
+      [
+        "Doom 64 (USA) (Beta) (1996-12-10).z64",
+        "4b3931c14d548fedf98fcd28681ec45695dec415d39fd4a6d58a877e1c6dd2a2"
+      ],
+      [
+        "Duke Nukem - Zero Hour (USA) (Beta).z64",
+        "9a679928314ef211c9bf1f5e28e680133d73cd7d0cab0768122be4673cb3e66c"
+      ],
+      [
+        "GoldenEye 007 (USA, Europe) (Switch Online).z64",
+        "57dc56aa4b8c66a85d6f83c3068960850dd81f8eaea309e1a7602cb969499fbc"
+      ],
+      [
+        "Hercules - The Legendary Journeys (USA) (Beta 2).z64",
+        "ca4603878ff685bef382b4184155179f6812cbe02c98b10569a3156970ffc0b0"
+      ],
+      [
+        "Jeremy McGrath Supercross 2000 (USA) (Beta).z64",
+        "ecfff6f16825c5aabb939b2448f0c138ceebd379d1ca64e0a8ef81d394ff0a37"
+      ],
+      [
+        "Michael Owen's WLS 2000 (Europe) (En,Fr,De,Es,It) (Beta).z64",
+        "695886b29e5b69e498e474a2a380bdab988ef7ecda7ae7c5a8fd1a4f9a1134e7"
+      ],
+      [
+        "Mission - Impossible (Europe) (Beta).z64",
+        "66a7b6106fe1b527a96a204886e6ff45e9025b14e64387454140cef4cf22d850"
+      ],
+      [
+        "Nuclear Strike 64 (USA) (Beta) (1999-09-21).z64",
+        "3a147d27bce3217a066c7b690a9d2c8ef7e12e226a61a72bd008d000568034ce"
+      ],
+      [
+        "Nuclear Strike 64 (USA) (Beta) (Earlier).z64",
+        "49074f2ba1b9010d35bcf437e0338a90033e5089d4e04bab98ffad07e7ced499"
+      ],
+      [
+        "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27).z64",
+        "697e9388a015a8a3d3823e234048e5e1e48b66c26d4f7bb090fd9bcac614ea12"
+      ],
+      [
+        "Road Rash 64 (USA) (Beta 1).z64",
+        "93dcac74d4d4462d555feac7324c4b9ccdb5b12d86e843b10919bd009d727fa1"
+      ],
+      [
+        "Road Rash 64 (USA) (Beta 2).z64",
+        "70822f8b0a6ae09e8eed5789b584c4f4c1622777c621d402ab1797ddbc1e261b"
+      ],
+      [
+        "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02).z64",
+        "949e669fdd33a8a26bd592200254a6c0c49265fd72b753efff3b816e13df7033"
+      ],
+      [
+        "Shadowgate 64 - Trials of the Four Towers (USA) (En,Es) (Beta).z64",
+        "77ce7d9ae142be989a5b77ddf0609bbdc2157b74dc86d9df9d87cf23cd306909"
+      ],
+      [
+        "SimCopter 64 (USA) (Proto).z64",
+        "387df53451abcb5a1ad24723cd7aaf64e676d47a80ef43f59e5af5f07ead6e90"
+      ],
+      [
+        "South Park Rally (Europe) (Beta) (2000-01-17).z64",
+        "fc9abc30131d3268cefac6933361f3980f82576dcd49383f770e005f004f8275"
+      ],
+      [
+        "South Park Rally (USA) (Beta) (2000-01-14).z64",
+        "01e014810a06896be27db02f3896686e99a806a0c9da8693ea9256ab4e3a41d7"
+      ],
+      [
+        "South Park Rally (USA) (Beta) (2000-01-27).z64",
+        "f7170b81bc2f635334cc3c58aa8f78e743daf5eeaa0ce0f1fc60420e6135412f"
+      ],
+      [
+        "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl).z64",
+        "5d5dc9aba45563bcd4a2bced42c865ca8916f2ce9a335c83e9e4e764ac6c2994"
+      ],
+      [
+        "Star Wars Episode I - Battle for Naboo (USA) (Beta).z64",
+        "2dbba691279d4879b0e6edfa6f69113b79227b37afb5097108691870c8a8dbf4"
+      ],
+      [
+        "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl).z64",
+        "314730e75239c074b896af47d53dc0a5746131bcfc8b925795e4933fee5de147"
+      ],
+      [
+        "Top Gear Overdrive (USA) (Beta).z64",
+        "917f2f7ae45bb14a0c588e266f0909a0f2be206bd6b78d33b29be138cedcf46f"
+      ],
+      [
+        "Top Gear Rally 2 (USA) (Beta).z64",
+        "c06049ac701f5c4d0035704b8df96b3f31e1e02e9cd084259b2166804e59a5a1"
+      ],
+      [
+        "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997).z64",
+        "6134251820b4ff94c62c1a83f9eca4dc27f72dfe2f3f71aaaa7c4b81dbd99cdf"
+      ],
+      [
+        "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-16T220245).z64",
+        "24e7e1ba7bb79156f0181227192383575e22dfd67279f7660d4d44111436ecf3"
+      ],
+      [
+        "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18).z64",
+        "628cdd8067ff066d02d7a08b375f5b64ac6131127a510d4fc0050135225c2574"
+      ],
+      [
+        "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03).z64",
+        "73857c14229df113fb20a05e726a36e71b039ca9d5862c917eac2c6bb35a9727"
+      ],
+      [
+        "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16).z64",
+        "78175f1a4731ecc25dbc52987e3dcc12464d3d0be8bd9f6eeeeea71e14cfad9f"
+      ],
+      [
+        "WWF No Mercy (USA) (Beta) (2000-09-11).z64",
+        "3dd1f846c6ba859fbfee64f1171ad134969931321ac2d9d33c6f45c5b264f269"
+      ]
+    ],
     "reducedFrom": 2908,
     "reducedTo": 1317,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "EverDrive GB SMDB": {
     "extensions": [
@@ -368,7 +540,7 @@
     "missing": [],
     "reducedFrom": 5372,
     "reducedTo": 1684,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "EverDrive GBA SMDB": {
     "extensions": [
@@ -379,7 +551,7 @@
     "missing": [],
     "reducedFrom": 6113,
     "reducedTo": 3713,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "EverDrive GG SMDB": {
     "extensions": [
@@ -390,7 +562,7 @@
     "missing": [],
     "reducedFrom": 2090,
     "reducedTo": 1117,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "EverDrive N8 & PowerPak SMDB": {
     "extensions": [
@@ -403,7 +575,7 @@
     "missing": [],
     "reducedFrom": 13816,
     "reducedTo": 7760,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Fairchild Channel F SMDB": {
     "extensions": [
@@ -412,7 +584,7 @@
     "missing": [],
     "reducedFrom": 34,
     "reducedTo": 34,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Famicom Disk System SMDB": {
     "extensions": [
@@ -423,7 +595,7 @@
     "missing": [],
     "reducedFrom": 1050,
     "reducedTo": 965,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Game Boy Color SMDB": {
     "extensions": [
@@ -433,7 +605,7 @@
     "missing": [],
     "reducedFrom": 2184,
     "reducedTo": 2182,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Game Boy SMDB": {
     "extensions": [
@@ -443,7 +615,7 @@
     "missing": [],
     "reducedFrom": 3357,
     "reducedTo": 2612,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Master EverDrive SMDB": {
     "extensions": [
@@ -454,7 +626,7 @@
     "missing": [],
     "reducedFrom": 3026,
     "reducedTo": 1511,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Mega EverDrive SMDB": {
     "extensions": [
@@ -470,7 +642,7 @@
     "missing": [],
     "reducedFrom": 8458,
     "reducedTo": 4390,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "MegaSD SMDB": {
     "extensions": [
@@ -970,7 +1142,7 @@
     ],
     "reducedFrom": 8139,
     "reducedTo": 7530,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "MiSTer": {
     "extensions": [
@@ -12795,7 +12967,7 @@
     ],
     "reducedFrom": 19151,
     "reducedTo": 18857,
-    "verifiedWith": "27e5f4eca4441e55f2cc005b422bf9cc9819850c"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "MiSTer Acorn Archimedes Add-On": {
     "extensions": [
@@ -12806,7 +12978,7 @@
     "missing": [],
     "reducedFrom": 215,
     "reducedTo": 215,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "MiSTer Neo Geo Add-On": {
     "extensions": [
@@ -12816,7 +12988,7 @@
     "missing": [],
     "reducedFrom": 297,
     "reducedTo": 294,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "MiSTer Spectrum Add-On": {
     "extensions": [
@@ -12830,7 +13002,7 @@
     "missing": [],
     "reducedFrom": 11928,
     "reducedTo": 11927,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "MiSTer TSConf Add-On": {
     "extensions": [
@@ -12839,7 +13011,7 @@
     "missing": [],
     "reducedFrom": 1,
     "reducedTo": 1,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "NES2.0 SMDB": {
     "extensions": [
@@ -12850,7 +13022,7 @@
     "missing": [],
     "reducedFrom": 4391,
     "reducedTo": 4377,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "NGPC RetroHQ SMDB": {
     "extensions": [
@@ -12860,7 +13032,7 @@
     "missing": [],
     "reducedFrom": 513,
     "reducedTo": 288,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "NSF Music SMDB": {
     "extensions": [
@@ -12869,7 +13041,7 @@
     "missing": [],
     "reducedFrom": 4012,
     "reducedTo": 4012,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "PC Engine CD Redump Supplement": {
     "extensions": [
@@ -12883,74 +13055,17 @@
     "missing": [],
     "reducedFrom": 1955,
     "reducedTo": 1889,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "PlayStation Redump Supplement": {
     "extensions": [
       ".bin",
       ".cue"
     ],
-    "missing": [
-      [
-        "Aconcagua (J) T+Eng v1 Hilltop (Disc 1).bin",
-        "c55c38c18792eb9b389b30381c16107c2f8e058093f3d6b4ad6cdb736a258acd"
-      ],
-      [
-        "Aconcagua (J) T+Eng v1 Hilltop (Disc 1).cue",
-        "2be953a4079d6f966512a1619be8c6b9b64fdd8338c99b7ed6c60bb6c0b98411"
-      ],
-      [
-        "Aconcagua (J) T+Eng v1 Hilltop (Disc 2).bin",
-        "b125588e772e5e59e27d743c661c9491300d055614e46b3763706227ac22180e"
-      ],
-      [
-        "Aconcagua (J) T+Eng v1 Hilltop (Disc 2).cue",
-        "bdb8fad598d963cb7ba1272435ad742f041b7cd9b9b6ed6682149af8fa33706c"
-      ],
-      [
-        "Beavis and Butt-Head - Virtual Aho Shoukougun (J) T+Eng v1 Mr.Nobody.bin",
-        "3c871f98ff183d8be8c953cda0b7697d6a3a890727121ef48d95cfa79e08dfa8"
-      ],
-      [
-        "Beavis and Butt-Head - Virtual Aho Shoukougun (J) T+Eng v1 Mr.Nobody.cue",
-        "97583f88c5563bbd0b3882e82a925cefe0945d3e812877598d7eabfd410a3755"
-      ],
-      [
-        "Dr. Slump (J) T+Eng + Classic Arale v1.1 Hilltop.bin",
-        "81fe9001b5e8ffac56bfc42e5430c244c0f6e98d96fd362ca58890e69788978a"
-      ],
-      [
-        "Dr. Slump (J) T+Eng + Classic Arale v1.1 Hilltop.cue",
-        "2aab330d68fb668c4387898e524c21e77579f6604cdf35b761f66d2d7d9d21f5"
-      ],
-      [
-        "Dr. Slump (J) T+Eng v1.1 Hilltop.bin",
-        "b6daa549509654d3e6de22f4824a040032b00ed854e2e19d91ee478e024f446a"
-      ],
-      [
-        "Dr. Slump (J) T+Eng v1.1 Hilltop.cue",
-        "c71581eeb30685b5fd2123a6ea609a456e74debff036d1bfd7574c1404f34b64"
-      ],
-      [
-        "Harmful Park (J) T+Eng v1.1 Hilltop.bin",
-        "bc8aa26acc28ef4585287a56787aed52e45a9887c8e62e687ec56d10d12a3015"
-      ],
-      [
-        "Harmful Park (J) T+Eng v1.1 Hilltop.cue",
-        "6472127e8869466c3bda4f97c79115c781c5cd542ff6e29905f38abb806cf8bc"
-      ],
-      [
-        "Iru! (J) T+Eng v1 SnowyAria.bin",
-        "6079d1611fabc1f91dfda7e30525ac682a9a34162463cc68e1bf0163a9772524"
-      ],
-      [
-        "Iru! (J) T+Eng v1 SnowyAria.cue",
-        "750744cb61c96a6f71df3cdc593d6058589382e2802fb3dacc79258237d2f70f"
-      ]
-    ],
+    "missing": [],
     "reducedFrom": 307,
     "reducedTo": 300,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Project Peacock - All PCE platform shooters": {
     "extensions": [
@@ -12966,7 +13081,7 @@
     "missing": [],
     "reducedFrom": 2517,
     "reducedTo": 2201,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "SPC Music SMDB": {
     "extensions": [
@@ -12976,7 +13091,7 @@
     "missing": [],
     "reducedFrom": 32689,
     "reducedTo": 32687,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Saturn Redump Supplement": {
     "extensions": [
@@ -12992,22 +13107,17 @@
     "missing": [],
     "reducedFrom": 363,
     "reducedTo": 302,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Sega 32X SMDB": {
     "extensions": [
       ".32x",
       ".bin"
     ],
-    "missing": [
-      [
-        "Doom 32X Resurrection (Europe, Japan, USA) (Hack) v2.1 D32XR Team.32x",
-        "0b4587b7061bc4be4500e01a9c245152ba002442ccbed15010dfca31ce5dccda"
-      ]
-    ],
+    "missing": [],
     "reducedFrom": 276,
     "reducedTo": 276,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Sega SG-1000 SMDB": {
     "extensions": [
@@ -13019,7 +13129,7 @@
     "missing": [],
     "reducedFrom": 348,
     "reducedTo": 348,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "SegaCD": {
     "extensions": [
@@ -13339,7 +13449,7 @@
     ],
     "reducedFrom": 4982,
     "reducedTo": 4867,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Super EverDrive & SD2SNES SMDB": {
     "extensions": [
@@ -13347,13 +13457,413 @@
       ".bin",
       ".bs",
       ".fig",
-      ".sfc",
-      ".smc"
+      ".sfc"
     ],
-    "missing": [],
+    "missing": [
+      [
+        "3D Object-Polygon System Demo (SA-1 SMW Hack) Vitor Vilela 2016-03-03.sfc",
+        "83db9a2255c156f80140658ef840a7b4156e3a8953b04f96bb56848804db55c9"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Master Quest Week 1 (Hack) 2016-11-15.sfc",
+        "3cdbb292039c99887162b98b1ea7c7e3de709250ca52711bc89003c7ec7d9682"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Master Quest Week 2 (Hack) 2016-11-15.sfc",
+        "b14446985742a8b2a0b2c9036e16e3be68166f4c8b625284ff76afc3ea4373a4"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Master Quest Week 3 (Hack) 2016-11-15.sfc",
+        "1e973c87eb3b10629e697c7e0fb8d3fd532b92719a03f0cce466a58d587b104d"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Master Quest Week 4 (Hack) 2016-11-15.sfc",
+        "e21cdf8e117934268c6857d968577ca00dfcf1e3f1e91ac06b8915999e286725"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Official Week 1 (Hack) 2016-11-15.sfc",
+        "18408b1d6608666f60df526a3888ed006a0577207b0b697aba5d27f09e355e12"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Official Week 2 (Hack) 2016-11-15.sfc",
+        "9c666f15b4abfd93deeb7521c07eccbc7a09130758727e0cdfbf3ee3b3223782"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Official Week 3 (Hack) 2016-11-15.sfc",
+        "7534a2baafac6ff3e777cad2896a3ec88a535c67e62587fdcab79cd38e8f535e"
+      ],
+      [
+        "BS Zelda Ancient Stone Tablet Official Week 4 (Hack) 2016-11-15.sfc",
+        "9b7b0dfb71a9827959eee3c4e584dd894752fc3ea289c202233a6e717127d7c0"
+      ],
+      [
+        "Bebe's Kids (U) [T+Spa1.0v_Semco].sfc",
+        "acd01871387af1f942390ff2eada06e866e1bb0d6c0c3d7d76743f4295c5720e"
+      ],
+      [
+        "Breath of Fire Music Demo (PD) Cream.sfc",
+        "e25d41e3c5cc9c063fd770855f1ff0a77a63085e741a471a2247c93bc1d419b4"
+      ],
+      [
+        "Bubbles German Intro (PD).sfc",
+        "30ef0bf43ade974b44261dfc45387499ce284d7a1d44fe3175cafaf4a729cc07"
+      ],
+      [
+        "Bubsy 2 - Mode 7 Demo (PD) Anthrox.sfc",
+        "26500d77ac4f1f12539f19cb3cebd87726b34327f774bf20f2eae923d6540465"
+      ],
+      [
+        "Christmas 1994 Leftovers (PD) Anthrox.sfc",
+        "2167600d7ed6543e67e271d787ee1e4bcb10b3c721695d424ba6fd8c72fdf174"
+      ],
+      [
+        "Clockwerx (J) T+Eng v0.75b MrRichard999.sfc",
+        "32836d4cce26981218be919635268d38321795e812e97dc44a8e847cd99c7182"
+      ],
+      [
+        "DN004 Demo (PD) Vantage Demonights 004 2-2018.sfc",
+        "86baf02ffaff382884372f9c45e7b3d575458a618b123bb80611da663d96ea3c"
+      ],
+      [
+        "Earthbound Uncensored (Mother 2 Hack).sfc",
+        "334f6734e0a08601720ae2172e996171f0aa18d61e4cd39eb108a15783425f4a"
+      ],
+      [
+        "Elitendo Space Balls Intro (PD).sfc",
+        "852b525fc57c8ba4c4807e0f98de438e7129b9d0ab7bfdeb6ef5f1b4341d73ec"
+      ],
+      [
+        "Final Fight (E) [T+Spa_Pichatoro].fig",
+        "67904b5d3e6e5ad0af8f856be603cf00cf978317736e37603343dbd3783d580e"
+      ],
+      [
+        "Final Insect (PD) Taurus.sfc",
+        "f170392f914d7c42dea024887c7fd40975e2f79932bcde74e0d3e30929c88a1a"
+      ],
+      [
+        "First Drop (PD) Half Brains Team & Roncler Gang.sfc",
+        "77abd7b8ff8bc59345d99f4d5c6401e72e66a79d068c148d4983df667fdb317d"
+      ],
+      [
+        "Futbol Excitante (International Superstar Soccer Hack) TegPeru.sfc",
+        "86b2f3cb2b0732d2dbd88d4cb4cc971e5007dc3105c8ee0b9a7a28ec306adc6e"
+      ],
+      [
+        "Inindo - Way of the Ninja [T+Spa].sfc",
+        "41e6f4ca0aa7209d3bfcad7859203546cc113657136dbe734c89c8ebd79b9aae"
+      ],
+      [
+        "Legend of Zelda, The - A Link to the Past (U) [T+Spa1.0_Pablito's].sfc",
+        "9b5dbc3d1efe96064f416ae299b4ddc980cb1bf90644580e1c8d9975b5cf2f84"
+      ],
+      [
+        "Mario & SA-1 (SA-1 SMW Hack) C3 Entry johnsmith41, Vitor Vilela 2013-07-13.sfc",
+        "80dd7ddd135fb43dac86a9d05e9af78bf83ab8917b4c90a8465656f555e013a8"
+      ],
+      [
+        "Mario is Missing Done Right (Hack) v1 Gamma V.sfc",
+        "70e8b87340b399718181cb08b76dd5bbce9a28a55191dd17959187640aba3843"
+      ],
+      [
+        "Mode 7 Interactive Demo (PD) v2 Joshua Cain.sfc",
+        "f51c77990ad7638dddc65e147c1107a47420cd32cd6cde40912d1b7784b05fec"
+      ],
+      [
+        "Ms. Pac-Man Intro (PD) Nightfall & Arcadia.sfc",
+        "d77b2c6697d437a20ec3e07e4c0292b463c0e93b06a1785c5d14fa1856cf6663"
+      ],
+      [
+        "Project II (FFII Hack_vivify9) [v2.03].sfc",
+        "aabf9b00fc34cadc9bd3d2c6b5b9218d89c9d1a05e0ca9ec54400bde3d37045e"
+      ],
+      [
+        "SM Legacy (hack) v1.06 Banana Oyaji.sfc",
+        "3d6a69a16b4514b1dce23d894fc5289901e526f13cf2ea8f975c74f50d624e28"
+      ],
+      [
+        "SMW 100 Rooms of Enemies Arcade Mode (SMW Hack) 2015-6 Daizo.sfc",
+        "1a9b7ab7d49b292730c4a2c1aeb23956410bd0d1d683e8cd70d6ffa8c4709629"
+      ],
+      [
+        "SMW 100 Rooms of Enemies Do or Die Mode (SMW Hack) 2015-6 Daizo.sfc",
+        "f9dc4f884bd48270b2baf515b3feed647b1a7dc0606ab1956ac647324b6fcbdb"
+      ],
+      [
+        "SMW 2 Player Co-op Quest 2 1-Player (SMW Hack) cyphermur9t.sfc",
+        "6a8885075e450b65adc8f9002d4f9b411a7f0c5d6e82891c9fa7df682b838fa7"
+      ],
+      [
+        "SMW 2 Player Co-op Quest 2 2-Player (SMW Hack) cyphermur9t.sfc",
+        "7b3668c751a989ceda76bf7e9e7a00cd940ac1de2158e27b463b180261addde1"
+      ],
+      [
+        "SMW 29th Megaman Anniversary Adventure (SMW Hack) v1 zampari.sfc",
+        "b1ad3aa71604dae54c65532b20a10f0d6f27ff1b9f46f2f5cbf1e0ed26d54677"
+      ],
+      [
+        "SMW 4-Player (SMW Hack) v1 dotsarecool.sfc",
+        "06e2cc273b820b6a4a7afd79c85541e68cbbac56f60c7ee703496c4ba09ff3cf"
+      ],
+      [
+        "SMW A Halloween Walk (SMW Hack).sfc",
+        "f0acda1e1a8b5fb9334b811d08b6866d4c9aa24a50c464200e9a11f6ceab3b41"
+      ],
+      [
+        "SMW Battle Royale (SMW Hack) v1.2 dotsarecool.sfc",
+        "b8281bbe3526997bac7158965da563d5005902d2f52470ee831ec83dd6ce6b0e"
+      ],
+      [
+        "SMW Bits and Pieces (SMW Hack) v1 levelengine.sfc",
+        "a73614f5705317115317cf682c6d877b28c607af8a55a7ab389e535db0fd17af"
+      ],
+      [
+        "SMW Bluewater Kingdom (SMW hack) Nic Nac 2015-05-23.sfc",
+        "85e9d85003a6b43b32ecb650706331c2b39ba3656403376641c07ba47873edb4"
+      ],
+      [
+        "SMW Bowser's Cataclysmic Trap (SMW Hack) v1.0 Gamma V 2015.sfc",
+        "daad880bd636055325b60711d941cf3c2b193d3dab28f8d07c73e0a4e72d9a75"
+      ],
+      [
+        "SMW Colossus 2nd Edition (SMW Hack) levelengine 2015.sfc",
+        "df6cc87fb11acc00dc97c89e521bb691501b0ba4d880b15d2d946841d982f161"
+      ],
+      [
+        "SMW Combo Killer Ultra Alpha Turbo HD Remix Arcade Edition (SMW Hack) Doownayr89.sfc",
+        "90ae19de44499568374ff64fd85f2549c1a0fcb1df6713c66bc581303c922fb7"
+      ],
+      [
+        "SMW Dawn To Darkness (SMW hack) v1 Yanama.sfc",
+        "838cf495af938086882020158787b7b5cd368aced4588bcac0a5268b9aa9f959"
+      ],
+      [
+        "SMW Evil Conquest (SMW hack) 2015 Darkdpl02.sfc",
+        "09cc611106be19cd4bb196e8f52f75d24c853c9374549902b1ff415e007933fe"
+      ],
+      [
+        "SMW FAST (SMW Hack) v2 dotsarecool.sfc",
+        "5f40379fc26e8c8b36cc539a7ca4b3d180eec44e50db6b9e63b3819a0978d4db"
+      ],
+      [
+        "SMW Fast 96 (SMW Hack) v1.1dotsarecool.sfc",
+        "687cc89bdeb58a88bd9066272e3ab5013ddbac7e66f2617232ab04d31e97f5e2"
+      ],
+      [
+        "SMW Hunter & Scorpion's Bet ReVised (SMW hack) Demo Skewer 8-2016.sfc",
+        "41441cb15a45e49c3d304f968964552a7e2327283e5cbe48f1f47daa72058af7"
+      ],
+      [
+        "SMW Hunter's Revenge ReVised TD4C#4 (SMW hack) 2016.sfc",
+        "283c9b27f041ae89addc581387fdd8f04adf4b42d85ea6c48358079ea30b3c7c"
+      ],
+      [
+        "SMW J Cloud 0xB5 Helper (SMW Hack) v1 dotsarecool.sfc",
+        "069ca40a2f100f4c70f34443c7c040bde06b5bf2f793d8f3daebf1b531308655"
+      ],
+      [
+        "SMW Kamek and the Shroobs (SMW Hack).sfc",
+        "52e43fdb5e2d592092f38e507e91cfbded261984793a72b31257aa1d00c9318f"
+      ],
+      [
+        "SMW Luigi and the Island of Mystery (SMW Hack) superwiidude 7-2106.sfc",
+        "2eb0397bad79023bab666db094e7a968e7f68470720c1aecf7965ab1feba02bd"
+      ],
+      [
+        "SMW Make SMW Great Again (SMW Hack) v1 dotsarecool.sfc",
+        "b66f4f6dcbea2199b2a2ba0d331af14807bd6871c37ebbe6ff54325a701102fc"
+      ],
+      [
+        "SMW Mario Gives Up (SMW hack) cyphermur9t.sfc",
+        "bf0c225230e0907b73fdf87f9fbcfc4f7fd8db7e3be8b373bbaca14696d425ac"
+      ],
+      [
+        "SMW Mario Gives Up 2 (SMW hack) cyphermur9t.sfc",
+        "bb90266ed0c7cc572f923f9faed60c5c991350e026be91f4d24f0eba1f86346a"
+      ],
+      [
+        "SMW Mario Gives Up 3 (SMW hack) cyphermur9t.sfc",
+        "ab2e8a50fb47d7205fc678c8d5d97ad110224ed82aa1e101c30d8317fc9c60c6"
+      ],
+      [
+        "SMW Mario on Ice (SMW hack) Pureblade 9-9-2015.sfc",
+        "4ce529a9d05a93928ca915dc350d220e45ea75c70e911089b9709942e1fd23e3"
+      ],
+      [
+        "SMW Mario vs. Bowser and Mighty No. 9 (SMW hack) v2.0 Robert Zampari.sfc",
+        "66db4e2506e8e23775ff5c7c0da0f2e589e120b25802fbbbf04a4e4b0c578fd2"
+      ],
+      [
+        "SMW Mario's Nightmare 2 - Luigi and the Nightmare House (SMW Hack).sfc",
+        "6f5efcd96c2caa09417f0274010f14ec1ba14a420471a749960873f3feaddf82"
+      ],
+      [
+        "SMW Mario's Treasure Hunt 2 (SMW Hack).sfc",
+        "149cfc5d6d76a9d0d3c34ce60bcc49f80bd9a42a8cddb906be2fd6635967bc4b"
+      ],
+      [
+        "SMW Oiram's Invasion (SMW hack) Gregor 2014.sfc",
+        "f03a4166438ec8197800c8eb6a54234b8d7f4756eec880306197adc513e2eef4"
+      ],
+      [
+        "SMW One Mind (SMW Hack) v1 dotsarecool.sfc",
+        "6ad19cbc98390e275857eab3bb734dabb561d513e6ce398a299999d5b5a296bf"
+      ],
+      [
+        "SMW Pants World (SMW Hack) v2 Romano338.sfc",
+        "4d96b350b612a66ddabfe0ba9a4a23fb6b623fb561fab48e3be32cd593d9536b"
+      ],
+      [
+        "SMW Piranha Island (SMW hack) 2015 PokerFace.sfc",
+        "86bcb5be551788c20b83b30db94096b18d50060c059515456f4bd76872bbcc3c"
+      ],
+      [
+        "SMW Practice Cart (SMW Hack) v2.5 dotsarecool.sfc",
+        "4c2400cb6621a567d130702e75d5a39dd32716421d4df5384f7410054f01773e"
+      ],
+      [
+        "SMW Princess Peach Abilities (SMW Hack) v1 Ladida.sfc",
+        "78498a00d448cb24661c94bd9028d1613cf86be5aca91414c3cfea634988881a"
+      ],
+      [
+        "SMW Redrawn (SMW Hack) v1 DarkSamus993, IceGoom.sfc",
+        "45ee663a6390733c2bd3b877143bc1e68608df3e703fd559e6f7026b95a3d281"
+      ],
+      [
+        "SMW Retro Mario World - Super Mario Bros (SMW Hack).sfc",
+        "53cc2acc39bb52b8107cce716f25f5f02ebde62aff8b1520908c50f6337b0d3d"
+      ],
+      [
+        "SMW Return to Dinosaur Land (SMW hack) v1.2 RAGB.sfc",
+        "4694b72445960b8b2b0183ca47ee86c0a98d9555d39d510f0d26af93c6d83b82"
+      ],
+      [
+        "SMW Rick Roll (SMW Hack) WhiteYoshiEgg 2018-11-02.sfc",
+        "ee560350e70395d9c7fc1183ec35143704ddacf00ebfb8981c209bd6a4232eca"
+      ],
+      [
+        "SMW SMB4 Deluxe Remix (SMW hack) Mario Silva 2015.sfc",
+        "e731da2026914a137bfe39c6959b070893a542e256370a5986d1f35084094e4b"
+      ],
+      [
+        "SMW Second Reality Project 2 Reloaded - Zycloboo's Challenge (SMW Hack) v2.2 FPI.sfc",
+        "cd1d10114ea7b808f58d767495adc32fa601c253c65e0b5fa16ac888e7658a21"
+      ],
+      [
+        "SMW Silhouette Blends Edition (SMW Hack) v1 dotsarecool.sfc",
+        "48f6fcb8a0f73838e9908bddb6ef8221415b8b784ec5f3134557c76108dc3608"
+      ],
+      [
+        "SMW Super MOSAIC World (SMW Hack) v1 dotsarecool.sfc",
+        "70254130f64173b5f4a5a6f030cd7388294ff8ce0944e31bb15fcbf219e1726d"
+      ],
+      [
+        "SMW Super Mario Land 2.5 (SMW Hack) Demo 2 8-2016.sfc",
+        "4ec6752de2347cfaf956e2b2f228b1a4c0ede95439f6f79ca9d709bbca006e5d"
+      ],
+      [
+        "SMW Super Mario Land 4 (SMW Hack) C3 Version Lexator.sfc",
+        "801ee9a9658aa8199326dec0bf4022adc1be656cafb94e2a07c838b4c821201d"
+      ],
+      [
+        "SMW Super Mario Something Else (SMW Hack).sfc",
+        "41f338d0abf6fe41327832c6d59bc1b87b1228ad58414fade6da38e44062040d"
+      ],
+      [
+        "SMW Super Peach World DX (SMW Hack) v1.0 Falchion22.sfc",
+        "472ae728b5dd089a868d5404757a89b559e5caad9575e7e10175ec2eebe1f148"
+      ],
+      [
+        "SMW Super Yoshi Land - The Rescue Mission (SMW hack) v1.0 EvilGuy0613.sfc",
+        "049c9738f2c12fcf844a31fca19ef846f467bb0a89ef6fd85e3de191c70af73c"
+      ],
+      [
+        "SMW The Devious Four Chronicles 6 - The Fourth Sector (SMW hack) Scorpion 2015.sfc",
+        "38c509e24151a37c5ca31ce019a69219d3a8d4691c8fce0597d961e2c21a0e15"
+      ],
+      [
+        "SMW The Senate v1.3 (SMW Hack).sfc",
+        "34d0b1da7d41cb202f0c10db3adb3241b5a5f2c8e96d38dab9a8aa4c713c6ddf"
+      ],
+      [
+        "SMW The Seven Hurdles 2 (SMW Hack) v1 Wind Fish.sfc",
+        "0c419708d8a3d53e93e327df2f95f930c64fd0edaed1d847e8e76a01e786eb50"
+      ],
+      [
+        "SMW Toad's World (SMW Hack)2.0b.sfc",
+        "bb263e0755d22db51a2c1f64152c8512ad3540c78fd927e630466bfa1e9751c9"
+      ],
+      [
+        "SMW Wrecking Crew '98 (SMW Hack) v1.2 Big Brawlere.sfc",
+        "eb0671785fd0c0266d7abaa5e81d8b54156717a87a49d49369c98f6ae44d7958"
+      ],
+      [
+        "SMW Yoshi's Strange Quest (SMW hack) v1.3 yoshifanatic 2015.sfc",
+        "1f8a3291825a99f6a24480087d300fe008218361177a0c02047f92e711a6c449"
+      ],
+      [
+        "SMW dlroW oiraM repuS (SMW Hack) v1.4 dotsarecool.sfc",
+        "427df39b43b2dd874ab9e090bd4ac12dbafcffc2a7154fb8267b18bfa02621b4"
+      ],
+      [
+        "SNES Trainer Charts (PD) STC.sfc",
+        "827d2ddf392fdd6c84c764b794a00a4d00fdfc6e8dfdf56f359373597f68993f"
+      ],
+      [
+        "Sonic the Hedgehog (Speedy Gonzales Hack) TegPeru.sfc",
+        "0ef9eb8cf0bc0011d4f2138c3ff90c9a9c927bbadf5341d0a43f8e0c320ea3e0"
+      ],
+      [
+        "Sonic the Hedgehog 2 (Sparkster Hack) Twin Eagles.sfc",
+        "bdc5c5eb770d5377e7b54d149bcb15e62007e77e948c886ab7ae7816ebe6ec7c"
+      ],
+      [
+        "Star Ocean (J) T+Eng, SDD1 Patched v1 DeJap, SDD1 v1 Neviksti.sfc",
+        "1bcb3b8b58f19a91540aeb5ca975fe2386ca0b55a5ff924be6a3514010b2e5c3"
+      ],
+      [
+        "Street Fighter Alpha 2 (U) [T+Spa1.1_Max1323].sfc",
+        "0bb181061a7e298b2249b6e4149ab2f5c99746ccd9fd384990b8fbb866c8e53d"
+      ],
+      [
+        "Super Castlevania IV Uncensored (hack) v1 ShadowOne333.sfc",
+        "dfaa80dba0e44a4cacbbbfb28cc69decab020ebedea9c659dc2cc31a6ecbbd97"
+      ],
+      [
+        "Super Mario All Stars Intro (PD) PREMIERE.sfc",
+        "b9b1b2fda99e95736db5baa7ca98e1c0f0aeaf930b27ed905cdb3decabc454b5"
+      ],
+      [
+        "Super Pong (PD) Beta 1.sfc",
+        "d782fa9dacf258e9939036afcc7e449e4544b9171ccce9729438bfe1918cf6dd"
+      ],
+      [
+        "Whirlo (E) [T+Spa1.0v_Lukas].sfc",
+        "8176191c9ac7d54ea550365761d5c5b254398ee3182962517ff0784d7ae7561b"
+      ],
+      [
+        "Wizardry Gaiden IV - Taima no Kodou (J) T+Eng v1.01 MrRichard999.sfc",
+        "6f8ca15c89130e700292fd9aa2ff7adc374cd92201c79d3514ac3f06a8f3447f"
+      ],
+      [
+        "X-Men Mutant Apocalypse (E) [T+Spa_Ospino].sfc",
+        "27c995e3d7e64a889754464fd13ec59ce7a1fc4895f8c61c90b8971cc15a9b75"
+      ],
+      [
+        "Yoshi's Island broken SMW2+ Complete Full Version (SMW2 Hack) Golden Yoshi 2005-08-22.sfc",
+        "dcaa99dac0861315d9ff3062985e7ad46760d245f6d7b8b5c60628732ba0c014"
+      ],
+      [
+        "Ys III - Wanderers from Ys (U) [T+Spa1.0v_Lukas].sfc",
+        "8f5cc29a44bf94d1581d9bdeb60c2caf1151123816d13886c28983e25a7a20dd"
+      ],
+      [
+        "Zelda ALTTP Goddess of Wisdom (Hack) v1 jammer506.sfc",
+        "84f81b4eeac2a02c9db50c201ad02570ba383a7dc794f26172374c2f35162a94"
+      ]
+    ],
     "reducedFrom": 13590,
     "reducedTo": 7472,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Turbo EverDrive & Super SD System 3 SMDB": {
     "extensions": [
@@ -13363,7 +13873,7 @@
     "missing": [],
     "reducedFrom": 1475,
     "reducedTo": 677,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Vectrex SMDB": {
     "extensions": [
@@ -13373,7 +13883,7 @@
     "missing": [],
     "reducedFrom": 424,
     "reducedTo": 277,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Virtual Boy SMDB": {
     "extensions": [
@@ -13388,7 +13898,7 @@
     "missing": [],
     "reducedFrom": 603,
     "reducedTo": 509,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Watara Supervision SMDB": {
     "extensions": [
@@ -13397,7 +13907,7 @@
     "missing": [],
     "reducedFrom": 69,
     "reducedTo": 69,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   },
   "Wonderswan SMDB": {
     "extensions": [
@@ -13407,6 +13917,6 @@
     "missing": [],
     "reducedFrom": 952,
     "reducedTo": 348,
-    "verifiedWith": "5b068395e435a406f3ad56c6b934bc610be86f35"
+    "verifiedWith": "981109ed608a4f66977af5d42fd92f1977301267"
   }
 }
