@@ -32,7 +32,7 @@ def read_file(_path, _delimiter="\t", _newline=""):
         return list(csv.reader(f, delimiter=_delimiter))
 
 
-def read_missing(_path):
+def read_missing_file(_path):
     _path = os.path.normpath(_path)
     basename = os.path.splitext(os.path.basename(_path))[0]
 
@@ -102,6 +102,6 @@ if __name__ == "__main__":
     # print(reduced_smdb())
     # print(original_smdb() - reduced_smdb())
 
-    # read_missing("D:\\MegaSD SMDB.txt")
+    # read_missing_file("D:\\MegaSD SMDB.txt")
     # sort_json()
     reduced_master()

@@ -52,6 +52,24 @@ def write_to_child(_basename, _child, _data, _json_db="db.json"):
         exit()
 
 
+def write_to_key(_key, _json_db="db.json"):
+    try:
+        with open(_json_db, "r") as f:
+            json_data = json.load(f)
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
+        exit()
+
+    json_data.setdefault(_key, {})
+
+    try:
+        with open(_json_db, "w") as f:
+            json.dump(json_data, f, indent=2)
+    except IOError as e:
+        print(f"Error writing to the JSON file: {e}")
+        exit()
+
+
 def read_from_child(_basename, _child, _json_db="db.json"):
     try:
         with open(_json_db, "r") as f:
@@ -59,8 +77,7 @@ def read_from_child(_basename, _child, _json_db="db.json"):
             return json_data.get(_basename, {}).get(_child)
     except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
         print(f"Error reading the JSON file: {e}")
-
-    return None
+        return None
 
 
 def read_from_key(_key, _json_db="db.json"):
@@ -70,8 +87,7 @@ def read_from_key(_key, _json_db="db.json"):
             return json_data.get(_key)
     except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
         print(f"Error reading the JSON file: {e}")
-
-    return None
+        return None
 
 
 def sort_json(_json_db="db.json"):
@@ -90,21 +106,24 @@ def sort_json(_json_db="db.json"):
         return
 
 
-def missing_db():
+def create_child_json(_json_db, _child):
     db = get_top_level_keys()
 
-    if os.path.exists("missing.json"):
-        os.remove("missing.json")
+    if os.path.exists(_json_db):
+        os.remove(_json_db)
 
-    with open("missing.json", "w") as f:
+    with open(_json_db, "w") as f:
         json.dump({}, f)
 
+    print(f"Writing to {_json_db}...")
     for key in db:
-        missing = read_from_child(key, "missing")
-        if missing:
-            print(f"{key} is missing {len(missing)} items")
-            write_to_child(key, "missing", missing, "missing.json")
+        item = read_from_child(key, _child)
+        if item:
+            write_to_key(key, _json_db)
+            write_to_child(key, _child, item, _json_db)
+    print(f"Done writing to {_json_db}.")
 
 
 if __name__ == "__main__":
-    missing_db()
+    create_child_json("missing.json", "missing")
+    create_child_json("extensions.json", "extensions")

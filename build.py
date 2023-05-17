@@ -62,16 +62,16 @@ def compress_7z(_basename, _path):
     os.system(f"7z a '{_basename}.7z' '{_path}/*' '-xr!{_path}'")
 
 
-def update_missing(_missing, _basename):
-    if not os.path.exists(_missing):
+def update_missing(_missing_path, _basename):
+    if not os.path.exists(_missing_path):
         write_to_child(_basename, "missing", [])
         return
 
-    with open(_missing, "r") as f:
+    with open(_missing_path, "r") as f:
         missing_data = list(csv.reader(f, delimiter="\t"))
         write_to_child(_basename, "missing", missing_data)
 
-    os.remove(_missing)
+    os.remove(_missing_path)
 
 
 def build_from_masters(_masters, _basename, _romimport):
