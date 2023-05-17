@@ -28,8 +28,8 @@ def get_txt_files(_path):
 
 def read_file(_path, _delimiter="\t", _newline=""):
     _path = os.path.normpath(_path)
-    with open(_path, newline=_newline) as file:
-        return list(csv.reader(file, delimiter=_delimiter))
+    with open(_path, newline=_newline) as f:
+        return list(csv.reader(f, delimiter=_delimiter))
 
 
 def read_missing(_path):

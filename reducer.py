@@ -35,8 +35,8 @@ def reduce_db(_items):
 def new_file(_path, _data, _delimiter="\t"):
     print(f"Creating {os.path.basename(_path)} file...")
 
-    with open(_path, "w", newline="") as file:
-        csv.writer(file, delimiter=_delimiter).writerows(_data)
+    with open(_path, "w", newline="") as f:
+        csv.writer(f, delimiter=_delimiter).writerows(_data)
 
     return print(f"File {os.path.basename(_path)} is created")
 

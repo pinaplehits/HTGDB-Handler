@@ -3,70 +3,91 @@ import os
 
 
 def get_top_level_keys(json_file="db.json"):
-    with open(json_file) as file:
-        return list(json.load(file).keys())
+    try:
+        with open(json_file) as f:
+            return list(json.load(f).keys())
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
+
+    return []
 
 
 def delete_key(_key, json_file="db.json"):
-    with open(json_file) as file:
-        data = json.load(file)
+    try:
+        with open(json_file) as f:
+            data = json.load(f)
 
-    if _key in data:
-        del data[_key]
+        try:
+            data.pop(_key)
+            print(f"Deleted {_key}")
+        except KeyError:
+            print(f"Couldn't delete {_key}. Key not found.")
+            return
 
-    with open(json_file, "w") as file:
-        json.dump(data, file, indent=2)
+        with open(json_file, "w") as f:
+            json.dump(data, f, indent=2)
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
 
 
 def write_to_child(_basename, _child, _data, _json_db="db.json"):
-    json_data = {}
-
     try:
         with open(_json_db, "r") as f:
             json_data = json.load(f)
-    except json.decoder.JSONDecodeError:
-        pass
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
+        exit()
 
-    if _basename not in json_data:
-        json_data[_basename] = {}
+    try:
+        json_data[_basename][_child] = _data
+    except KeyError as e:
+        print(f"Error {e} not found in the JSON file")
+        exit()
 
-    json_data[_basename][_child] = _data
-
-    with open(_json_db, "w") as f:
-        json.dump(json_data, f, indent=2)
+    try:
+        with open(_json_db, "w") as f:
+            json.dump(json_data, f, indent=2)
+    except IOError as e:
+        print(f"Error writing to the JSON file: {e}")
+        exit()
 
 
 def read_from_child(_basename, _child, _json_db="db.json"):
     try:
         with open(_json_db, "r") as f:
             json_data = json.load(f)
-    except json.decoder.JSONDecodeError:
-        print("JSON file is empty")
-        return None
+            return json_data.get(_basename, {}).get(_child)
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
 
-    return json_data.get(_basename, {}).get(_child)
+    return None
 
 
 def read_from_key(_key, _json_db="db.json"):
     try:
         with open(_json_db, "r") as f:
             json_data = json.load(f)
+            return json_data.get(_key)
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
 
-            if _key not in json_data:
-                return None
-
-            return json_data[_key]
-    except json.decoder.JSONDecodeError:
-        print("JSON file is empty")
-        return None
+    return None
 
 
 def sort_json(_json_db="db.json"):
-    with open(_json_db, "r") as f:
-        json_data = json.load(f)
+    try:
+        with open(_json_db, "r") as f:
+            json_data = json.load(f)
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
+        return
 
-    with open(_json_db, "w") as f:
-        json.dump(json_data, f, indent=2, sort_keys=True)
+    try:
+        with open(_json_db, "w") as f:
+            json.dump(json_data, f, indent=2, sort_keys=True)
+    except IOError as e:
+        print(f"Error writing to the JSON file: {e}")
+        return
 
 
 def missing_db():
