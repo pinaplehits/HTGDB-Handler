@@ -37,36 +37,28 @@ def write_to_child(_basename, _child, _data, _json_db="db.json"):
 
 
 def read_from_child(_basename, _child, _json_db="db.json"):
-    json_data = {}
-
     try:
         with open(_json_db, "r") as f:
             json_data = json.load(f)
     except json.decoder.JSONDecodeError:
-        pass
+        print("JSON file is empty")
+        return None
 
-    if _basename not in json_data:
-        return False
-
-    if _child not in json_data[_basename]:
-        return False
-
-    return json_data[_basename][_child]
+    return json_data.get(_basename, {}).get(_child)
 
 
 def read_from_key(_key, _json_db="db.json"):
-    json_data = {}
-
     try:
         with open(_json_db, "r") as f:
             json_data = json.load(f)
+
+            if _key not in json_data:
+                return None
+
+            return json_data[_key]
     except json.decoder.JSONDecodeError:
-        pass
-
-    if _key not in json_data:
-        return {}
-
-    return json_data[_key]
+        print("JSON file is empty")
+        return None
 
 
 def sort_json(_json_db="db.json"):

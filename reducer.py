@@ -125,24 +125,27 @@ def reducer():
 
     update_changes = git_difference(section["latest_reduced"], htgdb_sha1)
 
-    if update_changes["renamed"]:
-        input("Some files will be renamed, the program will end...")
-        exit()
+    if update_changes:
+        if update_changes.get("renamed") is not None:
+            input("Some files will be renamed, the program will end...")
+            exit()
 
-    if update_changes["added"]:
-        input("Some files will be renamed, the program will end...")
-        exit()
+        if update_changes.get("added") is not None:
+            input("Some files will be added, the program will end...")
+            exit()
 
-    handle_deleted(update_changes["deleted"], path_reduced_smdb, section)
+        if update_changes.get("deleted") is not None:
+            handle_deleted(update_changes["deleted"], path_reduced_smdb, section)
 
-    handle_modified(update_changes["modified"], htgdb_sha1)
+        if update_changes.get("modified") is not None:
+            handle_modified(update_changes["modified"], htgdb_sha1)
 
-    for database in update_changes["modified"] + update_changes["added"]:
-        data = read_file(os.path.join(path_smdb, database))
-        basename = os.path.splitext(database)[0]
+        for database in update_changes["modified"] + update_changes["added"]:
+            data = read_file(os.path.join(path_smdb, database))
+            basename = os.path.splitext(database)[0]
 
-        new_file(os.path.join(path_reduced_smdb, database), reduce_db(data))
-        write_to_child(basename, "extensions", get_extensions(data))
+            new_file(os.path.join(path_reduced_smdb, database), reduce_db(data))
+            write_to_child(basename, "extensions", get_extensions(data))
 
     sort_json()
     write_latest_commit(_sha1=htgdb_sha1)

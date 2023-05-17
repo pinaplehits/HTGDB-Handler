@@ -82,6 +82,8 @@ def git_difference(
                 ),
             }[item.change_type]()
 
+    changes = {key: value for key, value in changes.items() if value}
+
     return changes
 
 
