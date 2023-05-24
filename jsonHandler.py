@@ -91,6 +91,7 @@ def read_from_key(_key, _json_db="db.json"):
 
 
 def sort_json(_json_db="db.json"):
+    print(f"Sorting {_json_db}...")
     try:
         with open(_json_db, "r") as f:
             json_data = json.load(f)

@@ -82,16 +82,20 @@ def git_difference(
                 ),
             }[item.change_type]()
 
-    changes = {key: value for key, value in changes.items() if value}
-
     return changes
 
 
-def git_commit(_repo="Hardware-Target-Game-Database", _message=""):
+def git_commit(_message, _add, _repo=os.getcwd()):
     repo = Repo(_repo)
 
-    repo.index.add_all()
-    repo.index.commit(_message)
+    repo.git.add(*_add)
+
+    repo.git.commit("-m", _message)
 
     origin = repo.remote(name="origin")
     origin.push()
+
+
+def git_file_status(_path, _repo=os.getcwd()):
+    repo = Repo(_repo)
+    return repo.git.status("--porcelain", _path)
