@@ -137,7 +137,6 @@ def check_file_changes(_changes, _path_smdb, _additional_files=[]):
     ]
 
     changes.extend(_additional_files)
-    print(changes)
 
     return [item for item in changes if git_file_status(item)]
 

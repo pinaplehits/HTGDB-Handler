@@ -86,6 +86,10 @@ def git_difference(
 
 
 def git_commit(_message, _add, _repo=os.getcwd()):
+    if not _add:
+        print("Nothing to commit")
+        return
+
     repo = Repo(_repo)
 
     repo.git.add(*_add)

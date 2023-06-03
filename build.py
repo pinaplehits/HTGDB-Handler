@@ -1,4 +1,6 @@
 from configparser import ConfigParser
+from datetime import datetime
+from gitHandler import git_file_status, git_commit
 from jsonHandler import write_to_child, get_top_level_keys, read_from_child, sort_json
 from reducer import reducer
 import csv
@@ -32,8 +34,7 @@ def get_missing_smdb(_sha1):
     not_verified = [
         x
         for x in db
-        if read_from_child(x, "verifiedWith") != _sha1
-        or not read_from_child(x, "verifiedWith")
+        if (verified := read_from_child(x, "verifiedWith")) != _sha1 or not verified
     ]
 
     basename = sorted(set(missing + not_verified))
@@ -135,6 +136,13 @@ def build():
     update_missing(missing, basename)
     write_to_child(basename, "verifiedWith", latest_reduced)
     sort_json()
+
+    files = ["db.json"]
+    date = datetime.now().strftime("%d/%m/%y")
+    git_message = f"Build updated {basename} in db.json on {date}"
+    changes = [item for item in files if git_file_status(item)]
+
+    git_commit(git_message, changes)
 
 
 if __name__ == "__main__":
