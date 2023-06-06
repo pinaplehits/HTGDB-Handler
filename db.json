@@ -1417,8 +1417,16 @@
     ],
     "missing": [
       [
+        "10PRINT.c10",
+        "010818d7c4a90a73f4fee9bb5235334d49f1ec805b826faf30122f0462a37d43"
+      ],
+      [
         "10th Frame.crt",
         "3ec154389118f672fcccc41b4aff7c7c75a6a7505e4c38d4f91c94ae3b3ab55b"
+      ],
+      [
+        "11ASTER.c10",
+        "f6f23ae1df43278eed82c6cbde5d0b16eacb768fde7af7faf6baad1ad904f2b2"
       ],
       [
         "180.crt",
@@ -1441,12 +1449,12 @@
         "2cfb81ef6aad3c1710f8f3c6a9a6cbf0ee2b833f3ef3f1101c5e7304a704bb96"
       ],
       [
-        "3-6-9.bas",
-        "7f41bab19a9f3f4dd3ab3d8eb4c7317ca5c3cdb4ebcb8194cbea61537b405e54"
+        "2010 - The Ultimate Text Adventure (1985)(MGM - United Artists Entertainment).dsk",
+        "afcd8ac47ade027620dc0a1224c691dc9aa13140e3e411f4760fd8b8935b2ea9"
       ],
       [
-        "3-6-9.cas",
-        "5dd16ee1d5cca7ac117feabe2cc3054cef7acf5f749b12f38f64303ea9916939"
+        "2048.c10",
+        "c56aefdebd2f48c897304dd83cbfd600cec909731be242b618571b1afede5857"
       ],
       [
         "3-D Skramble.crt",
@@ -1473,8 +1481,20 @@
         "35bfab10c84c39c4616cfcc0e172e73809696269080ca5ad68afd52221af1117"
       ],
       [
+        "3DLABY.c10",
+        "73692ff7771f77be9ae96ac3b239a0f7a8e079f7c39f0b096f68424096839c4e"
+      ],
+      [
+        "3DMCHASE.c10",
+        "37473053c4b0946b58e1fa038c00b63e21b1e8f9159de8bab2d0378e56dc064e"
+      ],
+      [
         "4M Arena (Darro99 & Erazzking - 2021).crt",
         "e4c720b8fb11c29dd878e2cd24337adc907ca400134d3011cbdbdef71dac64ea"
+      ],
+      [
+        "4MILE.c10",
+        "2e7ee7e3fe43fb483f3c627b14b754371f1d32b1af9f3c017b3dbb40130793c2"
       ],
       [
         "4th and Inches.crt",
@@ -1485,12 +1505,36 @@
         "b6f904f37625d71c32162171eba37a0f17fe94e2a38ed2e3faf35ebcf2a2999d"
       ],
       [
+        "64MAZE.c10",
+        "5d0e8a9a1a87c475e4e241bbfcaa6346e4113bc8ddba00c15d5a6e7990f9a2e7"
+      ],
+      [
+        "6KEYS.c10",
+        "ee38a78acc0b523aa1a48ddc1e10530dde7d39d530b432b2247d665205308422"
+      ],
+      [
         "720 Degrees.crt",
         "64e6227938496ff1d267934b438b7fbe89ce63145e3ada21b93287e58782a8cb"
       ],
       [
+        "9HOLEGLF.c10",
+        "25b43ad85278a4135d827a21250513a8ee1cbb1914dc58a1d10a01fb1c0d5695"
+      ],
+      [
         "A Fistful of Bucks.crt",
         "19569e29c5b86a833f995a198eff7f51a0f178809d82a94e524ddfa8c7a57fcb"
+      ],
+      [
+        "ABCSONG.c10",
+        "2672fade3ab7ac58c977b8261638604ea974754de1173dc6fa2b3b7fbb17c9ba"
+      ],
+      [
+        "ABM.c10",
+        "a465afb9506ee010ea4b2e893f0b454ca39876e57592a519bc2fd7bf6abf0958"
+      ],
+      [
+        "ACCT1.c10",
+        "5b47f6c3b351b5bc559f3ca03162e740b736228662a050273293c5f0e27b1842"
       ],
       [
         "ACE - Air Combat Emulator.crt",
@@ -1501,24 +1545,176 @@
         "5653734c3c99b8928add0d5d4da3f1dad9457db6a7cfb9728a92748ccabe3c35"
       ],
       [
+        "ADAM Utilities v1.50 (1984)(Coleco).dsk",
+        "8219f54c4acba77e7c85e25af9955e3255d27eb470ce7aae2fdfe83ed5330430"
+      ],
+      [
+        "ADAMCALC Orphanware Patch (1987)(Clary, Thomas E.).dsk",
+        "e84ce422a57303ef7897b1effce643f27aa02b6df4961d0fd0e2184a55e2a5b9"
+      ],
+      [
+        "ADVENT1.c10",
+        "513ef2bfb3cf6f7d4961c242d6f7ca20f95d437463139da2b9c77f834cc79d5e"
+      ],
+      [
+        "ADVENTR.c10",
+        "699dc75b76edbce946d89bde30b2eaa76f42ab6f7a5e3f155cd5de00b33d16b7"
+      ],
+      [
+        "ADVbeta.c10",
+        "e31a3159bb956011a714d4eea86c4e8233c380f55796964b6c33d00e56dfe240"
+      ],
+      [
+        "AERIEN.c10",
+        "1bcc4fa4f32c04836acb0dd9b350c69d2dd1682689296b3fddc5dda5134852a4"
+      ],
+      [
+        "AEROJAM.c10",
+        "7b839274808a3501c932520ca8d47136477440e78046c06ccf55934b60a3dc36"
+      ],
+      [
+        "AINVADER.c10",
+        "1b5e9eb836e172b403c37880c245cfadba3413fa64b2a655a5dd231205e9f049"
+      ],
+      [
+        "AKALABET.c10",
+        "1689a82315857d1c2b55cb2bb87c596f87ff43eaefb3bf1940147e6c0a600c18"
+      ],
+      [
+        "ALATTACK.c10",
+        "972345f974a7e3bb149b5483d9b67e337ffeb2a0b7a54a93b3879c0b123cd954"
+      ],
+      [
+        "ALERT0.c10",
+        "c0657a7ceb22e64e24b798d364a81eadf06ee38fc677b57f883ebfe5f2976cc5"
+      ],
+      [
+        "ALIEN.c10",
+        "01e5e45052bc51a3c46dedeacd9cc0525461e62a8217efd3466003f24e7a8cd9"
+      ],
+      [
+        "ALIENBOM.c10",
+        "90d41cd3769611379bb95ef61a0c1c1deede1ac73fd3305806a54012f71f683e"
+      ],
+      [
+        "ALPHAFOR.c10",
+        "05d2141007eae59ed3da447244b6bd59f4dde3facb0a764deff1df7c4910f26f"
+      ],
+      [
+        "AMAZE.c10",
+        "e818fdada08866d3c3487f456b36819a7bc94eb2c6162bf9f3b02dd5a462099f"
+      ],
+      [
+        "AMAZIN.c10",
+        "95c9b2aa8899b54ef6acc793df90265c8ff71d18e6ad3c2d23a3db82eb1bfd1d"
+      ],
+      [
+        "AMAZING.c10",
+        "5db9da51e21d6d4fb7de327b637807c36cd95c995ebe7412dda4a33c8b4c2898"
+      ],
+      [
+        "AMFOOTB.c10",
+        "207e3f2d3bbe01b2dab52d2110014a99b462c965f7fd1a355237f8528c04b36f"
+      ],
+      [
+        "ANDROMED.c10",
+        "69648547047e47b4a03e44c5d4ce49e5cb0e49664b846ddcf376e2d2456fe476"
+      ],
+      [
+        "ANNEX.c10",
+        "385c34d3f06f0e626fec12990cdf90348fb79037040ca567f6c5af5dc4630420"
+      ],
+      [
+        "AQUEST.c10",
+        "e00a5f0268c3705497cb78fdd05a46c48adb14e521816781ed1053e86d812955"
+      ],
+      [
+        "ARABIAN.c10",
+        "76d06d1d561fbc88d722c8ced78296a435015e654857f45cd93430f3a5b4ca3f"
+      ],
+      [
         "ARAC (J1).crt",
         "61f319f1f42ef6ad306df74cdd5cd4d0bf50a39cce1ea2aba3e9786926399dde"
+      ],
+      [
+        "AREA51.c10",
+        "321ddcffae0c72a834ea742849a497f0daeecc29cf5e1e5d50d00d234590fb8a"
+      ],
+      [
+        "AREA51UK.c10",
+        "4892f405b5a009824168800be1a3a8f20c6c9e4683c2f8c0862f69906187457d"
       ],
       [
         "AREX.crt",
         "a514344210cf52735ede2ec25abaf33be8518ce287edf04f95f491abdc52c75b"
       ],
       [
+        "ARGON.c10",
+        "6106a52038f231ab496b4cd4fbb391b0c59619170f9c36f854b2cfc52db343d4"
+      ],
+      [
+        "ASMOVIAN.c10",
+        "19e72a3f95c3135edbfdf20ca649a9215e4dd7c770660ad832d41d02054a42a3"
+      ],
+      [
+        "ASSIGN45.c10",
+        "0aa209847f4e79deb3f7aa7dddc12ac3e4a9b745ece321663db16e453cb55077"
+      ],
+      [
+        "AST4K.c10",
+        "00fcf7b74e27a73a6a8dd924072b4207443d13282d98f36ffef4c326f0c0d361"
+      ],
+      [
+        "ASTER.c10",
+        "d4ec07e24af9e9d57878c296217dcae4d7f634121bc56cfa144b203dc33db3e3"
+      ],
+      [
+        "ASTEROID.c10",
+        "2455cdc1091e68f7c5b4155df7ac910dea67801e2b68e2817db79550734ba68e"
+      ],
+      [
+        "ASTROIDS.c10",
+        "9c8c4d6cac7f359d7d620ca7e0f44cf31260aa0460dc383260a00deab6cb3c1d"
+      ],
+      [
+        "ASTSTORM.c10",
+        "68a999814c51ebb045cb317a4dc9a62671d5c97b5a5fb95ffcba0cb74fe9fd3e"
+      ],
+      [
         "ATA.crt",
         "39a21d104c19c26d2ac609c3db102c6e29083117093176590bb600ef4773807a"
+      ],
+      [
+        "ATANARJ.c10",
+        "86cf7d0944a24b3cca7512b91284bf55f7e33e912a7bcae6c1a36f97a889d6aa"
       ],
       [
         "ATF - Advanced Tactical Fighter.crt",
         "cb0a17577def107c96d5723c30e701d8e1a32d103cdd4c99988fe9ab306d5254"
       ],
       [
+        "ATLANTIS.c10",
+        "c3a6d0c99a44768973f79140eca4ca7d8fdeecd8841b910ecf953d6a7b7861e8"
+      ],
+      [
+        "ATLBALN.c10",
+        "4423ecac844433b8ec1ef7737492cc21a6242882facbf08cc13d9e4b24ae70d1"
+      ],
+      [
         "ATV Simulator (J1).crt",
         "734d2a95bdde7d21f85eaa3fd0d1314214ddc6204fe2ec5cb4b71830b06b9ef2"
+      ],
+      [
+        "AUTOROUT.c10",
+        "c19680997a3e14bd3f3671208a20b6460c3930a90c339a5e387889e560c7411e"
+      ],
+      [
+        "AUTOSOL.c10",
+        "c10a2dc901a9d2b19fb6bac1193f2f71a957aedfe1cd3c4a06f297c7b319e69e"
+      ],
+      [
+        "AWARI.c10",
+        "858c7d6fd20f51ddcdd7e25436b90684f5d7389fd30a69da88109ca713118583"
       ],
       [
         "Aardvark.crt",
@@ -1569,12 +1765,40 @@
         "18033a2b160cb8236413c9b279e27fe6fee588ad9b12aba8182593ef10841234"
       ],
       [
+        "Adam Calc (1984)(Lazer MicroSystems).dsk",
+        "b7b96b6d81a63289dc276e52efde700625d598ab5b251e56495ca1732eee52b8"
+      ],
+      [
+        "Adam Link II Communications Package (1983)(Coleco).ddp",
+        "cbad5d982f30331ee74e660c719e1b45ebd058cd828f98f63b393c3c00543042"
+      ],
+      [
+        "Adam Link II Patches (1984)(Coleco).dsk",
+        "f94ce735733323b8e616d60a6e2cc389406ef0c4198e3283b8bb38c655752de0"
+      ],
+      [
+        "Adam Link II Telecommunicator (1984)(Coleco).dsk",
+        "0b61767d79074373ace60a86a9c623e36b20ade30f5962c42594b1d03ad7c264"
+      ],
+      [
+        "Adam Links Golf (1986)(Superior Software).dsk",
+        "14a0d1486fa1000ba541885857f4932962da0649691df72f11765e266d44f291"
+      ],
+      [
         "Addams Family (by $olo1870) [EasyFlash].crt",
         "72890dbc5d8551bc824dcacdd7ef1aa613d744668617ba1cf0ca308e1b0d1c54"
       ],
       [
         "Addicta Ball.crt",
         "884b518eb5c03bdf53d1fa6b1b96288a5d56557411cd9eba25d465a40ddefb27"
+      ],
+      [
+        "Addictus (1989)(Reedy Software).dsk",
+        "db6309c521e99e9337bdbf7b0b88592b304ef67c5627cc50721ef28aca8371a1"
+      ],
+      [
+        "Addictus v1.01 (1989)(Reedy Software).ddp",
+        "537cd919ed403bf7b992d01fa908f314ded5eb96873b139588ac59dc79f3c831"
       ],
       [
         "Adrenalin.crt",
@@ -1651,10 +1875,6 @@
       [
         "Agent X II (Part 3) (J1).crt",
         "b29d84972b185bf63d6aa58c29742eedf426565d721169ba24fc7fda37810636"
-      ],
-      [
-        "Air Sea Attack.bin",
-        "082e039c1dd076ac5e1622cee6a44b6ae8d9a35af723de7496d69aa579ece163"
       ],
       [
         "Air Support.crt",
@@ -1793,40 +2013,8 @@
         "79e573d26bd0ae0816c572d2b18166d2b61bcde60fa2000fa8c5fd97a8dace6b"
       ],
       [
-        "Amiga 500.mgl",
-        "e3411975ef6d436327f84a142ff2c9b71ede48ff384efd95a2299b09251e661d"
-      ],
-      [
-        "Amiga.cfg",
-        "ad796c3b836d752ae7fbe5c9ddda96609750547aabb1de8db3f3bb5acb7da14e"
-      ],
-      [
-        "Amiga.mgl",
-        "9836caee93f26c2ae65f37fa468ef959040175370c289d2c81b6eb280cac7429"
-      ],
-      [
-        "Amiga500.cfg",
-        "53d8f2a217068b0b02b3af8cfb03958c7a3047a31531f6914312764107f0bf1c"
-      ],
-      [
-        "Amiga5001.cfg",
-        "784892e9183b5465ee0fa4d6c3585caa073aa8b25702bc2d2ce575eca9a37162"
-      ],
-      [
-        "Amiga5003.cfg",
-        "b3d2be70684e25e2784bfb1c86157b94adbf46d0f42ea76021a57e7d06bf2220"
-      ],
-      [
-        "Amiga500_scaler.cfg",
-        "e29ea1bda85a91eef77b4e8e74c64d73a6069c3d6c8ee48a5d2f3d64ca2fdd3b"
-      ],
-      [
-        "Amiga500_shmask.cfg",
-        "2c151cde0daccb39cb3ea2caefb17771f1fb95f9522416c7afe492ef963e54d3"
-      ],
-      [
-        "Anarchy - 3D Demo II (v2.01)(1993).adf",
-        "5da0ec8e95d05a2030316fb8e6bc601262122a520da118d0a710f584e5442766"
+        "Amidar.bin",
+        "b96824ac0cc1f49c7ff470530cff7be3c1cff3338d066ff6023e7e8221a6ee7e"
       ],
       [
         "Anarchy.crt",
@@ -2017,6 +2205,14 @@
         "8db934f29ebc9175875dd1c9af80522e92908c3fc10d9c167b36ce839396008b"
       ],
       [
+        "Aster64 (joystick).c10",
+        "85678af0952a9ea282aaaf158db94f1c8db3a9adec262d649061b6b8eeb163fc"
+      ],
+      [
+        "Aster64.c10",
+        "88de52a0dc4086733d99fe1082a87f2a80fd26450d41f39c7769ff0009f1423c"
+      ],
+      [
         "Asterix and the Magic Cauldron.crt",
         "2cd42d953cba89499b88e543a0fe21904e9fce204bbdecdf9f3a951a2d173094"
       ],
@@ -2035,10 +2231,6 @@
       [
         "Astro Marine Corps.crt",
         "19cd3af04361b024cb1e44d93c2ae2a65e3c6c564e92a35a28bd8bc21a730ef1"
-      ],
-      [
-        "Astro Pinball.bin",
-        "c14597912bd99b248ba05f500e92e10bf5fa1d6e8358e828effb863e2735a529"
       ],
       [
         "Astroblitz.bin",
@@ -2097,10 +2289,6 @@
         "db30db9122e3986f3ff17f4ec0cf0427455573b8ae1255a349e0dd38d7e3d051"
       ],
       [
-        "Auto Chase.bin",
-        "1657af34f50de8499b18503d9fd22cad5018c6239f11284d7992c2239d2fd0e6"
-      ],
-      [
         "Auto Mania (J1).crt",
         "db74277ca3ed26e870027a68da9cfb7622f83a4bb531709f9531e6fe3cb191f3"
       ],
@@ -2157,24 +2345,44 @@
         "a56aa513580616f214d6c60b6760e91f0739621237d6cea34b6d92a68cd4c0b8"
       ],
       [
-        "BASIC (Rev 1).bin",
-        "e8faba7474544d19d1864e4ff73609b51f20a7b7b0d33c6518420f06d534875e"
+        "BACCARAT.c10",
+        "8e59d6f4b500ab32dfe959a3069e4832e2f339e0ebd232a0f35e0766f3e36d1f"
       ],
       [
-        "BASIC (Rev 2) (Speed Hack) (Barry L. Klein).bin",
-        "f3b34fa155f5e1d1513d1bcbabe7c20679cee5cb580f624361b2340106fd8fb1"
+        "BAGELS.c10",
+        "bb8391423eb34fd3d610917139014f3f736002777334ebdb82959db9afc1ff8e"
       ],
       [
-        "BASIC (Rev 2).bin",
-        "80a0b0f2f410c20828f1737feff25b62eb812f7828df0f565c592df2f55ff237"
+        "BALLY.c10",
+        "da0f11cde164be0b17b588b4badc86fb3ac6e2ceef3bfedf7d7d176304dfa1d7"
       ],
       [
-        "BASIC (Rev 3).bin",
-        "59eff33ed4d8721e21d2f5157078e4bfb95eb7f2648755d046da67c41dd82754"
+        "BANDIT.c10",
+        "eecaf5a4e725b7c694017337c0617c6d0ff07512ddfa23cafbfc21ed3f2ebe62"
       ],
       [
-        "BASIC.bin",
-        "7883060ee67de203dc782de3df41d16258b371b6c0b39de08846aeef5b1b9c67"
+        "BANNOCH.c10",
+        "ec22341e7005224afd3ec55f916fff2fae3f9b73d452cc1aa826e97fc8a80d4d"
+      ],
+      [
+        "BARSOOM.c10",
+        "be21af225bedfcb78508aebecc5a2f3b45f8d019dbc046f3040b02423543f0db"
+      ],
+      [
+        "BASEBALL.c10",
+        "29a7e1107f6694bb1a38f6063e5bb4f5b1eba2678a4e45603c73f8075bbd56e1"
+      ],
+      [
+        "BATALHA.c10",
+        "bf1d6c77122115d855e9d498131c1dd746760fd3da137f2ef921b0075798a336"
+      ],
+      [
+        "BATLBOTS.c10",
+        "a2ca983087c6e687d910f3b06952f98d2334141ab53b7f00f288762204f5a90a"
+      ],
+      [
+        "BATSHIPS.c10",
+        "966b8251faa8d1065ca70528f50d653a40378240770ed630d817cdb834b33a32"
       ],
       [
         "BC II - Grog's Revenge.crt",
@@ -2189,12 +2397,72 @@
         "dfc506862b7a52d59c83a774a33ce2dc227b639d83dc16b3142aa3f4386e4720"
       ],
       [
+        "BDOWNS.c10",
+        "deb3d4819c79b361d1465d03f3068a12bce8082df0e068cdcd6b2b86dfcabbab"
+      ],
+      [
+        "BEASTIES.c10",
+        "434c3059fb98bd4623fc074beae4c22924508fa6f2b1ffcea57653dff123fdab"
+      ],
+      [
+        "BEETRAP.c10",
+        "69736172746135e10f23adfaa2f8adc7527a5b01aebb6d12846d4118f91b3846"
+      ],
+      [
+        "BERZERK.c10",
+        "0daa730903c4399dea528ef406f3ee17bf84d97e9c0cfa0fefe09e75c9d46710"
+      ],
+      [
+        "BGAMMON.c10",
+        "af4915a2164bdaaf86d60ae399aad9af2442b73cbde9f7deefc1bdb1b378ece8"
+      ],
+      [
+        "BIANCO.c10",
+        "30bfa7b8ee05ead2e33571b595ae1dcfc61868d7909cf93aefba059e631199e5"
+      ],
+      [
+        "BIGCHARS.c10",
+        "bba5393a02f7a9574b693faebee85b075470732ef957db5cb1cd2dd6164f6a46"
+      ],
+      [
+        "BIGRED.c10",
+        "561fb362e04382a82cba729a83a3aede94c9184f1781bff6d8aff813bf504137"
+      ],
+      [
+        "BINROOM.c10",
+        "cadff3592467ce4c0d1bee14236cb6e3df2ed412c6cedd8412f8d540bc1c58e7"
+      ],
+      [
+        "BIORYTHM.c10",
+        "da0f57446cb92791e0b79b1a3d2b63eeb953f2766e38867b822858e9d4d281a8"
+      ],
+      [
+        "BLANDER.c10",
+        "c7da9065a0bb15f900bbae957b2efb1f006fcf262e0abc37da232467e1a54a48"
+      ],
+      [
         "BLANK.st",
         "296f9c580b1d33d054ad6eeac165a89d291c7a775a53af77c49cf7ebf4be6be7"
       ],
       [
         "BLANK_disk_X68000.D88",
         "f503fdaed929d644866b4b869801082326acedf4d8a9c656493bbbcc84925bdb"
+      ],
+      [
+        "BLITZ.c10",
+        "32b29e146e9f3052f44d6e8fb37993d04ecd04fefb0ddbad726688ad3811b7c4"
+      ],
+      [
+        "BLITZ.c10",
+        "f0f552bc706701f8e14bc1c0e2387b3e783f19cd2012298ad4180c8954332117"
+      ],
+      [
+        "BLKJCK.c10",
+        "2cb4606ce8500b0dfe44b00e6e46a03fa341d27e0662cb6d2cf63de7b2c95fb8"
+      ],
+      [
+        "BLOCKOUT.c10",
+        "ee66976c1f5a1a406a80a171408762ac9ed2c27b006324133652058afecf0488"
       ],
       [
         "BMX Freestyle Simulator.crt",
@@ -2217,8 +2485,68 @@
         "1daf741e9086afced7fd12af28dbff0ebf529eebb843b04afbf36b027a1f5b4e"
       ],
       [
+        "BOARDER.c10",
+        "523c2737c12023a4a47f4fe6fc02cbd57147bc9360de963627d225ed660e6aca"
+      ],
+      [
+        "BOBO.c10",
+        "726aefbea13baa99c82442adf1794d760a600663d1c72b3b3d941d06b1a469a4"
+      ],
+      [
         "BOFH - Servers Under Siege (Covert Bitops - 2002).crt",
         "927da300dad98a65890baeb2808a270bcb5687a762595c201fe8c885fc4d5d11"
+      ],
+      [
+        "BOMBRUN.c10",
+        "0842eae7b1103342806129955833e80240a940dde6af794e43097cb42e5ecb0c"
+      ],
+      [
+        "BOMSQUAD.c10",
+        "52a6c81815d61d2bc4d1d6f26eb8cb2a8647d7375c889482846b343d5616d958"
+      ],
+      [
+        "BOOGALOO.c10",
+        "6b27b9e8c7531dbdd34952368edc6af39032c22df2a064f29e3847b59b865e15"
+      ],
+      [
+        "BOWLING.c10",
+        "97001c056b1230a9e8bc2e75b37ecf5f6ee6f25272968beda650b5d76362fc67"
+      ],
+      [
+        "BOXING.c10",
+        "0033a4ef8e5918f15d2d28667a221037ae06d8cbd5546d60baf41251e1708fe2"
+      ],
+      [
+        "BRICKOUT.c10",
+        "79e81ab9f9c76247878aa37b192b759c72a765448afb10b402c8387679a891c4"
+      ],
+      [
+        "BRICKS.c10",
+        "166408942a8ad084b8a6a26c9bb183a078bc6845cf00cf80eb83adc9cc8af778"
+      ],
+      [
+        "BRIQUES.c10",
+        "74c997cb4cc18d0552fbb732de0aeb7087af6ccc787b5226477d41ef5d4a1b0d"
+      ],
+      [
+        "BSHIP.c10",
+        "98195284cd67c860b68cfb88ee397a6df2b72afab8773a4e6f721c6a37eb1835"
+      ],
+      [
+        "BULLS.c10",
+        "fe19da0cd593f41a4e3b6378fb6978038b5dd9a320ce3a67a6a1ed1c71f71964"
+      ],
+      [
+        "BUNNY.c10",
+        "00e3553ff42166da15401a2eb9e287011edcbe8395bfc86495ecaf28c2b3516c"
+      ],
+      [
+        "BURGER.c10",
+        "12304a0c261414423d815d69c320bf232d2a89d940e970c40879304cc9277599"
+      ],
+      [
+        "BUSTERS.c10",
+        "1867e2f78cb97640b7c870c86bfcdf8ae039877ab79419ea29ede36e288fd3df"
       ],
       [
         "Back to Reality.crt",
@@ -2297,6 +2625,10 @@
         "8a6b94e6caaf7fc2334fb20f0c0511740337d1d536fc50f0a7044b4e97195608"
       ],
       [
+        "Bandit! (Jim Gerrie).c10",
+        "7c12f713e24257a6e64cad719aab6d2a6c080ec9b80042b8d0194d7a73576283"
+      ],
+      [
         "Bandits.crt",
         "a26c083b4f5ca460e84a601c8fe9df497bd0eab2bc77c4018722c5475ade6b58"
       ],
@@ -2351,14 +2683,6 @@
       [
         "Batman - The Movie.bin",
         "40a21e1b842b66fbba0702ecefaf1052ebf812952d0f0519ad2575292a428fe1"
-      ],
-      [
-        "Batman Group - Batman Rises (2022)(Disk 1 of 2).adf",
-        "b7b0266678dc2ed4812ec187d0b19c652c9f4382c772f4b21de2840646a3fa6f"
-      ],
-      [
-        "Batman Group - Batman Rises (2022)(Disk 2 of 2).adf",
-        "4d82e82e5b1257861cc5f6f34b653952797dc80585143cba0965b488b59c5679"
       ],
       [
         "Battle Chopper.crt",
@@ -2425,6 +2749,10 @@
         "93dd516314c510a17163f5da53dbea16182f656545d7b64319535d459d86912f"
       ],
       [
+        "Beam Galaxian.bin",
+        "5dff0cfb462013924866827a5e3313c50d6674a01e55694d6751d0f09c2c94f4"
+      ],
+      [
         "Beamrider (J1).crt",
         "76523c595110d58a5ddbad9e7529849eba61597bd24a1bd7e60aa8a3f6fff842"
       ],
@@ -2463,6 +2791,10 @@
       [
         "Berzerk v1.1 (Arlasoft - 2022).crt",
         "7fd35483f534974dec84afdb07c6c379a9b20d2d7b60dec68350f9f91301fa08"
+      ],
+      [
+        "Best of Electronic Arts, The (19xx)(Electronic Arts).dsk",
+        "10b4bd652fdd0b92b902e1ade25de32ee4331458981541ddebab7d79d51533fb"
       ],
       [
         "Better Dead Than Alien!.crt",
@@ -2537,6 +2869,10 @@
         "b547615aee472c5ae144ec026f53e371f1042330fc43c8267a3f28b2799008a2"
       ],
       [
+        "Black Jack.c10",
+        "b1ae89825180623272f83ccc123d684ea2d4f58ad1181dfff99f8207d973924a"
+      ],
+      [
         "Black Knight (ECP).crt",
         "818aa5876f4aeccb6ca3d1ba56869066f6493fad11b40d51f2c33b3c81de84fb"
       ],
@@ -2605,16 +2941,20 @@
         "6c30733ef3591532ee56ab56fc9b3b2a572c1a6b6121bed212ab525e3f780aa0"
       ],
       [
+        "Block Drop (joystick).c10",
+        "d10cf7a8343c03a4b006141c6e63f948c015f6a7a208e519f0ebbf149c50f279"
+      ],
+      [
+        "Block Drop.c10",
+        "1e2327ec84290d56ebb17f0167a746b645fcdbf6dfeff17d70eae575921adacc"
+      ],
+      [
         "Block Hopper.bin",
         "708b113b66514356e182fd93d25c54481227a92932d607755fca69029b696b44"
       ],
       [
         "Blockheads (Carleton Handley - 2020).crt",
         "4938fd1d39cd35d7af190dbaa100b14e5bbd821e1a5b17a5848d20766f5fd07e"
-      ],
-      [
-        "Blocks 1.0 (Michael Obsieger).bin",
-        "e5fe582e367842fe78e1aa81ffda73879c9740e9046ed75161855c54eab7f1f1"
       ],
       [
         "Blok Copy RX (TMR - 2018).crt",
@@ -2697,6 +3037,10 @@
         "0d95d11119bcc9de0b40c88c428b74d00d0950b8c6766c933f3e80680117da40"
       ],
       [
+        "Bombs Away.c10",
+        "1f840f5a5cf82373c3bd8e4e3299ff55737d78032da499fb7e0cd66e3ed4a7d5"
+      ],
+      [
         "Bonanza Bros (by $olo1870) [EasyFlash].crt",
         "34b88f18bbe0c6387109e34d97a14960d8514e6c538b397beacfdc4495e9622a"
       ],
@@ -2719,6 +3063,10 @@
       [
         "Booga-Boo the Flea.crt",
         "7c8302b18b9a296e674830cd1a2beed488c563b02029e1a28bc1e734b12a4177"
+      ],
+      [
+        "Boot Pix Deluxe (1988)(Metro Orlando Adam User's Group).dsk",
+        "22c44460de51a075aa7da3e4647c32f8fdbf6562fc57df4e238133a016eff845"
       ],
       [
         "Booty.crt",
@@ -2817,6 +3165,14 @@
         "bf0eb0a5b83e2492cbadbdcee2dec2705cb508a2ac4cfe0fc1620e76eac7e25e"
       ],
       [
+        "Breakout (joystick).c10",
+        "79c63408520410b9cd0ae2c1745d78cf91a1617fe41ecb8ac73110bcf8581721"
+      ],
+      [
+        "Breakout.c10",
+        "e021d673be5b99ef4b6e3d3dca78f2e5c200824f1e9b83bf1d5b12b4cfbb4814"
+      ],
+      [
         "Breakthru.crt",
         "6d8af9282d6d1e54e32f37c53762b99abef66ac94e033d2de9b54fa967796dda"
       ],
@@ -2869,12 +3225,24 @@
         "839f6696a870858436e43ba3444aa3268c80a3b59c03a38ddec6d2e370c1423d"
       ],
       [
+        "BubbleSort (ML).c10",
+        "3c4af403445bf246d186270edd9130b24e1397ae52a5ca4cbf282a249d408ee6"
+      ],
+      [
         "Bubbler.crt",
         "549b3a311029e8cbed80b29b313bd157acaa5ad1fb3d97e3cbb45c9c2eb2720f"
       ],
       [
         "Buck Rogers - Countdown to Doomsday [EasyFlash].crt",
         "38f0c16396c50535c0e2c855db068c4fde8f9be092416e983b9dba67dab5a895"
+      ],
+      [
+        "Buck Rogers - Planet of Zoom (1983)(Sega).ddp",
+        "cd1f5283ef37c72c9d8341920f85120d10cb4f53aff5d6590a47e9aa92ccf5d4"
+      ],
+      [
+        "Buck Rogers - Planet of Zoom (1983)(Sega).dsk",
+        "989bbdb60d2a4c075af17562080373808dae86c5853cc3baabe5660750938783"
       ],
       [
         "Buck Rogers - Planet of Zoom.bin",
@@ -2985,6 +3353,10 @@
         "9bf44ae6711e52c45f8478239ebe7f46e6f562c9b053f59b0bbbc0d51976c8a8"
       ],
       [
+        "C-TREK.c10",
+        "5c6829a5046917eee7e9e495a3c08ffbab86e7e8f575f7a6116835465ade67c9"
+      ],
+      [
         "C5 Clive.crt",
         "1a2c586a7685ae524440ab7dd7b5d52357772469baddf06bc0e4b526dbbdf3fe"
       ],
@@ -2997,6 +3369,122 @@
         "ac04aa5d0667db5d7c33b8646455901a9a329003e6e3cae471cef7821328a808"
       ],
       [
+        "CANARDS.c10",
+        "55c9daa796a549848e8b273027b4070b01aafd9c9657ee90ca0f67ea71879dc3"
+      ],
+      [
+        "CANFLAG.c10",
+        "724ff8c4e3dd0e22aca9278b206ae73d7efafdcb16bbfab056a93e332d166c32"
+      ],
+      [
+        "CANNONS.c10",
+        "f68923352b85cf6091f666c9c69c6fdc60dae70cb6a4ac53b4ca330aa3b1fe2a"
+      ],
+      [
+        "CAPTCHEM.c10",
+        "9ce2434bdc376a594380b7bb6d216094869677ace550cc096f71bbd413b4a1ca"
+      ],
+      [
+        "CAR.c10",
+        "7cd3c3008d91de0eef3685f2696faa3764380003714cc4737c392f61ee398ead"
+      ],
+      [
+        "CARMAZE.c10",
+        "e7b4e33b47210ef3ea01032e0dcfee75c712723f3c6292e75fdc49c43b438825"
+      ],
+      [
+        "CASTADV1.c10",
+        "cc1a25d68ce5b9b9a78961418834a4e18cbbefb18b840e208d8b91a5f5b9e0b3"
+      ],
+      [
+        "CASTADV2.c10",
+        "cae179f53a5b21aec3a0bea82704d585ca262bf0d51776a44da337c67392a138"
+      ],
+      [
+        "CASTLDRA.c10",
+        "a49a58a32ee026ae50f3b860dfe6f02a424f49bd3f68da1041caa65664a1822f"
+      ],
+      [
+        "CAVE3D.c10",
+        "08ddefd6cd182e4a6e0d7364bd57c23cb57083dbb9744886b819c2ff3b866828"
+      ],
+      [
+        "CAVEHUNT.c10",
+        "6c1572df3ab41fe9ff3081b9c938308e1f8db0924750fc46f96cf74fb079df76"
+      ],
+      [
+        "CAVERAID.c10",
+        "6826c592a3412f4403202d1300f364b44000e87e9b07f0325872b9d67c67f760"
+      ],
+      [
+        "CAVERN.c10",
+        "96169384e4eacc87e7609a78ac354d45653dda241fee78b78b3a9be7a48a60ad"
+      ],
+      [
+        "CAVES.c10",
+        "10b345a2b6e9388111166f1a6f25812b3995264a7eea9e0cb5aab643677ae5d3"
+      ],
+      [
+        "CAVES1.c10",
+        "c5f851661a6cbc95dc6c7369b6d88a706878f96bbfe5d4d50de2e78f4db24e3b"
+      ],
+      [
+        "CAVMARS.c10",
+        "0f5d7e4a6353084a121f6c3aad3786cb80ff21a9ef9688f7203d71fb77ab64e7"
+      ],
+      [
+        "CENTIPED.c10",
+        "37aa88a5e67ae1815b1dae831dd2bb2132f45aeec01a1fed46ff5a399a55b324"
+      ],
+      [
+        "CHAIRMAN.c10",
+        "d9417e58ca4f22d7da196fd9882f0194720a48ed254b5a84810eb444a73087c0"
+      ],
+      [
+        "CHASM.c10",
+        "7d3cf801d479e1ced620998d12940a8519933b8d2088c3b0620e40a746d0781e"
+      ],
+      [
+        "CHATEAU1.c10",
+        "5ff89de78ce1bef91162736e5880340d3e400c3e6f22c6514193c40afd170730"
+      ],
+      [
+        "CHATEAU2.c10",
+        "14bd32f3fab5155dcda7f5103f0c407171e83ff3d1e4d3aaa7dee8389dd4b479"
+      ],
+      [
+        "CHECKRVZ.c10",
+        "cb0a9bedbc9b86b53f71e1555913abca61ff4543f48557ed6ec0571d7cc47acd"
+      ],
+      [
+        "CHESS.c10",
+        "7504c9ad66946cddbb571027d2c1d782a3d3552104f7cee8f2d1ecb5343d931e"
+      ],
+      [
+        "CHESSC4.c10",
+        "3b66d6475fc7c79b4e197621c14def037071fb150ed54b053f17aa665abe7d80"
+      ],
+      [
+        "CHIFFRES.c10",
+        "84c69adea6fc8c3b6623bd7842e4c2513b3a9238c0ca7723db1cbe8f2f4baa2c"
+      ],
+      [
+        "CHOPPER.c10",
+        "889d13a7493ab2d291288d49f444610a18c9f3f6d61ced36d832329483d62567"
+      ],
+      [
+        "CIA.c10",
+        "f1160754c99a74475fc952a92e4f1fabddae549396094b2fc64e64f4f5b3551c"
+      ],
+      [
+        "CITYBOMB.c10",
+        "3e2ecece501e5074e6c576e2d975d2f0c5a8ea4773cf89517aa1b88073e5d96e"
+      ],
+      [
+        "CIVILWAR.c10",
+        "3c61f635286810bddade6fd5281159ff6bd994d68c385b9eb4ce204c6f97a0b9"
+      ],
+      [
         "CJ in the USA.crt",
         "f7ddcceb0f76c780c7f3b657adf117812bdde84cd5f4f6689a254f895072a9bd"
       ],
@@ -3005,12 +3493,124 @@
         "0909926ec6dc490bdf34e9f815878ecbcfb2f731d04bfb3bce43360bce21c987"
       ],
       [
+        "CLRPATH.c10",
+        "c143be75644611077849841f66894fa888984858f65ed093a8a1fbb0f78f21e1"
+      ],
+      [
+        "CLUE.c10",
+        "e4bd2808fb96f8dfc30c367215b52ae8c5f571e4605639f3900b52bb0d664a8b"
+      ],
+      [
+        "COLDITZ.c10",
+        "78e0301e09baa131102fe42b380f459809348934d275d4ff5d31e905cef71c26"
+      ],
+      [
+        "COLOROID.c10",
+        "d7f808379882a14f46f7a7b97cbf141f2ca08159df4268f3e927553774864912"
+      ],
+      [
+        "COLOSSAL.c10",
+        "7f12aa04e8c397df8a0aca50d5bc8a36e6095d38f2012533d934f7193c2a1326"
+      ],
+      [
+        "COLUMNS.c10",
+        "1c6181ca227026bd02aad596464342a0659953987a88fb01ea3c955734810e08"
+      ],
+      [
+        "CONCENTR.c10",
+        "bd9dcd8b761a2f3a44b0c4f4a488537b0e10bf0cf49afcd6b73e3de849acbdbc"
+      ],
+      [
+        "CONVOY.c10",
+        "9cf723dde29e2810979b4984e676f15cb389764bda8ea10078b14770825aeb70"
+      ],
+      [
         "CORE.crt",
         "6508b4fa67808c09d2116a19b6bf9ddc8913e7a4e28a57021c548ce6d458b5e1"
       ],
       [
+        "CORPSES.c10",
+        "241d8ecee12835f77cd69d6b2ba55be59b80904ad2768cf9ab2953c3f710cb62"
+      ],
+      [
+        "COUP.c10",
+        "9f8c737acad2b6b378b707710ee32731f63f9a654dd87d0d2d39169ba722e735"
+      ],
+      [
+        "CP-M 2.2 v1.50 (1984)(Digital Research - Coleco).dsk",
+        "ee6bdad374916fd8a00b94edc4a1afb6a5350c3ca68cc4dbd25e428bcefd5ade"
+      ],
+      [
+        "CP-M 2.2 v1.50 (1984)(Digital Research - Coleco)[a].dsk",
+        "94f134ef212268554cb75e40eb97cbb227b64e2b6c60f481bcd5b3c5f5fb1fa9"
+      ],
+      [
+        "CRASH.c10",
+        "7da5d7b5e6fbf65cadaa49ef88164c848aa4820743e6ec7cf316ac8b682293a9"
+      ],
+      [
+        "CRAWL.c10",
+        "bdb947b455273c363af330a160c572c735edfda4166e4376b432d9610dba1400"
+      ],
+      [
+        "CRAZY8S.c10",
+        "6588914a8eb2217ef843f287957ee9b002920aa8e8d90f0589cc27fe5b2ebda1"
+      ],
+      [
+        "CRIBBAGE.c10",
+        "285179ee357de330c5d6efb06fcd0f3d16e9bb6cf5a18ba9518836b50ab53604"
+      ],
+      [
+        "CROPS.c10",
+        "299fde03ef5fd7b91343996d3c654a16b1251ff6176b6bd952c10b8f57baa02c"
+      ],
+      [
+        "CROPS.c10",
+        "2a6bf19e8f9b3bacb72f985279b7d9864fe1ae79a6ec361e3780ee1d274a067d"
+      ],
+      [
+        "CROSWORD.c10",
+        "2323f63f841797503ed73a2e04abe34f799a9ac8f7dc67de4d0a2e0a9f739062"
+      ],
+      [
+        "CROWLEY.c10",
+        "42f6c8a2aaab346b7d6bdc0acf80587ed18ec960306c7c104cef5e119c72d0c9"
+      ],
+      [
+        "CSS.c10",
+        "e8f16456d466581d4bbe9f13275e6d4f4846c7dc11332827bb9cf40bdeea75b5"
+      ],
+      [
+        "CTREK.c10",
+        "e57ecfef51fe64bd7829a254eb7bdc423dc6a8400308e01c52202e5972ae6a11"
+      ],
+      [
+        "CUBE.c10",
+        "e48fac7d43cdc1a907d051f55a3d811c366503ff9ef380454a9ad3f17cda47e7"
+      ],
+      [
+        "CUPBALL.c10",
+        "d12c4cdd97d3b06cadf02c44a3616f61d1e8eba842f0b67382b24b366b4088fd"
+      ],
+      [
+        "CUPID.c10",
+        "ba604a9605dce60092169838b00b14e57af0f368c1a0bc9c49fcc4e9e0ac655b"
+      ],
+      [
+        "CURSE.c10",
+        "e1d3619e7c6e791eef0f8ac360f8e5ca67cfbafa36c6fa661689c2deca07b00c"
+      ],
+      [
         "Cabal (US) [EasyFlash].crt",
         "851e1105a401555379edaad53fcea37aed60062b7117c727c04662148411e6a0"
+      ],
+      [
+        "Cabbage Patch Kids - Adventures in the Park (1984)(Coleco)[Req 128k].dsk",
+        "6fe50ca7a9f88f2ce5a1e763f4a92a6b6c88787924dd2415f0003613e4bc009f"
+      ],
+      [
+        "Cabbage Patch Kids - Adventures in the Park (1984)(Coleco)[a][Req 128k].dsk",
+        "6ecea8cb897e58fe7b33b236fa2992cb96eec106ff86bf335706b3d590a6841c"
       ],
       [
         "Cad-Cam Warrior.crt",
@@ -3035,6 +3635,10 @@
       [
         "Camels in Space (TND - 2001).crt",
         "125e9efdc258f992cf3b21cbe74166f5a9610d923c80713a910c450111a633af"
+      ],
+      [
+        "Campaign '84 (1983)(Sunrise Software).dsk",
+        "34311816b31bd4347296e08bbaae675fc6038d5deffa8d73edb476e1c537ae9b"
       ],
       [
         "Canonrider.crt",
@@ -3077,6 +3681,38 @@
         "a7361419cd60c14bea2c377476b3ab0f96b88d24e7b530ed06ed9410df685cdd"
       ],
       [
+        "Cartsoft #01 (198x)(U.K. ADAM Subscribers).dsk",
+        "77b527833961f9430ddfcd32737de805e0b25c29890fea010bf7af26dfb491e6"
+      ],
+      [
+        "Cartsoft #04 (198x)(U.K. ADAM Subscribers).dsk",
+        "9b21c5f56eec226998828321a97ca25495de116d0b8051e9e9d7deb647665011"
+      ],
+      [
+        "Cartsoft #05 (198x)(U.K. ADAM Subscribers).dsk",
+        "0b1bcd9e224d5c1420b389a7a8931e4b1a07aa04dbe7b87a792de04249d6ba0f"
+      ],
+      [
+        "Cartsoft #07 (198x)(U.K. ADAM Subscribers).dsk",
+        "4e1102155eff132b56db7805fbb39fc72e42b545c5322fc51d88a53dc288d3ca"
+      ],
+      [
+        "Cartsoft #08 (198x)(U.K. ADAM Subscribers).dsk",
+        "2b38737702a3b3716b8bdf49f673ce5cd620a830b72fd9f1a956aed622bc1702"
+      ],
+      [
+        "Cartsoft #14 (198x)(U.K. ADAM Subscribers).dsk",
+        "ef482dcaef0fa4fa437d4e36202d8b5c84ea93426a0e45e868d06c475fe2c61d"
+      ],
+      [
+        "Cartsoft #16 (198x)(U.K. ADAM Subscribers).dsk",
+        "6aba47a347c18fc2712d57bf16d995e5eb25333e0f5b697182fb4d13fadede6d"
+      ],
+      [
+        "Cartsoft #19 (198x)(U.K. ADAM Subscribers).dsk",
+        "1b499561a24b31b8ea41baf3a56a5686b948c8a77f2c91f1b2393ddd9d843a2e"
+      ],
+      [
         "Cascade (Protovision - 2002).crt",
         "8b0fc59c3e93b5157684ba1a2766b4d0dcc103239893eb3b5d0b4ddf0382368e"
       ],
@@ -3107,6 +3743,10 @@
       [
         "Castor.crt",
         "fe84f607d7fccda0a6ed1e797efb8933a7ca6421552140655f271519a2ed5ba9"
+      ],
+      [
+        "Catalog Program (198x)(Coleco).dsk",
+        "2a4a3e1f0ae3cf88c5d5eeb535fc022284780ae445d89f36642498fe5a7fa3d6"
       ],
       [
         "Catalypse [EasyFlash].crt",
@@ -3237,6 +3877,10 @@
         "d9d051cf487e4e12157451d61c21f41d13781d7dd5cccdfc29300a61746489bd"
       ],
       [
+        "Chess Champ (1988)(Digital Express).dsk",
+        "49eb1090ffdc933f7039261e929c263500897c0bc75e020d979c9900a69f6314"
+      ],
+      [
         "Chickin Chase.crt",
         "91a6364f6b0b4f7731939ed375ad09da90d16d9271a8c8904ba0091b4e9e8309"
       ],
@@ -3297,16 +3941,8 @@
         "fbbfb256e4216d137fa40e6b4e916194c67c6435b3db0d5ac245f348b2fb85fe"
       ],
       [
-        "Chopper Rescue.bin",
-        "bc83f3a7375bafbee7e7ae83cc2c82a11542548836fca2aaaf06a39b8d708bfe"
-      ],
-      [
         "Chopper.crt",
         "835c5339000e7bfd0c2cf47d4bd48bb7b52ded1b85d1cb61797af45a6a64540f"
-      ],
-      [
-        "Christmas Demo 1.0 (Kurt Woloch).bin",
-        "12161f99d597afa52ade5168d6abf1c4a61f47d469df58566ce8f867f02c222b"
       ],
       [
         "Chubby Gristle.crt",
@@ -3477,6 +4113,14 @@
         "69ebaf90fbb5b19d55602fb5470eeb21058f4f8ec4099c138fdfd35a82083b80"
       ],
       [
+        "ContBank-Donnees.c10",
+        "6244096ae6fd8aef80c544877b66911c422a87f9124f6748fcc0b738dd3e3773"
+      ],
+      [
+        "ContBank_V320-Alice.c10",
+        "81cefce86464654ffad028293f7661fabaa6dfccfc630a62a905a1cf85c1df7c"
+      ],
+      [
         "Continental Circus.crt",
         "6b59470b3dce8a2a5798ec6f0bf7de3ff72747dda63caf38ca6f2df29409ab09"
       ],
@@ -3491,6 +4135,38 @@
       [
         "Cops and Robbers.crt",
         "0ceae569e13eaf567d33e64498c276965245579aa43aee9db32f1a6ff0204083"
+      ],
+      [
+        "CopyCart+ v1.1 (19xx)(-).ddp",
+        "6f4891c1715d83790f08d9da562f5f01383c95f194ed905b416042e39f5bec64"
+      ],
+      [
+        "Copycart+ 01 (1985)(MMSG).dsk",
+        "711657b120539861d4f0149290af649b404640529bd0448f0998397a41bf0611"
+      ],
+      [
+        "Copycart+ 02 (1985)(MMSG).dsk",
+        "dc779f91f658f4e6e3e9884066edcf1aaa0864e27843dba1a95843065d1f824a"
+      ],
+      [
+        "Copycart+ 02 (1985)(MMSG)[a].dsk",
+        "a70ff9ece162cc4f7503900de6a60e5fadc9b56380f6d5a5628f021465a7e9b2"
+      ],
+      [
+        "Copycart+ 03 (1985)(MMSG).dsk",
+        "22ff644857e516f687b65af5dc799d54c0a621202cf716541e07f5b56e08e300"
+      ],
+      [
+        "Copycart+ 04 (1985)(MMSG).dsk",
+        "caecf7e1a528d618233ebc1557f8a93f07d7f886b93cee40838081742f9825a3"
+      ],
+      [
+        "Copycart+ 05 (1985)(MMSG).dsk",
+        "875b1ea449025ddce97b597ea103071fbd8355c60b7d1fb810fe44e9cba185b7"
+      ],
+      [
+        "Copycart+ 06 (1985)(MMSG).dsk",
+        "3e02cd5451e689dca9e7f1f22961ba369e91e6057369345982c2ea0e914be450"
       ],
       [
         "Cosmic Causeway (J1).crt",
@@ -3553,6 +4229,10 @@
         "4a4f96a9801ff96aa2249a765f5b529bf7f19450397f498603b271c07880afc6"
       ],
       [
+        "Cram.c10",
+        "04649d34d913115813d4fc58d0838f8e026fae7cdc08531e99989545fadc0394"
+      ],
+      [
         "Crazy Balloon.crt",
         "5339715c2b9cf68c61994b93d0565fee4504073875ea86eecdad3071be6ff446"
       ],
@@ -3565,16 +4245,8 @@
         "afd0a58e8d83e7c16f1fdcfec0a39457cec032ab43d2f41c38d3aa843c72e1e1"
       ],
       [
-        "Crazy Chicky.bin",
-        "1c0ac287f20236251593feaabeaa5cdf92026099eb31e74be0a1c7dec4e8a201"
-      ],
-      [
         "Crazy Comets.crt",
         "ceba96a20276208d0181dd7ee6060ef21398f8cb5ab3b263eed5168d5bbfad49"
-      ],
-      [
-        "Crazy Pucker ~ Crazy Moonie ~ Crazy Chewy.bin",
-        "15dd50d5cce7c96a543a38cc1597c8b1a4167a64226c190a258c074d4bec8589"
       ],
       [
         "Creatures II - Torture Trouble (by $olo1870) [EasyFlash].crt",
@@ -3607,34 +4279,6 @@
       [
         "Croaky (Derek - 2019).crt",
         "f54c95435f77b261ce29381192ca343c4add0a043729af51b67d27fec1835894"
-      ],
-      [
-        "Cross Bomber 2023-01-16 (Fabrizio Caruso).bin",
-        "2484a6bca5441339283a7dcb63ab92db8da2165c092a03156ffe6a63091da566"
-      ],
-      [
-        "Cross Chase 2023-01-16 (Fabrizio Caruso).bin",
-        "40a620c27104543f51f20b3c890d5859db692b30b8027a40f0ca657d88450ea5"
-      ],
-      [
-        "Cross Horde 2023-01-16 (Fabrizio Caruso).bin",
-        "3f50ab3f1649563c1f14e21d8d2b13997726ce4acc230ca820ff4c1fbb1772ed"
-      ],
-      [
-        "Cross Shoot 2023-01-16 (18K) (Fabrizio Caruso).bin",
-        "9d8b38e95d951ff97cb4020ae2e543547cdd0a65ef2464821d1293be7ce7e19c"
-      ],
-      [
-        "Cross Shoot 2023-01-16 (32K) (Fabrizio Caruso).bin",
-        "4667a1b2a4583bfdfb6d76c9f88bf286113fd9fe65878388fd0cc4bf786db44b"
-      ],
-      [
-        "Cross Snake 2023-01-16 (Fabrizio Caruso).bin",
-        "3b29254bca603d5ed1a9670a71fec5495216488115cdfd5de25b6f909eb14a1f"
-      ],
-      [
-        "Cross Verbix 2023-01-16 (Fabrizio Caruso).bin",
-        "e67eab5d71d61307fe4d390ad1b5aaeb326ddade103d3a0d25e15c5a27ba01b4"
       ],
       [
         "Crossfire.crt",
@@ -3721,12 +4365,188 @@
         "1ccc0afeba139dcfd3bd93f27c114377718f1d2b134770eb5a437f18c17c848a"
       ],
       [
+        "DANTE.c10",
+        "998117f7e961bb3a6546471262cdde9b39e5827937d3f84ada86048d6ba25559"
+      ],
+      [
+        "DANTESRU.c10",
+        "a4af3e7f89c33e956faadae878b04e8ba130ce9781e81917b8341c05ff117e83"
+      ],
+      [
+        "DASH.c10",
+        "854822e20faab08eb0766bea834abcfdb7bb54383630acef9b36c00535a2c715"
+      ],
+      [
+        "DCA.c10",
+        "651136c27d11892cb29a6db1034439d086d672675b849bc3e1e59cfed1cd1a96"
+      ],
+      [
+        "DEADSTIK.c10",
+        "b5feb9539bb29f7082fd1a00a5ec55fc82ba5762dfe23986bc8c516dfc215c7c"
+      ],
+      [
+        "DEEDYORK.c10",
+        "05bd634746588973afefadaa4ddb84cf6528e8d16117b2752c286ae2e68abfbe"
+      ],
+      [
+        "DEEPSCAN.c10",
+        "ff30ea8c51bda49e20d24bba6c3af312b829d27bc40fa4cbc604262d20057e23"
+      ],
+      [
+        "DEFCON1.c10",
+        "a4723b4d2e4d6ca5eff946e293a669ffd710ea3c5222822d2071e8d3ebd1859d"
+      ],
+      [
+        "DEFENSE.c10",
+        "82f5ef3380a702f7aec7410b8f706edf34784f1fc3206c50ab4c0d7e0edeaec5"
+      ],
+      [
+        "DEFLECT.c10",
+        "634e4ad3ce4ab0743c1b90f3e73fbfe9f4d16447ca120c4d7c80c44c7cdf6e35"
+      ],
+      [
+        "DEMON.c10",
+        "dad4ba9a6125bd43db9ab74f3b9c32ea9b22c1be8947dfd423471ffa3752ab9e"
+      ],
+      [
+        "DEMONKNT.c10",
+        "2893e1f70e1ad94c9aaaad7792359e701d84210cfcc13c9a8d73114143ccbb1e"
+      ],
+      [
+        "DEUTCHLN.c10",
+        "9a2b649d641c5590c86ff394eac74d4b909b9be53bc5fc4b64718a7da235e2f1"
+      ],
+      [
+        "DEVIL.c10",
+        "e7dd8fb5ffa218dda0215eac69022e8e36ecfe42e42d33f5fc16e4a45c6ac8e8"
+      ],
+      [
+        "DEV_TRI.c10",
+        "33b613b42d49785bb2adc21b4441b6cda960218d28214b08ea254e8079380dc3"
+      ],
+      [
+        "DHUNT.c10",
+        "132d5dbf3dc722677dd99ca10a2ee341ef4be18afc6a8bd039a60e25ced7bada"
+      ],
+      [
+        "DHUNTD.c10",
+        "4b085628e6f6c4ae791565fa441690239c1d90a8c1908ecdffbc0b26facb5ba7"
+      ],
+      [
+        "DIAMOND.c10",
+        "070b055ff1599cebe4b196c3b5162481b30577c97ed2084470fdb228dce97132"
+      ],
+      [
+        "DICEWARS.c10",
+        "c66263863c850342aa8d8f6229709fac98efc6c15796f133f47fb56d96778326"
+      ],
+      [
+        "DIGDUG.c10",
+        "c4c15f5ce984f48713863374c68a53e7f512566c8944cf676589497f6632fb3c"
+      ],
+      [
+        "DIGGER.c10",
+        "ba8d1a50c7a7241e556e590b30bce6c81d57bd89df0c33bb839de331a7bbeb59"
+      ],
+      [
+        "DIGITAYA.c10",
+        "a635857c732845175dd71d29d2065be9a9fa8c5b68e7fb8356b9ff38ba835003"
+      ],
+      [
         "DJ Puff's Volcantic Capers.crt",
         "3b6a23771f42926115716989e33a68b38f30f786e2aa8ec049947b8ce2ae8c66"
       ],
       [
+        "DM.c10",
+        "192645b12bc054a61520065b7d1ba09b5b9db1c758650e43abaed9c8273fd5f2"
+      ],
+      [
         "DNA Warrior.crt",
         "7d7b15ae81ee8e176d6165b1c8bf2f64cd2c04c91e41bf1114e62525dd245249"
+      ],
+      [
+        "DND.c10",
+        "2d850de9ee538325fd13b09036d3cc5bc6b75bfed0fc8939474e7407f470a62f"
+      ],
+      [
+        "DNDPARTY.c10",
+        "7491e157c71c56719181810758f4fd1ac14ca9c1cab054020aac8df7f3da9a16"
+      ],
+      [
+        "DOCTOR.c10",
+        "5109fcf6c71f4cfb52d608f08ed47a5ee37d1003e80e38ef55b45bf6f96024b4"
+      ],
+      [
+        "DODGE.c10",
+        "a9e7770de87915da27bebf90b3d58a309f0c73c3eb09a0d9f07bc942dd7ab0c4"
+      ],
+      [
+        "DODGEM.c10",
+        "2c38949516e5e53b317cf1b49a8b495890db91c83507eb3d08c5563034b9d35a"
+      ],
+      [
+        "DOFDEATH.c10",
+        "2d9b0c81f21a284c6035b87d09c44a1a80690fcbe782b7a1a6ca9c9b57f1f4c7"
+      ],
+      [
+        "DOGSTAR.c10",
+        "ac21c7f3aae6db11c1b68fd4a59c9c27104f4dd7a0f0f930b6f6c2bf716dd648"
+      ],
+      [
+        "DOJO.c10",
+        "35048c3d4fd45722cdf8644449821b8e76c2eb0a8df4e3a355ec43285a0d348a"
+      ],
+      [
+        "DOMINOES.c10",
+        "9d235b835e2127143db02c602ff3c3b12012558c2f9678af1caf7710e2e96d7b"
+      ],
+      [
+        "DOTS.c10",
+        "acc243b60345337e8cdbb7d97fc107c17ebc9dba1ff9ed7666065b0e98cfa97b"
+      ],
+      [
+        "DRACULA.c10",
+        "8f357e47d9f0e8466a3ca34923d22bf19d16bac03dc52a360dfcf870feebc7c6"
+      ],
+      [
+        "DRAGLAIR.c10",
+        "6753b68f5c61ebe31c974a9a6e05408451152809eeb6a22db8e7e999ea4af783"
+      ],
+      [
+        "DRAGON.c10",
+        "109498a4271b444ce3945cb38448fae73d80a579187e46a7f3aa14441e0aa6b1"
+      ],
+      [
+        "DRAGONFE.c10",
+        "42c957cb55592dadc617653400d16be4ecd63640344a77fae6a444b11e73f550"
+      ],
+      [
+        "DREIDEL.c10",
+        "5b5f9bbfd4bf1baa9225bf265663029852f354301fcccb6ed23604298aa11237"
+      ],
+      [
+        "DRIVE.c10",
+        "1ee49642244898cbf3ce6f4f4f744f5cd1ad2ceeddfbe8f9ebd9780a82deb26b"
+      ],
+      [
+        "DRWHO1.c10",
+        "0ce7b91bd18b9ffce32a6379e4a45fcc6811d43e4eeb0660c195afc88879457a"
+      ],
+      [
+        "DRWHO2.c10",
+        "1939a0911b8051c08637948b719c5d9c1f700046b02c658e2552c69aab275cae"
+      ],
+      [
+        "DUCKIES.c10",
+        "989fefb59465644f0511a70863430779e7d6aa33dc25f03ae446f6c3f740330b"
+      ],
+      [
+        "DUNGEON.c10",
+        "412f7df9c0f082e3edacf007f1202b7e12c354e7873c8def0a890b70bcc9187b"
+      ],
+      [
+        "DWARVEN.c10",
+        "2afb9cc792bc8367d227f901ea5d58fe09afeecdfa246365fe75d1af8ff0e672"
       ],
       [
         "Daffy Duck - The Great Paint Caper (Hi-Tec - Unreleased)  [EasyFlash].crt",
@@ -3743,6 +4563,10 @@
       [
         "Daley Thompson's Super-Test.crt",
         "37eb94c17244758cbb7b275e30d38b4cbefff6a9f2393e5566eeb67ec6614768"
+      ],
+      [
+        "Dam Busters, The (1984)(Sydney Development).dsk",
+        "26c06b02825f8b4d05953b3bcc91e0a012cb0c7113e92e3953fd3a91eeefc9f0"
       ],
       [
         "Dam Busters, The.crt",
@@ -3885,20 +4709,16 @@
         "94f39eadb07917aa5c9719d0967c8972d2ac902f973517a3351e30e54de8545d"
       ],
       [
-        "Deep Sea Adventure (6K).bin",
-        "c3195fc1189b44d957ca20a28025708641e7bacccb0421457d61924230070e03"
-      ],
-      [
-        "Deep Sea Adventure (8K).bin",
-        "2132f4ddeabd138a3eccbf6227603a0dbb3fdcff946455aa578b6cae88478c2d"
-      ],
-      [
-        "Deep Sea Adventure (Fixed Background) (Michael Obsieger).bin",
-        "fb28d7285891db4f1cf35209efb5ef373af269ad0a0f5ba64baa1b7ccce444c8"
-      ],
-      [
         "Deep Strike.crt",
         "719d4aa55282ae84d0fde8f897de369f742ea0800a9b66157251234bf003dd54"
+      ],
+      [
+        "Defend (joystick).c10",
+        "d5122d1b87ee4948aef5f0af7c97328a7c78231ec631e382960aaf9e6405dbc2"
+      ],
+      [
+        "Defend.c10",
+        "0d1b49ae617c1e8c0f0b8629504db24f2b6c879d9e1cf2179681b517d6a17a93"
       ],
       [
         "Defender (64'er).crt",
@@ -3907,6 +4727,10 @@
       [
         "Defender 64.crt",
         "2d8ed4b9676c1d947a49d8e8df1bf80fe49e2876fcbee7dfc03a7d8f3b36b533"
+      ],
+      [
+        "Defender.bin",
+        "5984b27d878020b71f4dea49607381e500822e3fb7864d0dcc0a331bf3fda960"
       ],
       [
         "Defender.bin",
@@ -3973,6 +4797,14 @@
         "fcf1a4538a065131d23f5e83e7f8b8a19f6192d46c883c018c8184c0fdab737e"
       ],
       [
+        "Demon Attack (joystick).c10",
+        "7234f8e24943662c0f1467445f546e1e90ffff51295d10ded67634c9570f288a"
+      ],
+      [
+        "Demon Attack.c10",
+        "1b25199a37d6870e723b5db8820502735fc62ccb47a66dfbc47f587958a1be74"
+      ],
+      [
         "Demon Blue.crt",
         "e8fe89f32b2b3e4f882d9f389cff85e037a096baf79e4d8fd1500b99f48749f9"
       ],
@@ -4017,20 +4849,12 @@
         "c8265d761de7214242d556440a3daa034e9e3570933d6ad435167a07b135dfad"
       ],
       [
+        "Diablo (1984)(Image Microcorp - Extended Software).dsk",
+        "801a7c98da290a293e50b198ab299698eafa9285d1cd9af032e6ca9f01950c08"
+      ],
+      [
         "Diablo.crt",
         "5216eb8e21935eb612ae60e18ddb10ae2cac0348ca4847e15fcd4b3b0e669a14"
-      ],
-      [
-        "Diagnostic A (Video).bin",
-        "13e5ef565b52374602b62b161f555858c405507741d08ca9b3a14cedbcecee58"
-      ],
-      [
-        "Diagnostic B (Keyboard).bin",
-        "c00b785332c03af6dbe41bcca6b47c7e2a99aabe99545a5de8562283998fbb9f"
-      ],
-      [
-        "Diagnostic Demo 1.0 (Kurt Woloch).bin",
-        "038ff873a9db89b7784e78b702d0aa2d39ef88877dca20a01660530a8ddd7b01"
       ],
       [
         "Diamond Mine.bin",
@@ -4047,6 +4871,10 @@
       [
         "Die Hard [EasyFlash].crt",
         "ca0e1e56c26b6ed19868285911a8968e50a0b00a933f03c02bd163a6f5b23ad1"
+      ],
+      [
+        "Dig Dug.bin",
+        "322c6ee4bbbef4cabc75c7285cfd2113c3bfe5cf92645220e3dd8e72fad720e3"
       ],
       [
         "Dig Dug.bin",
@@ -4067,6 +4895,10 @@
       [
         "Dino Eggs.crt",
         "bfc4654934f084baf46dd4a70d71d85fe1da82a414c90d23b43515e87cb02ddb"
+      ],
+      [
+        "Dirty Chameleon.bin",
+        "542bac39d7b3b4047772e925c5236d349858d49085eb36b75182b28d8a4b89c1"
       ],
       [
         "Discovery.crt",
@@ -4123,6 +4955,14 @@
       [
         "Donkey Kong Arcade.crt",
         "49043896d6c82940894d8170d6c08af044cfd7bd8c5c4bb782ff191aca9779fb"
+      ],
+      [
+        "Donkey Kong Jr Rev 13 (1983)(Coleco - Nintendo).dsk",
+        "8ea5c4b8cd94b7d6f7f022ed182206232ddc745a8043337bd615a0d01b515ac5"
+      ],
+      [
+        "Donkey Kong Jr Rev 14 (1983)(Coleco - Nintendo).ddp",
+        "42186bc846fc3912187f1612e81b07520a5b87a5959cec34e7c1b52ab990d73a"
       ],
       [
         "Donkey Kong Junior.crt",
@@ -4197,6 +5037,10 @@
         "9d74c58d4c708bec75845f021335a6633b085699f4af487c0281334027eccb80"
       ],
       [
+        "Dragon Castles.c10",
+        "8028a2910996111aef89771b79c9f6b13db35a46dfcff3a3b115fa716894310d"
+      ],
+      [
         "Dragon Skulle.crt",
         "f9de8c9f9098f522a06be0191b4a1cbdb9b7fd060eb26dec7075e2e37f72a172"
       ],
@@ -4207,6 +5051,10 @@
       [
         "Dragon's Kingdom.crt",
         "c7bb30e5aebb9a7e29eb80b26e195adb78f8a0c4004a1966db400205ec215858"
+      ],
+      [
+        "Dragon's Lair (1983)(Magicom).dsk",
+        "e7387bb32f00e3714aed1d71a9b1a6c6c1d55c9409ed90c74014c48e76ede08e"
       ],
       [
         "DragonHawk.crt",
@@ -4297,6 +5145,42 @@
         "5dd3164015fd326e2a41ba123c8edcb464000e281a0b8008b05111cfa6c80ae6"
       ],
       [
+        "EARTHQUK.c10",
+        "086b45c36e626518ca367d3700925885596dbbd7451aea833b060b13f13e8975"
+      ],
+      [
+        "ELEVATOR.c10",
+        "d220a339c10ca81e13cfcb467f033a1de93470b90b6c39df90a21670320f3a85"
+      ],
+      [
+        "ELGON.c10",
+        "c7a0389cf09d79bb31c93170cd86ec2819741dcba404711c668e01aa9dbac316"
+      ],
+      [
+        "ELIZA.c10",
+        "09ba474561f02b8a0bb89308658ff3751437842707d76e811182272d12eb969c"
+      ],
+      [
+        "ENCHANTI.c10",
+        "53aa9059cee564e337caea090b2e28926d1f2e2433f9d20e61328e3bbcc7adbf"
+      ],
+      [
+        "ENGINEER.c10",
+        "6f1e8e14ad652f46b6735844997777f73f3a4eab431642e834e11260e79cd8c0"
+      ],
+      [
+        "ENIGMA.c10",
+        "e4bf649b6d5b40312b3f917cdbee904b578f4d0c173f63b4a5d60dd0d557a0e6"
+      ],
+      [
+        "EOS CPM Format Utilites (19xx)(-).dsk",
+        "349b694de51b5064ddb4ec8d79fb572268dc7f65a2ff742fbf00bf6ace88c123"
+      ],
+      [
+        "ESCAPE.c10",
+        "0a2536047872bfdd4c6e2e4020cf82002962a9d4c8ce92059473be443a797d33"
+      ],
+      [
         "Eagle Empire.crt",
         "2dececb2a8b32c621259a4292a87b1291ccfcc247037ae6c0eca00bdf881a4a2"
       ],
@@ -4321,6 +5205,10 @@
         "3d7bd327779bf38c40019352dd8690d9267a6ee4884278d87e040c0b7e7d8cc3"
       ],
       [
+        "Egg Catch.c10",
+        "47debcef1a4934569d0463a8fe31fa933b36b70035e1fe34ad55841a32540a70"
+      ],
+      [
         "Elektraglide.crt",
         "e350d68a9a8bdb01cd9a5c377b2a45ecdcb90f9bb5a9bc2d1b18ce27349efeef"
       ],
@@ -4343,6 +5231,10 @@
       [
         "Elite.crt",
         "91175e2aaaf5c4f8e01d788a6b24fa864d1e5db5c4118ae26ddd7579c2b56d78"
+      ],
+      [
+        "Eliza.c10",
+        "87cc1ff01345d6003e6822430fafab7f9a69243f104c8fb337e0ad4313992aaa"
       ],
       [
         "Ellak's Tomb.crt",
@@ -4383,6 +5275,10 @@
       [
         "Empire.crt",
         "1f79eba1f3b0448cb76247a2bbade6ab91b928b899de37da41e8f11b6f34aa43"
+      ],
+      [
+        "Emulator Tester.c10",
+        "5c936301dffaeb59f753afefef356409625c0321cbfa412d719897d4a86b4426"
       ],
       [
         "Encounter.crt",
@@ -4445,10 +5341,6 @@
         "00167f7217ac9276a452efbc60232ba788058dfab64a6310b5ff5ad4b9ece141"
       ],
       [
-        "Escape 1.0 (Michael Obsieger).bin",
-        "127a65611bfdf6678e0baa5e20d6d792c1dd19abd14080807c63f21826000fc7"
-      ],
-      [
         "Escape from Arth.crt",
         "ff7a8ef1df9962d258850fa8bd8b2952dc61369c890afffb581413a23c29e05f"
       ],
@@ -4485,8 +5377,28 @@
         "3667c11e2d17be390fe050a0833e24f6d9b9f5d9ad21327d742237bca86e0d1c"
       ],
       [
+        "Evolution (1983)(Sydney Development).dsk",
+        "bd827056d829ae0d49548b2df56b9a42104937be0555d240fcbc0374c6544d8f"
+      ],
+      [
+        "Evolution (1983)(Sydney Development)[b].dsk",
+        "5b01debed0c9afbd60546739d33aa0a1da5ba201085da46f2795aa15d58c6dfd"
+      ],
+      [
         "Ewe Woz 'Ere DX v1.1.crt",
         "c627b4f44dfb21bf856aea8b9b2d50a9f67b1b39de391c27f477707f42d36b23"
+      ],
+      [
+        "Excite Mahjong 2.bin",
+        "77476d56b75876668d35e45cdb0bb797ae859cbf4b576f4c19f61724774ffa8a"
+      ],
+      [
+        "Excite Mahjong.bin",
+        "24352da59b9a32fdd0f8ae13112b081803e60d9e6bc499e2c2e17a4fdb51e918"
+      ],
+      [
+        "Exciting Jockey.bin",
+        "7132b28fabf680418f4b7d838f86a49964cfaa393330322100b125b4bee7a0d4"
       ],
       [
         "Exile.crt",
@@ -4503,6 +5415,10 @@
       [
         "Exorcist (Mr Micro).crt",
         "16ab81d8f9363376e14ebf715a8328f321a36a37d36b5d812b7eef13d9993cda"
+      ],
+      [
+        "Expertype - Smart Writer Typing Tuition Program (19xx)(-).ddp",
+        "c94f8b6a2762675fa7f6af934811fd1387e680adcbcec97c04f71d99a29e5d94"
       ],
       [
         "Exploding Fist+.crt",
@@ -4535,6 +5451,94 @@
       [
         "FA Cup Football.crt",
         "709b9ca7610acd938127fc906ac75c0d69e9f0ed04a6a4d6318d61aa2b112eca"
+      ],
+      [
+        "FARFAL4K.c10",
+        "a2159d5aad6e183e2abff46642f39ac39e3727fec6a157bd2bbfd2bd60a7492a"
+      ],
+      [
+        "FARFALL.c10",
+        "0c883f402e925aabf18edec85aac10bd68ca82b2a2832741557bb8a6762961d5"
+      ],
+      [
+        "FARFALL.c10",
+        "0cfe6203a6e8e85152d74cd9f71dc45ecf88b6c7ad4d61bb1f52f2ddb90b2021"
+      ],
+      [
+        "FARGOAL.c10",
+        "d8ecdbd690ef4507b4897ba8617dfe7cd0f37be702512facf458ce036760d866"
+      ],
+      [
+        "FESQUEST.c10",
+        "729e945e96cc1030e68d763879e6380ceef315c9e48b1b7d755ea3162243b82e"
+      ],
+      [
+        "FIFI.c10",
+        "a43d282cf49893fb00054f03679af0cc701c11b69da806d3291c190b35426597"
+      ],
+      [
+        "FINANCE.c10",
+        "b917975e1269923d59c0882b59da55f9d67ce42015830149892cd14bc63475b6"
+      ],
+      [
+        "FISH.c10",
+        "a8e214872997d12d3fd6dcf9a38b23e643de3a495050b898835ac40f1a842971"
+      ],
+      [
+        "FISHIN.c10",
+        "3a8ef32956bb461d7cf1142ca3fee95bf95a9854805d815f777cd82cf43355c0"
+      ],
+      [
+        "FLAGSTON.c10",
+        "61125ae96e0d51ebbb13f4189c2767f0ee83cd41ba8417c81cf2d3a87c424056"
+      ],
+      [
+        "FLANDERS.c10",
+        "6a63df21f13923fed9aa62c101d45b3d89fb259a88a99bbc815d36b5cd911608"
+      ],
+      [
+        "FLAPPY.c10",
+        "3ce6d2f1f5040f5eefe6d2cab4a67f5bac2a156446df3aec68f392027f7953e7"
+      ],
+      [
+        "FLIGHT.c10",
+        "c4528c22734a98e5aa05156cd8b19033bc71e0cca082b1e269eedca3fc803339"
+      ],
+      [
+        "FLIPULL.c10",
+        "0d5123dc56dd3d26452a166158ab84c5992af227fe55740b13baa31b1891323b"
+      ],
+      [
+        "FLOOD.c10",
+        "c287df2c40d5343e82022406c9627c87f635828dcf1d607782086e4ed02fcc73"
+      ],
+      [
+        "FLTSIM.c10",
+        "5f7090542463ecbc34f5f3640f881a0d701856833aa71ed5d5f51566ffaf77c1"
+      ],
+      [
+        "FLYCATCH.c10",
+        "8e08b6c8f6dc732d532ab6224a4607cda7d8d3d1c14444ac80d6f097f4a915d7"
+      ],
+      [
+        "FLYWHEEL.c10",
+        "13e82acc3f2829019370f4924289d1f771c9315a694629ea38aa6969b4ecd05d"
+      ],
+      [
+        "FPANIC.c10",
+        "94e945d1420ae29dc442834362ee9c35865ff9f78cefe275bde023c1815262c1"
+      ],
+      [
+        "FROG.c10",
+        "9c185ff0ff7ffe87d5b34f587f86ffec4686d5c355af5774f8e0301fb77de09f"
+      ],
+      [
+        "FRUITFLY.c10",
+        "27e40fdc860713e26d68b9bf8eedebe8bcb407ca3d6169758ffb91b5ea211e74"
+      ],
+      [
+        "FURTRADE.c10",
+        "f0628b86430209b8c2cf264c0e25c934607fc7070f811dc4d75eb48eff92a9ea"
       ],
       [
         "Facemaker.bin",
@@ -4581,6 +5585,18 @@
         "7a4c260ecee83af2deede99a11b7a7c09251581d41eb59ed152bad29db4cc875"
       ],
       [
+        "Family Feud - Questions Pack (1986)(The Family Company).dsk",
+        "0489294348576854835710b0322176938db15e6cf831c0cd60df0594ea7d2a89"
+      ],
+      [
+        "Family Feud - Questions Pack (1986)(The Family Company)[a].dsk",
+        "b27aa58aa0ae4d8e8528aa30bb6815152a5dfe6e506fc41fc9a80a9c7edd9b43"
+      ],
+      [
+        "Family Feud - Writer (1986)(Walters Software)[b].dsk",
+        "e9bd3f86a3d2f36fb6b2d86b9dcf53c9c3012d61dfe8d581dbc1797b2c3267c2"
+      ],
+      [
         "Fantasy World Dizzy.crt",
         "c7cfde222a7a4632ff518ea700d70b1d9bd9c386c8cb61ce17c2ceaa9c77c667"
       ],
@@ -4623,6 +5639,10 @@
       [
         "Fighter Pilot.crt",
         "c4fd391047ddbc47231bfef04737795753ca6017974e51c2cffa405acdf748ac"
+      ],
+      [
+        "Fighting Bug.bin",
+        "234ab9d5eff22a6a73b640e390735ed4b389cf1bdfe69b40b4d56e86046a49b4"
       ],
       [
         "Fighting Warrior.crt",
@@ -4701,6 +5721,10 @@
         "fd4e9c2a41bd98904140e73db075e9ece0cdf1751db1219891e786f22bfe6e81"
       ],
       [
+        "Flagonbird_alice.c10",
+        "4bca2dca5fda008ed1958710e79ffe5e9537c4357eefb718b3651ef88c8f0c0b"
+      ],
+      [
         "Flak - The Ultimate Flight Experience.crt",
         "95a6f487263e3c8fdf24eb4f7eb528f2274ad0306afd687cf94f0971ba73a3de"
       ],
@@ -4711,6 +5735,14 @@
       [
         "Flaschbier Final (Werner Soft - 2022).crt",
         "7469a5c2435aaa50016ed618cb81870899194a328994dbf348eb2ab4cbdc68ba"
+      ],
+      [
+        "Flash Facts - Trivia (1984)(Coleco).ddp",
+        "4861e9e21153b44d5ac0309c70749c65b858a6f7b56d03c29ccb9929f0cc2474"
+      ],
+      [
+        "Flash Facts - Vocabulator (1984)(Coleco).ddp",
+        "a911d68ad4afe5072a5d23cefc4ba1b005db5694169eab750f6d0b9db9dc39a7"
       ],
       [
         "Flip and Flop (J1).crt",
@@ -4743,6 +5775,10 @@
       [
         "Flying Saucers (J1).crt",
         "930e9b0022295c32a7af67937a32b1da585faa52103e1f5e5cd9ebd8e4fcb664"
+      ],
+      [
+        "Flying Walloons, The.c10",
+        "824d2a49f099220e911a857495edbaa60aee63285ced5d194fd9632699183a2d"
       ],
       [
         "Fool's Gold.crt",
@@ -4869,6 +5905,14 @@
         "70a3e2efe9ebdce75b45c368afbdc4a4d628f99762e8bd7167f7f9d8addbd863"
       ],
       [
+        "Freeway (joystick).c10",
+        "613b4f89a306d6637de51fa1989561a6a1641df20dc44e79769566397d20a01e"
+      ],
+      [
+        "Freeway.c10",
+        "1853bcbc17fdf52052ebb0d8e6920ead3d57b868d8b0ff7231160d334d9c82d9"
+      ],
+      [
         "Frenzy.crt",
         "59f34a4d6acc81d1dd3e959a6f6e8417d0d8bc26a78fc4fb1e6696d81c6014ec"
       ],
@@ -4927,6 +5971,10 @@
       [
         "Frogs and Flies 64.crt",
         "6d8b0cd1b633f842f98847dc741d8f245799025d55c53f6ff34a17388e2faaaa"
+      ],
+      [
+        "Front Line.bin",
+        "9a2a613c3e521d5aef2921afb1b9b56d78221f595755016e50fe53d3659b08b9"
       ],
       [
         "Front Line.crt",
@@ -4993,6 +6041,62 @@
         "0874f46abb2928a4754d5893dceec7b7bbcafa8803935f22e44b74bce1d8f23b"
       ],
       [
+        "G2048K4.c10",
+        "416bf8c65cbcc07bcbe67bc07b854e4dbc91a977d23660a5d12bcf15ba545e29"
+      ],
+      [
+        "GABLES.c10",
+        "6b79ede3f30d567cd865a869bc5a982d3dad63e16ad99f9ea90355fe3e55be2e"
+      ],
+      [
+        "GALADV1.c10",
+        "7b259d5bddbf82a31a5cb3e482d5ce004b403b3a3528aa0c31249ffd3d42ee70"
+      ],
+      [
+        "GALAXY.c10",
+        "1b003c3911f7dbf372800a27c2036cfdb835ac205eb54459750ceb1e7d2b922a"
+      ],
+      [
+        "GALILEAN.c10",
+        "2a7b1dbaa7647583cde823c4be1443abef97857bf07392e349555a3013b6d317"
+      ],
+      [
+        "GALISAT.c10",
+        "dae326afcf32049d67f06f647f4bb23812f6d946c7936ac545dba8bed1fe750f"
+      ],
+      [
+        "GALSTART.c10",
+        "9141a6f1962ffb37ba6718b46a16bb54f7302988772c2e40440c5112e88191a4"
+      ],
+      [
+        "GALTREK1.c10",
+        "c1bfafb01503089b221d9477e2aaf590d5b421e6b93f2067494d0aab44f61636"
+      ],
+      [
+        "GALTREK2.c10",
+        "6b705c620c8c4eef498d04c30f784424c60c852fcda51e8d050f573894d779c4"
+      ],
+      [
+        "GAME2048.c10",
+        "f72e700d02db33b6c508fa25521b2c5e4938fdb13456cb4134f405aba02dd5bf"
+      ],
+      [
+        "GAMMON.c10",
+        "214c7e3755ac6d727ce985125eb187c42f3290efdf84a39d6653e0717b96e91b"
+      ],
+      [
+        "GANYMEDE.c10",
+        "810e49b5d341edc719d191afe1bafcd945fc00119bbb76649df664193334b0d2"
+      ],
+      [
+        "GAP.c10",
+        "a2d3a8ebafdcc82eb99f41b3cd67fed7d37eb78982881045200c492702f1c1cd"
+      ],
+      [
+        "GARGOYLE.c10",
+        "534a44262fa3de54c9c1f7cdc059daec6dae4cd04acc281df15228626b37a805"
+      ],
+      [
         "GBA Basketball [EasyFlash].crt",
         "a6bfd42779a38bc91f2b4a47e2c867d8e1ac22950615b002525243b331d9f0a9"
       ],
@@ -5001,12 +6105,116 @@
         "13e4cfda575b8ca7a867b2a73c5acee3e72e950409f9ec12d254a902d82f69e7"
       ],
       [
+        "GBUSTERS.c10",
+        "d129aba7d81eabc6d735a7b9c1dd9f0f0d4cdc756a639b56bb90e7e27559bd46"
+      ],
+      [
+        "GEOGRAPH.c10",
+        "c206017dcf7ba04de3dc1b48b810ad011264ca2bdfdb393d688d985e513798e4"
+      ],
+      [
+        "GFSOUND.c10",
+        "84e68dcc24c3a3dcca4614f8cd3e4f26ab53966c3816a16125375b7c123ba89f"
+      ],
+      [
+        "GIGABONX.c10",
+        "6ac7662ff5a9766a2b61beeb10c34178ae56931e4c8295308cbc7dddea33cf9d"
+      ],
+      [
+        "GJMG - Copy Utilities (1987)(GJMG Enterprises).dsk",
+        "41dd0e87288410d4f0784f801845f765a29e95731b23d824f6ddee76b222b15f"
+      ],
+      [
+        "GJMG - Quickopy v1.0 (1987)(GJMG Enterprises).dsk",
+        "40087114b8c84a3d39cf86863338c2322d642a6acbdfd2c296b95587d7666227"
+      ],
+      [
+        "GJMG - Quickopy v1.1 (1987)(GJMG Enterprises).dsk",
+        "59550aa4604a7f9982e38cc095a1dcd5150870091e726b7f07c6b3f8c666d387"
+      ],
+      [
+        "GMCHESS.c10",
+        "10a720f5297e9d275f178cedc9307f0337396e20e2f67fdcafbe58f06f383a44"
+      ],
+      [
+        "GOBLIN.c10",
+        "c99665697dc866f12916ae056877bc1a08673bc039f8757ce47fd37f055c775a"
+      ],
+      [
+        "GOBLIN4K.c10",
+        "b2692ee4c56cb992c8ed795cd2e3a5407655ac0bc2556a92ee6e1f7d85aca6f8"
+      ],
+      [
+        "GOFISH.c10",
+        "100502fc40a936afa1506eb6f8f0c576214c1f2828ad0e07cad13087c3035896"
+      ],
+      [
+        "GOLDFLUT.c10",
+        "89b08a3de7352da4a1bd909cb62d9e7f5fa0ae125c7463f4d96b9e1dbd50b9f3"
+      ],
+      [
+        "GOLDHUNT.c10",
+        "09cedbdd8d1665fe0fa8d1fe7a4ed6f67c84693af2275d40405fb49428ccb160"
+      ],
+      [
+        "GOLDSHEL.c10",
+        "bcab245f68969ea4583a365324accf68ef8be85ff7fb1636bb547767ba6c5305"
+      ],
+      [
+        "GOMOKU.c10",
+        "221ce9c6f9588f1438f50f63a3f02334e3ff25091d2113fd99d7bd71598aba58"
+      ],
+      [
+        "GOSTSHIP.c10",
+        "c274d66ec39f6cad38b9698081f7f2e3c61c7cbf2183e86285b7d13ca44863a3"
+      ],
+      [
+        "GOTCHA.c10",
+        "fa83fce6fae9e8a5c388ada9b345118c1b2cabd750c865deb449a473e1696f74"
+      ],
+      [
+        "GPRIX.c10",
+        "ce7a6b3a0d71eac60e94e2cae461685e860731fda359f03bee26ea1060697693"
+      ],
+      [
         "GR9 Strike Force (Cosine Systems - 2009).crt",
         "86643b38402fd6fe5cb386a0f70e44e4ebe85ce6203b992c147c0baf7155fb4e"
       ],
       [
+        "GRAFDEMO.c10",
+        "e4dc32b5f89f7f52417f41c4a29d5612068ae10f23bc0d4c07c1291aa6b4a2f8"
+      ],
+      [
+        "GRAFSPEE.c10",
+        "7c71d98537176e9895c1e751cbfa601ad797a3659753e906df8612683a17de84"
+      ],
+      [
+        "GRAIL.c10",
+        "7d7b0a8aed1fcdb33f0f78b8f768abf584409eaaf7151a9be84b9b542f5e87ea"
+      ],
+      [
+        "GREENTHI.c10",
+        "e6f2e4e95d4d6cb3d1339ce1534da3143877ed315f034903ce388983b199585e"
+      ],
+      [
+        "GRIDFACT.c10",
+        "a7fdd99b7b2da92b8dc39ce86bbfe42ceb0470e990079b7945325dade93477cb"
+      ],
+      [
+        "GUNDAM.c10",
+        "cec1d6f87c701bc7a8953eb3c4228a1da5d933d8cf3a94a05814a0e6e7fd28bd"
+      ],
+      [
         "GUTZ.crt",
         "2f26c727b913278fd6b626e0d04ffea22ceac278d2846a213ed5c88ff0e8a18c"
+      ],
+      [
+        "GYRACOL.c10",
+        "6376e2af7b7e339ec931a10a405323d36bddecc07e9d8d9d8b1f56d0d897271a"
+      ],
+      [
+        "G_WARS.c10",
+        "910e52a47ee337e07ddd8b69a22328ec711843f454ae145697744d4b544821f1"
       ],
       [
         "Galactic Games (by $olo1870) [EasyFlash].crt",
@@ -5019,6 +6227,10 @@
       [
         "Galaga (Arlasoft - 2021).crt",
         "473a854fbf8b34a7c5c2cefa1247e11cefba70c0e145ab6e86140fe6c9cac9a0"
+      ],
+      [
+        "Galaga.bin",
+        "5c27c73e05a94bf59430ad8ba57cddeb5bacb333f5827af5f9840238f32f72ec"
       ],
       [
         "Galaga.crt",
@@ -5067,6 +6279,10 @@
       [
         "Game Over.crt",
         "24eed397b02a4215fd912d6f81e112a76700e1b0c3e295a973df37632f636bb2"
+      ],
+      [
+        "Game of Mastermind, The.c10",
+        "75a1b648ad116323b3ed5495d5f7a0b3c3508bfeb830a0a2a0b2e8733365c1fa"
       ],
       [
         "Gammaron.crt",
@@ -5225,6 +6441,10 @@
         "5ffb72e520518f47957069530ef5f228c51fceb247d4a2d95aa6aa51fce18f71"
       ],
       [
+        "Gomoku Narabe Renju.bin",
+        "d536a96e807c1721c5e7777dd2abdf2f1aa0b5ae91492590afc6e59ebd457577"
+      ],
+      [
         "Goonies (by hellboy73).crt",
         "4b50486b63a284d6adb61fd4fd2ee00bd17b95efc5d2d1a547242c570686c72f"
       ],
@@ -5279,6 +6499,14 @@
       [
         "Grandmaster Chess.crt",
         "e262cd6af839bc8cb51c7fdbc81d5828c74385990f10f1ad92e7ae88fe196b3b"
+      ],
+      [
+        "Graphic Modes.c10",
+        "1f3ebea815af8bb54bc796a0ef8e8284314c958e8abb9f95d1326ad96650cff5"
+      ],
+      [
+        "Graphic Routine.c10",
+        "eecb02bd285dbf612cb2424e6e994dbf4b2897f2497deb7a8681f08d24e86eb6"
       ],
       [
         "Great American Cross-Country Road Race, The.crt",
@@ -5385,6 +6613,10 @@
         "ed764600b8f7b6219388c4a0cc258f249ef57f653fb1fec601665fd47900fca2"
       ],
       [
+        "Gun Professional.bin",
+        "2870fee10c8861f30c7ac56f4a3eaa396ad970ec4c03bb2d332e4826dda389e8"
+      ],
+      [
         "Gun Runner (The Power House).crt",
         "1ae4e2e73ef1cb64374b05dc1eef58f5c460e801ebc506b0163e567dcd24cfb1"
       ],
@@ -5437,6 +6669,66 @@
         "7923001b8a32e4cb6905af8c5eacc5318cf7d7dce3994c84962c8cc8a4ed358e"
       ],
       [
+        "HAMURABI.c10",
+        "321413998a190f713d3cb66fa8e2683faf961ec714cc67c162803a6411b7c4dc"
+      ],
+      [
+        "HAUNT.c10",
+        "02a45d2e9770887bf563aa3dd6134e14ee53d43fe3220068096ea16304e0f961"
+      ],
+      [
+        "HEIANKYO.c10",
+        "7115dadcce73a2cc6546c8aebff32e67d55582e88713561f322c2addb563f835"
+      ],
+      [
+        "HELLO.c10",
+        "bf81c31b170ec28eee0f81457b005abac220f851dbcd501c7dbef3e65fc5d2e0"
+      ],
+      [
+        "HERDER.c10",
+        "86ca45f3cbcba535c6dc4e454302864726472bf727bcb628b8eba344e455d95d"
+      ],
+      [
+        "HEXAGON.c10",
+        "455cb4f5cfa0438a11a3deb1fb0f0c6771330130baf5c69186ae52a35a7842cf"
+      ],
+      [
+        "HFOREST.c10",
+        "9ac501f0ceed5df6a966212594adf6827e0a7c1f0c48d647114ce32bb6b8bf28"
+      ],
+      [
+        "HHOUSE.c10",
+        "4ccc3b4eadb6d1c92641d97f935a1f50ee63b34523e72dcf79cef0ee357e86c2"
+      ],
+      [
+        "HLANDER.c10",
+        "d25ef310e62b616437d621fedb55abc2a72cc87cf2d550f295f2984826b22c1d"
+      ],
+      [
+        "HOPPER.c10",
+        "e22b706a5a9ae327e06beac87324ac015cd3ff1ef50843a96e0f312c82bc57bb"
+      ],
+      [
+        "HOROSCOP.c10",
+        "1f54f8080d769931429ebbd8f0c04c11f76358d37e83d36f6146cfcf575ffe5e"
+      ],
+      [
+        "HOSLOVAG.c10",
+        "867c7d82094b68e3937bad2c0812b44fbd98db499e0524c5f008ba8db08d7f80"
+      ],
+      [
+        "HTOAD.c10",
+        "bcd259f2481e9d2ef058dc802ed5fbe89ec634465466d063c9bb264f7264ac18"
+      ],
+      [
+        "HUNTFIND.c10",
+        "4127a2fde804951d0e9e11e58722e2e275725bc301bd6610dc46c2767d653fe3"
+      ],
+      [
+        "HUSTLE.c10",
+        "819e0eaaff5f4bce3ab686c1d0097418bc413f4aff5625086830a33a58de918e"
+      ],
+      [
         "Hacker (J1).crt",
         "13f794f76296a1c62ab471220102982170ab8346094717ac2059f22a7984b30e"
       ],
@@ -5473,12 +6765,12 @@
         "2780f7f13cdcd6e7d3b1af9226f925682d87fff1083b0d70fa99008a992f9991"
       ],
       [
-        "Hans Kloss.crt",
-        "fdc4b5c3021e7a8ad03a6a5493d21919ae8a48a60e1a78ee6cccf4643face29c"
+        "Hanafuda.bin",
+        "98f27475bbe6183f45e7da2497347943182f0f63dbcb9c092abfa2d1e802e701"
       ],
       [
-        "Hapmon (Richard Hayter).bin",
-        "df1cdd3c5d40aa1f178cd02823847ee2598c7e19057c5156f70093da4470ddf7"
+        "Hans Kloss.crt",
+        "fdc4b5c3021e7a8ad03a6a5493d21919ae8a48a60e1a78ee6cccf4643face29c"
       ],
       [
         "Happiest Days of Your Life, The.crt",
@@ -5521,6 +6813,10 @@
         "8f74af9675f4d9966b0e130d737b2768368abda15486069cf26da16a328901ff"
       ],
       [
+        "Haunted House.c10",
+        "a0784268dabc75e59b198d3dec0e1d2998fe916d54568037ce6fdc65d56b6173"
+      ],
+      [
         "Haunted House.crt",
         "175e6c36a8f82fa453fa2267921f38051c05cf983e61ce184ec07a70c976c3d2"
       ],
@@ -5535,6 +6831,10 @@
       [
         "Hawkeye (by $olo1870) [EasyFlash].crt",
         "8764e27cd1cc495fb8267b9740b3172e766851a14752a709266949265a362cec"
+      ],
+      [
+        "Haze Maze.c10",
+        "1b22f04eb582bf49dd3cc3919796c6cba5b2c5453a6b95842b3ad2c491913da1"
       ],
       [
         "Head Over Heels.crt",
@@ -5705,6 +7005,10 @@
         "60838dba2000972be71612d4aa010a912a1ecd98bb6c08375b31949cba666b97"
       ],
       [
+        "Horse Race.c10",
+        "9f7d03bc09174e22ad61138cb737da322ca0e6edd213ea2cf0f5bb29dd61e08b"
+      ],
+      [
         "Hostages (by hellboy73).crt",
         "55f8cdad8765b7688ba8d555cdce8544ef44c716eae56e5e51c91489082e771e"
       ],
@@ -5849,8 +7153,28 @@
         "e48e2e13d23a0dfadb8891d112818b110c64a9d4c945aaa38eb1cb8cef187729"
       ],
       [
+        "ICEWAR.c10",
+        "d30eb7b3abbecc4e8804585d151b25fd2631edd1b481bb597d3e62a6fabb37dd"
+      ],
+      [
         "IK+.crt",
         "9473875bb282d36f9fc2735bd69a4400e16d1210afa8bd31128baa0454fdcd8c"
+      ],
+      [
+        "INN.c10",
+        "5aa85c49d6a2d48ff9073c3f2f5cd2a62522783de02401fb1684f109993fd305"
+      ],
+      [
+        "INN.c10",
+        "b9028c532fd19c4a49829b3d94179a3a2d77076628fe0175cffc946d9489eb6a"
+      ],
+      [
+        "INVADER.c10",
+        "ad3483ed747297a1023846d58c7df65b44fe5d2cda89a8f74eb813613eb5b5f2"
+      ],
+      [
+        "INVADERS.c10",
+        "c3794fac64ecfd756527137b191dea123cb42b6b4b85347c8e4337ec5f8023d8"
       ],
       [
         "IO - Into Oblivion.crt",
@@ -5859,6 +7183,10 @@
       [
         "IQ.crt",
         "b2151ed416f4023c8fa5acf03aab82978f150b6729cc52be19a24c0e4989d495"
+      ],
+      [
+        "ISLAND.c10",
+        "6fce539b5876009ebf27f32d77b0efaf7386cf9f7c30d08d3482d144c8fc0218"
       ],
       [
         "ISS - Incredible Shrinking Sphere.crt",
@@ -6017,6 +7345,10 @@
         "e60b4318f9eae43d38c8be32dbf6a90f68fe5e3ce3abef28a59ff80c4e843e02"
       ],
       [
+        "Invaders.c10",
+        "18955f1ea088960593e61dfb4dbe02ba13b9912c1eaba959f5d23dcf7e0da0b1"
+      ],
+      [
         "Invasion (J1).crt",
         "3256a8aba8287c11d775511772879ce09d979c2bdb2e39e0655b72d1cb5c17c9"
       ],
@@ -6059,6 +7391,50 @@
       [
         "J-Bird.crt",
         "6683ca04159e8f63a4ed5568220267384e5f633fef653fc202f4e03a543b0865"
+      ],
+      [
+        "JACK.c10",
+        "d39d497bf3a147fb1b19a42049c04d95c768122808676643119ae3389a98ab25"
+      ],
+      [
+        "JERUS.c10",
+        "f82740abfd536425df4ec4139bc5366b14ac0a09e379d9c0e535eafcf6c27473"
+      ],
+      [
+        "JET.c10",
+        "ffa0d12b257f9acf9040eac6c9b6329861504c5e3c1ba0481973791b5091c326"
+      ],
+      [
+        "JETPAC.c10",
+        "7e24aba98940c6e46c150b39f59aaa1efe90759b948ab6835e56486c25decebb"
+      ],
+      [
+        "JEWELER.c10",
+        "b94592b5087a1d9fdc7ecab338d412403afafb297b1e47ade04c46c123d494a0"
+      ],
+      [
+        "JEWELER2.c10",
+        "07b8c437fffb13530822cd8c02e6970a530d973daaade2c8f088b88885a1298e"
+      ],
+      [
+        "JIMVAD4K.c10",
+        "e16ee6b60d2fc0d26b4de2007757899590b5c4d797500e1b8203dfde7a34ed1a"
+      ],
+      [
+        "JIMVADER.c10",
+        "e0ec1a2c739155ca942f4bd34a145a01a5df436fdf9a4976e2e1803a92a9c29f"
+      ],
+      [
+        "JOURNEY.c10",
+        "f2fa095bda3d1653b5474b4c6b30f0414997fa51b30910b0f27ae5c132c505e1"
+      ],
+      [
+        "JSSOUND.c10",
+        "ff603705b5340ed6a866fefc4e7dfdeb2254240e05667e0c940e4f7410ca5195"
+      ],
+      [
+        "JUNGLER.c10",
+        "2074534d67ca8568d5da5293a2564b88994949d0fec2a6f306ec112ed11e873f"
       ],
       [
         "Jack Attack.bin",
@@ -6137,6 +7513,14 @@
         "c4d07d44820cfa33288d84c712ebf39f256f97e128a81315696f53c029170293"
       ],
       [
+        "Jeopardy (19xx)(-)(proto).dsk",
+        "9512367df3b530ccc5d7756198fe1b636f6b8566b1f9a65d9c52d9db15d56be5"
+      ],
+      [
+        "Jeopardy (19xx)(-)(proto)[a].dsk",
+        "86c301a2964fd0210b6ab0ec97b4237db84d418939db1525df965a033293e732"
+      ],
+      [
         "Jet Power Jack.crt",
         "b709d0109685eb57c8371270c1d3ab89deef71e032faf4e3e6869708966a77f7"
       ],
@@ -6155,6 +7539,10 @@
       [
         "Jet-Boys.crt",
         "48487e22d9c0561a937952fce3d8124400c294cc755dc39e0905496f67b36d60"
+      ],
+      [
+        "Jet.c10",
+        "0a164e4056e2aaa0799d006338cedaf9aff20a1eb6c668746ff7ecfc08d3741a"
       ],
       [
         "Jetsons (by $olo1870) [EasyFlash].crt",
@@ -6297,8 +7685,64 @@
         "3da5153a4ed0652261e103fdb0463c20f8b05c07a721eeb2a72dd5f9b151b82f"
       ],
       [
+        "KALSCOPE.c10",
+        "4e8e18bc5820e34c024f350b99f7f9dabd7fb9cc7015d3744a8205f4f6f6bc1f"
+      ],
+      [
+        "KILLER.c10",
+        "801f7b04c145337c3de1b1dd78ad07c5bcc40c061ea6db050668c4ce53e3a529"
+      ],
+      [
+        "KILLTOM.c10",
+        "561bdf812316d5168c51e618bc952365860cd50b4efffae663cb6cf7b513e9aa"
+      ],
+      [
+        "KINDER.c10",
+        "2f688f1c0e305e10271baca99e4eae76d9f1e33281e14ead8f5615f32466675e"
+      ],
+      [
+        "KINGS.c10",
+        "8e377e961e30cd583b5b211fca5c67dfee99a68100074d1d8a52fd38e3870297"
+      ],
+      [
+        "KLONDIKE.c10",
+        "50265bf522e9a1f90390d2d54e95d9e9340a48df3197d7783dc75ff35dd4e929"
+      ],
+      [
+        "KLONPUZZ.c10",
+        "0109669794970ac2af71e0b092ad625f7455880bfb9daf92f052bb7606c760ab"
+      ],
+      [
+        "KNIGHTS.c10",
+        "5de4892204de3733d5a298432cd7d2295fa169b953062b4252baaa385a197738"
+      ],
+      [
+        "KONG.c10",
+        "4c2f9e63ab067eeaf9194d7be3baa63ade953ddbcf1b3366c0129457dc788dec"
+      ],
+      [
+        "KORPS.c10",
+        "f10d012f28266abb8dc85d1093d7c0a9b02fb41e978ca078bee76668a6246efb"
+      ],
+      [
+        "KUIPER.c10",
+        "ec5b91e5d19bd7295e2b0fb2cd8a1612de99b1903df6b819b87123b6ac06fed0"
+      ],
+      [
+        "KURSK.c10",
+        "83ac0850b92c70fe8eb6f632112176838f3db292597acb39ec0509b908e5e3e4"
+      ],
+      [
         "Kaktus.crt",
         "edda8bb35b51e3edb888837af5089714c428d6d55ccb9a4901e5d45928fb3fcb"
+      ],
+      [
+        "Kaleido.c10",
+        "90f6b538ae7194675b78d45936d733397457f2e2b3a3a4a2d515d81b35b155e0"
+      ],
+      [
+        "Kaleidoscope (ML).c10",
+        "413e9dc27e4462036393f23c672300a88984ac08d99a3f672aad8630a52d1f28"
       ],
       [
         "Kami-Kaze (Supersoft).crt",
@@ -6357,6 +7801,10 @@
         "8b24429a489badea52dcf437fe4bcca201081b7742a9802b85db2935a54a056c"
       ],
       [
+        "Keyboard Skills.c10",
+        "920c7e59211a8e6e3e8d54d662f0c087624105acedb83b4d69dc6bf3d9769fcc"
+      ],
+      [
         "Keystone Kapers.crt",
         "d60c37229bef10279a76ccfa2abb010ec965c4dec67dbedb21f520051292b7d4"
       ],
@@ -6369,8 +7817,8 @@
         "bc04808e7bb40db21861323f0a50efbf5dd5fa34a3359e359c1e12c4a8a9ebf5"
       ],
       [
-        "Kickstart-1.2-r33.180.rom",
-        "87cddb1f499e32758de20145e73031a84bab299e3f6e5c8487e76d02b2ee9d16"
+        "Kid Dracula (USA, Europe) (Castlevania Anniversary Collection).sav",
+        "e4fd5424036d6b4de9683034662129fb49f17812cb49f4dddd5ac6db6573b7c3"
       ],
       [
         "Kid Grid.crt",
@@ -6517,6 +7965,10 @@
         "2a56deb1671616014f399767b1793ec671f56d07b4bb7bed4920683bd068c709"
       ],
       [
+        "Kutenkamen.c10",
+        "931d9fa9ad5e6de0e0f3736a6d9d86d4c3b37318369a656bfe7b0a7f04ec9ab6"
+      ],
+      [
         "Kwah.crt",
         "5f2d078e816f641a7f31acde20ebe8056b3a75ccf4bac0374ad7207a71c22058"
       ],
@@ -6533,8 +7985,132 @@
         "a73d849489535f278203a09fe548827d1b28506f353a4ad752743a445ef0d747"
       ],
       [
+        "LABYRINT.c10",
+        "d351dd1c61a5c4bd823de3193a2dd60d9a91c6a25247b1014a0930676a2d80a5"
+      ],
+      [
+        "LANDER.c10",
+        "c9ca123378808173b0428115331768af52aaf6e1a1f0270eef0c6cd91cea2b95"
+      ],
+      [
+        "LANDER4K.c10",
+        "b7a230af0c05f38bef6f9b004f9852df8ac7c2e17fe5ce19dd1a687665c5e6fb"
+      ],
+      [
+        "LAWNMOW.c10",
+        "10963a5a39565889a5d4b081e98bc5bcdbca497cc86d29e917f73f9b7297d75e"
+      ],
+      [
         "LED Storm.crt",
         "84a3bcbe66049aecb9791bcf940096279bbc0bf2487f49c6b132498b1b002025"
+      ],
+      [
+        "LEM.c10",
+        "93a9bcf80cd3d3459333038618f479f4c9fe183f2cbf363ea448a1f1216c0cbc"
+      ],
+      [
+        "LEMON.c10",
+        "3237b32ce3ab3ca865f80e42226c2e74a7e12e52dabe0ec1d1b3add4cf47cc3f"
+      ],
+      [
+        "LEVEL1.c10",
+        "c1ed0d8f6c73262d9bbd658828248d3c875ca17eb37f1146db59c95b17916ed4"
+      ],
+      [
+        "LEVEL2.c10",
+        "38f3a8d94b42e5aa4f8005359b084eb5c980c1984bb93b5a1d62c24e53783a74"
+      ],
+      [
+        "LEVEL3.c10",
+        "63fffa2e8222748315b6cf393e89e28882ca272e11e2ee07260444868f992438"
+      ],
+      [
+        "LEVEL4.c10",
+        "be6033554039a710bdfdd3d2e37c0f1b64ddd017849964adcb9fb10c84dc5a24"
+      ],
+      [
+        "LHOUSE.c10",
+        "96203d59a05accb0be7a998da4384debe4564b0ba0d52f7667fd113b4079cfe9"
+      ],
+      [
+        "LIFE-ED - Glidergun.c10",
+        "fa8ab64cbe843e16451830115c1f622d373e8ed6506824922850627bee74f0de"
+      ],
+      [
+        "LIFE-ED - Oscillators.c10",
+        "144911de3f08bd262c30cc485fe2a18358b0f986e2c567c810d15eacf2d3cdf6"
+      ],
+      [
+        "LIFE-ED - Rpentomino.c10",
+        "fe252747a731fbfdf07b4da686af1c91869793f9c29214c7a5344de523bcce45"
+      ],
+      [
+        "LIFE-ED.c10",
+        "7dff89f26da79dc59c0d84f180e199890a3cd4a049906249daa721bc8b78d340"
+      ],
+      [
+        "LIFE.c10",
+        "a844df2d007b2e12127d4e8218b0cdcefa4c9343c08fc4a517bb3c83eb4a39bd"
+      ],
+      [
+        "LIMRK.c10",
+        "b731ca3644f204336330937a52deba7f0b02297061f714f21e74ea768dea4e42"
+      ],
+      [
+        "LISSAJOU.c10",
+        "49a73db8ba2ff23791acb4affe8b272f7f363208d7b9ce45fb4969dc544a6517"
+      ],
+      [
+        "LITTLEBR.c10",
+        "5fa479acc3a96769125d269e1eb9ad68be1f95c87afcdcfc962ce24e06b9bac1"
+      ],
+      [
+        "LIVNGSTN.c10",
+        "27dcad27229c5ed057a6d25bcbd090b09d54b14530e26065fd2fc3e389dc0f71"
+      ],
+      [
+        "LODERUN.c10",
+        "a1eef65826de9c4cb25ae28966e000c877cf684be884f18fc60ccc2884a695a8"
+      ],
+      [
+        "LOSTGOLD.c10",
+        "5f3aaf12a321cec39288a1ba98af1dec61c9f7843a3f1a8e2b899554f7810f19"
+      ],
+      [
+        "LPrintPi (ML).c10",
+        "ad549d59fbf8a344ba2fab3faad8b54b91e3742247f1c5d7f58c655466319fdb"
+      ],
+      [
+        "LUMPIES.c10",
+        "be01357b12e5df00e16f1a558a622d44e03bda9da9b290aa0d85fab45b48c18a"
+      ],
+      [
+        "LUNAR.c10",
+        "b99addb8baffe2f344d2f98e9d636ccc3dce02268527f8d27c6049cacf467bd3"
+      ],
+      [
+        "LUNLAND.c10",
+        "38a7d69c392dd2cd73afeb3d66b686f5575fc2b49937ac03358b87af690718ca"
+      ],
+      [
+        "LURKLEY.c10",
+        "5e2e5499573cebb6460998ae4b28b6a3bae130129e7b9b1386f77bc0e620b037"
+      ],
+      [
+        "LVL1DATA.c10",
+        "e2177b0abc73556349748d0b9fb0ec3b1d742eb96b4e859c231a149c66141b36"
+      ],
+      [
+        "LVL2DATA.c10",
+        "6c328c993ee2810fbe09e45dcd404d5ce2238231a90d68184272e94ee3c8bdac"
+      ],
+      [
+        "LVL3DATA.c10",
+        "cede3dbccba7589010d5792d483b207b6779433de78b02e3343307badd69a4ef"
+      ],
+      [
+        "LVL4DATA.c10",
+        "e220e93c9a84c9f408fcdde7314a08e66fb50beb290750a82a34bfb3e33ba9d1"
       ],
       [
         "Labyrinth [EasyFlash].crt",
@@ -6563,6 +8139,10 @@
       [
         "Laserwheel (J1).crt",
         "fb785b92aa8b34a6bf82e78b8ce5bda993754cb399e7fb19fe608cefca604372"
+      ],
+      [
+        "Last Coin.c10",
+        "f2ed4ceab6d6871634fd91d5a83b3551f35102d70deeee388f62ccc1f262760e"
       ],
       [
         "Last Mission.crt",
@@ -6685,6 +8265,10 @@
         "b1988dd996aedeb32a6a7cc1e9e329dcd8f5fa2e30b3e87537be381598513fd7"
       ],
       [
+        "Life.c10",
+        "976f5aaf025f56f25d0132a7e347c6373817170d2cd9a59c1a494e6d6a77338f"
+      ],
+      [
         "Lifeforce (CRL).crt",
         "7bb2a92fcf24817b6f9ec90c7fb6fc478820a603c630bfa3ed01b4ee2e5bdf22"
       ],
@@ -6695,6 +8279,10 @@
       [
         "Lightforce.crt",
         "1d9375f399edf52555bd7bf425b67f36d1afd39d5963be00db0bbdddc9a9aa50"
+      ],
+      [
+        "LineDemo.c10",
+        "23587cbb74e8080724fc2ff9a6dd36321ba253b00ab0fa65b05e636601dd2d2e"
       ],
       [
         "Linking Logic.bin",
@@ -6749,14 +8337,6 @@
         "aea47d88b4e5a9d2ebe2edcf2ee6aa8814597d5e8e656eda9872421a94a8a8d7"
       ],
       [
-        "Locomotive (10K).bin",
-        "2222a915c4b32f30aee376c7cd85cdb50215aa18365127db398c5c8f838eca51"
-      ],
-      [
-        "Locomotive (12K).bin",
-        "3efd7b251d2b1ec02ab5666b18e6b8be68cadd9f721d040b08177ae4177bb9a5"
-      ],
-      [
         "Lode Runner.bin",
         "a2ad27c5fc6b2ab29bc0ff4621a6d82ae90fba673b35a7b122a203cfbf3b1724"
       ],
@@ -6809,6 +8389,10 @@
         "26afc4953f3179afb45666fc6f6fae2282274d81f5739de0769164cf1e5fdd96"
       ],
       [
+        "Lost World Pinball (ML).c10",
+        "bc4c099da71f8e4e6b1ad2e728234e2d8813ceca1faff9b4345dd5c952c4ecf4"
+      ],
+      [
         "Lotus Esprit Turbo Challenge [EasyFlash].crt",
         "cc758718969182c4b1ece07202742e10fa79e6c960e48bb80ec0cd02696ffa2d"
       ],
@@ -6833,6 +8417,10 @@
         "50cca06e0c27a3c01175b4e451fb714458bdcee28d43ab656dfb81605f34cb37"
       ],
       [
+        "Lunar Lander.c10",
+        "7b43afb2ee4328741f85d305e9a1b09e067e4c83cc9824a3fa0675880dd475f7"
+      ],
+      [
         "Lunar Leeper.bin",
         "8a84e4e3a77a01207bb322fd007a8edccd63d33ed1dba529224a7608f2dbf41c"
       ],
@@ -6841,8 +8429,236 @@
         "abeed3a2b8b13cdfb717ee7d9d5c64ceb00e2d4e942f8b07157250891ea4339e"
       ],
       [
+        "MADHOUSE.c10",
+        "86cfe554516d187a38cdaeae6acf19c4d1d901c4d66723b7abada6c7bfea199b"
+      ],
+      [
+        "MADMAG.c10",
+        "ee9731938c88033aacfb8c67ab458385aa3a4781bff141082a854dceb4a1e5a9"
+      ],
+      [
+        "MAHJONG.c10",
+        "8eed5ee196d2aec8a6fa0ff9affc754ebbe4a0666839370a49feef9a0a7bebc9"
+      ],
+      [
+        "MAKEDUNG.c10",
+        "13843db2a606b63a24bf8cf21e151e3006424616b8826c6b3186594bb645f3d9"
+      ],
+      [
+        "MANDEL.c10",
+        "cd3867ffa66891c8ea9944557d083c5853e3de4b7ca6256b7d97117a3de14105"
+      ],
+      [
+        "MANSION.c10",
+        "b6ab484378176037fd202776642888d059feacf327380a7b857628867197416c"
+      ],
+      [
+        "MANSION1.c10",
+        "0dee0d8e0ab214a1fa9b7fb7ef6ccfe3510b85316844f7e7d3c459d1084dd34f"
+      ],
+      [
+        "MANTICOR.c10",
+        "226bb6f6794a5069577af78b8c9fabbf90370be2b3fb31ae48c35b79c0e588c6"
+      ],
+      [
+        "MAPMAKER.c10",
+        "716bb91aef83ed67eddc5b3108923c12c70c2c61adab2167fdd2e943aaf7159f"
+      ],
+      [
+        "MARKS.c10",
+        "c0ccbf45439801542e3a1186f4772b8f0cdb286b4f30bdfb44f13bb5887889b7"
+      ],
+      [
+        "MARS.c10",
+        "f77d15f5c32fe66f3e4a5eda946b446b8fc607c3aa443507b74469efdfef9bb0"
+      ],
+      [
+        "MARSLAND.c10",
+        "b76f68326e3fd79154a59bb9ca0bb95866bfb8cd90ce33e5a20fd1de3249ac90"
+      ],
+      [
+        "MATRIX.c10",
+        "273c7195b924064aa81aa3a86b465386d020adaad76e38db48387c4a6bd486d4"
+      ],
+      [
+        "MATTELFB.c10",
+        "bef915f2b2228ad276b3f4a47d8739c4acea0f599ef4fe9989c4552fd350502f"
+      ],
+      [
+        "MAXIT.c10",
+        "3cf5083b16d01ba80961b5b033692dd5db39234c574c78eb340b4690ceed91c6"
+      ],
+      [
+        "MAZE.c10",
+        "890665a5f23cbdf070d69591797323964a272cdddf4a84aab0d3640d64de0c98"
+      ],
+      [
+        "MAZERACE.c10",
+        "ef6ee0b1a2f06adb1965ea4521fbb50f98b83e6bd32b491d2c0ab350ec27a477"
+      ],
+      [
+        "MAZIES.c10",
+        "8717615a8671982af42918d94858c8120a4a74cb87d30ef765b9dfa96b41c19a"
+      ],
+      [
+        "MC-10 Flagon Bird (Mechacoco) (ML).c10",
+        "e1ccd4768dfc0571a5f0189d38628cdcddc608e240053370dc728087f48e6263"
+      ],
+      [
+        "MC-BOUNCY.c10",
+        "0f19bfea871b10ebe5da40a21d87aee2f16b7d200d513e8089919dd125119fa7"
+      ],
+      [
+        "MC-Text.c10",
+        "9ef8894a7db9ea9ef2b2690a8fddec7af925c8b974c2d6778d9a02f10fe898de"
+      ],
+      [
+        "MCDEMO.c10",
+        "a192a09f9866ca38d72849a43fb3735092e48b8dec22bb65dfe404463cf14721"
+      ],
+      [
+        "MCJOUST.c10",
+        "fe887acd2c8f9473e6d2cf4c62ac0213f054329359c3d9aec69a6b8a27234140"
+      ],
+      [
+        "MCMINE.c10",
+        "c7ec736e379b2babefc1ba31647a6d32ee3b6fb088cfd66de68b69ac9d7a605e"
+      ],
+      [
+        "MCTEXT.c10",
+        "747037e5f25770d3671727d3a83c1661b2da9fb8dc928a48fb140f9b84e49000"
+      ],
+      [
+        "MCTREK.c10",
+        "0a6296f02243b582c7d1b6141fef8660453c71ec8b4b363307230ad36e1abc71"
+      ],
+      [
+        "MEANIES.c10",
+        "62ab7764b967bd48f529eca2070507618875e18979432a4ee66250bb5a07e1ba"
+      ],
+      [
+        "MEANIES.c10",
+        "7bf68daa7b92ec23253629e67eac15764e58fe7a4659538aa6a0b4677fd43fc1"
+      ],
+      [
+        "MELARKIN.c10",
+        "08da3e94467d6eef102bb098a52dae63bf87df62d8934dfb178a4a20b6a386b5"
+      ],
+      [
+        "METEOR.c10",
+        "1f072ae817827e29fed34bfeca349350ff5a2b8d7df97d4f92b6af089af1eeb9"
+      ],
+      [
+        "METEORS.c10",
+        "132d14c8885c7749e3eaec864c913844bb5304e18d6f7d649c9f165ac3d581bd"
+      ],
+      [
+        "MICROBES.c10",
+        "55ad5d9eb3b6adc828adfde090e0c1fc6f54a36f10b685ae074313b7269dcb93"
+      ],
+      [
+        "MIETTES.c10",
+        "9ad832692fdcc4b71abb2f2f814108040a4c87a94cde1c64f54c37bd0d98ce06"
+      ],
+      [
         "MIG-29 Soviet Fighter.crt",
         "29b424f9e9ec46a2ecf5772c8670d0f054cf23fd8a78eddfad8d5aac69fe8510"
+      ],
+      [
+        "MILLI.c10",
+        "7f07ca6f74e6a91650c1371a62fe90fc0d1b14717432d259882ed8dba67d24b3"
+      ],
+      [
+        "MINDBUST.c10",
+        "ff5cbb7603a0876fb5c70781bedef9517c09b957c9d8c7b55973aa1a5127b96a"
+      ],
+      [
+        "MINER.c10",
+        "d6b95136db4475e516d20cc802a524058a59fb6fd460cb66ca6da8c0c562a29b"
+      ],
+      [
+        "MINES.c10",
+        "f3d3afe1ec58467bc9f8f57c3418a4d710344cd6f849fef30077d8361aece9f2"
+      ],
+      [
+        "MINIADV.c10",
+        "0d45e023ae9055f03184753d79d87e693191feda2cf5ab98c96a05e39fae66f9"
+      ],
+      [
+        "MINIDUNG.c10",
+        "e7884ac6bc616dc1df052c4b16d22132b22cd5420ace97e92586dede1c03a865"
+      ],
+      [
+        "MINIPAC.c10",
+        "784c1d4fbdda6521320128d51f5af0596f0912612fdfcd4099bcde46d15e5466"
+      ],
+      [
+        "MINISTRY.c10",
+        "01884dde0d6fe30817de8d5c7e4a893e92f1db1251ad923d317be837741f0880"
+      ],
+      [
+        "MISSILE.c10",
+        "3d25e676db2c794767fb781d64375b78658cf94da3963b8896930a7f3c1f81ef"
+      ],
+      [
+        "MISSILEC.c10",
+        "bcbd25d3f5b6d56165867f0744129897ed4336ca085cdf8387ea3721bc5bfa85"
+      ],
+      [
+        "MMAZE.c10",
+        "6f294916fa78b0d0970170fdda38edf251874ad5eb347b75aa9a4b3f1a499107"
+      ],
+      [
+        "MNOPLY.c10",
+        "67f4da9958998cf59058b044aeba78a0a81f42534cfad80bcadb491562f7f632"
+      ],
+      [
+        "MONODAT.c10",
+        "8d7b3f0a90eeba619283111e7481284fa55065f0c3aec63b656afa6b1485fa9a"
+      ],
+      [
+        "MONOPOLY.c10",
+        "9a2a5787190b3300e319951badad44c22d623a5800d3bd9ad6dbbf518f5b751d"
+      ],
+      [
+        "MONSTER.c10",
+        "284db30ab677060080533d866c23e543ec017eb35fc245665960012dff1b4589"
+      ],
+      [
+        "MONTEIRO.c10",
+        "7f831c7f9c4a046c3da13420a80ff2527417f19a4a18378753c29e766a5e0d0c"
+      ],
+      [
+        "MOONFX.c10",
+        "c2ee3b7573c019a62ad9f885047626854c72ac6d0d135b3da06a354d0b83b73f"
+      ],
+      [
+        "MORLOCKS.c10",
+        "9ab359828ad848916a5e134fca8c765e8669d0ce31e330987e1faeb50c351c2b"
+      ],
+      [
+        "MOTHER.c10",
+        "8fadbfb1fb66ec9a62451bb9e7842b0e3cfb4831f57cbcd37749dca637394342"
+      ],
+      [
+        "MOUNTAIN.c10",
+        "e07d8bcf649ea6d48e17f27393dc329cb0c755b2d59763fbf2d0a844e7505f3a"
+      ],
+      [
+        "MOUSE.c10",
+        "a41a3931beba281f925e547b249f67ba278c89358f181672b7f4208868f23473"
+      ],
+      [
+        "MOZART.c10",
+        "08d79e836ff42ece2592083e5530fc17ee3de9d5e811b5bd5bc51c51bf2dc5a3"
+      ],
+      [
+        "MTFUJI.c10",
+        "867204a593f73fcdcdae966eb0e07138c15cf923cda53d1dbb24cb7002680aa2"
+      ],
+      [
+        "MUSIC.c10",
+        "fbb8abe59ab27f259b914fdfaeda0a13869fe1ad35f72c608d006ec4f51096da"
       ],
       [
         "Macadam Bumper.crt",
@@ -6913,6 +8729,10 @@
         "2a0854a06959fb5490e665e4d83643507e0a4c678e58d577fab143075e8cc55b"
       ],
       [
+        "Mahjong.bin",
+        "53e6bac548b0815b628d2406119f6b0e9823719cdc53186e46e6d5d6d32ed279"
+      ],
+      [
         "Main Frame.crt",
         "1666490d2207207a5926c85d7295b27d8c7a384b66e8c8e34f9fba79d4cfa0f8"
       ],
@@ -6953,6 +8773,10 @@
         "d9404e98177ca6365f6f97f2a46c1063d33d3f47911b4ecd295d67d117eab824"
       ],
       [
+        "Mario (ML).c10",
+        "d13efffc9d70974420981cc3e4d2da9025dc13b1c8f96dbe2f24033aacb75a6c"
+      ],
+      [
         "Mario Bros (Atari) (J1).crt",
         "052091413ad920e44416cb3ce6daacf48263048f16bb98440ae937071f239b27"
       ],
@@ -6971,6 +8795,14 @@
       [
         "Mario's Brewery.crt",
         "30554b733c177b54cc17c258ec838606b66353124f5a933687d34e252f037977"
+      ],
+      [
+        "Market Monitor (1986)(Coleco).dsk",
+        "c06027fce51371c320c2bb3aefaf31cbd8c8cd58efe2501b2bcafc39301b8d74"
+      ],
+      [
+        "Marks.c10",
+        "1270284b86a68ffa006a8cab2e6ca099f5dfe703ec9211f8d551f295fab66801"
       ],
       [
         "Master Chess.crt",
@@ -7005,10 +8837,6 @@
         "f10d9e64a293e22391949c17b49b2a57f2d0abdf56bb6a5f990fdf78e33d52ab"
       ],
       [
-        "Match 3 (Max Breedon).bin",
-        "28a7e3568986b213fe140f9b22c0c3213d59bb7f4fca50ac8d98b2f58562d24b"
-      ],
-      [
         "Match Day (J1).crt",
         "6ca4ff3529403c67b498d37d20da32cbd729c424c5c7903c891c9ff2c1d1f343"
       ],
@@ -7019,6 +8847,14 @@
       [
         "Match Point.crt",
         "e98f6235c09d630edd8769da38a329a04693329e76343eeed8faf7d8e75793ba"
+      ],
+      [
+        "Math Design - MiniCalc.c10",
+        "8135bd6a2717c439c9660a68d9ee0ea75cdbb387c32666fbbdd9e236ac8f0a22"
+      ],
+      [
+        "Math Design - Spirals.c10",
+        "757b46580556edd4b065f335a67d17eae094998d0e384efb42337313ff9b48fa"
       ],
       [
         "Math Mileage.bin",
@@ -7077,6 +8913,14 @@
         "09bc1d2638bbd3e8539a806b11c236fc052d6001e776eed3109b203760599f7b"
       ],
       [
+        "Mazy (Homebrew).bin",
+        "248db69330f08329e86e40f8ec7eadcf2c1d07f9aa0a1e6c84dd62a8d0d3a7a9"
+      ],
+      [
+        "Mazy (Homebrew).bin",
+        "353120b06534ddfc1a49c379b96a1b40841a1cc71627e50508b947c203efbe35"
+      ],
+      [
         "McDonaldLand (by $olo1870) [EasyFlash].crt",
         "bbd03743f56c0b4a29a78e8d3de9bbaca0e7248fe4f91bd8694b8ea444f47795"
       ],
@@ -7109,16 +8953,8 @@
         "bb7640b607ab74878a7a5db9baa964c7c1295ca375db9c8b1bea4d133449c712"
       ],
       [
-        "MegaAGS-Saves.hdf",
-        "af7563da98e0d244bc79a900c50d4f0108f0ef6c4ac41f24dbe5343c6ca633a0"
-      ],
-      [
-        "MegaAGS.hdf",
-        "542bcc4bd9a5ac8ea4bdc8ac00004b9fa35a17f30f330abdcbdf2c6b49e09222"
-      ],
-      [
-        "MegaAGS.ini",
-        "aca816cdebe807010033466c09385d2634f984872d57f49f3d3fcd6eb189c1ae"
+        "Megadisk #1 (19xx)(Coleco - LMI).dsk",
+        "51ede947bb9ebd96128e44d0ec8e739a37f4febf4df08d02b961a93337ef0ac4"
       ],
       [
         "Megafun (Tenpins, Meteor Runner & Vortex).bin",
@@ -7147,6 +8983,10 @@
       [
         "Melonmania.crt",
         "49483db49fd8f9f4e0460e3e6f9e0c7d869f3b28eea0e9c3039d77670b31f20d"
+      ],
+      [
+        "Memory Display.c10",
+        "9209a27eda027c74e3745ef6759bb92941b7566a7fec93d9155cca0ff1ef54e4"
       ],
       [
         "Memory Manor.bin",
@@ -7249,6 +9089,14 @@
         "8f2faeae9d0b53ec43173b14f9d95a1fac385863283f2d1f861344b1f68bab27"
       ],
       [
+        "Micro Checkers.c10",
+        "9605f0df7ed2f8d50971b1228bb03474a2a7a5053fe7d8d5b0b12802b1e279ff"
+      ],
+      [
+        "Micro Color Compac (ML).c10",
+        "52a72bc60073ec88d4e5f4a9fed76fe911d6ddb4c41ea9158f75e17fee27434d"
+      ],
+      [
         "Micro Hexagon.crt",
         "85c205a4ff5e11a48340ac682c9f31f7c38c9d787579668fc30911a950ab543c"
       ],
@@ -7329,6 +9177,10 @@
         "f276455f466df2a696a280ae4204f2e9c1cf447ccaca92747b01408752b3f30a"
       ],
       [
+        "Minefield! (Jim Gerrie).c10",
+        "8fe6fbc5bde795ed564b40770dc153376094d220afd4f88f58b2013cb43f8a88"
+      ],
+      [
         "Miner 2049'er (J1).crt",
         "ae90760a4eb2f904d8602ddb2ac5b2c3278949e5cb220d6e1c3ff2d96c2b3ff6"
       ],
@@ -7389,8 +9241,16 @@
         "a17e1a68f9ecfb4ddeb013da9704508811e224bde2b7a2a181789ae0827886fa"
       ],
       [
+        "Missle Vader.bin",
+        "1810a5bd061bc1706d64ff22cf8e9971ca1658abd4e8af0937cb66f7b631d13e"
+      ],
+      [
         "Moby Dick.crt",
         "bb739d652c421945a5f3367e5e78a7062e6df612b4dc50b8e584245f6054ec85"
+      ],
+      [
+        "Modem Chess (1993)(Bonafide Software).dsk",
+        "3a3228b304beac3863c7625d1886204bc1a909429a31805d9198b36056270ed1"
       ],
       [
         "Moebius (Infinite Games).crt",
@@ -7509,6 +9369,10 @@
         "fd404217887c3311aee1f6ee928d1145a47e2eb775ac6ee6f313e85831c45cdf"
       ],
       [
+        "Morse Code.c10",
+        "352f55fe2e08bef0782d98cc841435ce0900e59712f6d5f11b377143df532ccf"
+      ],
+      [
         "Moto Cross Simulator.crt",
         "4da5fcbc2b1057d634589a9124188af99dbe435755e75ee049922873ec338b9e"
       ],
@@ -7535,10 +9399,6 @@
       [
         "Mountie Mick's Death Ride.crt",
         "8473dc740a2d878bf3bf2d9ff65486bc9cfc9ee4c649cfb796e166df40408e2d"
-      ],
-      [
-        "Mouse Puzzle.bin",
-        "3f6f34cb749cbc5df047afc13e0169ee2e5ab00fe8e86dd2d5e5c87ac9883442"
       ],
       [
         "Mouse Trap.crt",
@@ -7593,6 +9453,10 @@
         "5d4ad0adf2577d4247d77a28108b1840dfa324ffc5669aa02170044e0b53087c"
       ],
       [
+        "Mr. Packn.bin",
+        "a2594e9812a809010f49b763c0458c073d35d68e15360c1f900f66080dfa48c3"
+      ],
+      [
         "Mr. TNT.bin",
         "024f04f8857bdc5bd0f18f6a6fa1984b9b7e1851d051dd3d0ac9a1a171b6aee0"
       ],
@@ -7615,6 +9479,10 @@
       [
         "Mugsy's Revenge!.crt",
         "7bf2e645d0b20fde6f4665da2e2c47fb1d72d88939e2429a55c085ac95eefcd3"
+      ],
+      [
+        "Multicart Backup (19xx)(-).dsk",
+        "b9009a4fa63fb70af65748ed8baf38abf236de32ee2035cee45aa90a16c95ec4"
       ],
       [
         "Munch Man 64.crt",
@@ -7643,10 +9511,6 @@
       [
         "Mushroom Alley.crt",
         "4de53f0cc47ca79826ea0bd34ea24d2a89bfa16eff7b24f62d5e5df7736668e1"
-      ],
-      [
-        "Music Maker.bin",
-        "2d7f63e475c1bdc96004fad0c91c03bd7377062a6a6112c4ed0224a79e0503f0"
       ],
       [
         "Mutant Monty.crt",
@@ -7681,12 +9545,76 @@
         "8053a4e14d4c46554e25bb0a590dab0d442aa5c9005ae490cc4cc6547ede0c4b"
       ],
       [
+        "NAVETTE.c10",
+        "f359e253134db567305888ae0f1c838ed71f7510311a8e001b3da8175af7d038"
+      ],
+      [
+        "NBLITZ.c10",
+        "9949cfdc1aaabe9257919510a903cfa1dcc7ccf12f8f943921e1d565b16c9735"
+      ],
+      [
+        "NECMAZE.c10",
+        "5881bbdd091f8950e8f4e491201017cb37f39f523d0b76ab8581c8c37d4c0d77"
+      ],
+      [
         "NEIL Android.crt",
         "5cc2eaa2732abef5735a8c14cbb3e9ccbab2bc5a468b2900c1b8b1223f3e7d89"
       ],
       [
+        "NEPTUNE.c10",
+        "edee71bc34473b304fe62ea90f6445aa408d9d710fb24b9820208d2d4838cbd2"
+      ],
+      [
+        "NEWPOKER.c10",
+        "9aaad748765ae3cb5deb88061dfab96f9d5fa8f281c43e4f766231a1b171cf91"
+      ],
+      [
+        "NIAD Public Domain Volume 36 (1989)(NIAD)(PD).dsk",
+        "c90c54f9863fc4b14ef5f00669f8acc11370642cb164322a04cf23b6940e3044"
+      ],
+      [
+        "NIAD SmartBasic Utils UNDV #2 (1983)(Lazer Microsystems).ddp",
+        "065e022974d9420996e5bcd861e80201c98c4d4b6ce7f3e774f32095e7aed70a"
+      ],
+      [
+        "NIGHTMAR.c10",
+        "56b438f5d0a0a0e437b55e7c4dabe4dfb53d869f321b2b19b5b4c498f84f1b5a"
+      ],
+      [
+        "NINJA.c10",
+        "ff5737c57e304469f9949ba5d13d603c6055ef1a10f39d6224f0b442a3dba619"
+      ],
+      [
         "NOMAD.crt",
         "c4fece1cf358ab29c1578d7ca0fa7f5847a0f6890bb9668716c88c117e768bbe"
+      ],
+      [
+        "NOSTRO.c10",
+        "ec1b9cf760e01d533ce2fe58120fb3f899dec473c0e04d80cf79566fe286d1f4"
+      ],
+      [
+        "NOSTROMO.c10",
+        "7ea89bc016dd3f8399918e304c2f92fae4fdd1a9d33f655a9495368f458ae77a"
+      ],
+      [
+        "NOTETEST.c10",
+        "009c765f29773c124eac14f568600857ace8c0e8282f2eec69e6993b090ae231"
+      ],
+      [
+        "NUKEWAR.c10",
+        "65f1fd14dfe84fcb466198b91f4f62883d8d44da1029fabf3f734763db018e5f"
+      ],
+      [
+        "NUSUB.c10",
+        "f8f3502924eb3bc64c10ec6a12d9d5c375ee99f037ece625bd2edd83e0e44c0b"
+      ],
+      [
+        "NYAN.c10",
+        "5da61b2ca5a1c89ef36ced3426663b761c9e9b02f3673aa44a76d57e77e0a277"
+      ],
+      [
+        "N_FLIGHT.c10",
+        "216c19d1d652064ed829127c2d2ea7126fac566b8e03f27d7dd6f5967673ffa8"
       ],
       [
         "Narc (by $olo1870) [EasyFlash].crt",
@@ -7695,6 +9623,10 @@
       [
         "Narco Police.bin",
         "eef149b7ca0befb612ab2f868c94d80e74369653bc29f62e28b4fed30c312385"
+      ],
+      [
+        "Naughty Boy.bin",
+        "ca0f1a3f6cd2ed12276c0fd5df5262627dd23a2f56563b15bedab2bdf93f6d37"
       ],
       [
         "Nautilus.crt",
@@ -7711,6 +9643,10 @@
       [
         "Navy Seals.bin",
         "3c4c09aa75d9bf6b68e3a1a3992d6ded08a024cf92d5a52e390900d13ccc5e54"
+      ],
+      [
+        "Ncontbnk.c10",
+        "e3b53a35c2b92ac9135e3895e3a0a716d383809da92939c7297859c2e0634d1f"
       ],
       [
         "Neagox.crt",
@@ -7921,6 +9857,50 @@
         "2cb0998299cb022406ab1c30903a8aa2114615a5f30c20a7bcd2d3ece832ddfa"
       ],
       [
+        "ONEROOM.c10",
+        "584eae2f1bf2d1b87cf03a13d4e6fbfb8aed70ff605a07faf64ca4875c08a137"
+      ],
+      [
+        "ONO.c10",
+        "117356fd0776547326bdf5a0982002edadf3eb647661ba2212e586e9f1ce929c"
+      ],
+      [
+        "ORAN.c10",
+        "0fefbaebf2785598e449401275c22464d4e1c2689b9328cc3df53cf180449c20"
+      ],
+      [
+        "ORANGE.c10",
+        "e35f4f9ab456907cc4bb42130d4e3cef7aa746d546bc0af7df43c5b0314bc6f4"
+      ],
+      [
+        "ORBIT.c10",
+        "931dcbbd39d65d91a2c800a7bde2da89af397187e0362d8d9db3d28201ddc1ab"
+      ],
+      [
+        "OREGON.c10",
+        "d364e0a351424f23bec69b8f2bd7a2634cce39268f5bead47e55d1cfa7522e7a"
+      ],
+      [
+        "ORIENT.c10",
+        "aa1ee4f3c2cee3379ddcc37be3bb584f9a2bd90cfda4fa381c8661bb02c2378d"
+      ],
+      [
+        "OTHO36.c10",
+        "9eaa148be65b38348bd769297da91033950632051e4eacc5f6f8a603c72eb033"
+      ],
+      [
+        "OURANOS.c10",
+        "92a1053fbb1054bbbb5598e34fd964b380c46a9aba650b1d21eb0bfc1ff2f2ad"
+      ],
+      [
+        "OUTHOUSE.c10",
+        "5ac99c427799da162a16cb9303e926252305594deaf0c47467b2a56e584d28a1"
+      ],
+      [
+        "OVERTAKE.c10",
+        "0e79d15fbecdf5e8b543bca6e914d6d26dbf9aee0c4f874b7e032d96a5754fba"
+      ],
+      [
         "Octapolis.crt",
         "676df9c2be1e7a99f2e6f84b0ec415be6ab3c5621bf39cda9a3697be7755a135"
       ],
@@ -8085,6 +10065,14 @@
         "248fb60d51cebc128d3f9db93a5c8a081f0e78d59bdc81025cdff3cd9f5274e3"
       ],
       [
+        "Orphanware Fastpatch v2.0 (1987)(Orhan).dsk",
+        "aa140d82045ad08a0b86a391ea9c4d944b14bcfdb14a8a1d0ca18a320a971349"
+      ],
+      [
+        "Othello.bin",
+        "0156ad12f62c3c058c298d1b2ca1f4211d08f4cbf1238e6aa77f4eb168c73bbf"
+      ],
+      [
         "Out Run (Route A) (J1).crt",
         "6b440c753dc1c3c87cc89b7cbbd186263ee091102360feb195e75a8cf82b0b4f"
       ],
@@ -8157,24 +10145,120 @@
         "8fb8cacf3526cfa3a7640f46132f5c2074abe1ff004424eec02ab52334927f6c"
       ],
       [
+        "PAINTDUL.c10",
+        "b3e15f122428e0200963ec566355fa6584a50c9b61a435a756c816fb80052f8e"
+      ],
+      [
+        "PARAVIA.c10",
+        "26c733cb945584fdc50eecef58c9418b788a711535674c6abd136049790bc87c"
+      ],
+      [
         "PC Fuzz.crt",
         "a5fa44022ef1d7f1212bdee981805381e6b3c37fe7228c37e3c988d544ffe9d9"
+      ],
+      [
+        "PENDU.c10",
+        "99cb198e903d6a936fcd0e0b43bd6094138d00c8bb28e561ae2b3901a78e5e4b"
+      ],
+      [
+        "PENTOMIN.c10",
+        "5d0c0e6d534bc939d76cc9ff2da9e4c79df472e9f3f3a6a0494ee837e55422cc"
+      ],
+      [
+        "PIPES.c10",
+        "e39046101a8864355c52ac82b57bbe54a29565d12b312b778514b45b87c09146"
+      ],
+      [
+        "PIRATE1.c10",
+        "9203b4ed1917ed922f0e7bcdef82c0ab81fa7be8e0a24e21f1e70210070ded87"
+      ],
+      [
+        "PIRATE2.c10",
+        "d16d93c0e23970423ed7e429820fe57f30ede3e5d299fb4cfa4ce86caca2b9ee"
+      ],
+      [
+        "PITLEVEL.c10",
+        "c78ec1f6d5d9dd04c65a942aca10e73ba725008a1b81c67463789df68a6a6e08"
+      ],
+      [
+        "PITMAN.c10",
+        "efc14e9d1f69d4ce0fe1fe4c6fd5aee87967680ff231aacc053eb7afabacc778"
+      ],
+      [
+        "PLANET.c10",
+        "4b239478f523876d86772b0268f9211e95f692ef73e56c2cbf687f85026cce69"
+      ],
+      [
+        "PLUNKIT.c10",
+        "d42b470c7636eadb2267b45e405551ca530d1ea947f8a5523e0f2bb2f2bd8b3e"
+      ],
+      [
+        "PM.c10",
+        "9382cde5a5836c7100c139e272baa07fe4e7e9a3a24258b72839de313fd22434"
       ],
       [
         "POD (J1).crt",
         "8207dd40b8d8e9d5bc663ca7a8885be75143fdb935fa0f7f3320bcbaf16d9be5"
       ],
       [
+        "POD.c10",
+        "ab0f9dc35f5fbad5b13055d6cfa3751969e2ef44063ce7fbc59cb89d0160eec4"
+      ],
+      [
         "POING Ultra (TND - 2022).crt",
         "5251b45a5e0af17c91bbfd5dd9d85cb6967f1f1cbc49089e44410b57aceff636"
+      ],
+      [
+        "POKER.c10",
+        "1c0d26f63155d09cc68ba49fa05c4d55508232efcd5e4766c517ece3ed501667"
+      ],
+      [
+        "PONGNEW.c10",
+        "599c89cd251c50c907ffeb5078e6e7657669f3a76aa6603569eb1972f0ffe9c9"
+      ],
+      [
+        "PONTOON.c10",
+        "34cd3143be6a540ffc91547b748e991bf08ece133ee745fbc716e82292fa0ca6"
+      ],
+      [
+        "POOL.c10",
+        "f03b1e98b734610df5bafd1143467850c17b172bd1c11ff7619a827b9a36756d"
+      ],
+      [
+        "POURSUIT.c10",
+        "fd54a672ee442455b04b1d3539d6d73f2bbbfb6eab49f93d7b378dcdf06f7856"
+      ],
+      [
+        "PROVINCE.c10",
+        "3c2bdbdb4a8a77711bb9230cda952031242d4645fc7824cd2eb09ce113b1033e"
       ],
       [
         "PSI 5 Trading Company [EasyFlash].crt",
         "72ed3ca80ad8d4564e2395424a8af7a8e9816fdf9df75e7da4dc21f09d39190d"
       ],
       [
+        "PTREAS.c10",
+        "5367dcd482b8fed9c042bf8842a2093fc0bda7365c6ae91ddb3f7a64575d6f91"
+      ],
+      [
+        "PYRAMID.c10",
+        "7f9bd4f5377a057d68f4b7065c5155e64174ad3d70470e05ae0857b28bfa2b92"
+      ],
+      [
+        "PYRAMIDA.c10",
+        "f5c8d7a8c7a2995d612191c0afa85c4902b6aeb1dbb45847ac595455b3b5b160"
+      ],
+      [
+        "PYTHON.c10",
+        "198486bdbd2c6f04055839f45ec6afabc5293a7e2f02646f2e87184f9cf1b0f5"
+      ],
+      [
         "Pac-Land.crt",
         "ceeb5a83146d4fcda70a469cecb5b14120120e4113d73c56e992ad5d8d976f81"
+      ],
+      [
+        "Pac-Man (ML).c10",
+        "26e0be0d3ab0271c86b1f4a16240809bcebef77835c7fc61ac0a6d37fdee0ffe"
       ],
       [
         "Pac-Man 25th Anniversary [EasyFlash].crt",
@@ -8195,6 +10279,18 @@
       [
         "Pac-Wor (J1).crt",
         "32734d81482ce4ae0524aec996cbea285fb08fae03ae96fe8091c745bf5ed888"
+      ],
+      [
+        "PacPacBird.bin",
+        "89a220b26e192f3d6fe536ffd24135f880f95f11e4c5a3340973b5b4f25da24b"
+      ],
+      [
+        "Pachinko - UFO.bin",
+        "a2524c46868e96a909d79269d93127f68cb9186edcc6a1d2ef031e0e04c01c42"
+      ],
+      [
+        "Pachinko-UFO.bin",
+        "75ab21b7c2c4572c7fa24800b5b0e60e1fd606aee75dbaea5e88d0982e4ef01b"
       ],
       [
         "Pacman v1.0 (Arlasoft - 2022).crt",
@@ -8381,6 +10477,10 @@
         "84bf8cc4d67f89765c6ce612f89b05591004c5fbafdcec3ee6a62a75d1ebcce4"
       ],
       [
+        "Phrase Craze (1988)(Reedy Software).dsk",
+        "e36038a4d89da95721410d5259351b9feaa3acce003d8561574d670c7836be3d"
+      ],
+      [
         "Pi R Squared.crt",
         "9c904c7e7e674b4b1fb69309d2baac1235188903f6dd86ecd0419007be2f8b70"
       ],
@@ -8481,18 +10581,6 @@
         "c48dbf9f1dc26722205c8c9bde9a8c012306603cfb472a411d05d4b23276e781"
       ],
       [
-        "Planet Defender (6K).bin",
-        "6b1ad07ee48409f7580647ad827228cefd32d9cd6ac643ea4b1af085023768ba"
-      ],
-      [
-        "Planet Defender (8K).bin",
-        "a7a49e592bec5d680aeb0bee28a704386d4d82cf223e057502d3e15ebcb39074"
-      ],
-      [
-        "Planet Defender (Fixed Background) (Michael Obsieger).bin",
-        "d1e849579045c0fae3b122cce38bc829d6dd1df2aa8c9a42c6ce70e45c93a459"
-      ],
-      [
         "Platman Worlds (Psytronik - 2017) [EasyFlash].crt",
         "cd5996848c38ae3604af204295fc4f63e5a0742f198bd3e89d64f1f3be870a5f"
       ],
@@ -8513,6 +10601,10 @@
         "c583c7fa95bc94b7cdae8e08457814519c84909cc454354e7082f7bcab6a5661"
       ],
       [
+        "Playback.c10",
+        "80d9e55e76d1d6eecfb34e7ea9b53a8644abd5e49f7475830b74e53f8e7cd7a0"
+      ],
+      [
         "Plekthora (Dr. Mortal Wombat - 2021).crt",
         "238626ac4fa1e3c330704f895a7e9d941eb4a89f3e4feea76f4ffe9306ab529a"
       ],
@@ -8529,6 +10621,10 @@
         "c390402d6e026c58c71d0613c11fe9e19bb1e7df82df89d247048edf37b4f75b"
       ],
       [
+        "Poetry.c10",
+        "803a104c06f52041a6694631b2e6c3988b912712352dd38f796c0633c11b5cae"
+      ],
+      [
         "Pogo Joe.crt",
         "d7bfd0927f5d953482ff74ab7222930d1a8572c3d5747937e987c86543a6cebe"
       ],
@@ -8539,6 +10635,10 @@
       [
         "Point X.crt",
         "6b695cdbaadf926e5f8dfb692381b0f7bc2bb631806494851c3d740ea20a5afe"
+      ],
+      [
+        "Poker (Jim Gerrie).c10",
+        "2b6a3f0e111746ef5b975b77177896c5d43f7975e5c176aae3b756d9d42dac10"
       ],
       [
         "Polar Pierre (J1).crt",
@@ -8561,20 +10661,24 @@
         "575bd0898ca9432eac48a45554cc79c00c6db83114f5e2ab30d1e9d917ed2e9a"
       ],
       [
-        "Police Jump (Rev 1).bin",
-        "511aeb5c14a8e6f6fd7efcfc95e8bbd6e7ead300b696f2ca98da779a69aeb61a"
-      ],
-      [
-        "Police Jump.bin",
-        "d32fd0db2fe4a7fb446ad22471957e7d3f7664d82b42fdf32e2e4bf190755503"
-      ],
-      [
         "Poltergeist.crt",
         "4da0cf4dae6d154148f31640ebf264991e59b4f4cb5e3159b5ae5de06c82a9f0"
       ],
       [
+        "Pong.c10",
+        "6bc6df8654bbcd29b3044397eeaf9a3575b53f8e28387ee624b8324d6dbb58af"
+      ],
+      [
         "Pool of Radiance [EasyFlash].crt",
         "d98c39d9fba1fbdb46d11c44492359e1cf5414e9c818cd65d7487b019fc8856c"
+      ],
+      [
+        "Pooyan.bin",
+        "257e6fabdd24245e2bf513486521429452c115c78d001337eecf792d9c94ad49"
+      ],
+      [
+        "Pooyan.bin",
+        "cb9936858fa52dd00ca7ed3281e1dcb3c6aabcd83b7ba73124599a1a19a2be91"
       ],
       [
         "Pooyan.crt",
@@ -8643,6 +10747,10 @@
       [
         "Power Pyramids.crt",
         "a2a77de1df70b6f9e1f5244ca24fb91a7d6c41134a31b8ee5da10758db7c531a"
+      ],
+      [
+        "PowerPAINT (1987)(Digital Express).dsk",
+        "9701cfab53405902dc181313b08354d4806a020f5a009c9f23f7b15f9c430ea0"
       ],
       [
         "Powerama.crt",
@@ -8865,6 +10973,38 @@
         "5b2b67592c6c976a5873dafeea68952df6ea604169529989c5b4c6d60871e3a9"
       ],
       [
+        "QBERT.c10",
+        "cc6e89b26b4ccd1c4dc2344d3e7a9c8ee4fc88a737b421ff4c14b1f40885a3fb"
+      ],
+      [
+        "QIX.c10",
+        "e79892b68671a5893d976fa25aaa456b2a2739c04d0e8540629869c7ccd3e0f1"
+      ],
+      [
+        "QUATRAIN.c10",
+        "4f825e69fd52cbb0e8bdc8e4eefe9db5c84c103711686373fffc85e51559d417"
+      ],
+      [
+        "QUBIC.c10",
+        "1e9f54b77d1ea16179771a8a6bc2c362d0a35a2d8acec0b922acda5bcd248f95"
+      ],
+      [
+        "QUEBEC.c10",
+        "5bf49ecc0f5ddee3ca1e0966486e84e97cc4a519ccf8c5953039570b31b9fdcd"
+      ],
+      [
+        "QUEST.c10",
+        "c2c3222c371b6787c21400bfa08b3b6d068769e42aea4d49c2fab6236e88f7ed"
+      ],
+      [
+        "QUEST1.c10",
+        "99c0aba15ff88264e6915e3f285680a2a85b30fabdc62ab6bd9c8185f0822a0a"
+      ],
+      [
+        "QUIZNITE.c10",
+        "a015b0ef92b1975c59a5e78892e2fbfe933fffefef6ceb22649adaeea1ccc07b"
+      ],
+      [
         "QUOD INIT EXIT IIm [EasyFlash].crt",
         "7749eca1d5fd56a2dc796e338cf8e0ed2f91a606b74afbacfb6bec3238f45101"
       ],
@@ -8905,6 +11045,10 @@
         "9eb6f1605dc5f0184171312845a1bdf0356fa53bd13862e82659bb7b6c878154"
       ],
       [
+        "Quatris (1989)(Perkins, Steven B.)[b].dsk",
+        "e6e25631ae49cdb7ad43ccf9371994a80014397e720fa174ccf9a1e19c7d0ddf"
+      ],
+      [
         "Quedex.crt",
         "c378bbdce90a851c75d50cbafb24f6fb02a11c327778d545bc4ca57dbd7601b9"
       ],
@@ -8937,6 +11081,10 @@
         "1b6f82acd657dc599cd5413ba7a7c46fa39bd616305102083bd09f089a4bb394"
       ],
       [
+        "QuickSort (ML).c10",
+        "159c08a59c7bf70d6d4d70282cd077c4b3fd799e233a00f8f478c4c6d0a111b0"
+      ],
+      [
         "Quo Vadis.crt",
         "616dbea88defb944fa5274745a782393e127e1a4427b126cce1e8617b409631d"
       ],
@@ -8953,16 +11101,132 @@
         "e914da1143e45a2d7d24b6a50d9c4d86cfbc120af2ddcc49e28e78839d15b1b9"
       ],
       [
+        "RACEDRIV.c10",
+        "3af2e904c19748cb35d383d6fe816e307d346c0f59d2e2a706ae0343ac3c1c5f"
+      ],
+      [
+        "RAIDER.c10",
+        "8c7e681e7d15adf190ba33c0642f37d0cee9d0ffaafe8c4b7e4f79f80392158d"
+      ],
+      [
+        "RAIL.c10",
+        "4733ed03f252765a63e9a399b638fc51ec93ccd78708ffc9feb34fd95f32f10a"
+      ],
+      [
+        "RAIL4K.c10",
+        "b76f7f5ca1a73b86772420b2470aa0a2655b7154f81513caeda4e380b2ed8730"
+      ],
+      [
+        "RAINBOW.c10",
+        "f07caef0631389edeaf41338f867d356c1990179defceb01d3ecb5184b0fb3ce"
+      ],
+      [
+        "RAINMAZE.c10",
+        "8bdc36b302425a413725efe5b6112d39e0905aae79860efe94240f1480068db8"
+      ],
+      [
+        "RANGER.c10",
+        "f49ba48279052e7eba05a48eb27029d3a491b1f2ae11fb5d52de05d4309a6269"
+      ],
+      [
         "RBI 2 Baseball (by $olo1870) [EasyFlash].crt",
         "9a18071dae852d746a74a810f0ea53839fb0c98099b79ae490885f8d3a68865b"
+      ],
+      [
+        "RCHASE.c10",
+        "718d88bc0dac5b796554c1da9f655bd06f3f2066c96447c0403613de3344b7bb"
+      ],
+      [
+        "REBOUND.c10",
+        "974a5592dad68f833d6c54bb60916d9d1e3dfb7b03fa8bbfeffbdff52a107601"
+      ],
+      [
+        "REDALERT.c10",
+        "1d072546f0083afde352182ec4a4a03a173b960b4004c12cc600e576c6ed6047"
+      ],
+      [
+        "REDGREEN.c10",
+        "e12b94b50310ab290dc534ad376fa94cf2cce08abafc116654df0ce65afb0cdf"
+      ],
+      [
+        "RESCUE.c10",
+        "09d939d04c0c4045d6c1d3eabf70dff5444bab13b1ab5ab0c6eb6437615fd0a4"
       ],
       [
         "RG Rampage (Cosine Systems - 2012).crt",
         "ae456fa4c8cda83bc3d5e650d1919490ffb64082a4511916e825dbcc63fcc3ab"
       ],
       [
+        "RG2LIFE (ML).c10",
+        "2fca185206c463a77d041d26b9892e16140908d919b09a3980ebe7bf0bbacb4e"
+      ],
+      [
+        "RISK.c10",
+        "a94e24686729de43cb0b0096fa191d8713608b266d1add32f5c3ba1bca3820f1"
+      ],
+      [
         "RMS Titanic.crt",
         "04505dd45c7df772f5b698c15ba2b1e970513d77f684056d7831c509caa1dd24"
+      ],
+      [
+        "ROADRACE.c10",
+        "f7ae92a79136e60de5a62a29da6ca8529bbabbbdd2d15771c207679d553e5799"
+      ],
+      [
+        "ROBOT.c10",
+        "163e926b22631506ebd6adc1ed33066b5f244060f2b2f10c94bc499ba92319b2"
+      ],
+      [
+        "ROBOTNIM.c10",
+        "bca4cad914d1682732831ef05d05102f0320cfa80889546bcdae2f1fc35aea51"
+      ],
+      [
+        "ROBOTR29.c10",
+        "789798ffb6db50b6419a13f43f2d9dd462fb775c0283c9b30b28d458da723089"
+      ],
+      [
+        "ROCKET.c10",
+        "e4f5a076084b3f0346514351a46d207b836537c9b37e322df74414f80ba0401a"
+      ],
+      [
+        "ROCKET1.c10",
+        "cae9c75fc1c23c7acacc5d0b5f2c2978eef2bc74a494bf7f417688f0494bfdd6"
+      ],
+      [
+        "ROMANEMP.c10",
+        "3e3006d49ab286863a5280fb3bcd4d238f098777d79eeb1d3a70dd483d474f9b"
+      ],
+      [
+        "ROMP.c10",
+        "f7840dbea1444e6a901dcb0e06008e3a62a39fd927c896ff8bfb803ad213434f"
+      ],
+      [
+        "ROULETTE.c10",
+        "12c8e5c419bb92ac26f46904a0c65fd5ae63766ccd3425f5f4dd8e7015e4da7a"
+      ],
+      [
+        "ROULVZ.c10",
+        "62d344e779f5f0a85968512797d6b86d69447fc09ad2c23e7023032be3a745f0"
+      ],
+      [
+        "ROVER.c10",
+        "3107fb64b6133ace00a006ea46efbbdd0b3e7ace25ccddc24721649f17afe97c"
+      ],
+      [
+        "RROID.c10",
+        "8e585b865f6e2f69ce7f19b063bfe5d5450edfde81a3ee3409176d5082adfa44"
+      ],
+      [
+        "RRUNNER.c10",
+        "87c9b07fdf02fccca0a11c4a848b991453c3e690937373780172708559adddf2"
+      ],
+      [
+        "RUBICON.c10",
+        "17f398793117c251a8f71a02ecafaee2b0917635a63a4165dde3089b850c72d2"
+      ],
+      [
+        "RUBIK.c10",
+        "5814d991feea0b3fb0a4218d89623d0e6e77913ab54bfb0abb69262bc18fea01"
       ],
       [
         "Race Against Time, The.crt",
@@ -9037,6 +11301,10 @@
         "9a0021a2cf509cfff838a4e8445e78d53a0f13ae52d0d663f93a1a016f8d6204"
       ],
       [
+        "Rakugaki Special.bin",
+        "3eba484534d397cfd70d2c0775d63ed14546d10ad1cff49510a9e58ecc43337e"
+      ],
+      [
         "Rally Speedway (J1).crt",
         "a74528e80c629888605d14bdadaf12fa65dbd0845b1b1d328eca08f393e1be1e"
       ],
@@ -9077,6 +11345,10 @@
         "5d40e2bfff3058e6686abb3cd5e318963bd8b291ca12db09bffc61d572352250"
       ],
       [
+        "Rat Maze.c10",
+        "61ee2deef625fbe8276a8fc10855fea52a57c0c44abe406809b108466252f1c4"
+      ],
+      [
         "Rat, The.crt",
         "cf2881e966d3c9514798c8ed69b9e7cee85bf3df9336d7905441a3efe80db1cc"
       ],
@@ -9101,6 +11373,10 @@
         "7e28cba0013bbed3458677c09e1dabd2a4520027b72e71c111a487580cb72f9b"
       ],
       [
+        "Real Number Basic.bin",
+        "ae601f95a347f69241106361fe61e68cbabda1b668a63ae844305b2f6f13fe25"
+      ],
+      [
         "Real Stunt Experts, The.crt",
         "a6fec492ff9f1314fc0f13d5839a6a75c79507123a3c7576b53c3edf4571e2f1"
       ],
@@ -9119,6 +11395,10 @@
       [
         "Reckless Rufus.crt",
         "fa0e16b6c7152f3a16ed42e32c4bb0336d090560a3a8a8a92ffee867bb687ca1"
+      ],
+      [
+        "Red Alert.c10",
+        "3c2b00014924e920544d93dc469e7808715e495d9168032ed731d8def7388f16"
       ],
       [
         "Red Alert.crt",
@@ -9205,12 +11485,20 @@
         "6aec522eb73b6df7f7b209135a387e99d9beab6848485e6bbdb056fd8bf8e28d"
       ],
       [
+        "Reverse Video (ML).c10",
+        "ffaf4198fa9ba4c086bdbf2e14253e58a0b0824bfadd78ca8b9933c8d9dec294"
+      ],
+      [
         "Revolverheld.crt",
         "e986e657627650a14b2b4b72c9cc4c2a900566fd6aac60508c9ae813a170eb27"
       ],
       [
         "Revs.crt",
         "c72c17a7ccfa12471a9d2bf2d7d4bd5576930884f683ef5f72fcf6221acc3697"
+      ],
+      [
+        "Richard Scarry's Best Electronic Word Book Ever! (1984)(Coleco).dsk",
+        "d32437ab2ef59b171d505dc3fcc257844c78e6146eb0486fb08e227ffbf9f6ad"
       ],
       [
         "Richtofen's Revenge.crt",
@@ -9261,8 +11549,16 @@
         "59734f034d6fd319e75802d96d56af562c5f899e0fbdbc0db41b7a9e828e71c3"
       ],
       [
+        "Road Race (joystick).c10",
+        "b0ecf3104de3a7aa23dffd681b869a543a8e29d3d68c1b9fa752aafacd6bd196"
+      ],
+      [
         "Road Race.bin",
         "81971f77ec6fa456f314ba60e2542251a17f6e2d12d6fe1f46e3656c0e6ef3f0"
+      ],
+      [
+        "Road Race.c10",
+        "ee2cc25fae83ee7d06938489e1bce3612a33a31e8e9222734c2d17eb0989f729"
       ],
       [
         "Road Race.crt",
@@ -9323,6 +11619,10 @@
       [
         "Robots Rumble.crt",
         "5aff3da6d313c404feb30e1da7bd055da5e1ad7e3070a2beb1c7af0dd48b598a"
+      ],
+      [
+        "Roc'n Rope.bin",
+        "34c57e254e129272c3f7b739a8b4bce00abd187100cddc7a096e56a2fead7cf8"
       ],
       [
         "Rock n'Bolt (J1).crt",
@@ -9469,20 +11769,320 @@
         "7901a6e0d8598ac0585bdf34509ff28571986da190f4f7b228265607348d1738"
       ],
       [
+        "SABOT.c10",
+        "079d0a38799697acee0917db69bc9b6a1a41ec192eb0ee7bf00955f22a5d200a"
+      ],
+      [
+        "SABOTAGE.c10",
+        "9c5f7d8f010ff1b9473a34bd003f8a86533d5abb9957bdd2c3bfa7865a7aa473"
+      ],
+      [
+        "SANTA.c10",
+        "bbe57c0d49915246907b1d4b4aa61324c9aae5d6226553fcf06421af9baafe8c"
+      ],
+      [
         "SAS Combat Simulator.crt",
         "319a2af343fe30811f4e9b60f76b2a6ad9ff30048b6c0c1856d727eb50c46a0f"
+      ],
+      [
+        "SCEPTRE.c10",
+        "b2fd057e18636d228dea75010a72b40363fc6ed0618a3cc965f40a55062d8c55"
+      ],
+      [
+        "SCORE1.c10",
+        "1329a31c8f18d5af628e980ef564d83c1ec7f211aa805a026f8461fdf0becaf1"
+      ],
+      [
+        "SCRABBLE.c10",
+        "037526a5001761352ab05cd48c7e123526a87ebc78b10de512c3c2a763193342"
+      ],
+      [
+        "SCRAMBLE.c10",
+        "e0214505f4dcdac12e59b2aba03c2c555d4fbd7f85feb23f3285ceceefbb5ef5"
       ],
       [
         "SDI.crt",
         "aec2d8c5dff46e0b31e8991c73c05d15802ca15f95fb39c784fc94424d5def46"
       ],
       [
+        "SEABATL.c10",
+        "c3b796c637a999dd829659ceb4ef522e5e8219f54089d55e2e37c2bafd622ef0"
+      ],
+      [
+        "SEAWAR.c10",
+        "2c4a72703f010ad2f6a2d8ad84704308e4564f7e79c2665565ab55890ada7629"
+      ],
+      [
+        "SENTINEL.c10",
+        "34fca11d3d5a5405ebc4054dd8146d5ec76944876c57c5a9c93b2aa22c48dec2"
+      ],
+      [
+        "SERPENT.c10",
+        "4bb85fd55b729c5b52d885f4fec72845ae75bc1ace7afbd829c134bdf99949fb"
+      ],
+      [
+        "SG6.c10",
+        "d11cdbfcce941bb7296b3d98de425754a18085bcec98cc08056f441b517dc894"
+      ],
+      [
+        "SHEBOYGN.c10",
+        "fac25257f3f3808fe4e06fdf19e215f2e4dbb8ee901064a65b92f77a57a35696"
+      ],
+      [
+        "SHEEPDOG.c10",
+        "4dfb8815ce6758c9d2a49c4c238ec9b73703f7a875a53ce5165e168fe837fd53"
+      ],
+      [
+        "SHERLOCK.c10",
+        "4df559cb854d0dee0e4a02ca429d47fdddc154eee25347e7b026fc5f012c3ce9"
+      ],
+      [
+        "SHIFT.c10",
+        "c324aaf216a2016ed78bb25cb25c3a260c5c4f94d1e7737e1267103c2cb718c5"
+      ],
+      [
+        "SHOPLIFT.c10",
+        "d7c02b585eb40765ee881987995adb6f8a97976ed9e40126e368abb52911b3f9"
+      ],
+      [
+        "SHOPSTU.c10",
+        "714a0aba57c5ec511f01ea7dd0bbc0a95e7e8feb7a3fc4595943ab8ac0f34d0a"
+      ],
+      [
+        "SHUFFLE.c10",
+        "79cce795e567adf66ee5cd41d47892d63a6d75341e16d32a70895cae5ac45e23"
+      ],
+      [
+        "SILVER.c10",
+        "dae3b3758ce9bc4f4b52e4c7f25b58284f5a1eacd911597ef59008980e3a075c"
+      ],
+      [
+        "SILVERTN.c10",
+        "703012443723bf6e04351b1bf64a2e4954b93c663019e8d7e29cc9c7b2497ad3"
+      ],
+      [
+        "SIMON.c10",
+        "d9fc9216f4f6ed1ff56b0485a76002a63e036c721094987728d8b6bc8cbcba04"
+      ],
+      [
+        "SIRIUS.c10",
+        "2d1bfff419d5566da064558339a84e9daeea4f53296609ca2c0c519073872812"
+      ],
+      [
+        "SKETCH.c10",
+        "b0f9b44563a3e8db4d3e96a699360ffa2b0a831e4c1d55dea9b679d0e486bf9a"
+      ],
+      [
+        "SKYSCAPE.c10",
+        "7056a155d750721caba8544e2fe9cc90905ac9ee13448b27529d18530974c55c"
+      ],
+      [
+        "SLALOM.c10",
+        "458b9fafcad16d79f64a7f06104b071d80b2f399643cfee15f67f2c56b6df180"
+      ],
+      [
+        "SLALOM.c10",
+        "a2b0e152dbce909b087d78d0d8767900b760455e0c74baef6913f2e97431c924"
+      ],
+      [
+        "SLIDER.c10",
+        "e825f15a3b346209317097b0d33b04c10b325b1ab0b8cf942b056888d80aafd7"
+      ],
+      [
+        "SLOTS.c10",
+        "e59127ad902b82c1c5cbeada7cf282de85f6158c69115192788e15a5c1790d6a"
+      ],
+      [
+        "SNAKE.c10",
+        "4c421bde3f31700c0a4494e36b6e377d3ac7f7aa0a16c2733cc82fea6b595fd3"
+      ],
+      [
+        "SNAKEBIT.c10",
+        "175a6ecdcb70f0902629255d24d388c13c761220ffdc0c03e9cf59e2e64de8a7"
+      ],
+      [
+        "SNIPER.c10",
+        "ce318393929b620efe9181eacd0e9e6fc6e351c8462d0160ad99f29a9690cbb6"
+      ],
+      [
+        "SNOWTREE.c10",
+        "d8760dfd9d9510bd5c9af6efa8fa5c807525d2cf3c844789da77a2b49d7c4ed1"
+      ],
+      [
+        "SOKOBAN.c10",
+        "9e3d58f3c4576c430931da8d1f6289f982feaac4c8fc647df7698df9a5c31a65"
+      ],
+      [
+        "SOKOBANF.K7",
+        "5ed13290c5d9d5e8505a687b886edf213fb103be7c97d03da5b8f8fd84dd4200"
+      ],
+      [
+        "SOLCHESS.c10",
+        "e0838953d528277e5fd3101babc074161ac5486285fe38370706691dc772bee3"
+      ],
+      [
+        "SOLIT.c10",
+        "d6f3b41dd7d42bbe7e1269a3d936155e24804a1ea53ddfdba642022902bd81a7"
+      ],
+      [
+        "SOLITAIR (Auto Klondike).c10",
+        "470e5cce9c37d51c9bfabedadc2f035ec53e020fbaae638be4d561158bf3f57e"
+      ],
+      [
+        "SOLOPKR.c10",
+        "fd093d387a2962e7998cfd28b229501d8cf0b032ab2117c42e234315a3570e12"
+      ],
+      [
+        "SORCAST.c10",
+        "1eabcc9f0565eb5db050fb0d36f53aed896f6d11895d27de174e4ea450ed9834"
+      ],
+      [
+        "SORCERY.c10",
+        "88872c37f03b4f2ac67a39ee84e74e5d75528ebd64fc3c24f6b29ca9e1d147e7"
+      ],
+      [
+        "SPACEDUL.c10",
+        "2479607f1c8da25ba05ea4ef6fc0c57428cc11d4c10555e44a5615a493448d9e"
+      ],
+      [
+        "SPACETRK.c10",
+        "a472f077c2e7107cd7fab4f4747554047054a491eac5e2a8098a4f522858531e"
+      ],
+      [
+        "SPACEWAL.c10",
+        "b716e822c0f781ceae1e08d0cae7a41e523af97d3042bf3cb6e4de6cc691e2a6"
+      ],
+      [
+        "SPACEWAR.c10",
+        "8bc7399e515767ceac1e586c94aa2e890bc83ab173c3d78d5804918f2262cabf"
+      ],
+      [
+        "SPACSLAL.c10",
+        "2e6438838d997fd895c146cf915cb0e46a4b0d4161f8be49c1c761c1ef235f7c"
+      ],
+      [
+        "SPCTRK1.c10",
+        "ded66a89c6eee77acaf69e84c7ab3bb5ce8b5de42ba2c9c227048a382b3a55db"
+      ],
+      [
+        "SPHINX.c10",
+        "9e7dd6bc8494678e2bd65c69dd284b2c076fd92cfc7c88fb3b07423f565acd4f"
+      ],
+      [
+        "SPRINKS.c10",
+        "7d921e50b467e2617831d34e0b56899c16bce1017a74264fa1432e6f8b3692e4"
+      ],
+      [
+        "SQUASH.c10",
+        "2f81fbcbff18379b346b47ae60074e98b1374cfd9aee147b972447cb29d9a49f"
+      ],
+      [
+        "SSADB.c10",
+        "e6bd14ae9a62062cf989f988ddcce4a3c03652019634fbe69a7445c3e30de9d8"
+      ],
+      [
+        "SSHEET.c10",
+        "93914a0b4f197ef8088dff588b85449d2243b2ab08f8e6af31ba37323a56e447"
+      ],
+      [
+        "SSYSTEM.c10",
+        "22e314e4e59326ce139ff30c77aabb0bc13b59ecdbcd27400b5936ffdfaadb68"
+      ],
+      [
+        "STARFIND.c10",
+        "f887d14ccc4de8bc9a20f000ac2d3a599804991a242b1d009f843f0e5cf3ad6c"
+      ],
+      [
+        "STARMAP.c10",
+        "797dbbca4457654f9f4c8af442dc2cd6a8013b970f88eba11f576d2497fa448b"
+      ],
+      [
+        "STARMAPS.c10",
+        "665d96a35aa2f4f7a83d783d1c8624176805f70afdee323e839336a964143190"
+      ],
+      [
+        "STARTRAD.c10",
+        "3a060a0018b0966cca2b73277781a641524771530c535f61e82b935cab3257f1"
+      ],
+      [
+        "STARTREK.c10",
+        "4147d3b1743dd34e491a06eb19bcdf2b641f8d03f2065f500591920517f05467"
+      ],
+      [
+        "STELLEMP.c10",
+        "ded6f41e3d46984cf78ea08d3af291de9aaac99478b1b9767ca035e4d299f626"
+      ],
+      [
+        "STOCKSIM.c10",
+        "eed8b08aa85246c812fb2df3e20108e3cf2ec67989f25e28316cda86c68259ee"
+      ],
+      [
+        "STORM.c10",
+        "e05405eba9927df53ab35ba1b6534b7442d9cc1923e5e3250954cef5563b33c7"
+      ],
+      [
+        "SUBHUNT.c10",
+        "2ba02d55f1b6f008158d0c4bf62e679c36bbc1cdff74cf230a9ab123cfda1da8"
+      ],
+      [
+        "SUCCESS1.c10",
+        "1b90a2acbbd775d1dfcddd3cf7228f71aca38e2ca6ba484ffe725fbec0a4dc23"
+      ],
+      [
+        "SUCCESS2.c10",
+        "56c0dd424f49206e828bb458568b582ddc9eb8b7f35eb9298a8feccc0d9e7c82"
+      ],
+      [
+        "SUDOKGEN.c10",
+        "0ab5448c481af0a19145bd794c6631d694533265779e1d0ef48d9af6586e77c6"
+      ],
+      [
+        "SUDOKU.c10",
+        "73f28e194103304bb5146d9a890a8e07a8809c4e750a73192babeae710813001"
+      ],
+      [
+        "SUDOKUB.c10",
+        "6929a83f87296fd9ac50bed5784d0467e4fc7a36eb98ffd53f6dfc2f2af2fda9"
+      ],
+      [
+        "SURVIVE.c10",
+        "dc4ab1d3c0c02e7496503f6cd7238f09c2272f069bef25486716e8eaf642c2c0"
+      ],
+      [
         "SWAG.crt",
         "b56c1c4f6c406d46eab88428e73a17b4b2d35694056788dc47fb406dccfe157e"
       ],
       [
+        "SWARMS.c10",
+        "97d1d44d0841e35a0fbbe537615214de80b6767391dd5d7ce4ec22fa7e8df33f"
+      ],
+      [
+        "SWEEPER.c10",
+        "fa6c532c47d8b51812765556da8b4c4fce8a242bef70f1adbe8bbee22792bf83"
+      ],
+      [
+        "SWEEPERH.c10",
+        "cd3d466b660faee8bec6b8071746152526c79d3aef860af6444ef95170cc1ef0"
+      ],
+      [
+        "SWELFOOP.c10",
+        "6ae45eef86ec03c75bb6c503bf33ea1e7aee66b82f337883cccda52af7bc6967"
+      ],
+      [
+        "SWITCH.c10",
+        "0209f5594e21c6daeeb1a3a0a76b089fed6427a475a0dcb6551122b3153b9b5e"
+      ],
+      [
         "SWIV [EasyFlash].crt",
         "3984c8730393d920c10db2bc36d3f6bcb9c1d3730d2f93af5836a8e525db98f5"
+      ],
+      [
+        "SWORDMAN.c10",
+        "c21e2d0571a44b351c0206c077c22d592bb5a7d4905ca3ca64265a1adb7679c8"
+      ],
+      [
+        "SYLLOGY.c10",
+        "0a34b4356e6a04336ac8b00be17711be32f7cbff1e02a89a858a6bd2b57f4c5c"
       ],
       [
         "Sabotage.crt",
@@ -9613,6 +12213,10 @@
         "b44a8f0224980c97331e02e05b6fbf5fd530e4565aa56823aadeb02e71fb2bf5"
       ],
       [
+        "Screen Fun.c10",
+        "193f4bc9b57a2985af37bc003939a942f7266989f8a275b646cc5c15caf0221f"
+      ],
+      [
         "Scuba Dive.crt",
         "8e17a6b4a4d3cdcd10aa1a11e981172f6c26e7e2e3ff50883599ee4e2d678800"
       ],
@@ -9691,6 +12295,10 @@
       [
         "Sentinel, The.crt",
         "d7ded3760538056564a6616158af34e35629e23f24960cef93c110d11a50c17c"
+      ],
+      [
+        "Sentinel.c10",
+        "4bbe67882fbb3b1b44b18fdc923a808a60b3a8203802e7c00679ee7c2873a4b5"
       ],
       [
         "Sentinel.crt",
@@ -9817,6 +12425,10 @@
         "00d6bdee04deab5159d9e57e934f7558a8de5f10d6b6651076df589ef04341d9"
       ],
       [
+        "Shooting Gallery.c10",
+        "8594f780532244857eceb1efbe52314ec08310b9d330765953b0aefbdf952af6"
+      ],
+      [
         "Short Circuit.crt",
         "44ddeb382bc9e1248b96847c18ec27f83ce5f4bc20627357c4c7649f0feb41bc"
       ],
@@ -9847,6 +12459,10 @@
       [
         "Silva Pod.crt",
         "c3562e3b8f490e8a1380c85f0b485346e2b73ac164e1a021d2ec329364e161be"
+      ],
+      [
+        "Simple Painter & Simple FX (1990)(THE softWORKS FACTORY)(PD).dsk",
+        "312484ddf0ec9d84858fdd663dc146869d1916fdf9e884614a1b1cb1db4653e1"
       ],
       [
         "Simpsons Arcade Game [EasyFlash].crt",
@@ -9891,6 +12507,10 @@
       [
         "Skatin' USA.crt",
         "760a1f0631ef44366ddd88624b694dc2e77a0705af22045522112cc9d60b9571"
+      ],
+      [
+        "Ski Command.bin",
+        "b6094be940bea59d7d461d097c4445c48a861b754b8a5c16e7cbb906f7e0cc8b"
       ],
       [
         "Ski Run.crt",
@@ -10001,6 +12621,38 @@
         "dc1c098509e6110e88d20c97a762724e99b09ee4260217269cb177b5230d7ca6"
       ],
       [
+        "Smart Filer (1984)(Coleco).dsk",
+        "a6cb19860c4c440890682d48c75daabfe936ec563d324a7230bb33326cb9c0ae"
+      ],
+      [
+        "Smart Filer (1984)(Coleco)[a].dsk",
+        "5ac87867696d614c3afa89848e5a4aca135ef32b391d74c16831bb9f8fd0cc1d"
+      ],
+      [
+        "Smart Letters and Forms (1984)(Coleco).ddp",
+        "e187dd3c61dae7aace589becbb8ce7d0ce29ca9894bd33c702bbb3a7cbea5fe9"
+      ],
+      [
+        "SmartBasic v1.0 (1983)(Coleco - LMI).dsk",
+        "c3b6b83a0040d147e5bb5ccafd900df6a8a1ffa7123d487332e4854f9b518bc2"
+      ],
+      [
+        "SmartBasic v1.2 (1983)(Coleco - LMI).dsk",
+        "49a6a597d77bc4fdf17ee5e0695782d30eb147918d4ced2fa0ef96f438ea553c"
+      ],
+      [
+        "SmartLOGO (1984)(LOGO Computer Systems).ddp",
+        "a0a04c84288cd1d3e8eae02a639de9578d32d65a6cfe3ac01405e4819f3a640f"
+      ],
+      [
+        "SmartLOGO (1984)(LOGO Computer Systems).dsk",
+        "bce3214b982087c0eb1aff61816d1d674117356844db66d517f85bcd1546c5bf"
+      ],
+      [
+        "SmartPrint Plus (1992)(M.A.L. - Swift).dsk",
+        "294e59ccce8aca368baa9af98154a6199343d689600d47584350f05de0ad6b1f"
+      ],
+      [
         "Smash TV (by $olo1870) [EasyFlash].crt",
         "27f097639608d0e05fc2ea04394eac681db52a5f79ce19bd23e05b995e75bd55"
       ],
@@ -10045,8 +12697,8 @@
         "50a2080d931bf38ec073b03e69ce2e62bbbe1d46af3ca74b93cebc67878bb392"
       ],
       [
-        "Soccer.bin",
-        "aece64bf247fd52f9db5d89d3ce002e6748a166e1fadd39f3c21e4b3981b0cb3"
+        "Software For The Coleco ADAM (19xx)(-).ddp",
+        "3619b2d3a981cf7d2df3f037fd30b9c1cf3fe2e17dca184fc2b59398d77fd39b"
       ],
       [
         "Software House.crt",
@@ -10067,6 +12719,14 @@
       [
         "Soldier of Light.crt",
         "8bd2072eb72fd70cd5dc9f9a17cae1c41ff017b629d2cd4329fabe7bb1ff50a8"
+      ],
+      [
+        "Solitaire (Auto Klondike).c10",
+        "a6bd910bbabf401aa3b7bce523648de1a6c523b4611e1d8214bf4b91f83d629d"
+      ],
+      [
+        "Solitaire (Jim Gerrie).c10",
+        "4bff9c0aac9c124137bf27d49e45149b50e39d5f9371f6fb8af99df1b0874d43"
       ],
       [
         "Solo Flight.crt",
@@ -10091,10 +12751,6 @@
       [
         "Sonic Boom (by $olo1870) [EasyFlash].crt",
         "32687f521bb401ad0b5279f4ff2f8ea6da590284bf7478457a3351531bd6d0cb"
-      ],
-      [
-        "Sonic Invader.bin",
-        "a6849dd0a258da429ba2b0f76292d749773e1aaaf495cf6fb5d25af697ce47c0"
       ],
       [
         "Sooper Froot.crt",
@@ -10125,12 +12781,24 @@
         "eace54333fdf92ed53f4521f0efc6c091eb020a21e2495cb4d089e1786a3ce11"
       ],
       [
+        "Space Assault (Darren Atkinson) (ML).c10",
+        "50204e3febf11016c14b0d57485762455cbac31298f3fa2a0fcb019f39227b51"
+      ],
+      [
         "Space Doubt.crt",
         "042bf10165945288cbaacc4fd12ade34eff1e290019dd8946a7dd3e58398c488"
       ],
       [
+        "Space Fire.bin",
+        "61916cb35a27bb3a6f233e634a9fbf01ab2dc0c121de4135597f2aef3d42af90"
+      ],
+      [
         "Space Firehawk (Karsten Senkel - 2020).crt",
         "cd4f7b388955d238a3cc044f8a99f686e8eabe15e4225de56a8f55bf6ace9bd8"
+      ],
+      [
+        "Space Force.bin",
+        "8e2a79521c2619766ecdc28e268950f4e5343948e5c7007c1929bc4959b45150"
       ],
       [
         "Space Gun (by $olo1870) [EasyFlash].crt",
@@ -10159,6 +12827,10 @@
       [
         "Space Panic (Karmic - 2021).crt",
         "b27e348c105969fcb193e5570698d5d54693d68beeeb88b8e4b0f5a7f0f283cf"
+      ],
+      [
+        "Space Panic.bin",
+        "80b2a797de99d74ad71023ac93c6b4728dab7cd44df403d62cd9d01ff8671437"
       ],
       [
         "Space Ric-o-Shay.bin",
@@ -10215,6 +12887,10 @@
       [
         "Spaceman Splorf - Planet of Doom (Pond Software - v1.1 - 2016).crt",
         "ef850d548ec0be4c87e9301442310ccc0d343aa3ffec84ae32533da5d558efcb"
+      ],
+      [
+        "Sparkle.c10",
+        "eeb34cf396587bddd49ef4e8eee71c263edb04179dbb45873666fe5a635377dd"
       ],
       [
         "Special Agent (Firebird).crt",
@@ -10393,6 +13069,10 @@
         "d5441d619b16bd4edd3796f1359bd80347dc5b895324b5c818804f12134d32d7"
       ],
       [
+        "Squares.c10",
+        "22764067b53d53a9a368e0b40f41b2a449d2f5ee4ad356103d316461c239f40c"
+      ],
+      [
         "Squash a Frog.crt",
         "4bb71cd828098462c101b5b6df35302f01c64d7f7ed2711693f85016b06a3179"
       ],
@@ -10487,6 +13167,10 @@
       [
         "Star Trek.bin",
         "157f5ff4982ae9899bea8df9e2871ec09b86b8d11f51b53942db389c6a1ed079"
+      ],
+      [
+        "Star Trek.c10",
+        "c5f73af2f62714427352b109a8ee4d0bca7c1ea6794fcb5a3246eecc10578206"
       ],
       [
         "Star Trooper (J1).crt",
@@ -10597,10 +13281,6 @@
         "f02962303398c5657a5ad209337a6f3f5848da280570582dc5dd9f99eb44faeb"
       ],
       [
-        "Stone Age.bin",
-        "ce8eaa6dba2003028f480c1f9deba56707f5c79a1dcc61059c01a437e4ea6a6a"
-      ],
-      [
         "Stop the Express (J1).crt",
         "442f4d3ab6ecfd3a7392020224c05d7c5118dad0b31624040aec22a954a48c44"
       ],
@@ -10701,6 +13381,18 @@
         "12714ddd6db7087e54505f240761c15f04944ba96f828bf5c363c81bb330599f"
       ],
       [
+        "Sub Search.c10",
+        "319e880b18e63da419df76e8c2e910ea75c3b11b984814791dc17c582bd72ae6"
+      ],
+      [
+        "Submarine.bin",
+        "b6ddbee0af402365f830e4acde96681898a1688db8b16a283a29529ed4d2fdd7"
+      ],
+      [
+        "Subroc (1983)(Sega).ddp",
+        "ffd2c6881e85786e5b7f2239921f84778de8ae4094faf1409d14e6cfa82638f7"
+      ],
+      [
         "Subsonic.crt",
         "c105172934d9f77df8b95607656a68e909b292223f23e99ac31f9321d21e985f"
       ],
@@ -10775,6 +13467,22 @@
       [
         "Super Cars.crt",
         "caac817aa3045b54a6ce4d09fca033db3cfb5efc5ced3670fbc7bc4840741d84"
+      ],
+      [
+        "Super Cobra.bin",
+        "29500127943e2a1e3c74a6d606137df97c27dcd16071c9a04df3f6325afb6af3"
+      ],
+      [
+        "Super Cobra.bin",
+        "7ed7c69ffa95820ca036335555b6494914701c9034e124006c6bfe7f2e8af194"
+      ],
+      [
+        "Super Cobra.bin",
+        "dcd11e9bab37f073ada5e29a346820e297fb049d745c71d99fb20d39100e7d25"
+      ],
+      [
+        "Super Cosmo Fighter (1997)(Kogel, Marcel de)(PD).dsk",
+        "21b8e2988dbe1e281f38a0d4be3ce4e792bafe828b43d54693e0f29239ac5203"
       ],
       [
         "Super Dogfight (J1).crt",
@@ -10873,6 +13581,10 @@
         "3a1495be980b8e24de910f8a217d88c5779514487eb37173c79272e0336a6944"
       ],
       [
+        "Super Subroc (1984)(Sega - Coleco).dsk",
+        "3663fd81432335a4d18bec184e7a625e9e5d0af41a8f52ef77c6d98ab0a96ed3"
+      ],
+      [
         "Super Tact.crt",
         "a2cc32646d03704b0fe1adf31992f2d881097c2bdc2368736121ccd27b9290aa"
       ],
@@ -10887,6 +13599,10 @@
       [
         "Super Trux.crt",
         "5ac42e65901f978b3baea900313fec920bb314f4d28f549ab2c55e41c3e8b894"
+      ],
+      [
+        "Super Zaxxon (1984)(Sega - Coleco).dsk",
+        "1f2b09e50fa168b385fecd7bf7b6a6d633dd1488bd1ecedd25503dfa8d4ac2ff"
       ],
       [
         "Super Zaxxon (HesWare).crt",
@@ -10941,6 +13657,10 @@
         "60c4960238dbf33dab5ef55409cabb109142505d94eff11daabaafe04c738b6f"
       ],
       [
+        "Swift Disk (19xx)(-).dsk",
+        "c32abd093b784230a222ef05cf4f5c2361781e516618e088952d6623b634d40e"
+      ],
+      [
         "Switchblade.crt",
         "80c7e134a74eba479da77d088aeb4efd4a907376116307f45f2eb274debbc628"
       ],
@@ -10961,12 +13681,188 @@
         "4b8a05ef5e33842625f0fa26ad21481cbb4f14a3c6be29a94016d19efb50d198"
       ],
       [
+        "TABLETS.c10",
+        "ca959030d3424bf618fbddb9bb33b012173e45634ca88eae68babad1fa938b08"
+      ],
+      [
+        "TACKLEP.c10",
+        "1110391e1f310f95aa7a046856e0948079ad6d55a022e28957328cd211e818b0"
+      ],
+      [
+        "TAILGUN.c10",
+        "8203d76d4a5c60f5cff3a1a8cd287487914132e1434489082c1b87bb51181270"
+      ],
+      [
+        "TAIPAN.c10",
+        "4ccdaca19891f25cad747af67535a16885e4e16a1c3cb9f15efb4d763a93f9ff"
+      ],
+      [
+        "TANK.c10",
+        "00ddafc68326c87211ae94e461e6af831b87caab00afd344b215e0a6770d2959"
+      ],
+      [
+        "TANK.c10",
+        "a80787e02f5b5e2e1458ba8ea15ae5b3fe214e958b649ee3b48195b27e10b6a5"
+      ],
+      [
+        "TANKCAP.c10",
+        "e10251267591784844db7c82fa0e995d61e6cb0490639cc35d226021ee34d5fa"
+      ],
+      [
+        "TBIRD.c10",
+        "b3709108a64c4c3c351eb7c64d336d7ae37d8ffbe6758ce990ef863f3dcfb661"
+      ],
+      [
+        "TDOS CPM 2.2 System (19xx)(-)[720k Disk].dsk",
+        "7dc3cc007ca12b329f770bdac487b2b465d6490fe4f62a3ef539b2a8c577d3c4"
+      ],
+      [
+        "TDOS v4.5 (19xx)(-).dsk",
+        "4b9c2bbd9338b92db051f35802def8bda14180aae0da81a81cfec74656242487"
+      ],
+      [
+        "TDOS v4.5 Docs (19xx)(-).dsk",
+        "7e76757e2eb4e48b14dd296fa052811bca2e5a8e659b0e0243207e5530b79a58"
+      ],
+      [
+        "TDOS v4.58 (19xx)(-).dsk",
+        "dface9b1716529f71f4ccc1a9403da6e520de11395de5fa0e8ca43b033534b66"
+      ],
+      [
+        "TELENGRD.c10",
+        "c5b6b4f8eecbe576311ff85c3df996c80a4d0c5779f4efe643fa377b2cc4e31c"
+      ],
+      [
+        "TEMPEST.c10",
+        "3bccd9f8e79fe7fb8982e7c27e09f95821f1d280dcfdc73c1a168b345fd2f67c"
+      ],
+      [
+        "TETRIS10.c10",
+        "03dcb16ba0739d83e02eb568b181ba3a1a28a8bc423ffc94d7ad5b5e2c8a4c4d"
+      ],
+      [
+        "TETRIS4K.c10",
+        "c55377736a28c29450d191ec0e9d3193a15116ab8c2f9f65f5da58afd598fe8c"
+      ],
+      [
+        "TEXTED.c10",
+        "0afabc5135f5f1f5ae89dbce872d2a2f34202a1b2b8f34089380134312c172b6"
+      ],
+      [
+        "THOLIAN.c10",
+        "da28c7850ea25038a5d618c2e2f6ac4b4edd9b4e249182b78f701b333f610ed6"
+      ],
+      [
+        "TIMBER.c10",
+        "9ae26f885a6d7c06ab78b555e92ace9217cc254203d5c48e203a72a2719a358c"
+      ],
+      [
+        "TIMEBOMB.c10",
+        "9c67ec4d7d91533fd3354bb86ec33f8a66141b724b864a740a090dbdc055f44d"
+      ],
+      [
+        "TIMEMACH.c10",
+        "56c3773f4c9bab72b2cfb91f7f01f11be7bdc84799e90b4c4e6ab3b7921853fd"
+      ],
+      [
         "TLL - Tornado Low Level.crt",
         "6b6f57e6f9b707028b83ab435511cdbe873f041e65b18f63d7c7db15d915f3ab"
       ],
       [
+        "TOMB.c10",
+        "a665783eb0e816e03b80f2c153634c33057d484b7410e957e66023506e804171"
+      ],
+      [
+        "TORPATT.c10",
+        "ef83145062fc43ed2b6003e03d7fe36f483a706a39ad7f133ebd68eb4114abca"
+      ],
+      [
+        "TOUCHDN.c10",
+        "c87bc9c2c3742cfe291862a3e4f8aa23dd0b7277f302533774fabbc3c967429d"
+      ],
+      [
+        "TOURIST.c10",
+        "3932550c2856903a73dafbcdce7d079486f59ba67204f20900e02d05efadf6d1"
+      ],
+      [
+        "TOWER.c10",
+        "670e1c2f1e496abda5216cd066640d4e4ddb7974ef44146c04120adef7175b62"
+      ],
+      [
+        "TRACE.c10",
+        "22566066e94d3b282678662602642384933dcf19b2eedbc60a834d5fb7b2957e"
+      ],
+      [
+        "TRADE.c10",
+        "eacc8e2195838be9c4889fd17f5147c5b33b2f640fc59aa0d4f91d25a1573898"
+      ],
+      [
+        "TRAVELER.c10",
+        "f168869e9ccd9e98d416c9a699f0b670f0989a72788774747be6a1d50f4c904a"
+      ],
+      [
         "TRAZ - Transformable Arcade Zone.crt",
         "b1342616ce6126e8fbbbca52d7116faaa4185582a0a184a74b6c3d61764e0f35"
+      ],
+      [
+        "TREASURE.c10",
+        "9bdbb7e68d64e729a7da6664fe9c59998288d5f7472d11c1ff4bc259c539d860"
+      ],
+      [
+        "TREBUCHE.c10",
+        "a8d58d4d02fc4b76c0507219a24c038da026761d423b5490f5b415f8e4e85896"
+      ],
+      [
+        "TREKADV.c10",
+        "649ed59e34f8b6e156ae51a49226b5f6543e2db01bae7d92a535b6ccc7931227"
+      ],
+      [
+        "TREKIII.c10",
+        "5730ab62ed48dd25818ea6e4dcb3a61b63ab37f0b015750ef9a86ad2f98e4e6c"
+      ],
+      [
+        "TRENCHFI.c10",
+        "12256480a76c076905c68ae6c26c85075dd5e932fc2f9ba2c217810552954ad8"
+      ],
+      [
+        "TRON.c10",
+        "6ef950809b4cc7dfcc2ac727de9948a82f6b2e5d791159b570e3908174a6c35e"
+      ],
+      [
+        "TTREK.c10",
+        "d54ced8fc4ca54d09cf4cf90a96e53200ae93b1af699079db928d7e69ad109fe"
+      ],
+      [
+        "TUGAWAR.c10",
+        "91e3a67f268b13ad156eb66de62a3c1563f9921ad7661e0784fe6f1f32d1d4a5"
+      ],
+      [
+        "TUNNELS.c10",
+        "b99d06d021e44b3ca16963fccc6a7b824c667fedc4b6e7cfcd27a65a811be0f8"
+      ],
+      [
+        "TURKEY.c10",
+        "f5cfc5d4092cf7e16aba99c3d29c9110fa1ac57527ac5e368bcd42f25a21ec66"
+      ],
+      [
+        "TURTLE.c10",
+        "e701e5eb485744d39f96f8df468375988af0d2ca8514a8272dac3ead2ea0c268"
+      ],
+      [
+        "TUTSTOMB.c10",
+        "0e77c97be26ec40d2c9bacabb2121107150be2aad31009576749ba2e39fe568b"
+      ],
+      [
+        "TUTTUT.c10",
+        "f4878ca8eff8c03315927e1bb783d308887997f5a4552a3dbcfc1f021e64de76"
+      ],
+      [
+        "TXTADV.c10",
+        "32543b4718f04fe5b16c9788b4f65271632d19c1a19a3e41c7453f11bc42ba72"
+      ],
+      [
+        "TYCOON.c10",
+        "3a72f29401e14e24b7ef98aff86c6b1b2b8e685e11b2ce2bd4bdff759571af0f"
       ],
       [
         "Table Soccer.crt",
@@ -10995,14 +13891,6 @@
       [
         "Tank (Ocean).crt",
         "4453858f4a534a51dc445196df3b7a9b5855c7286cb744a96fb957ef8ef8cd3e"
-      ],
-      [
-        "Tank Attack (6K).bin",
-        "f5887e70d174d9d350f0c39d2b9d419d826e951a444900704438a8d3f5f1bd5b"
-      ],
-      [
-        "Tank Attack (8K).bin",
-        "3d1f5c4fe95b367c05a454d66fcaa6088a15fcfac79c4b17d767bd8c360cd3d7"
       ],
       [
         "Tank Wars.bin",
@@ -11089,6 +13977,10 @@
         "acedcbfe40eb03e7fd97c91424bf530f5a56751af5072c69342cc4e7aadfc229"
       ],
       [
+        "Temple of Apshai (1985)(Epyx)[h].dsk",
+        "e8a01b5e35b8d745acdc3dd28d3338e861820d41baadc01f92997596e418278d"
+      ],
+      [
         "Temple of Terror.crt",
         "57bcad8faab83dc607b12190db3395638f35bfeea07a1fcd89de4a7573c65147"
       ],
@@ -11099,30 +13991,6 @@
       [
         "Tenebra Macabre.crt",
         "6e5c33f08bcd176aded90f483e860f263a3eb83681d6ad9de1f7586d7c65a696"
-      ],
-      [
-        "Tennis (Coca-Cola ~ Sprite).bin",
-        "6920ada1ce6f04bdf32f131e7e6ce60a94b65365dbcd10c3917bcfa478476083"
-      ],
-      [
-        "Tennis (DSE) (Rev 1) (6K).bin",
-        "793675d43e9fbba72136efb6de37bc98d4a76d3a66c3d37ae4c1860381c0631c"
-      ],
-      [
-        "Tennis (DSE) (Rev 1) (8K).bin",
-        "6277316c21d141cdc6152946a9095e3310139475c251d6a83489875205298277"
-      ],
-      [
-        "Tennis (DSE).bin",
-        "a279f6fb6d8c2ab2c5a82a157fa5105ef326ad5c392ce81a98175bcaa9bc3953"
-      ],
-      [
-        "Tennis (Wimbledon) (6K).bin",
-        "92360e09e76da384f808d1d8258240c920a129f4e6e2153ea9e9a18116342ba6"
-      ],
-      [
-        "Tennis (Wimbledon) (8K).bin",
-        "0919390bd1bafcd7a0def628aa74e46a5912f75c46c7a9e30c69c3453b9f3125"
       ],
       [
         "Tennis.bin",
@@ -11181,8 +14049,20 @@
         "1f30974bdd2d02ddb35747e411db61feeee17d7dcee1d05a4e9ce3f0aabad651"
       ],
       [
+        "Tetris (ML).c10",
+        "c7d9b78c01ec1c1fdcc5c9c9fe25c3d20f5aab60a47744abeacc0a0c5e089798"
+      ],
+      [
         "Tetris (Mirrorsoft).crt",
         "8f338d0ff96c0fefd20779d6826bcdd7f5025d3d218e4fdc03e54e55b77956ac"
+      ],
+      [
+        "Tetris 4K (ML).c10",
+        "286804adb2db0b0b04538706c233b0c4d260d959b280675b6b1b18344d832fb0"
+      ],
+      [
+        "Text Editor.c10",
+        "470823587d0a776922f143f98300abf9edcae4b38ab5a6aee47279d0839bcdab"
       ],
       [
         "Thai Boxing.crt",
@@ -11195,10 +14075,6 @@
       [
         "The Eidolon [EasyFlash].crt",
         "04b8474e046126cca202a4c62e2d7601372f1d6e01484f2224016bcb55c0cfdb"
-      ],
-      [
-        "The Electronic Knights - Transhuman Pachinkoland (2022).adf",
-        "b948bbb91391dcb4754867e947b604182d10de8d3617aea59c9706accc41c617"
       ],
       [
         "The Institute [EasyFlash].crt",
@@ -11321,10 +14197,6 @@
         "c565a587f40c6b99cfa9b802d6c553912f5348e1adbf2a3f692d51567c5cd568"
       ],
       [
-        "Tile Breaker ~ Breakthrough (Kym Greenshields).bin",
-        "25606a6c657bceb2fb1317b75d21bd38a26fc54607a5d3bb7fe3c0f69b1fd933"
-      ],
-      [
         "Tilt.crt",
         "4be7911bb1f29b6dd0df792eb2611c7ae94c93dc57ffa1a24b6a2ac49f033cb5"
       ],
@@ -11379,10 +14251,6 @@
       [
         "Titanic Blinky.crt",
         "7c737f7f9280baf8b8fd6f798a92c393c689e7d1ac8f81e9d51bf6de39f9d44f"
-      ],
-      [
-        "Titanic Frogger Demo 1.1 (Kurt Woloch).bin",
-        "5bce1c96ea5925ff0774f31fafaf346cbf6a9a9cba815f0acd55cf1a9fdbc1b6"
       ],
       [
         "Titans.crt",
@@ -11565,6 +14433,14 @@
         "4d4d3894a1db80a33682938f4d63a2dda4d009e1f93e2504bdc21bc5edda780f"
       ],
       [
+        "Trolls Tale (19xx)(-)(PD).ddp",
+        "7e7a9509c3835a8df28e645a5f66296d3486a30b70b4399b57a303d96a3553f7"
+      ],
+      [
+        "Trolls Tale (19xx)(-)(PD)[b].dsk",
+        "56e2aa4dcc4df9e24c7ec65a674a4b4c270d03abe5f3e3c031d9bc5ce5bf5476"
+      ],
+      [
         "Trolls and Tribulations.crt",
         "745b8fce068312864f7af4e3a5078cc172ef36c1fc224710f616ab442002efed"
       ],
@@ -11575,6 +14451,10 @@
       [
         "Tropical Fever.crt",
         "1575da3071b522b238a3a79d08342a2ee6adc10c1ff46da25acf7dd932e1c562"
+      ],
+      [
+        "Tsume Shougi.bin",
+        "f375c529dfc7f603bd2c86b43db694243f95a7773ec1896b999324d863ca169c"
       ],
       [
         "Tube, The.crt",
@@ -11633,6 +14513,10 @@
         "0d538504176aac1d27ce9763a6c44a0c0d40aa370954f94bf43b250963414f5c"
       ],
       [
+        "Turpin.bin",
+        "7c9f47510bccb24a3760da29af3782302b95fbefe553dd0796ff1625820ddb63"
+      ],
+      [
         "Turrican & Turrican II [EasyFlash].crt",
         "47271d2ea47dc6c6ea870471093950bf8387c1382301c772c0c430cac405dc83"
       ],
@@ -11653,6 +14537,10 @@
         "ddc1de1df1075435c3516bc7e4fd8dbf7dd280d5f9715d3859249c8331cd71ed"
       ],
       [
+        "Turtles.bin",
+        "502e962e6f171f4c1ebdd818c18ca7010847889e5c646fb90771b6b41b9412cc"
+      ],
+      [
         "Tusker (by $olo1870) [EasyFlash].crt",
         "9ca50eefcb02d9b2afdc0dd66205ead157ce5e37f30a7496ccaae3c36e0e256a"
       ],
@@ -11663,6 +14551,10 @@
       [
         "Tutankham Returns (LC Games - 2022).crt",
         "009657d21dafb80409462dd9bd1cc8e745aac66b05e3cd7bf27ff3db0935fec3"
+      ],
+      [
+        "Tutankham.bin",
+        "d6c798fc2d429b876842407f6773228a82dc3dffbf9f64b709b412f6195a5d1e"
       ],
       [
         "Twin Tigers.crt",
@@ -11693,12 +14585,44 @@
         "6fe5bd641c0d20407a314b33b83dc02cda2281112a86d4ca22a978245c0d3256"
       ],
       [
+        "UBOAT.c10",
+        "8ff6cd2922a9ab15b1a470b82761e19512a8316e23e75fa4b74e45438791c1c6"
+      ],
+      [
         "UCM - Ultimate Combat Mission (J1).crt",
         "e66fd85f6ea03b01526954b9f7b7459ee65e542b665b4db057572d41e0b19ff6"
       ],
       [
+        "ULTIMATE.c10",
+        "7f61f10466bc75ea0ac7933d80aa3a85057ceb8a0379ecf5df4705ff8a08e9ed"
+      ],
+      [
+        "UMANSION.c10",
+        "70da7b3aedc137b23109d2c9b4e5f35440c9cc516103f494784fb57fe5f7fac1"
+      ],
+      [
         "UN Squadron (by $olo1870) [EasyFlash].crt",
         "1cdef3824cdc534f58e5abb05ced6dc7659496c5f933208e49d28ee03316e8fc"
+      ],
+      [
+        "UNCLETAY.c10",
+        "447ec3eef457a9ffe499fc1c0b895716003b1185cd78d261fd87b6fed0311a1d"
+      ],
+      [
+        "UNDEAD.c10",
+        "54b5910a9f160c2c4219af4523843b8aa5d506d651c1a6f4825e625bdc907c62"
+      ],
+      [
+        "UNDRDATA.c10",
+        "29547c5f9165ee65ad7d63958097a889cc7b3258fec4e0134d268b26f48db5f1"
+      ],
+      [
+        "UNDRGRND.c10",
+        "2e70862d946228a9304289c47bc09b935751ae9f88a9e5e0d712d9d2a0694e6f"
+      ],
+      [
+        "USFLAG.c10",
+        "7c926d891440480cb323fc82e5fcf6dae2da3d3136012f5dae126882fe0cbb52"
       ],
       [
         "UWOL - Quest for Money (The Mojon Twins - 2010).crt",
@@ -11767,6 +14691,38 @@
       [
         "V (J1).crt",
         "bf1415943ccf9dd5f8410b5ffe954cc073c88e6de3700201676c6efc893a62b2"
+      ],
+      [
+        "VADER.c10",
+        "7fa076ee716cc71998d32ffc38511ee883107c601d067c1ef280cf09777ac9af"
+      ],
+      [
+        "VALHALLA.c10",
+        "a51f5ab22dc2ec1400a01dd455dd9efe3a99d98494b438a8154d4e409d643e9b"
+      ],
+      [
+        "VALLEY.c10",
+        "c6f82ee843e676a85a45c9f09de1a70a453127392f4875f04badcfe8edfaa088"
+      ],
+      [
+        "VAMPIRE.c10",
+        "7f5937b2785bf530099c3e4e538758a46876a93a20dd95676236dfd70160b64a"
+      ],
+      [
+        "VENTURE.c10",
+        "6eeb012d389080690dc5831f641e2af3963db539cd40eb2f7725d5c0f411cc94"
+      ],
+      [
+        "VESPOZIA.c10",
+        "5d52025e8b735e0a46b1b82f87c87dc6e01e1e1f198311985230f79551b81ae4"
+      ],
+      [
+        "VICTRON.c10",
+        "4777866c9cfb074982bd968b5cda6ef16179a0eb545004d8ff1abef502319819"
+      ],
+      [
+        "VOYAGER.c10",
+        "e056e2367854807ec635c98ec3547e121dbc94550c3c39fa99f0b02e5d1ec62e"
       ],
       [
         "Valkyrie 17.crt",
@@ -11857,6 +14813,10 @@
         "c4849545a3e1db5b714abffbab8d95f6d75b3b4c52c9952deef228c6ba2131ea"
       ],
       [
+        "Virtual MC-10 Logo.c10",
+        "4bd4dbb3ce8c945b03cf400617dbd356c1208bc54c91f307e6a590a66b0209d0"
+      ],
+      [
         "Visible Solar System.bin",
         "5e38771d69bae694ad4499817e8c7f2ec27de2095661b179d7912dcfedd4b8e1"
       ],
@@ -11901,6 +14861,62 @@
         "b629357540109a1df9085fd27666a76f4a6d6fc6f8b875cb2cf926e9f355dbfc"
       ],
       [
+        "WANDERER.c10",
+        "de7dd57165abafe218a5f6e920e9f3861a9294448451619042c44e9b961c1afd"
+      ],
+      [
+        "WARBIRDS.c10",
+        "9ddb16a76a19e3c7597bd24dea32ee7296833521de234481ef23f492a8907a0d"
+      ],
+      [
+        "WARLORDS.c10",
+        "45939a0408510048c1b011953d09374d7f1262cfb0133192e10cceba5173a161"
+      ],
+      [
+        "WEREWOLF.c10",
+        "c88d700f57e08c1b438fba033c6167fe6b05e2aaa85b9b107affc0529019e523"
+      ],
+      [
+        "WHIST.c10",
+        "53d344c2568978e957bd44dd424c02a432f8cf6ccda35e2a7ad5e4db4dcdd924"
+      ],
+      [
+        "WILDCAT.c10",
+        "0544f379ddbb5108f5d9cbb95fb3b13ed0b9b6d1d097de223bfb64c1ce83805e"
+      ],
+      [
+        "WILLBURG.c10",
+        "35cdf5fa1d593ede32ca55f847f1bf30fefb4445b08e7eb77192a24c0eccc2ae"
+      ],
+      [
+        "WITCHING.c10",
+        "99f2cef4f03e34055ec5de190e0caf9820f8bb0327fc9963889a2df5d3b59895"
+      ],
+      [
+        "WIZCASTL.c10",
+        "6ca9eb64e4d291f098cf4db760d51ccd9d2c3229af3b04e5a085383462d6aa46"
+      ],
+      [
+        "WOODS.c10",
+        "bfff6094cf285b172177e7cb0fb54872128ccf88bc335282b6f121511d491cf4"
+      ],
+      [
+        "WORLDGOV.c10",
+        "2d5194d7e18d48bd26b3a68c7686ce08adc5e9f0306d3074347b3d3c4b527498"
+      ],
+      [
+        "WORLDS.c10",
+        "8b33e5d5ab18b251e69de5e33b6530c5ef88d448f218b05bc75187659f0352cd"
+      ],
+      [
+        "WSEARCH.c10",
+        "7d3b01df3c1f2fe337fb429725e8b36d5f41db8d1000e350d86f7512e59c1c0c"
+      ],
+      [
+        "WUMPUS.c10",
+        "03150b35a81c4832b500f4a9214de2ac0a5b7c06b8da30faeb43c112b632f3dd"
+      ],
+      [
         "WWF European Rampage (by $olo1870) [EasyFlash].crt",
         "fc240f3af26c25a9a388960aa5ea0accb8430abd316863786bdb3bc88f000d3b"
       ],
@@ -11929,6 +14945,10 @@
         "1136ee85ee6457aa2ade4e2222d18ed61f76da8e8461871d08c734e0c6b2d193"
       ],
       [
+        "War Room (1983)(NAP Consumer Electronics).bin",
+        "6d044de70e04e23f71adca78d3bbda3c701cb779cc37377aee7499543a2f5b7b"
+      ],
+      [
         "WarGames.crt",
         "006c13d4c4b792a81b8c3184e7084c975acc40d0d74f001a3c3cc0ecff7c1fa9"
       ],
@@ -11947,6 +14967,10 @@
       [
         "Warlok.crt",
         "4b16e4f88f7539379f8693f14636c05696384598259bbac1325472a14e0c68ae"
+      ],
+      [
+        "Warp & Warp.bin",
+        "08319d483dd3fd966d180f918cd9f5ba6a12c4495550fe2dbfbbbafb7d59bb4b"
       ],
       [
         "Warp (Creative Software).crt",
@@ -12007,14 +15031,6 @@
       [
         "Weird Dreams [EasyFlash].crt",
         "d7416c34a17d2621fbfb8ae8aedfc101ed01ca6480f94668ab8423b85ca37c7a"
-      ],
-      [
-        "Werben Informieren (English Translation) (Reini & MADrigal).bin",
-        "3d3132154435b23ba760982c6f4c8f17163ff75156e59d7ce9c110035ff52ba3"
-      ],
-      [
-        "Werben Informieren (Germany).bin",
-        "f5e96f062b4f30aa1e72fd04818ac2ec2300dee92b30851708d9a3bfedf9c590"
       ],
       [
         "Werewolves of London.crt",
@@ -12197,6 +15213,10 @@
         "f123b9f8c9c1cbd768278a0a9a45dd01e3ed9ba3efdd3afcf9ab1209c435e4fa"
       ],
       [
+        "Wordstar v3.3 (1983)(MicroPro International Corporation).dsk",
+        "cfd02963aa9d877503d9b019ffa80f5e77984de409cc7635fadb5f53fd29e7e9"
+      ],
+      [
         "World Championship Boxing Manager.crt",
         "eda79dd2f067cf0a5e5e7f2218e96ffb5d74a7dfd48c54ed892bc7c898422a1d"
       ],
@@ -12261,8 +15281,28 @@
         "eca7dbbbb2e2aa441852edd52d128ee744f7644ad62e960eb51fad02a43f8b21"
       ],
       [
+        "XMAS.c10",
+        "762b8c258717cfdba78a00f62073bf421dc532aff88cbc2b0123b66e115a68fe"
+      ],
+      [
+        "XMAS2019.c10",
+        "05d2caeddab859d2c8ff5d00f5f05a92e943f0716f9a044e327b383eca328b33"
+      ],
+      [
+        "XMASTREE.c10",
+        "72c6e623d00ee977f10dd99435caef2be779bfca1bc4ac3672e1ab04d673cba2"
+      ],
+      [
         "XOR.crt",
         "6695c9ac59185ea0db09d18a1a4111c1e5b283d5b286cfad33e2c76c6ec2b8af"
+      ],
+      [
+        "XRALLY.c10",
+        "26c38f662c0730d27c27465646836f0320b4132f4bec09c0ff0262a06b805750"
+      ],
+      [
+        "XRATED.c10",
+        "fbf76d57254ed427afc5ced0335f10e2f8f46d49fa9e1470d4ddd438eb7bc14c"
       ],
       [
         "Xeno.crt",
@@ -12283,6 +15323,10 @@
       [
         "Xybots.crt",
         "7007d3d28bc954c1c4a50656420fdefd4425a4ab906358496c0d30d5b5e5254a"
+      ],
+      [
+        "YAHTZEE.c10",
+        "1c347d827edeb5708e604bb64ff198a4535403d835e8dfd9d19cc328992b3458"
       ],
       [
         "Yie Ar Kung-Fu II (J1).crt",
@@ -12311,6 +15355,26 @@
       [
         "Z.crt",
         "e2391716c3ea1d0fbfbde3ec14cde2106c8f630db49ef6a5f39a363cdeaa5cb9"
+      ],
+      [
+        "ZECTOR.c10",
+        "93aeafaa2ddb944cdc0fa7ebd080146f1973c2363290a70f89018458b761c491"
+      ],
+      [
+        "ZEUS.c10",
+        "889b28987c5b153264463f6a261a23e6413e7b2da1fd9b18bdbb77f05b3fd61c"
+      ],
+      [
+        "ZODIAC.c10",
+        "ea28ee2e5e6c91934b22de1ddcb9ccb1150a92cccb36f2dd7f08d22a4e5c11ef"
+      ],
+      [
+        "ZOMBIES.c10",
+        "754a91864b12cb03d0b31bd3aa0194a24d174835ec444aa5d567bd29858b495b"
+      ],
+      [
+        "ZYMON.c10",
+        "5beef2edb9c4754b61639ed04688ad3e2cede9999be7a134724a63888cfed0c1"
       ],
       [
         "Zaga Mission.crt",
@@ -12449,96 +15513,60 @@
         "57b831cd4c87985c09bcec352010e10b68a17ec1284014e709339b1c374a9596"
       ],
       [
-        "[BIOS] Laser 2001.bin",
-        "48a7fda99c1b9c0d90b70de0b4a9431a5a781f94d1874ee6d91830a638c9e5c3"
+        "addition_alice.c10",
+        "c00d4d5684ae5bced60de1076734e727d0ba5765fcdf65ce3703a67a96a1f596"
       ],
       [
-        "[BIOS] Rameses - Funvision - VZ 2000.bin",
-        "e3c853848b389218a311dc7517474670e50b9a9d003b2817fb9e0a4ab598d14e"
-      ],
-      [
-        "[BIOS] Salora Manager.bin",
-        "7eca1ff6b1c87a91973b328ab209c98966a7e842cb6de3469bd64e90ddfb454e"
-      ],
-      [
-        "aakkost.bas",
-        "3d421bcf0dc1c8e71a2a4c9d11f1dd00eac5f83731b517206c00c94338b82320"
-      ],
-      [
-        "aakkost.cas",
-        "9f05a6fdd94207902fac5219b28d318cc1bb630b1df21f0bfa7f90cbcf49ea53"
+        "addsub.c10",
+        "73ebde62a9cf2cc4c0c9ce473869bf966724c6fd2be141003b5103e81f92e5d4"
       ],
       [
         "adidas Championship Tie Break (J1).crt",
         "6ea0e4abe816e58acbeb4e2c7d28168faf4e097d2eaee85201ea1d01a57d0f9c"
       ],
       [
-        "align-4.bas",
-        "907527952e5f95a6b6df9d96063b32b025ee64e90c34712af4199f2fb36b5871"
+        "al-berthe_alice.c10",
+        "435f45dbedd4bc7c4f534d5658b31b0f5c0508cd4d40a839f418d75ae0141630"
       ],
       [
-        "align-4.cas",
-        "506a4f9ee5846243b61ad97e9b74ff003d8a76e8bd7535c1ee38b7f1e4c91de1"
+        "alice32.rom",
+        "a509a4528ba5e76ffc41dcf8588d9007ec390db2325a85f0b74d282b32269c8c"
       ],
       [
-        "andromed.bas",
-        "20d7ba2404d7470b6feb5ce047c6ba8da5a7e92ea61b9a9cfcb89d25153ff478"
+        "alice32_basic25.rom",
+        "5f3be5579aab1124bdd7e3fad3203fd1bae96e16de627e6eb80aa4a598155c1d"
       ],
       [
-        "andromed.cas",
-        "29f96f164739022f35c21e41b0e010401f2b76e8b975d6255f9ad3f6e4f0171f"
+        "alice4k.rom",
+        "e105c4e772e20e1349ab88dc59bd0c2a49a100088c8d236c4c8b3af077947de4"
       ],
       [
-        "basic1_1.bas",
-        "c999e2465bb3e0ad5b37a2c03e449eba116cf1d9cd6f1a839d3999ee85116007"
+        "alice4k_basic25.rom",
+        "a853b4a300c67dba22a90ce3797952581dd48b77e764e760aff6e2a53ed8302c"
       ],
       [
-        "basic1_1.cas",
-        "0969595b199deac0b4b30f2a62da0d138cf26b0d7bdb73d994cc887beb4f714f"
+        "alicetel_alice.c10",
+        "335de6b1dd4e08719a9e7f96f1eff58be19f5053af666701215d9af03c0b8500"
       ],
       [
-        "basic1_2.bas",
-        "b46d4a40e8d9ea20e72cdfeedcaff3ba2e7d0be0bc1a4eecdddfb652e9cbcc04"
+        "amortize.c10",
+        "b5d3cb897a2617f25162d8e8af6d3434b7e979733a4684a77cc7b38b42c684c8"
       ],
       [
-        "basic1_2.cas",
-        "5187d6be5e122f5c06c31241221d47560b6b8615d02046684f9323c56a5a8a6a"
+        "annexion-A_alice.c10",
+        "644c9878e285b9f26f9c8f5d99f46456ec3f88529937bb4b472c5201658a45dd"
       ],
       [
-        "basic1_3.bas",
-        "9cd220e32ae30e75a253b308dad020827f2a37f53eefd337102ad90b12f8a1d1"
+        "annexion-B_alice.c10",
+        "3e11d432f110628f10df954d50afa08154c813e191332b2da9fa9e022c52a864"
       ],
       [
-        "basic1_3.cas",
-        "ee5789034c397a28e1c5b637f13b4e8120ba9b8e4c086bfa406ec90b993fdc99"
+        "bach.c10",
+        "3c0bea2fd84692122f0d50bf86dd6229304cab9e1b7354e286e4685c8e90f716"
       ],
       [
-        "basic1_4.bas",
-        "2de5dbb535a0aef36f0024d19250b9445cbee50d01441ed12822eac3e8436f36"
-      ],
-      [
-        "basic1_4.cas",
-        "a5c161bab2587051d4ad36ea47a8766c0c78d0304747e66f07475cb3437c8ee6"
-      ],
-      [
-        "basic1_5.bas",
-        "a559d1d8ad4a2cf19ccdc0b0d856d492a2a5388552ce3f6bbb7bfd975b0d44a9"
-      ],
-      [
-        "basic1_5.cas",
-        "4e03cbd7ada6fd270a264b7015c66ce993923f7602c6cff1311c315cc9e39bbb"
-      ],
-      [
-        "biorythm.bas",
-        "2e07fa7a345c854637e1df505abbe5ca357fa23a3dac3e2a0f72b9e2db973104"
-      ],
-      [
-        "biorythm.cas",
-        "3e385a7cc2460febf377d2bfe2ff468d5ac16abc66b2afe7d436a3c7c9a7c631"
-      ],
-      [
-        "blkjack.bas",
-        "b0a54625df7d6aba822e2a8be073d7846fb58a9b0d6d259f20c573797e07534f"
+        "banner.c10",
+        "98c9b659deaef00ae2901ab39b37a7b75d61f46b7631a9641c8594b3fae97c89"
       ],
       [
         "boot.rom",
@@ -12553,12 +15581,16 @@
         "9afd25b522c2b6b78bc9285964d52db3dd07e0ca893446f362019ca2a6a7efb7"
       ],
       [
+        "boot.vhd",
+        "9cb4eed8973b0d46c6a7d9985899fcf7c6ce47351324b338bb84468d08a41f94"
+      ],
+      [
         "boot0.rom",
         "00bc68b6f0bfcee9fa3524f21d4f519afd2c8707c882c1636959ba6ba3cae997"
       ],
       [
         "boot0.rom",
-        "5e3c95e10217007c5159a2ba3a60672888f5f8c87ba375a81ca9013e268b7bc8"
+        "2587d206eb63917848ea30e14232448ed4f873c6796a22e2bf6543b01f46308e"
       ],
       [
         "boot1.rom",
@@ -12569,628 +15601,428 @@
         "04e6d821ff37499af922ca386b6e02a1c0e942809edab572a245f9455f762481"
       ],
       [
-        "bowling.bas",
-        "0c31bc083a29f6731876d08e16388b3eea58136962d4e4623b0127bf40ac9ff2"
+        "budget-familial_alice32.c10",
+        "235e2f1ced32edd3e529fdfa3a417a6d5daa94af368d0497bd2598674c5514cb"
       ],
       [
-        "bships.bas",
-        "428d6c02454e6ba8d6550aac26776b56f484349bf18149fad3cd4cf3b1a8e81c"
+        "budget-familial_alice90.c10",
+        "00311102d042596595bdea7f879fc6962f7ff5e72bee5d2c807719324c33071d"
       ],
       [
-        "cater.bas",
-        "e67de3087c6b056e086ba649bbde960a9dec35684f89e823a2b85821087ab6ca"
+        "cadnza.c10",
+        "21cc17d53bc11ec95f67ffb9d86196b2a782e0f66ed7e80953e6d466c0da9053"
       ],
       [
-        "caveman.bas",
-        "d9b4df2ebfb36e0d2e20db4d85fd35da94a9342fe73a445839fa819d447fd2dc"
+        "calc_alice.c10",
+        "3c1507eb44cdeeaa6b8a800f057a839e2bfa63863b35e42c688c4a0780b94c27"
       ],
       [
-        "caveman.cas",
-        "41c07fbb837450e5ddc4757430a97738008a2411d5ba32c102bb40a7fb767bd6"
+        "calpgm.c10",
+        "e5ddb6bdf647ab857ce9642c9a2233f665630fabf5852262aec8f8fb920bef98"
       ],
       [
-        "clipperf.bas",
-        "f5728b035588dfb61af61c2b3e652a2940eef18057c2887104a09f11554944a6"
+        "camp.c10",
+        "28670bd9bb7a719179faad948601559e95a84d6d87a43b453fc975a06efe8c6b"
       ],
       [
-        "codebrk.bas",
-        "a09b421c96624137b6341c6e9f09ce3b56a9484f290df4c6a5fa283470ab0519"
+        "casse-tete-dans-le-metro_alice.c10",
+        "d7e43188095a5686237183bca6cc4dbb93d2ea583b608f69d7cbfb5e151efee9"
       ],
       [
-        "combin1.bas",
-        "be89c9d26f1620d7f4137d117f0a4fac3c6c541ce8a7b72ecf42085bc5c0e632"
+        "cflip.c10",
+        "9a584493dc1cdb3c4a576a35c73904774b32189cd71196334865485a75ecbb39"
       ],
       [
-        "combin2.bas",
-        "cd512b94f19e3689a38d7533ebcc14c4ec0f7c9b76ce1ec731fb730592346124"
+        "checks.c10",
+        "2281a34c0314852f7f33f4b473f3d541b5e42f94b40ae8f0f4134604c4b9e9fd"
       ],
       [
-        "combin3.bas",
-        "05259f274b9d428a4ac1e41744716b65cdb455faa2a8605644b1dcc46c84b957"
+        "code.c10",
+        "67d3e69c1c2a46cd1f43b6bbe3d4d317653da5d40a684c031ad65c8cf67c1ebc"
       ],
       [
-        "combin4.bas",
-        "a9dbc3a040bfb91fc12022891faeb0e1ecbfa266be0d050b87e8172babd92df3"
+        "color-mind_alice.c10",
+        "bf85afa74ff2e3ff00be669711b673b8eaea915fdfe2cbbffbd3b4e9bf37440a"
       ],
       [
-        "compstor.bas",
-        "74a69df0aa787978569cbc7bf47378b8bc27605fc675bdabf00252072b9ccee1"
+        "coloric_alice.c10",
+        "951b3e21395802fccf7e5420323caf5d2a0470b4dcbe296c9ba59c0b234d21cf"
       ],
       [
-        "concentr.bas",
-        "df476efdf585123fbd7cc1295389854aa0332746b52c1eaacce541485bd91f91"
+        "crocky_alice.c10",
+        "2d09cec451c6c985fbfe8b0fdc94c6bbc93f2410fa94699076e65173602750b1"
       ],
       [
-        "concentr.cas",
-        "d7cdcb243d71d370638261144b0c10efabfd785e89fc426598aaf35d38027af2"
+        "crypto.c10",
+        "b0a4e256b101b3f5dbedfc3d2d00e5860340662aeae08c593ba8c28b73c8911c"
       ],
       [
-        "copter.bas",
-        "f90d85df675c106d2f6fa76a823f45d31321a82405d2801fd2ea97d32e28cb5a"
+        "csavem.c10",
+        "a721ddff11e5a521391c57f9b6d9e9034c97978f508a70dc31f45adb4c3187c3"
       ],
       [
-        "crazycak.bas",
-        "ea3d9013e973f48d0621545ba8b161fbe695c2e427a60fb2ecc17420d190b2ec"
+        "csavem_alice.c10",
+        "8339f067ad501af246e0963e5383d0a124a0744f7109759d9d27a498bcf055a5"
       ],
       [
-        "crazycak.cas",
-        "2f91e8954faf45850a716b97ec68b43484712109f526ea8b8b02a98071744810"
+        "decconv.c10",
+        "095b66201ea77e88b32b317dcf7c251d63041ee683fdb5fe6844b8ce447e087b"
       ],
       [
-        "cvblitz.bas",
-        "969073fb926968cde0dee81c5e5040c8da5c4c6c29bd48c5dd1ef24bcaee11de"
+        "decouvrez-alice.c10",
+        "b2bef27ffd267da4851f66f8482af1794beb198af918a0f35003615512db1311"
       ],
       [
-        "cvdemo.cas",
-        "d6f93dcff4de3f40d3e83ea4e91d672af11cec100be29a9f4c5be18de0aefffc"
+        "desassembleur-ameliore_alice32.c10",
+        "ae1dcc42113c6443148ced7ebb72800c1847fae1c8ad2691ffa10bf05cd3e499"
       ],
       [
-        "cvdemo1.bas",
-        "a8acefe2f3d345a85d7ce8e5315c8e4c886030c49e781ed483a25d5efc1e54f3"
+        "desassembleur_alice.c10",
+        "09b4ead3ce08641e91ca7adccbc354b63a2328b9f064726035a9602738fd1183"
       ],
       [
-        "cvdemo2.bas",
-        "724885bdb6cda2491eabee86c772b3216eee85bad678165f6cb2ec70805935d1"
+        "dessin_alice.c10",
+        "a05bcd7f84aed46fa1f153ccba2b0ac9a654f76bb949c934458e9f5047ef5552"
       ],
       [
-        "cvdemo3.bas",
-        "965c6be7ef578d74356384b81bf0594688b3d0598d946610fed115aa46797055"
+        "dessine-moi-alice32.c10",
+        "8995fe699fe6d1232265c3b6de3f45d827b614ca576561d1418d168a16a44dc0"
       ],
       [
-        "cvdemo4.bas",
-        "5e6123ab31011b9c15e4b2700a98267c81538ca80561ffd9e564c3d115c3faf5"
+        "dessine-moi-alice90.c10",
+        "b9c1a066b6456649d6ba8d4cc7d7a48c82d96a35223aad1b9bf075369dff2304"
       ],
       [
-        "cvdemo5.bas",
-        "116efc7e2660073a3e34c0bee74e6baa11cf9250ba3a18e9217c228592d5e493"
+        "dessine-moi-corrige_alice32.c10",
+        "461fa151ca052f9ce96b31638e717a702d6ef59f3f6180c01bc09205c99394c7"
       ],
       [
-        "cvdemo6.bas",
-        "9abffb664cbb4934d7782cf49c703b8ab7df94e7b6b2e73d1aa5f260a1a3c994"
+        "dialogue-avec-une-sauterelle_alice.c10",
+        "6a82e3f4e12e929acb898f99858b09f2e6d20491ccab29376a9aed2a8b1798e2"
       ],
       [
-        "cvdemo7.bas",
-        "7581560167cab168c2fe30b534518b14f4cbbef7575d7a74c1367d69b07da568"
+        "dietcal.c10",
+        "523efb7c5e298d954602962020d7bb7cc1396aea0d46228681443a7db2b60c22"
       ],
       [
-        "cvdemo8.bas",
-        "84d7d8f1cbc75dd91bfc7a5182f56d748038397005d7753a5138eaff24faee1d"
+        "ecologie_alice.c10",
+        "1ebab872acf9e29c7fae870e44f8cdfea2aa2942d2f094caec53de5af506d8a7"
       ],
       [
-        "cvdemo9.bas",
-        "a61a3227d2576d7574b76034a607c786f4cb79757b52798fd67af41b00219971"
+        "exercices-de-calcul_alice.c10",
+        "f292fff777ccfd753be670ac2d13eb098a195f90304c81d327f2c7e21f3922a0"
       ],
       [
-        "draughts.bas",
-        "ee980c63a2947045cc00dcc0439c10ee10261a4bebdc5be1babbe4157d7cf0dd"
+        "faire-le-point-bac-francais1-A_alice.c10",
+        "24e2fe474ef81e2a84fdc915893860ffa1bf9c6faaf14e331b9e1d8f73d7199f"
       ],
       [
-        "fflare.cas",
-        "05d439125c770a0c57e0a2f8bc834d1f91dab37406fabde18c23cb647dec22c3"
+        "faire-le-point-bac-francais1-B_alice.c10",
+        "c614f57f2f8aa77586a564337575df238b8c519429aeb56aafda190cc564ffb8"
       ],
       [
-        "fflare1.bas",
-        "2b62a2b01fc3cd41cf22f3d4e64bd6495216a812fc0ef2a4997bf1e728425a18"
+        "faire-le-point-bac-maths1-a_alice.c10",
+        "c33d41a3d50c45f586cd2419cc552a5c2a116e014b8d71b7e628f572adb86a0f"
       ],
       [
-        "fflare2.bas",
-        "7906087da0009920083e5da10a7b7d1bd46f37e08227cae367ee56117442afd1"
+        "faire-le-point-bac-maths1-b_alice.c10",
+        "e580d6c1630b6802363dba49d11fcc07823ccc91657fc35ce02540ccf978da3b"
       ],
       [
-        "fflare3.bas",
-        "d7a9831eca304a44eae5aaa0df53cb5d00fd890f8f61c6a8019cd284f8f5674a"
+        "faire-le-point-bac-maths2-a_alice.c10",
+        "eb506cac6b6f86b0933a4462d74090df05d745e30cdc85663a3fb0def40a9d1f"
       ],
       [
-        "financl1.bas",
-        "1205d93fe724ad71c5db865641fb11b9ddaf3d9c143b4771f78b20b44ca46090"
+        "faire-le-point-bac-maths2-b_alice.c10",
+        "dcf365a6e58b9ad16c741c7f09df6333281a70665750f4ac9f5a2c77a08c4ea6"
       ],
       [
-        "financl2.bas",
-        "7c3dbbf006299ed8f0f81d74fce89171d34d46052fd4cefe96c0baaa78b2d1ab"
+        "french.c10",
+        "4464e0662ef3bd3dfb87a4075ae97b8b27958bb32ee9536bfef48ecd73d398b3"
       ],
       [
-        "financl3.bas",
-        "b2d7fc462d805ce127813c5b402d08471b8a240694b637f0dd9d08ec6fd9c3de"
+        "fringale_alice90.c10",
+        "bb96ee2255b0c13148755895a220fcb77ac8c1d7ee7046166b8212081489087b"
       ],
       [
-        "flanker.bas",
-        "b82836df75545c9c870b6e41b81963a003417f62827d43c3fde87ef1e5496911"
+        "galaxion_alice.c10",
+        "e47f464a2b024d6e958f5c6a26ecce7ce94a7b6b7d9287aa3ae34a0473e5c3c5"
       ],
       [
-        "gfxexamp.bas",
-        "1e839fb1975263bb7748a7bb3b5ad1a7cafbbb7d0b3496fcbbf0beae3166a721"
+        "galixian_alice.c10",
+        "6d19484b5dfa9be89971b10a37a9de8b4bf8e5fa4cc6a371d4b36a4112c55398"
       ],
       [
-        "golf.bas",
-        "a0ddbf311b0215a95ebbe2bf7e3a20ec91f1dced061cdea97c26def2ae9a1bd2"
+        "geographie-mondiale_alice.c10",
+        "9ea74088dba475ed08b0370555996774499765646c48d45141353b7942b83868"
       ],
       [
-        "grand.cas",
-        "4f5066f64e45a03b66fdebdcdbaf78d1e0ea49f0effa375163fcf7b6d0f1bce9"
+        "german.c10",
+        "22d5352c0c5fc48d92e307bbf2bc2e099bb3c48a6cdbd33fba6b6906dd5d3b16"
       ],
       [
-        "grandf2.bas",
-        "cfd44fd02c1c57aab6193945c307dbbb2c40f968efa8db81f8ebdde7dff7be1e"
+        "gestion-de-fichiers_alice.c10",
+        "070d4a1b991a15b0111760a9e63a53726502df2795fdbe50da163864cd4d7138"
       ],
       [
-        "grandf3.bas",
-        "fdae55268efe656c4a6290a758a64d34d29ca78411de8993272ed6ebb9e4d00c"
+        "green.c10",
+        "ac417cf87de2c399c404bb42704c06536ecfadb327ccd3358f68398547b469ec"
       ],
       [
-        "grandf4.bas",
-        "be42abfa5e01413964ead8200e45910853440dc32363fae585e5ad63a6e3c252"
+        "incrustation-video-40colonnes_alice.c10",
+        "3be713a0ffcb427150af1fef6032943428f1ebc22430b27c7d0c64731512541d"
       ],
       [
-        "hangman.bas",
-        "344e8d9ca90165f8858d2d5b89934c5e9c2205ba4be59565d8bdba7de7cba403"
+        "incrustation-video-80colonnes_alice.c10",
+        "7e1b8c4a76a510722cc3ee20cd9550522f08c7be0e8f8a0d41669744ffaec9f6"
       ],
       [
-        "hangman.cas",
-        "94bbfee177f946c80c1257f5736dc2b972ccbd1532b1c8843c085e298539a2dd"
+        "initiation-au-basic-1_alice.c10",
+        "f01dd32ab7d54776de0e50e9f076535336f87e1c6c16e604019f9dce411b00b0"
       ],
       [
-        "hangman1.bas",
-        "4f969f7724c50f1012eab34b2f97178176aed0baceedca06608e8c8374bc60de"
+        "initiation-au-basic-2_alice.c10",
+        "f9c3fffc467a85295a7d273a80dd655f67aa557845d1de2f0166167172603a8d"
       ],
       [
-        "hangman2.bas",
-        "d7f0b6e79d5e608c0e911ad2aff5d3ed8b61df5353623ebb027b42316ce8a429"
+        "initiation-au-basic-3_alice.c10",
+        "a6f8a6229180eb9a757403d49d9b4a9b10aebcdcbd6620fa76194d6cd3e9d907"
       ],
       [
-        "hirsipuu.bas",
-        "2931139f79b83ea884376e7b48d39b1c2f287aa0699d140829d0111495f5c133"
+        "initiation-au-basic-4_alice.c10",
+        "b9df56673722a80d5a48102d5b263601bc1e4189a7ee61edd16e7cf86b6939dd"
       ],
       [
-        "hirsipuu.cas",
-        "b925fd4dfa11f876e07cab177c36db58d07048bdf7b760de4eb3edc947ede3d3"
+        "interest.c10",
+        "afa74d7372058c1f0ed5dfc0852bd07cb75887281d386c6bfe768a2c3a968819"
       ],
       [
-        "jock.bas",
-        "e939c4074fe65450c2c7859464e63da36aa2795d743dcce23be118c3cd00bba8"
+        "jeu-de-dames-v1_alice.c10",
+        "27ad9679ab9f29fbddd3b6bc855c01ca72cfc0de238c0b2da332a7b3079c94d1"
       ],
       [
-        "kapooka.bas",
-        "c0775d81c5a30de0595d94543325074c192a54856f7cb986815ccfde77f417e5"
+        "jeu-de-dames-v2_alice.c10",
+        "2bbc210e5eb1fd15752cb7ccfe6b99542dd18e4a81162f9a6ce4743c0184c39b"
       ],
       [
-        "kapooka_debug.bas",
-        "a6864c876a7bbb3f4621d90c6c4341b4ccc31371e9197b8c68ccf01714d2423f"
+        "jeu-des-6-lys_alice.c10",
+        "ade2f473482208b87e67a66086855638f8293a8acd17f8d7d9f0a9120db1f2a8"
       ],
       [
-        "lguesser.bas",
-        "4ea82dd770afdeb3b9b246c5a6c060f3a8c9d55fe70fd5fe1ae92636d60bc36e"
+        "jouez-avec-alice-2_alice.c10",
+        "98e9a0d4a029d1a62bd6fbc837a87f9b051fe2c39f9bef007bea79c0c56e9db3"
       ],
       [
-        "lunarlan.bas",
-        "cb3710f73fcb6fbd8506bf63ff536555cc3519c3b19d8710422e3c66fbb37602"
+        "kangourou_alice.c10",
+        "39b4d8980a6590cf989df52d69ee86bf11dc7ffb19ee9f29c57c3e0565db2d9d"
       ],
       [
-        "magicpat.bas",
-        "07681ca0f6345dbc0c5c527a825fe95a754b41b74a59b55188ad475b11958d52"
+        "la-caverne-des-morlocks_alice.c10",
+        "21ed8546f75d9acc0941cfab318301386b1b7d36420753b87f8557da81f49fff"
       ],
       [
-        "mathlaunch.bas",
-        "5a9f5c652e62d49348c734efe0c32bd352a7bc8a218fc6d47f591e78908ac196"
+        "la-chenille-infernale_alice.c10",
+        "1daea74f9e162c936a6d1776cd06d3f0a4915c889c0901b4d9344ec472cbf988"
       ],
       [
-        "maths.bas",
-        "fed25a17020392c7b1e0a1a5e217926107808622aa802b2c0ef0a2218e93351c"
+        "la-cle-des-sons_alice.c10",
+        "02d60c5c7965e51015e1ab25ef6da3182c5e38e37513fc3bc0ffb5acc330bbf2"
       ],
       [
-        "maths.cas",
-        "f550187c738ba3db5e403bab6f76f46555695a78db14ca3dcdcd62c4ab34245e"
+        "la-grenouille-a-m-alice_alice.c10",
+        "6e8439227869b022c0920da853ffb260e3f31a35507aecb50fd73b561f967d56"
       ],
       [
-        "maths1.bas",
-        "1449344a28a1454b086d2805fcd652334b03c8df4d9f46d36e1eabebf990558d"
+        "la-marelle_alice.c10",
+        "bfad0eb7bc070d298990c28dac3fc1e40a03973e4396c312be46873503a0f401"
       ],
       [
-        "maths2.bas",
-        "75200778b3dc321d1bfe918f909a8cd131688062e165852758899c7cd2d343c2"
+        "labels.c10",
+        "112b39e80713c94f7b70efe2a3d910f45ec16dd8b9a732fc68ee39e96d9f8384"
       ],
       [
-        "maths3.bas",
-        "b7bb992ffbfaa4479d2937de3c6ff3cdeac2fc07a51297352e8fb8c07cace656"
+        "le-cartable-francais-1_alice.c10",
+        "bc80beec8fcfa75385f20a2aeb1e02de1630200164f6fd1698cabcfb3c0b3c4f"
       ],
       [
-        "mathsqz.bas",
-        "81a1f05a4b4d0e4c47f6053050b4c9af76c8693fc518a046e39eb0be44739281"
+        "le-cartable-francais-2_alice.c10",
+        "60fa97b24f6880293a1fbb5ff2756cea7be60501454a26d8d8b18c9be915008a"
       ],
       [
-        "matrix.bas",
-        "c9acbb8227c1823fb953a8a29dad2681fcb1e5597d02d128c3d27386c449eee4"
+        "le-cartable-maths-1_alice.c10",
+        "2089b41ea0255635f4fcfe70881b367a9b16e0a08231ac02a5f13c512177e841"
       ],
       [
-        "matrix.cas",
-        "177ea61795e37842c282eda4c62aa756dc9e7f391eb3ac11328c0b607a500bef"
+        "le-cartable-maths-2_alice.c10",
+        "118f74661358be662cc1013848281b86c78cb03fd944e797968ae5cfad2bd8d5"
       ],
       [
-        "merkkied.bas",
-        "cc3a5af1c6056aa4f5faf12d78f3ab7eda44ab376af4a2bc281c51211380818b"
+        "le-moteur-a-explosion_alice.c10",
+        "39fe81348d5e02fb0ea25be40600c5f290fbb6e1c384c8a5e6a75050aa18b3b0"
       ],
       [
-        "merkkied.cas",
-        "b4fa77d5e4cf60244f337203a86a93bfac7d724d3681431a561d4127906246e4"
+        "le-sphinx-d-or_alice.c10",
+        "a2c936be2cb16e664b04f02bf029db0734e4ffbd74f6f91b1ed582bdcd035048"
       ],
       [
-        "multiload_version_part_1.bas",
-        "54315d2e6bf3a7b15da6a2967e2826cb9c14e8a475300539adb378b6520b20e2"
+        "lire-vite-et-bien_alice.c10",
+        "8b7c30d6762e5c5f8e959ed3c66fcefbb023d1a9c489c652995b6561eada6d9e"
       ],
       [
-        "multiload_version_part_2.bas",
-        "e601a6343001a40340e8cf11def66bc2e799c7c3e895d68c2a855fb4b167960c"
+        "lost-world-pinball_mc10.c10",
+        "5832dfeb895a992fab4c3e81bed7c8a12d885e584bda1ec81815b19ba9128895"
       ],
       [
-        "musicbox.bas",
-        "d46fe5553a4f9719c3520247c1b1cef5442149732145f32642d6e26bc04251c7"
+        "loto_alice.c10",
+        "97b9f7c79b02426288ad765b43d7a6b805805e432a045162229ad63201a2e7ac"
       ],
       [
-        "musicmac.bas",
-        "6fa663cc0770d0e524c7c17cfc588e9a4f1b1887a90afcbbf0d128894fbc760e"
+        "ma-cave-a-vins-a_alice90.c10",
+        "fc7916adf07cdf43dd11a4d875413d20341809646933ff0e38c3dbd9d1ea4b2a"
       ],
       [
-        "nguesser.bas",
-        "c11650689818906ff0386b7112eab3052a51ecb9ad7d3b728522b24a4c6f5c11"
+        "ma-cave-a-vins-b_alice32.c10",
+        "0f68e2ac3a5748800add3b9b61a8788470086c29d23a495cf4d3e7f45c0a087b"
       ],
       [
-        "oddeven.bas",
-        "10843a6e2eb9e0ede4a7784f6224d186af70add89c58dce46356f5665d271a43"
+        "mc10.rom",
+        "6fb9edf040a30f92d53dfe91461fca74e4c026d074fec5345878633adce18616"
       ],
       [
-        "omegabtl.bas",
-        "d1ae5e984abc001edff5e099356bf4e971f4f90e78444c7a8131ac0e6bdf7150"
+        "mc10_basic25.rom",
+        "dd755b7b41b8ce99a1302e3a2e8db4fa743e14d2240c705f9a839feeb59d8918"
       ],
       [
-        "paint.bas",
-        "bc8644ba6c8fe874b2095888a88e218f7aad725edcac8edc696e7a30fc66c574"
+        "metrics1.c10",
+        "6b2fced557e944562f5bc12abd7241be6c99b95999b65afb47e82bf74597637f"
       ],
       [
-        "pipelin1.bas",
-        "a7198d0ea4f1559964920b89fd624fb8e75f21d9315fd06ac67af1c7a7430db1"
+        "metrics2.c10",
+        "12d6ee459bfa48044af675ccbd1fdda10e9d15c30c47265d0e3351d892c67912"
       ],
       [
-        "pipelin2.bas",
-        "9fff77b3744d9ff52ee7fa0f02eccce90df23df69ba4c729740c040f273299f3"
+        "monopolic_alice.c10",
+        "11f4b570fbbe4d349e826999a508edd79d969842c94c3c56a8056a0b5ef09e78"
       ],
       [
-        "pipeline.cas",
-        "a8c80daf111f95e2d0fa610a7fda77b2a7f9752d362c2848af673cc82130b8a7"
+        "mortgage.c10",
+        "2a2acb614703f6a02ff97d0733fb1627f0df3ad705db93b31fff71dca56b1de3"
       ],
       [
-        "progA01.bas",
-        "6f2821186bec3dc5a7117523400903fd2a5727ed9c2842984c0e60dba69d14dd"
+        "multdiv.c10",
+        "9ce82c83ef4f444bf6e618f720615316963c09d9b368f451eee7d702b6061dcd"
       ],
       [
-        "progA01.cas",
-        "381eb495dbff37f1d38c6daa9394324fe1840648c5cf5dafa7c268979d33a6e0"
+        "multiplications-casse-tete_alice.c10",
+        "1bbda98b42c908444a188bce575aa27b390d55d769f402ac3f753a22d734c101"
       ],
       [
-        "progA02.bas",
-        "ec7af98dda6198d85888cccd38be0fe52cd6a5c0cc54e342ed4d5ea72504b81f"
+        "mur-de-briques_alice.c10",
+        "7a76a7b65e4b07cfaae184a9545e028fcd545a785b3c6af3e538e7055aafdb2c"
       ],
       [
-        "progA02.cas",
-        "0bb9244a23425e2dc994c28cf7bed55d7e5259ecd951fc06d6dcaeb4a49f3d64"
+        "music.c10",
+        "5b02a34d95ff069194ce5cdce77b03d3af811b80339e8c15ffc59acb8e96ba5a"
       ],
       [
-        "progA03.bas",
-        "bfe0094b8803dabfd2597ae657e5538dfd520a605fa03fb0aeb9017cb3662142"
+        "ode.c10",
+        "8919e7dbe3b9c5414a64882a3f37379ab60987fe3455e3514ed82533f2598fe6"
       ],
       [
-        "progA03.cas",
-        "5db1a7db7b63d9545d739b5911b9cdcdf24fbeea62584aa2aae2644ccc82eb9c"
+        "ohmslaw.c10",
+        "474ab129912d6691ea52ecbc6b32677798fda14f9ba3014b2db5e9590a1cc0c1"
       ],
       [
-        "progA04.bas",
-        "636090d282c060f1bdaacf9c9110a95a6e24f7d0d298d986a3632c4c217f2248"
+        "pac-man_mc10.c10",
+        "7d7de520b7a8ab7ed5e936f49a0cb63161d0a030c7126534dafe647642cac4e6"
       ],
       [
-        "progA04.cas",
-        "7ab15a1d84fdbc665630a3644cab46816c18f53faf5254379f4f8a32ed6365ce"
+        "pendu_alice.c10",
+        "1d088693eac3ea61f3eb498af2caf63296bacbfd49373d424fee092eae39f794"
       ],
       [
-        "progA05.bas",
-        "b60c1b972c028ce60637f237dc904dc93d9613fdf6082f345d4bbc58c5920a63"
+        "pillage-cosmique_alice.c10",
+        "a7c835cd90831e27aa2e8f54da1b2930308f58426376c242449a837c2f75d1e2"
       ],
       [
-        "progA05.cas",
-        "db4629c6c40a11ec184710d50b3104a9d34d33b8d03b4961a5457c31a4fe2cc5"
+        "plan-de-vol_alice32.c10",
+        "f010cad3fdc106b73c241866a39a72573bfe467021c0dee441272ab99d4c921c"
       ],
       [
-        "progA06.bas",
-        "58701b0c4130144280dcdc47bb1a8cde47442e56c606204090d8bd540d16286d"
+        "plan-de-vol_alice90.c10",
+        "eae74ed8ba232e3888cfb2c3a1f7147f946f2f5c20a8d0510397b7a4d8d1d4e8"
       ],
       [
-        "progA06.cas",
-        "f2affa2ca957b99f424edb85964dfd8cdf3ebef33df32f57a4543c3cf0073077"
+        "plotter.c10",
+        "59d24ce13afeeec22809bcedd23aa980f0f614d57d945914dea4b5c4664ea66b"
       ],
       [
-        "progA07.bas",
-        "1745eb06f0b948894ee168bbd8ba4c9823a9f228dc896f4a73a50129e5955e3c"
+        "programme-de-demonstration_alice.c10",
+        "f8b03f6d16e57b9ab3c4f0168e4193a9f2d29994018e757220b6b667ec73cd25"
       ],
       [
-        "progA07.cas",
-        "9c4c99110a7f97620db8f1159eb058e86dd49e68db1f4af4cc18a7ea5d183fbe"
+        "saints.c10",
+        "a03fea7fdc67cb1b02286fdea3a7e222776d19217e9607f6b58ae02a2c82e043"
       ],
       [
-        "progA08.bas",
-        "b407d2122ee87a579a3c0f4951a39aea2c6dac59ebfc951101da8c68d4cbacd6"
+        "savescmc.c10",
+        "89c105824b88fc47597cbf0909397f8483c34d2c9d1b4fbcb5a64f103c8cdd51"
       ],
       [
-        "progA08.cas",
-        "34525ddb8f88a9344f467c9c8558b7c154d878647b1d3f2a0d0c0c08f37cdb7b"
+        "sketch.c10",
+        "751d790ed85946fdc9349f7d3b34e6d18a965cf3f0a23998a7800f775de6005e"
       ],
       [
-        "progA09.bas",
-        "0082c7f4d61f322a6b7bdadd7bcd47973ba60634dd3badb247f78e0932ccf976"
+        "slot.c10",
+        "2db6df03f9b1cf7c471af90c4e7246ba8c71c90f7e59d8099bb4ccad29e78a6d"
       ],
       [
-        "progA09.cas",
-        "17cdc8e61ae3523e68ce800c736c4eb36b4d5b839758b3675a29013129b11f19"
+        "sous-marin_alice.c10",
+        "0272698c985192e047d919dc374eb59b6f20f41c7823ae628649e29054762d79"
       ],
       [
-        "progA10.bas",
-        "876d6510b9f5e3e753e8bc34a648c522e77a82aadcb4364355edbcfa2e7171c8"
+        "spanish.c10",
+        "23dd3536282b7ec4a9e69fb9cc7e30faa3d48979be82bc4f16b16233a3cfbf82"
       ],
       [
-        "progA10.cas",
-        "8a017fbe996c39fae34c20d027476518274bd80363f0daaa9efe9f855cd9b65b"
+        "stats.c10",
+        "964ae9b4eef82556d4bbdd37eebaa002491016b0db42b81d08d3b0cb9be88a22"
       ],
       [
-        "progA11.cas",
-        "e1ff4a31881e8789f419980dbf4b27f3fbd6b9c756e8db7cd7d8738c80ac72c5"
+        "teldir.c10",
+        "fac119952664799ce5bd2eee4a9a4d1a031df930bc9f1b648d51491c69aae77a"
       ],
       [
-        "progA12.bas",
-        "3b15cab01d1556f44732e7a9f1aed3e80c449e4957ac21dfe1e8d27213a1c0b9"
+        "telerama-n2_alice.c10",
+        "c330450fc231d50f517f95cb16dba428cb65bb6c3e87bc4526b46ef09d8dbd33"
       ],
       [
-        "progA12.cas",
-        "ce8669059bc9e4163edf16ed36cfa9b46aab1b6afef86a09d40a7fa2c4efffff"
+        "timpgm.c10",
+        "9bbdd3cab67e1b95aa2e3cfd306614ea0bed94aba04cda2286543d81df7a4db7"
       ],
       [
-        "progA13.bas",
-        "688e1d2e96f5de71880cd4899795e1f933e9070af7b30fbf115cf29a44b7f583"
+        "tolltim.c10",
+        "f1375d2bc5d6609809443245db09b640c5a418da0185b2a85a8b68349c2a48ce"
       ],
       [
-        "progA13.cas",
-        "340ac4d7e51dbdfaa6aa6963ed3701180c6a38f025b5b1760f8a50a410d26651"
+        "trig1.c10",
+        "b641c5b91dfa94d107a2977c9bf457d16b1f17b2d2747f3af0c85644ed1b9a16"
       ],
       [
-        "progA14.bas",
-        "8eff990f93b56b7cc466b450cc7f5342948769968910ecd3b399abf491dd02eb"
+        "trig2.c10",
+        "d9dbd43b7a299014a8687821134a275855f35c0d15eab795eec1924a6a1c32ec"
       ],
       [
-        "progA14.cas",
-        "c543b645ce8259e19754ff67a068602c15c0ca6f7cf52bcbb09271b72bc9fd88"
+        "vocab.c10",
+        "6de8d6adc4dcfa3bc4003a14611e2879cd77340eabf81ca952399174bacdafc6"
       ],
       [
-        "progA15.bas",
-        "59d865100eea5625286f436af520ab92a7ff14f80d32aeb6ac15be619de9acbf"
+        "wjumble.c10",
+        "5b0c7f3098044038fbe9a2e352421761a40300e36080a94572e6d4e73950395c"
       ],
       [
-        "progA15.cas",
-        "2d3b5e80b1603016b1ba8f1800b0a036f365ec0a8a47a5326c8f9f0cf1614c08"
-      ],
-      [
-        "progB01.bas",
-        "36bb61787e724a9fbc427cbc0c4c0f73253c696a836f5d712b2217e2fe70ac18"
-      ],
-      [
-        "progB01.cas",
-        "92f59f38bdc424fb5658240aee80b3b4023752a05fd114219edc90167d52fca4"
-      ],
-      [
-        "progB02.bas",
-        "fa00263c79d11ce443feb62b036a7648054bff8571ff86d92390525e97b4cf1a"
-      ],
-      [
-        "progB02.cas",
-        "1f0f26d7314e535117c7ea47f350b72fde6b0db33c545d656a982e9b25868f1b"
-      ],
-      [
-        "progB04.bas",
-        "0644b7a3d03af31fa4b84e369c1863d3241d52d259260ff0f33f40caf16c6ef6"
-      ],
-      [
-        "progB04.cas",
-        "6c67205f9f875588a13834ecd949af27022621dcf4a203182af89cb30fd151e8"
-      ],
-      [
-        "ramdemo01.bas",
-        "692fbf86b04f0be044ebea753b2b5917142e4b2bd921cdbc79bc9d761a218c73"
-      ],
-      [
-        "ramdemo02.bas",
-        "c3e9cd68bf8048127079254640dfa92055974cd93f0fd34caeb6ed917690dc7d"
-      ],
-      [
-        "ramdemo03.bas",
-        "8b3e0b68bfe3c06ead50aa2e19b5fb99af18acdbab1d6ec5d4f9b3eb51e9df44"
-      ],
-      [
-        "ramdemo04.bas",
-        "8edd7d8fd2c7a8e00998a6ccb818288d7ed3a8aa6ce6e17c55a42b19d6ab4ca4"
-      ],
-      [
-        "ramdemo05.bas",
-        "b60f205c0bbf5d51c28349a93c90e23865cd5cd539ad70d83208cd4ac55189b1"
-      ],
-      [
-        "ramdemo07.bas",
-        "36d909a4ddcd776030a03b33519f3b62b91549135562d9dd8db9344b9f6f4538"
-      ],
-      [
-        "ramdemo09.bas",
-        "02cea75c3288a72ee31376a699c660d542b60907cbaadf227b53c2cb54e04e8f"
-      ],
-      [
-        "ramdemo10.bas",
-        "4931214a3155383b4d8e6d47776742f4683cdad40322f28676d990b7617aa2d9"
-      ],
-      [
-        "ramdemo11.bas",
-        "64a71ced0605423526bd8216129caf43258f1af63e3725a269fad3b1c445a9d3"
-      ],
-      [
-        "rrtherap.bas",
-        "f40213eea50fea3b16dfae7eabad8fb48b3a5e80bd85ad902d8b4ddf0d9df4fb"
-      ],
-      [
-        "sketch.bas",
-        "92d72cea9f3ffa1aa57b48d1291ec6763fcdf49ef7a2b9629151ff5a488046b4"
-      ],
-      [
-        "spacchar.bas",
-        "02206edb69a3f024e0f876208076bb863350a2b62243e9d26b696d7ed0376eb9"
-      ],
-      [
-        "spacduel.bas",
-        "70bb032941d18994082005c68cc4cb0da2c35982f56da25b47bd68c504ece9c2"
-      ],
-      [
-        "starlift.bas",
-        "c69bb59fe1dff9f1aaf7d99ee5fb5a7ad98d207a25d60d9aa37fb3c93fa3b533"
-      ],
-      [
-        "statis11.bas",
-        "5426f2b00a6db8c8440485237d53b03cb6f8e95669c2c37f489da60b1163dcf1"
-      ],
-      [
-        "statis12.bas",
-        "e12cfbe6410ac7b7f57b6faaafed4f5285b39f4abb633b5483bc1e0ac2c1f839"
-      ],
-      [
-        "statis13.bas",
-        "9cb1e308bf3ac6f857d43af28603f2e965f5cbfdec2234b91cb87a75683cbeff"
-      ],
-      [
-        "statis14.bas",
-        "61b1e58eb691829e6599d0003e5164f597e00672ca22998da54eb562587e9d1e"
-      ],
-      [
-        "statis15.bas",
-        "002e46200ad4aefad4d8461c2afc01566cd61456c522b46fa55f44ac89a97162"
-      ],
-      [
-        "statis21.bas",
-        "c2d440af55337b1a5f6842d79a55ec163382dfd7fc31e8f22c92e8f787ff1c9f"
-      ],
-      [
-        "statis22.bas",
-        "2b191de5a950d847ffffacc9d38790b54e0e2f743bc6c22dad9d95054995ef19"
-      ],
-      [
-        "statis23.bas",
-        "2d461bad3a7ef9ae708400b33c8af0542a720b9418ffdbab13bea4bfe6167d03"
-      ],
-      [
-        "statis24.bas",
-        "b44f15dafbb455bc56058e7c07d24c34fb2e296224b889a44c269838ebbe82ce"
-      ],
-      [
-        "statis25.bas",
-        "c106fe0e465de268d91833fcc0abd19643931a685d599609d86cdacfe6a0904a"
-      ],
-      [
-        "statis26.bas",
-        "10a2475a1b5ebf4b2523e4fdbd48cdcad1fbcb71fe1ea933697d296445969135"
-      ],
-      [
-        "statis27.bas",
-        "e420137b4cf9b2859e3cb2f52bf2a840646fe8a757688e240760d0c1e035a6f0"
-      ],
-      [
-        "statis28.bas",
-        "1d0cb67d4a4c2d11094a7cb3419d67dc0490d259e2e19ee12216b1d9a5f369f6"
-      ],
-      [
-        "tekstink.bas",
-        "7656faa2b87baf021157ea62094eab7b013906353b9a51f0af3762e64f0a6c38"
-      ],
-      [
-        "tekstink.cas",
-        "84db6d45044caba00ed20ac3999acc490db299b4b86042084eb5693dd8395928"
-      ],
-      [
-        "testmark.bas",
-        "27d638460a300af485ea47ebdbb864a182bdf15cb0707f011dd36467430cea37"
-      ],
-      [
-        "tukialus.bas",
-        "364dd7c99bc8ef0f30c0ed141b51bdc6f152d36f3f92b4b5fcd0bb08859f6c68"
-      ],
-      [
-        "tukialus.cas",
-        "2ac81332a5959064a2d5d1d7aecba4b1da0afa298569759b4c29c01f610a86c8"
-      ],
-      [
-        "ufo.bas",
-        "5bd20dc5102d51c312f889928deda3234a3157fa8d36a71630352143ae3bd5db"
-      ],
-      [
-        "whatdayw.bas",
-        "cd3cade03551dd738432def8c17d736e38807349bfac135ce0eb3bfe10a403a0"
-      ],
-      [
-        "whichday.bas",
-        "2f40cfd58c5354da7f98267737906ecf66e58eb0e55277211b385b8518f1f28d"
-      ],
-      [
-        "wizclock.bas",
-        "e2e9d1fe4ae3498b9154d31970cc744c16e3344fd97cddd9c5a12dd87629fdc5"
-      ],
-      [
-        "wizdemo1.bas",
-        "008ffef600963f0f6d5838bbfa5647ed7825c19bd5ce8b1cf086b5668696af1e"
-      ],
-      [
-        "wizdemo5.bas",
-        "a79a6ef6d63656f20a3e691d76f8c113d5e9113bcb22dbbd8dff0e3e0214ca6b"
-      ],
-      [
-        "wizdemo8.bas",
-        "853588df6ba8c0add091230bb26bf14922172765d4960eb2773b3fe19816609a"
-      ],
-      [
-        "wizmind.bas",
-        "a329e92eb4ada57f262c59d9432fcd338906213e745a96122ec898be9d9d8372"
-      ],
-      [
-        "wizword.bas",
-        "accb2f006fd736ff2ee8408fd19a2974b6686008cf882c6be7a8f356971fb92a"
-      ],
-      [
-        "wizzwar.bas",
-        "72400f6094302d5e4027cbe361b73ecad6d121aaae192d318eeae3c42fa06361"
-      ],
-      [
-        "yksikat.bas",
-        "958e94e71dbdc4e771a30127682e6f98471d8ecbaf04c368338066224d71e8fd"
-      ],
-      [
-        "yksikat.cas",
-        "aa196c57bc9dfef9b59cb798b34d504f1e0b00f4e31408bfe0bf12de6e98b14e"
+        "wordsmc.c10",
+        "dfe1219340e26b14bfddc9738249914326f189a1d9ce3eafd37518558a98f2b2"
       ]
     ],
     "reducedFrom": 19151,
