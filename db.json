@@ -238,7 +238,7 @@
       ".col"
     ],
     "missing": [],
-    "reducedFrom": 1186,
+    "reducedFrom": 1173,
     "reducedTo": 521,
     "verifiedWith": "d740d67b3871fe8355965039a1a147b33a19081e"
   },
@@ -755,7 +755,7 @@
         "0ee7de3a0e7fc14f4b924723b4c38e9a2c805df70d6fe7d6cf56e9359db9c93c"
       ]
     ],
-    "reducedFrom": 2908,
+    "reducedFrom": 2999,
     "reducedTo": 1317,
     "verifiedWith": "d740d67b3871fe8355965039a1a147b33a19081e"
   },
@@ -13290,6 +13290,7 @@
       ".bin",
       ".cue"
     ],
+    "masterUpdated": true,
     "missing": [],
     "reducedFrom": 307,
     "reducedTo": 300,
@@ -13687,29 +13688,8 @@
       ".fig",
       ".sfc"
     ],
-    "missing": [
-      [
-        "BS Zelda Ancient Stone Tablet Official Week 1 (Hack) 2016-11-15.sfc",
-        "18408b1d6608666f60df526a3888ed006a0577207b0b697aba5d27f09e355e12"
-      ],
-      [
-        "Final Fight (E) [T+Spa_Pichatoro].fig",
-        "67904b5d3e6e5ad0af8f856be603cf00cf978317736e37603343dbd3783d580e"
-      ],
-      [
-        "Mario & SA-1 (SA-1 SMW Hack) C3 Entry johnsmith41, Vitor Vilela 2013-07-13.sfc",
-        "80dd7ddd135fb43dac86a9d05e9af78bf83ab8917b4c90a8465656f555e013a8"
-      ],
-      [
-        "SMW FAST (SMW Hack) v2 dotsarecool.sfc",
-        "5f40379fc26e8c8b36cc539a7ca4b3d180eec44e50db6b9e63b3819a0978d4db"
-      ],
-      [
-        "Star Ocean (J) T+Eng, SDD1 Patched v1 DeJap, SDD1 v1 Neviksti.sfc",
-        "1bcb3b8b58f19a91540aeb5ca975fe2386ca0b55a5ff924be6a3514010b2e5c3"
-      ]
-    ],
-    "reducedFrom": 13590,
+    "missing": [],
+    "reducedFrom": 13558,
     "reducedTo": 7472,
     "verifiedWith": "d740d67b3871fe8355965039a1a147b33a19081e"
   },
