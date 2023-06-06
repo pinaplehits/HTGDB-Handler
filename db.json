@@ -237,36 +237,7 @@
       ".cf0",
       ".col"
     ],
-    "missing": [
-      [
-        "Defender (USA) (BUG Fixed).col",
-        "502ada91f53faf87221c2cb107d740cc6623e569a4be82a3b8412feebbf35f5c"
-      ],
-      [
-        "Energy Quiz (Canada) (En,Fr-CA) (1983-06-06) (Proto).col",
-        "df7d5525a010f28f3d180daf1a19f69c406200f1bc2a6e690b48f837b8725690"
-      ],
-      [
-        "Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15).col",
-        "bcb3beab8ec0217b6bbfe62ff7c4676de2079af6a84e4c6edeb8fe33b0a782b0"
-      ],
-      [
-        "James Bond 007 (USA).col",
-        "965f1e65b3fc8230f8da0ebe7d778b55a5136acdc803956f0289ba18383413ad"
-      ],
-      [
-        "Power Lords - Quest for Volcan (USA) (Proto 1).col",
-        "f97659a6d4b4523f5decf29f0d1c8e88b726c65d68a5aa1a4be772969b3820dc"
-      ],
-      [
-        "Star Fire (USA) (Proto).col",
-        "f8a6fc5d9c89d7598460c49b539e8a4b4391931673b2731b381b608f99b2d3ee"
-      ],
-      [
-        "Star Wars - The Arcade Game (USA) (Beta) (1984-04-12).col",
-        "bda3acc1d0eb13b5f2e552072a4c8b3ee0cc88cd938b89f9e7809ec0eaec3fd9"
-      ]
-    ],
+    "missing": [],
     "reducedFrom": 1186,
     "reducedTo": 521,
     "verifiedWith": "d740d67b3871fe8355965039a1a147b33a19081e"
