@@ -164,9 +164,12 @@ def reducer():
     for database in update_changes.get("added") + update_changes.get("modified"):
         data = read_file(os.path.join(path_smdb, database))
         basename = os.path.splitext(database)[0]
+        newdb = reduce_db(data)
 
-        new_file(os.path.join(path_reduced_smdb, database), reduce_db(data))
-        write_to_child(basename, "extensions", get_extensions(data))
+        new_file(os.path.join(path_reduced_smdb, database), newdb)
+        write_to_child(basename, "extensions", get_extensions(newdb))
+        write_to_child(basename, "reducedTo", len(newdb))
+        write_to_child(basename, "reducedFrom", len(data))
 
     sort_json()
     write_latest_commit(_sha1=htgdb_sha1)
