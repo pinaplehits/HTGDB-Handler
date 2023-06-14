@@ -1,5 +1,6 @@
 from git import GitCommandError, RemoteProgress, Repo
 from tqdm import tqdm
+from dotenv import load_dotenv
 import os
 
 
@@ -96,7 +97,16 @@ def git_commit(_message, _add, _repo=os.getcwd()):
 
     repo.git.commit("-m", _message)
 
+    load_dotenv()
+    username = os.environ.get("GITHUB_USERNAME")
+    access_token = os.environ.get("GITHUB_ACCESS_TOKEN")
+
+    remote_url = (
+        f"https://{username}:{access_token}@github.com/pinaplehits/HTGDB-Handler.git"
+    )
+
     origin = repo.remote(name="origin")
+    origin.set_url(remote_url)
     origin.push()
 
 
