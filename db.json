@@ -4505,6 +4505,10 @@
         "4b7ef140453c43af500106ac4b8a494d6f205a1710acf6efebdf5c0d14de2651"
       ],
       [
+        "Disk.info",
+        "bd1cde218e48aa0b8d0388c8f3221d7dfba171520c6431e449defa4e1696c5bf"
+      ],
+      [
         "Dizasterblaster.crt",
         "b2574e65bf23405f23fa13c61899227df3484c07e60648403cb843e01f123a02"
       ],
@@ -8553,6 +8557,30 @@
         "bb7640b607ab74878a7a5db9baa964c7c1295ca375db9c8b1bea4d133449c712"
       ],
       [
+        "MegaAGS-Horizontal.txt",
+        "409830dbda19190830b7768d32e303291081841c1976216582f4399edacc238d"
+      ],
+      [
+        "MegaAGS-Saves.hdf",
+        "7eb2f64189d67b373b964dfa4a937298fa1258299e78465820bb1d7bcc031359"
+      ],
+      [
+        "MegaAGS-Vertical.txt",
+        "ec2982034b811fb421dcd34a2d71a90d7bf38fc97f5a05da577ecf1240b26cef"
+      ],
+      [
+        "MegaAGS.fs-uae",
+        "0aa903d17189ed0b78155797171e7c605fdb4a7b815c689a84591d8c967b442e"
+      ],
+      [
+        "MegaAGS.hdf",
+        "b55ff38fe8cf929ac26098b8472dbc60f36bdc69591882fad6dfe8a85c8cc0ed"
+      ],
+      [
+        "MegaAGS.txt",
+        "be2dfcff134b50009ceb7be8a32fd97887b36c87bdcf7c6880c850ec8b7887b6"
+      ],
+      [
         "Megadisk #1 (19xx)(Coleco - LMI).dsk",
         "51ede947bb9ebd96128e44d0ec8e739a37f4febf4df08d02b961a93337ef0ac4"
       ],
@@ -9731,6 +9759,10 @@
       [
         "Oxxonian - Strategy (Side 2).crt",
         "3e02e8e5ad0768ebbae44ef2caabf1c65fe876c692585c78f58e4181317f8d35"
+      ],
+      [
+        "Oxygene - Cycle-Op (2023).adf",
+        "d92d0b7b886564dea274b7df410793bc090ea759ff5dc2931387d9c193bfdd95"
       ],
       [
         "Oy Up! (Arlasoft - 2020).crt",
@@ -15627,7 +15659,7 @@
     ],
     "reducedFrom": 19153,
     "reducedTo": 18862,
-    "verifiedWith": "d740d67b3871fe8355965039a1a147b33a19081e"
+    "verifiedWith": "1b6d44d71932cfb2a14aa4b953152b385b9bf6bd"
   },
   "MiSTer Acorn Archimedes Add-On": {
     "extensions": [
