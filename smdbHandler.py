@@ -26,6 +26,13 @@ def get_txt_files(_path):
     ]
 
 
+def get_all_smdb(_path):
+    smdb = sorted([x for x in os.listdir(_path) if x.endswith(".txt")], key=str.lower)
+    basename = [os.path.splitext(os.path.basename(x))[0] for x in smdb]
+
+    return smdb, basename
+
+
 def read_file(_path, _delimiter="\t", _newline=""):
     _path = os.path.normpath(_path)
     with open(_path, newline=_newline) as f:

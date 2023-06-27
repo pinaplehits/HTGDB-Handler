@@ -1,6 +1,7 @@
 from configparser import ConfigParser
 import os
 import subprocess
+from smdbHandler import get_all_smdb
 
 
 def load_config(_section="verify_reduced"):
@@ -11,15 +12,8 @@ def load_config(_section="verify_reduced"):
     return dict(config.items(_section))
 
 
-def get_all_smdb(_path):
-    smdb = sorted([x for x in os.listdir(_path) if x.endswith(".txt")], key=str.lower)
-    basename = [os.path.splitext(os.path.basename(x))[0] for x in smdb]
-
-    return smdb, basename
-
-
 def select_database(_path):
-    basename, smdb = get_all_smdb(_path)
+    smdb, basename = get_all_smdb(_path)
 
     [print(index, value) for index, value in enumerate(basename)]
     print(len(basename), "All")
