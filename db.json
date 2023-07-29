@@ -4760,10 +4760,119 @@
       ".cue"
     ],
     "masterUpdated": true,
-    "missing": [],
+    "missing": [
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1 Load Word Team (Disc 1).bin",
+        "efab99a57c346b1eaf294379e1c30eb8aff49e99040678e906b022ac53d75525"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1 Load Word Team (Disc 1).cue",
+        "f4af58b207e5893d41daa292fcfe87ed0a94da101895aa0468900a7c76725bb2"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1 Load Word Team (Disc 2).bin",
+        "e7e5ce920ea93828729030a8288f7e15ed63a3cb7a463ca2b79de3c4dc588c04"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1 Load Word Team (Disc 2).cue",
+        "3fb4ef30f1920454d9fc71eece4427195fa605e1ebbf632a989b28f9d091fa75"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 01).bin",
+        "d918b2dfff6e2a5b3e9278a5728d37bf132ac58b4e0cc263f099df961272b08c"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 02).bin",
+        "ed210a750ef7f292e6d58011b02b2faafc45d30c078887df9c28bba4425b8a01"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 03).bin",
+        "05128f9d1a44c732baab6dcf916df7fd089d4e03db54674d660c871a60da388e"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 04).bin",
+        "1f39c7cdaa8410ac5b299b2b9c62424f67513b70b29edf3ccc2c3851d87e1425"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 05).bin",
+        "66af6bd968c3477ff49631599d39d3dbd8238752538cc4c0ecc6ce05c2ce9383"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 06).bin",
+        "d02fd98d54931172014225b268b5482596ef45d9fba668312cdaae3c16638536"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 07).bin",
+        "c1bf75bbe7b6a6f7ed7da0ae003a7c175e9e037be78c0b06232e1ed081fe7630"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 08).bin",
+        "da0779453c5af8869fd090032a7db474c6018495940aeab91dc8830ee57235a1"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 09).bin",
+        "1b26bbf4b7f9fc2d61aba829954d9305c90076b9dc212a3e77e1cb931a466350"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 10).bin",
+        "e6acfec7a7df3ca0a5a773bd5692e968e34e9bb2b2738bb1d6f20fbdba84abd1"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 11).bin",
+        "82db1aeb36e01f99ff8975ce7724279a7a12dcae6b22e742c7b61254830ad274"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 12).bin",
+        "f4fe78b77ca5fb4d12ade6202ff1dca62a4feeb5a0bae5d61f8e919f88746f3b"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 13).bin",
+        "c4afabad2d4e5a421b06bbacf588686cc6b7c7e0c018534d0dbcad97680de4d4"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 14).bin",
+        "d5aaafb6ddf396111c44b7ed140caf2a11c3ac4c66b6d5509f08b402cd88190a"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 15).bin",
+        "ffa99ff36872ac26d6df9a8db3ed7227b6cb644b307231ae3c84b0c4eb9e9b9d"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team (Track 16).bin",
+        "0e0a5fbe1f61a103fb56085586f8366fdd84f68d3e2d04d2217303f188bb0fa0"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1 Load Word Team.cue",
+        "3d1f8895f74f2304643c8e7e07472886e1a2fcdeab0c3650a4faa8754d1d6d09"
+      ],
+      [
+        "Ecsaform (J) (Disc 1) T+Eng v1.1 aishsha.bin",
+        "258b34af31d2a8b23fcc1f153bec878b00c3202a55189895e387a682e92c7cd2"
+      ],
+      [
+        "Ecsaform (J) (Disc 1) T+Eng v1.1 aishsha.cue",
+        "b391bae65f833a98cc9cb2a0a8b7eaec15c6abfb374d44dc66ca74f424a197d2"
+      ],
+      [
+        "Ecsaform (J) (Disc 2) T+Eng v1.1 aishsha.bin",
+        "28e8a87336c18472d6798cb493139ebe4935237d1ac8b9d6025bef03fc4d39f5"
+      ],
+      [
+        "Ecsaform (J) (Disc 2) T+Eng v1.1 aishsha.cue",
+        "53219b91814eda67bc02b99357c37475cf4f35a011c7f567f6b3a953fe7c42da"
+      ],
+      [
+        "Ginga Ojousama Densetsu Yuna - Final Edition (J) T+Eng v1 Supper.bin",
+        "559c2cbecb46a36a04902b06b53c38c82f42101067435e9fb602bc7743658d2f"
+      ],
+      [
+        "Ginga Ojousama Densetsu Yuna - Final Edition (J) T+Eng v1 Supper.cue",
+        "db93a033633d4d477d2548532cd240d96574c02f1d28395e0912d259b25fb475"
+      ]
+    ],
     "reducedFrom": 330,
     "reducedTo": 323,
-    "verifiedWith": "1b6d44d71932cfb2a14aa4b953152b385b9bf6bd"
+    "verifiedWith": "7ee503ba863b481cb8595fbe218686682111f074"
   },
   "Project Peacock - All PCE platform shooters": {
     "extensions": [
