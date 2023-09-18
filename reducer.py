@@ -1,6 +1,12 @@
 from configparser import ConfigParser
 from gitHandler import update_repo, git_difference, git_commit, git_file_status
-from jsonHandler import get_top_level_keys, delete_key, write_to_child, sort_json
+from jsonHandler import (
+    get_top_level_keys,
+    delete_key,
+    write_to_child,
+    sort_json,
+    write_to_key,
+)
 from smdbHandler import get_extensions, read_file
 import csv
 import os
@@ -71,12 +77,12 @@ def move_to_legacy(path_master, path_build, path_legacy):
         shutil.rmtree(path_build)
 
 
-def handle_modified(_modified, _sha1):
+def handle_modified(_modified, _sha1, _added):
     if not _modified:
         print("No modified files found")
         return
 
-    basename = [os.path.splitext(name)[0] for name in _modified]
+    basename = set([os.path.splitext(name)[0] for name in _modified + _added])
 
     json_data = get_top_level_keys()
 
@@ -85,8 +91,6 @@ def handle_modified(_modified, _sha1):
     print("Updating verifiedWith in db.json..")
     for key in removed:
         write_to_child(key, "verifiedWith", _sha1)
-
-    sort_json()
 
 
 def handle_deleted(_deleted, _path, _section):
@@ -107,7 +111,6 @@ def handle_deleted(_deleted, _path, _section):
             os.path.join(_section["build"], key),
             os.path.join(_section["legacy"], key),
         )
-    sort_json()
 
 
 def handle_renamed(_renamed):
@@ -119,13 +122,18 @@ def handle_renamed(_renamed):
     exit()
 
 
-def handle_added(_added):
+def handle_added(_added, _build_path, _master_path):
     if not _added:
         print("No added files found")
         return
+    basename = [os.path.splitext(name)[0] for name in _added]
 
-    input("Some files will be added, the program will end...")
-    exit()
+    print("Creating new folders...")
+    [
+        (os.makedirs(os.path.join(path, item), exist_ok=True), write_to_key(item))
+        for path in [_build_path, _master_path]
+        for item in basename
+    ]
 
 
 def check_file_changes(_changes, _path_smdb, _additional_files=[]):
@@ -155,11 +163,13 @@ def reducer():
 
     handle_renamed(update_changes.get("renamed"))
 
-    handle_added(update_changes.get("added"))
+    handle_added(update_changes.get("added"), section["build"], section["master"])
 
     handle_deleted(update_changes.get("deleted"), path_reduced_smdb, section)
 
-    handle_modified(update_changes.get("modified"), htgdb_sha1)
+    handle_modified(
+        update_changes.get("modified"), htgdb_sha1, update_changes.get("added")
+    )
 
     for database in update_changes.get("added") + update_changes.get("modified"):
         data = read_file(os.path.join(path_smdb, database))
