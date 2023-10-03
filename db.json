@@ -23,7 +23,7 @@
       ".tv",
       ".ua"
     ],
-    "incorrectLocation": true,
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 14095,
     "reducedTo": 9721,
