@@ -37,4 +37,5 @@ def get_files_recursively(directory=os.getcwd()):
     return list_files
 
 
-create_json(hash_files())
+if __name__ == "__main__":
+    create_json(hash_files())

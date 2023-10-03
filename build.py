@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 from datetime import datetime
 from gitHandler import git_file_status, git_commit
-from jsonHandler import write_to_child, get_top_level_keys, read_from_child, sort_json
+from jsonHandler import write_to_child, get_top_level_keys, read_from_child
 from reducer import reducer
 from smdbHandler import get_all_smdb
 import csv
@@ -192,7 +192,6 @@ def build():
 
     update_missing(missing, basename)
     write_to_child(basename, "verifiedWith", latest_reduced)
-    sort_json()
 
     files = ["db.json"]
     date = datetime.now().strftime("%d/%m/%y")

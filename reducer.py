@@ -4,7 +4,6 @@ from jsonHandler import (
     get_top_level_keys,
     delete_key,
     write_to_child,
-    sort_json,
     write_to_key,
 )
 from smdbHandler import get_extensions, read_file
@@ -181,7 +180,6 @@ def reducer():
         write_to_child(basename, "reducedTo", len(newdb))
         write_to_child(basename, "reducedFrom", len(data))
 
-    sort_json()
     write_latest_commit(_sha1=htgdb_sha1)
 
     git_message = f"Reduced from {section['latest_reduced']} to {htgdb_sha1}"

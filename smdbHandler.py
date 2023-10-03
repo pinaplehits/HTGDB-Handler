@@ -1,4 +1,4 @@
-from jsonHandler import write_to_child, get_top_level_keys, sort_json
+from jsonHandler import write_to_child, get_top_level_keys
 import csv
 import os
 
@@ -110,5 +110,4 @@ if __name__ == "__main__":
     # print(original_smdb() - reduced_smdb())
 
     # read_missing_file("D:\\MegaSD SMDB.txt")
-    # sort_json()
     reduced_master()

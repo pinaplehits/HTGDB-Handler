@@ -25,7 +25,7 @@ def delete_key(_key, json_file="db.json"):
             return
 
         with open(json_file, "w") as f:
-            json.dump(data, f, indent=2)
+            json.dump(data, f, indent=2, sort_keys=True)
     except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
         print(f"Error reading the JSON file: {e}")
 
@@ -46,7 +46,7 @@ def write_to_child(_basename, _child, _data, _json_db="db.json"):
 
     try:
         with open(_json_db, "w") as f:
-            json.dump(json_data, f, indent=2)
+            json.dump(json_data, f, indent=2, sort_keys=True)
     except IOError as e:
         print(f"Error writing to the JSON file: {e}")
         exit()
@@ -64,7 +64,7 @@ def write_to_key(_key, _json_db="db.json"):
 
     try:
         with open(_json_db, "w") as f:
-            json.dump(json_data, f, indent=2)
+            json.dump(json_data, f, indent=2, sort_keys=True)
     except IOError as e:
         print(f"Error writing to the JSON file: {e}")
         exit()
@@ -88,23 +88,6 @@ def read_from_key(_key, _json_db="db.json"):
     except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
         print(f"Error reading the JSON file: {e}")
         return None
-
-
-def sort_json(_json_db="db.json"):
-    print(f"Sorting {_json_db}...")
-    try:
-        with open(_json_db, "r") as f:
-            json_data = json.load(f)
-    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
-        print(f"Error reading the JSON file: {e}")
-        return
-
-    try:
-        with open(_json_db, "w") as f:
-            json.dump(json_data, f, indent=2, sort_keys=True)
-    except IOError as e:
-        print(f"Error writing to the JSON file: {e}")
-        return
 
 
 def create_child_json(_json_db, _child):
