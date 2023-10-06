@@ -1,9 +1,10 @@
+from compressHandler import uncompress
 from configparser import ConfigParser
 from datetime import datetime
 from gitHandler import git_file_status, git_commit
-from jsonHandler import write_to_child, get_top_level_keys, read_from_child
+from jsonHandler import write_to_child
 from reducer import reducer
-from smdbHandler import get_all_smdb
+from smdbHandler import get_all_smdb, get_smdb_with_missing, get_smdb_not_verified
 import csv
 import os
 import shutil
@@ -18,7 +19,7 @@ def load_config(_section="build_reduced", _file="config.ini"):
 
 
 def select_database(_path, _sha1):
-    smdb, basename = missing_smdb(_sha1)
+    smdb, basename = smdb_with_missing(_sha1)
 
     [print(index, value) for index, value in enumerate(basename)]
     print("999 for all SMDB files")
@@ -30,14 +31,9 @@ def select_database(_path, _sha1):
     return smdb[int(index)], basename[int(index)]
 
 
-def missing_smdb(_sha1):
-    db = get_top_level_keys()
-    missing = [x for x in db if read_from_child(x, "missing")]
-    not_verified = [
-        x
-        for x in db
-        if (verified := read_from_child(x, "verifiedWith")) != _sha1 or not verified
-    ]
+def smdb_with_missing(_sha1):
+    missing = get_smdb_with_missing()
+    not_verified = get_smdb_not_verified(_sha1)
 
     basename = sorted(set(missing + not_verified))
     smdb = [f"{x}.txt" for x in basename]
@@ -56,40 +52,16 @@ def all_smdb(_path):
     return smdb[int(index)], basename[int(index)]
 
 
-def uncompress_7z(_file, _output_folder):
-    uncompress = [
-        "7z",
-        "x",
-        _file,
-        f"-o{_output_folder}",
-        "-y",
-        "-aoa",
-    ]
-
-    try:
-        subprocess.run(uncompress, check=True)
-    except subprocess.CalledProcessError as e:
-        print(f"Error al ejecutar el comando: {e.returncode}")
-        exit()
-    except Exception as e:
-        print(f"Ocurrió un error: {e}")
-        exit()
-
-
-def compress_7z(_basename, _path):
-    os.system(f"7z a '{_basename}.7z' '{_path}/*' '-xr!{_path}'")
-
-
-def update_missing(_missing_path, _basename):
-    if not os.path.exists(_missing_path):
+def update_missing(_missing, _basename):
+    if not os.path.exists(_missing):
         write_to_child(_basename, "missing", [])
         return
 
-    with open(_missing_path, "r") as f:
+    with open(_missing, "r") as f:
         missing_data = list(csv.reader(f, delimiter="\t"))
         write_to_child(_basename, "missing", missing_data)
 
-    os.remove(_missing_path)
+    os.remove(_missing)
 
 
 def build_from_masters(_masters, _basename, _romimport):
@@ -108,7 +80,7 @@ def build_from_masters(_masters, _basename, _romimport):
         else f"{_basename}.7z",
     )
 
-    uncompress_7z(_masters, _romimport)
+    uncompress(_masters, _romimport)
 
     return True
 
@@ -131,7 +103,6 @@ def build_from_main(_folder, _romimport):
         romimport_dir = os.path.join(_romimport, relative_path)
 
         if not os.path.exists(romimport_dir):
-            input(f"romimport_dir: {romimport_dir}")
             os.makedirs(romimport_dir)
 
         for file in files:
@@ -145,34 +116,34 @@ def build_from_main(_folder, _romimport):
     return True
 
 
-def build():
-    reducer()
-
+def build_from_verify(_basename, _smdb, _mismatch):
     section, latest_reduced = load_config()
 
-    smdb, basename = select_database(section["smdb"], latest_reduced)
-    missing = os.path.join(section["missing"], smdb)
-    romimport = os.path.join(section["romimport"], basename)
+    romimport = os.path.join(section["romimport"], _basename)
+    folder = os.path.join(section["folder"], _basename)
+    missing = _mismatch.replace("mismatch", "missing")
 
-    folder = os.path.join(section["folder"], basename)
-    smdb = os.path.join(section["smdb"], smdb)
-    masters = os.path.join(section["masters"], basename)
+    build_from_main(folder, romimport)
 
-    if not build_from_main(folder, romimport):
-        if not build_from_masters(masters, basename, romimport):
-            return print("No files to build")
+    run_script(
+        section["script"], romimport, _smdb, folder, missing, _basename, latest_reduced
+    )
 
+
+def run_script(
+    _script, _romimport, _smdb, _folder, _missing, _basename, _latest_reduced
+):
     build = [
         "python",
-        section["script"],
+        _script,
         "--input_folder",
-        romimport,
+        _romimport,
         "--database",
-        smdb,
+        _smdb,
         "--output_folder",
-        folder,
+        _folder,
         "--missing",
-        missing,
+        _missing,
         "--skip_existing",
         "--drop_initial_directory",
         "--file_strategy",
@@ -188,18 +159,40 @@ def build():
         print(f"Ocurrió un error: {e}")
         exit()
 
-    shutil.rmtree(romimport)
+    shutil.rmtree(_romimport)
 
-    update_missing(missing, basename)
-    write_to_child(basename, "verifiedWith", latest_reduced)
+    update_missing(_missing, _basename)
+    write_to_child(_basename, "verifiedWith", _latest_reduced)
+    write_to_child(_basename, "incorrectLocation", False)
 
     files = ["db.json"]
     date = datetime.now().strftime("%d/%m/%y")
-    git_message = f"Build updated {basename} in db.json on {date}"
+    git_message = f"Build updated {_basename} in db.json on {date}"
     changes = [item for item in files if git_file_status(item)]
 
     git_commit(git_message, changes)
 
 
+def build():
+    section, latest_reduced = load_config()
+
+    smdb, basename = select_database(section["smdb"], latest_reduced)
+    missing = "missing_" + smdb
+    romimport = os.path.join(section["romimport"], basename)
+
+    folder = os.path.join(section["folder"], basename)
+    smdb = os.path.join(section["smdb"], smdb)
+    masters = os.path.join(section["masters"], basename)
+
+    if not build_from_main(folder, romimport):
+        if not build_from_masters(masters, basename, romimport):
+            return print("No files to build")
+
+    run_script(
+        section["script"], romimport, smdb, folder, missing, basename, latest_reduced
+    )
+
+
 if __name__ == "__main__":
+    reducer()
     build()

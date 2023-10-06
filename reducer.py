@@ -6,7 +6,7 @@ from jsonHandler import (
     write_to_child,
     write_to_key,
 )
-from smdbHandler import get_extensions, read_file
+from smdbHandler import get_extensions, read_file, create_new_file
 import csv
 import os
 import shutil
@@ -37,43 +37,38 @@ def reduce_db(_items):
     return newdb
 
 
-def new_file(_path, _data, _delimiter="\t"):
-    print(f"Creating {os.path.basename(_path)} file...")
+def write_latest_commit(_sha1, _file="config.ini"):
+    if not _sha1:
+        print("No SHA1 found")
+        return
 
-    with open(_path, "w", newline="") as f:
-        csv.writer(f, delimiter=_delimiter).writerows(_data)
-
-    print(f"File {os.path.basename(_path)} is created")
-
-
-def write_latest_commit(_config_file="config.ini", _sha1=""):
     config = ConfigParser()
-    config.read(_config_file)
+    config.read(_file)
     config.set("reducer", "latest_reduced", _sha1)
 
-    with open(_config_file, "w") as f:
+    with open(_file, "w") as f:
         config.write(f)
 
 
-def move_to_legacy(path_master, path_build, path_legacy):
-    if not os.path.exists(path_master) and not os.path.exists(path_build):
+def move_folder_to_legacy(_path_master, _path_build, _path_legacy):
+    if not os.path.exists(_path_master) and not os.path.exists(_path_build):
         print("No master or build folder found")
         return
 
     print("Moving folders to legacy...")
 
-    if os.path.exists(path_legacy):
-        shutil.rmtree(path_legacy)
+    if os.path.exists(_path_legacy):
+        shutil.rmtree(_path_legacy)
 
-    if os.path.exists(path_master) and os.listdir(path_master):
-        shutil.move(path_master, path_legacy)
+    if os.path.exists(_path_master) and os.listdir(_path_master):
+        shutil.move(_path_master, _path_legacy)
         print("Master folder moved to legacy")
-    elif os.path.exists(path_build) and os.listdir(path_build):
-        shutil.move(path_build, path_legacy)
+    elif os.path.exists(_path_build) and os.listdir(_path_build):
+        shutil.move(_path_build, _path_legacy)
         print("Build folder moved to legacy")
 
-    if os.path.exists(path_build):
-        shutil.rmtree(path_build)
+    if os.path.exists(_path_build):
+        shutil.rmtree(_path_build)
 
 
 def handle_modified(_modified, _sha1, _added):
@@ -105,7 +100,7 @@ def handle_deleted(_deleted, _path, _section):
 
         os.remove(os.path.join(_path, f"{key}.txt"))
 
-        move_to_legacy(
+        move_folder_to_legacy(
             os.path.join(_section["master"], key),
             os.path.join(_section["build"], key),
             os.path.join(_section["legacy"], key),
@@ -135,15 +130,12 @@ def handle_added(_added, _build_path, _master_path):
     ]
 
 
-def check_file_changes(_changes, _path_smdb, _additional_files=[]):
+def check_git_changes(_git_changes, _path, _extra_files=[]):
     changes = [
-        _path_smdb + value
-        for value_list in _changes.values()
-        for value in value_list
-        if value
+        _path + value for values in _git_changes.values() for value in values if value
     ]
 
-    changes.extend(_additional_files)
+    changes.extend(_extra_files)
 
     return [item for item in changes if git_file_status(item)]
 
@@ -158,35 +150,31 @@ def reducer():
     path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
     path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
 
-    update_changes = git_difference(section["latest_reduced"], htgdb_sha1)
+    git_changes = git_difference(section["latest_reduced"], htgdb_sha1)
 
-    handle_renamed(update_changes.get("renamed"))
+    handle_renamed(git_changes.get("renamed"))
 
-    handle_added(update_changes.get("added"), section["build"], section["master"])
+    handle_added(git_changes.get("added"), section["build"], section["master"])
 
-    handle_deleted(update_changes.get("deleted"), path_reduced_smdb, section)
+    handle_deleted(git_changes.get("deleted"), path_reduced_smdb, section)
 
-    handle_modified(
-        update_changes.get("modified"), htgdb_sha1, update_changes.get("added")
-    )
+    handle_modified(git_changes.get("modified"), htgdb_sha1, git_changes.get("added"))
 
-    for database in update_changes.get("added") + update_changes.get("modified"):
+    for database in git_changes.get("added") + git_changes.get("modified"):
         data = read_file(os.path.join(path_smdb, database))
         basename = os.path.splitext(database)[0]
         newdb = reduce_db(data)
 
-        new_file(os.path.join(path_reduced_smdb, database), newdb)
+        create_new_file(os.path.join(path_reduced_smdb, database), newdb)
         write_to_child(basename, "extensions", get_extensions(newdb))
         write_to_child(basename, "reducedTo", len(newdb))
         write_to_child(basename, "reducedFrom", len(data))
 
-    write_latest_commit(_sha1=htgdb_sha1)
+    write_latest_commit(htgdb_sha1)
 
     git_message = f"Reduced from {section['latest_reduced']} to {htgdb_sha1}"
-
-    changes = check_file_changes(
-        update_changes, section["new_smdb"], ["db.json", "config.ini"]
-    )
+    extra_files = ["db.json", "config.ini"]
+    changes = check_git_changes(git_changes, section["new_smdb"], extra_files)
 
     git_commit(git_message, changes)
 

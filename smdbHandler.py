@@ -1,6 +1,18 @@
-from jsonHandler import write_to_child, get_top_level_keys
+from jsonHandler import get_top_level_keys, read_from_child
 import csv
 import os
+
+
+def get_smdb_with_missing():
+    return [x for x in get_top_level_keys() if read_from_child(x, "missing")]
+
+
+def get_smdb_not_verified(_sha1):
+    return [
+        x
+        for x in get_top_level_keys()
+        if (verified := read_from_child(x, "verifiedWith")) != _sha1 or not verified
+    ]
 
 
 def get_extensions(_items):
@@ -13,48 +25,45 @@ def get_extensions(_items):
     )
 
 
-def get_number_of_items(_file):
-    with open(_file) as f:
-        return sum(1 for line in f)
+def get_number_of_items(_path):
+    with open(_path) as file:
+        return sum(1 for line in file)
 
 
-def get_txt_files(_path):
+def get_files_with_extension(_path, _extension=".txt"):
     return [
-        os.path.join(_path, x)
-        for x in os.listdir(_path)
-        if os.path.splitext(x)[1].lower() == ".txt"
+        os.path.join(_path, file)
+        for file in os.listdir(_path)
+        if os.path.splitext(file)[1].lower() == _extension
     ]
 
 
-def get_all_smdb(_path):
-    smdb = sorted([x for x in os.listdir(_path) if x.endswith(".txt")], key=str.lower)
-    basename = [os.path.splitext(os.path.basename(x))[0] for x in smdb]
+def get_all_smdb(_path, _extension=".txt"):
+    smdb = sorted(
+        [file for file in os.listdir(_path) if file.endswith(_extension)], key=str.lower
+    )
+    basename = [os.path.splitext(os.path.basename(file))[0] for file in smdb]
 
     return smdb, basename
 
 
 def read_file(_path, _delimiter="\t", _newline=""):
     _path = os.path.normpath(_path)
-    with open(_path, newline=_newline) as f:
-        return list(csv.reader(f, delimiter=_delimiter))
+    with open(_path, newline=_newline) as file:
+        return list(csv.reader(file, delimiter=_delimiter))
 
 
-def read_missing_file(_path):
-    _path = os.path.normpath(_path)
-    basename = os.path.splitext(os.path.basename(_path))[0]
+def create_new_file(_path, _data, _delimiter="\t"):
+    print(f"Creating {os.path.basename(_path)} file...")
 
-    if basename not in get_top_level_keys():
-        return
+    with open(_path, "w", newline="") as f:
+        csv.writer(f, delimiter=_delimiter).writerows(_data)
 
-    with open(_path, "r") as f:
-        missing_data = list(csv.reader(f, delimiter="\t"))
-        write_to_child(basename, "missing", missing_data)
+    print(f"File {os.path.basename(_path)} is created")
 
 
 def reduced_master(_path="Reduced SMDBs/"):
-    smdb = get_txt_files(_path)
-    data = [line for file in smdb for line in read_file(file)]
-
+    data = combine_all_smdb(_path)
     dataset = set([item[0] for item in data])
 
     newdb = [
@@ -64,50 +73,6 @@ def reduced_master(_path="Reduced SMDBs/"):
     return newdb
 
 
-def reduced_smdb(_path="Reduced SMDBs/"):
-    _path = os.path.normpath(_path)
-    json_db = get_top_level_keys()
-    smdb = get_txt_files(_path)
-
-    len_reduced = 0
-
-    for file in smdb:
-        len_smdb = get_number_of_items(file)
-        len_reduced += len_smdb
-        # continue
-        basename = os.path.splitext(os.path.basename(file))[0]
-
-        if basename in json_db:
-            data = read_file(file)
-
-            write_to_child(basename, "reducedTo", len_smdb)
-            write_to_child(basename, "extensions", get_extensions(data))
-
-    return len_reduced
-
-
-def original_smdb(_path="Hardware-Target-Game-Database/EverDrive Pack SMDBs/"):
-    _path = os.path.normpath(_path)
-    json_db = get_top_level_keys()
-    smdb = get_txt_files(_path)
-
-    len_original = 0
-
-    for file in smdb:
-        len_smdb = get_number_of_items(file)
-        len_original += len_smdb
-        # continue
-        basename = os.path.splitext(os.path.basename(file))[0]
-
-        if basename in json_db:
-            write_to_child(basename, "reducedFrom", len_smdb)
-
-    return len_original
-
-
-if __name__ == "__main__":
-    # print(reduced_smdb())
-    # print(original_smdb() - reduced_smdb())
-
-    # read_missing_file("D:\\MegaSD SMDB.txt")
-    reduced_master()
+def combine_all_smdb(_path="Reduced SMDBs/"):
+    smdb = get_files_with_extension(_path)
+    return [line for file in smdb for line in read_file(file)]
