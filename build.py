@@ -1,4 +1,4 @@
-from compressHandler import uncompress
+from compressHandler import uncompress, compress
 from configparser import ConfigParser
 from datetime import datetime
 from gitHandler import git_file_status, git_commit
@@ -65,12 +65,14 @@ def update_missing(_missing, _basename):
 
 
 def build_from_masters(_masters, _basename, _romimport):
+    name = os.path.basename(_masters)
+
     if not os.path.exists(_masters):
-        print(f"Masters folder {_masters} doesn't exist")
+        print(f"Masters folder {name} doesn't exist")
         return False
 
     if not os.listdir(_masters):
-        print(f"Masters folder {_masters} is empty")
+        print(f"Masters folder {name} is empty")
         return False
 
     _masters = os.path.join(
@@ -86,12 +88,14 @@ def build_from_masters(_masters, _basename, _romimport):
 
 
 def build_from_main(_folder, _romimport):
+    name = os.path.basename(_folder)
+
     if not os.path.exists(_folder):
-        print(f"Main folder {_folder} doesn't exist")
+        print(f"Main folder {name} doesn't exist")
         return False
 
     if not os.listdir(_folder):
-        print(f"Main folder {_folder} is empty")
+        print(f"Main folder {name} is empty")
         return False
 
     if not os.path.exists(_romimport):

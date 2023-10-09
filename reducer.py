@@ -169,6 +169,7 @@ def reducer():
         write_to_child(basename, "extensions", get_extensions(newdb))
         write_to_child(basename, "reducedTo", len(newdb))
         write_to_child(basename, "reducedFrom", len(data))
+        write_to_child(basename, "compressed", False)
 
     write_latest_commit(htgdb_sha1)
 
