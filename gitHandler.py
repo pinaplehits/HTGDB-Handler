@@ -1,6 +1,6 @@
+from dotenv import load_dotenv
 from git import GitCommandError, RemoteProgress, Repo
 from tqdm import tqdm
-from dotenv import load_dotenv
 import os
 
 
@@ -86,6 +86,23 @@ def git_difference(
     return changes
 
 
+def set_git_config(_repo):
+    username = input("Enter your Git username: ")
+    email = input("Enter your Git email: ")
+
+    _repo.config_writer().set_value("user", "name", username).release()
+    _repo.config_writer().set_value("user", "email", email).release()
+
+
+def create_env_file():
+    username = input("Enter the Github username: ")
+    access_token = input("Enter the Github access token: ")
+
+    with open(".env", "w") as f:
+        f.write(f"GITHUB_USERNAME={username}\n")
+        f.write(f"GITHUB_ACCESS_TOKEN={access_token}\n")
+
+
 def git_commit(_message, _add, _repo=os.getcwd()):
     if not _add:
         print("Nothing to commit")
@@ -95,7 +112,18 @@ def git_commit(_message, _add, _repo=os.getcwd()):
 
     repo.git.add(*_add)
 
-    repo.git.commit("-m", _message)
+    try:
+        repo.git.commit("-m", _message)
+    except GitCommandError as e:
+        if "Author identity unknown" in str(e):
+            set_git_config(repo)
+            repo.git.commit("-m", _message)
+        else:
+            print("An error occurred while committing changes: ", e)
+            exit()
+
+    if not load_dotenv():
+        create_env_file()
 
     load_dotenv()
     username = os.environ.get("GITHUB_USERNAME")

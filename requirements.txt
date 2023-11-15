@@ -1,0 +1,4 @@
+GitPython
+tqdm
+python-dotenv
+paramiko

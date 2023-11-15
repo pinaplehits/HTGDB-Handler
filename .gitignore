@@ -4,3 +4,4 @@ missing.json
 test.py
 extensions.json
 .env
+.venv/
