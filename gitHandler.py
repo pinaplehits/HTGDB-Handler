@@ -86,6 +86,14 @@ def git_difference(
     return changes
 
 
+def set_git_config(_repo):
+    username = input("Enter your Git username: ")
+    email = input("Enter your Git email: ")
+
+    _repo.config_writer().set_value("user", "name", username).release()
+    _repo.config_writer().set_value("user", "email", email).release()
+
+
 def git_commit(_message, _add, _repo=os.getcwd()):
     if not _add:
         print("Nothing to commit")
@@ -93,9 +101,17 @@ def git_commit(_message, _add, _repo=os.getcwd()):
 
     repo = Repo(_repo)
 
-    repo.git.add(*_add)
+    # repo.git.add(*_add)
 
-    repo.git.commit("-m", _message)
+    try:
+        repo.git.commit("-m", _message)
+    except GitCommandError as e:
+        if "Author identity unknown" in str(e):
+            set_git_config(repo)
+            # repo.git.commit("-m", _message)
+        else:
+            print("An error occurred while committing changes: ", e)
+            exit()
 
     load_dotenv()
     username = os.environ.get("GITHUB_USERNAME")
