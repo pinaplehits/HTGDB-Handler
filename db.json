@@ -1045,6 +1045,7 @@
       ".xml",
       ".zip"
     ],
+    "incorrectLocation": false,
     "missing": [
       [
         "10PRINT.c10",
@@ -4700,7 +4701,8 @@
       ]
     ],
     "reducedFrom": 19153,
-    "reducedTo": 18862
+    "reducedTo": 18862,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "MiSTer Acorn Archimedes Add-On": {
     "extensions": [
