@@ -5092,6 +5092,10 @@
         "1f38323df1be2fee43e56d925e856d4b70464411f439848d7762650ea521300f"
       ],
       [
+        "01 Theme of Tecmo Super Baseball.spc",
+        "9f822bb21a86f96b2e0c75df46615e3c99a6e0d3626330b008f0c6620a478567"
+      ],
+      [
         "01 Title & The Tomb of King Phut.spc",
         "3ddd6f0b4fe07fa6ec3793228d28c0758fd3e1e7bb0f128f4deccdaab058fd9e"
       ],
@@ -5241,15 +5245,15 @@
       ],
       [
         "01 Title.spc",
+        "42f862bcad76a11abbcf64337eebe0c9e9105f4a1af90b1133b46d0478837cbb"
+      ],
+      [
+        "01 Title.spc",
         "4940d92f8253a7bf878e4f80c150179e5a2dc1903c808e3153a5a49ba0475f43"
       ],
       [
         "01 Title.spc",
         "52b665662d85fc3e18eb5e2fd17e5606e899dea2bacfb1aa4bae9311a1f82431"
-      ],
-      [
-        "01 Title.spc",
-        "7def5cc366ee3ea3ac9d2e8e2fe38befa5e0654c2d8f60b62dcd069383cc94e7"
       ],
       [
         "01 Title.spc",
@@ -5500,6 +5504,10 @@
         "7951421915e0a2fa15e89bf8439f5fc5a803df3b57cd0d449dbb4e4189ed7728"
       ],
       [
+        "02 Mode & Course Select.spc",
+        "5b85eb8288c6360e1c4cedaacb401fc1b23d7e4934b23c134c051a9406b38073"
+      ],
+      [
         "02 Mode and Team Select.spc",
         "213c527bfa9f602971e51917b1f618f473048de4710e46bcfafe2f20cea9f0b8"
       ],
@@ -5530,6 +5538,10 @@
       [
         "02 Pause Music.spc",
         "82d8d13b89d11c87b3f751b2c21b22318d7f913afd5f1a9a4cd7ddc0b952d0d5"
+      ],
+      [
+        "02 Preparing for the Game.spc",
+        "52f57e415015d148d299784c773b1e8dd74ad6b9adfb91c2ecb3d2cd2a26fb49"
       ],
       [
         "02 Prologue.spc",
@@ -6001,7 +6013,7 @@
       ],
       [
         "03 Spike.spc",
-        "1cdd6d69d7eb68213b336497eac4917d6ecd04e204064ee0fa0cf16d76f073d9"
+        "537adf6458fe5a0bb33d43140ad8914c5db9fbc33bdf455820afb0f60a2cd213"
       ],
       [
         "03 Stand Fighter.spc",
@@ -6058,6 +6070,10 @@
       [
         "03 Title.spc",
         "44baaca3ef76a5d8e19ea9a6c7444df5a39532140425a4cb4f1b69e31215752b"
+      ],
+      [
+        "03 Today's Matchup.spc",
+        "02f9493f056b12ccb31a9e521db83c51266856424d4b62132781939ef91ed315"
       ],
       [
         "03 Tottori Island.spc",
@@ -6158,6 +6174,10 @@
       [
         "04 Castle (Area 2).spc",
         "fa387a359072ca30afd57dd02c50756ee8a58272699d3733be464db591105970"
+      ],
+      [
+        "04 Cheers of the Crowd.spc",
+        "9e2c1d4533200c7e229f668b3cfa2f03bcc25eeb414821a2518f039efad95749"
       ],
       [
         "04 Cinema.spc",
@@ -6401,7 +6421,7 @@
       ],
       [
         "04 Slash.spc",
-        "ba76d188ae1f62dce9508d0401c6a54467a384e6f8f578c689f8c118a3c80e2c"
+        "e8b07a70d3a0ef1b9c472c74653aa78b8392042db98313015a70505d73c2dccb"
       ],
       [
         "04 Stadium Organ.spc",
@@ -6548,6 +6568,10 @@
         "beebccfe8d247d7b00e18c51134a40fa659fc41641617bd938a9b022e3383564"
       ],
       [
+        "05 Blade.spc",
+        "66201e0de9ea6830a94279a7bb36e5ba2d9c98319f35c94f7f6225c8dcdc0c46"
+      ],
+      [
         "05 Boss Battle.spc",
         "3e79149e4ebb23db8be1221583ff2690eb457f94af7c201231a83ab799182fa0"
       ],
@@ -6626,6 +6650,10 @@
       [
         "05 Hulk Hogan.spc",
         "81d0016f3294429958b33a4737438efc9599fe5bbc8665d14943b8889a15b6a8"
+      ],
+      [
+        "05 In the On-Deck Circle.spc",
+        "81770080e195a0ec31fa0e105a832d3b7f57c7fd18c884cfec7ae1b0e56371ba"
       ],
       [
         "05 In-Game Music (Faster).spc",
@@ -6948,6 +6976,10 @@
         "d380a14d125f8a70eea0aedccdcafe92ce8206a0bf1f285b9b7e350b0e0c530a"
       ],
       [
+        "06 Fang.spc",
+        "2458678b50db7067d7621f138a2a72730d32277f1c0ac04bc544544e49b80c1b"
+      ],
+      [
         "06 Final Battle.spc",
         "cf0728c931bc4882fe9ce8f62cba5a3efd2a34702dacd25bf5c3dcdb32f97dab"
       ],
@@ -7006,6 +7038,10 @@
       [
         "06 Major Smith's Escape Tunnel.spc",
         "1f6242d53e36910455f1f630cc13b10114ba95f1ef5f47839f20e380a34ce549"
+      ],
+      [
+        "06 Manager's Role.spc",
+        "8dbfb75d1aefce66b9ae4da7c0a3fe47f17c943a9b0325de7499dea474403217"
       ],
       [
         "06 Maze.spc",
@@ -7460,6 +7496,10 @@
         "a2ad0af88dafc53927859652fa3d8571d413327e7f49527bdae9126f613062ac"
       ],
       [
+        "07 Talon.spc",
+        "48e6e0880d290c3100d15faaff821dee707f3f989ba95d2a93d8631a7bb27069"
+      ],
+      [
         "07 Tatanka.spc",
         "983ef6399401f9029e005562acff1944fd3ef671b5c0c2dc795abb73a5d2b354"
       ],
@@ -7526,6 +7566,14 @@
       [
         "07 You Won!.spc",
         "7925d4fb5562fd2c9b7624a5063e286c0b9ebcd5e39c2d764dbb1c739caf9277"
+      ],
+      [
+        "07a Goodbye!.spc",
+        "af0086795093088c20c817a3248e64a5e1149ac6a4027d1d18b6994170900f0a"
+      ],
+      [
+        "07b Goodbye! (Extended Intro).spc",
+        "905b77e811d9b3fbdcf786918ef808d325cb71393f4b728fcea83aa1289ffd59"
       ],
       [
         "07c Match Over (Kombat Tomb).spc",
@@ -7665,7 +7713,7 @@
       ],
       [
         "08 Hog.spc",
-        "6aec52fbc9d2cbd9827eec216858bb98638e97c786136a895a7c93642f0a50ce"
+        "7a790437869399abf8040c18d54d63a61e8a45567b382e039332bb867ff180fc"
       ],
       [
         "08 Honkey-Tonk Street.spc",
@@ -7766,6 +7814,10 @@
       [
         "08 Stage Music 3.spc",
         "0790c9d1286decbc68a885bbb4629331344b402ca4adca76344cd5ff6798c0c1"
+      ],
+      [
+        "08 Take Me Out to the Ball Game.spc",
+        "c0f0fa1f4f443e7e9986e34bd39b4cbf1d08eb21cd666fedc75145e395baafbc"
       ],
       [
         "08 The Forest (Area 1).spc",
@@ -7956,6 +8008,10 @@
         "ac982598b2eaccad51c058718db71772bde7c479ccca6b7a77247e3f274b3fad"
       ],
       [
+        "09 Nails.spc",
+        "a582bfca5857cbfb95383c640bae89ce9760574762da0899d1bf3fba60b7ae1f"
+      ],
+      [
         "09 Onto the Weapons Plant (part 2).spc",
         "e4dcd80db61b0eef71b2ca66bb5c79956c57e2170027a5d70b271adcf86fdb8a"
       ],
@@ -8014,6 +8070,10 @@
       [
         "09 The Infanto Ray Malfunctions.spc",
         "d5a85534dc90409fa9ea179c43f6bec3a0d3e8b405e423200199b0b34c484dd9"
+      ],
+      [
+        "09 The Losers....spc",
+        "f9498bf4e483b68fd2eea1b1eb04a3ba1dc38077567bd9ff28a3cbc6c6ccec26"
       ],
       [
         "09 The Mist of Vengeance.spc",
@@ -8201,7 +8261,7 @@
       ],
       [
         "10 Hawk.spc",
-        "5c62a1f3fe610bcf5474b6743e90b99de0613eb584f087a5aba21eed3b23630e"
+        "6ce4b186b1a5a75574ddc4ea321c95a65405f130a58def2af58b8a21faedf9bb"
       ],
       [
         "10 Heal Magic.spc",
@@ -8292,6 +8352,10 @@
         "420e9ccdfa3148229c3ad8df03a2d39ad0fbd8ea285f618ed98dc270d2ebdbc1"
       ],
       [
+        "10 The Winners!.spc",
+        "00b4d5e55af0294a79930c88c9ff57baa24fce901eb14d53fd6e615a7f8768fe"
+      ],
+      [
         "10 Tokyo.spc",
         "551d48541bbd93b3f334a8921b89d229507f38aeb043b0ad693975e3afaea2e8"
       ],
@@ -8366,6 +8430,10 @@
       [
         "11 Adol Castle.spc",
         "badf1ad75c12d0678785a3a68282b9c8f5bf953402637ca7608566476cdc24fd"
+      ],
+      [
+        "11 After the Game.spc",
+        "630f1a9daedeff59166e72538bfdfabe7e4e1db1e7d2eefa99723cd829cbda06"
       ],
       [
         "11 Attack on Both Sides.spc",
@@ -8573,7 +8641,7 @@
       ],
       [
         "11 Wrong Way.spc",
-        "c8b7ee15b1fa88de4fb25e8fad923eb99dde1da7a63b00def04054432a8994e1"
+        "5447e0c9fe250c03eba00f7fb188c5cc9135be9799e87e869b4c52598d8e7083"
       ],
       [
         "110 Going Our Way.spc",
@@ -8622,6 +8690,10 @@
       [
         "12 Battle 1.spc",
         "9e8ef869b930e4ce5e386c532b29295262e8479536b187646ab0ffa4ba4cd0c3"
+      ],
+      [
+        "12 Behind Ranks.spc",
+        "d187dacb373eb02176ea857c45cd5fdd85ed031b4e8bf81cd5b27f3f14bd1764"
       ],
       [
         "12 Boss Battle 1.spc",
@@ -8782,6 +8854,10 @@
       [
         "12 Tropical Jungle.spc",
         "abecda8466f6f45459722278cc77de9ca8a26f62c99672c44ece6edc77d3bf1a"
+      ],
+      [
+        "12 World Series Champions.spc",
+        "3b4f60620126d9171fe448013bd6fa98b08d606c8f1bbc37c4584e3539434ac7"
       ],
       [
         "12 Yokozuna.spc",
@@ -11308,6 +11384,26 @@
         "82f6ce1113ab2c83407b74fd62a164b7c2d097d502deec1dd35d4232ff24371b"
       ],
       [
+        "99 Baseball Fanfare 1.spc",
+        "6dbd555e29264f17f92d0242cfc5ce2bd3e5523f6d45fd43c5e0f1d0a7b5084e"
+      ],
+      [
+        "99 Baseball Fanfare 2.spc",
+        "bcce584c000ec0762caaff047c54d46b6c501330c57df96709879bbe2cee4554"
+      ],
+      [
+        "99 Baseball Fanfare 3.spc",
+        "643deb4a6a745f89483c8ccad1aa2cc9c4d8bd567f372a38c3d7f98dfeb43f3f"
+      ],
+      [
+        "99 Baseball Fanfare 4.spc",
+        "e2fc076e1bf57cd263b92761bee1a443d433b9f55727b7261de00fe59601abbe"
+      ],
+      [
+        "99 Baseball Fanfare 5.spc",
+        "25851fe665ae2292680bf255bfbab077696e121950514383e1264f13e0d64203"
+      ],
+      [
         "99 Basketball 1.spc",
         "08585183a495616ba2d19fc17dbdebeadeb531248855c4684af4a91a32091a23"
       ],
@@ -11924,6 +12020,14 @@
         "01ac9f81f167ab5eb309c33e9ece43bf54d43029a374e43469d678461df009fb"
       ],
       [
+        "99 Unknown Baseball Jingle 1.spc",
+        "124301da90f58bdc1362561baafbaa160d22c49ecd94450fd610c9b0d0d880a4"
+      ],
+      [
+        "99 Unknown Baseball Jingle 2.spc",
+        "d4fce0c0262a66811c917ea3a0267fac5ee8130dd632d2720974528467f672fa"
+      ],
+      [
         "99 Unknown Song 1.spc",
         "142827a91193d34fd103242e4d02acbec5d8fefd19758e41bcdeee9c6e583084"
       ],
@@ -11996,8 +12100,16 @@
         "0dfc6432160b1b1768e3ea5bfae52449025abf0b5f6330230753e864321b7a0c"
       ],
       [
+        "Dirt Trax FX.sp2",
+        "5f01f7b9c75ea64404ae4d5cfcb7d6aa4b8b7697176faa48668ff190f69ac0eb"
+      ],
+      [
         "Nekotako.sp2",
         "c4ba519ea4098bcf0c66d9442566c3566c2950aece9591f0b54531da37e98977"
+      ],
+      [
+        "Tecmo Super Baseball.sp2",
+        "670f3a93069eaaa69af68f6a6c75b3940d8654fec0730165c09ac0300cd555bf"
       ],
       [
         "fpj-12.spc",
@@ -12065,7 +12177,8 @@
       ]
     ],
     "reducedFrom": 38337,
-    "reducedTo": 38337
+    "reducedTo": 38337,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Saturn Redump Supplement": {
     "extensions": [
