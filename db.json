@@ -244,9 +244,11 @@
       ".cf0",
       ".col"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 1173,
-    "reducedTo": 513
+    "reducedTo": 513,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Darksoft CPS2 SMDB": {
     "extensions": [
