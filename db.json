@@ -12229,6 +12229,7 @@
       ".sub",
       ".wav"
     ],
+    "incorrectLocation": false,
     "missing": [
       [
         "AX-101 (Japan) (Track 1).bin",
@@ -22948,7 +22949,8 @@
       ]
     ],
     "reducedFrom": 8206,
-    "reducedTo": 7466
+    "reducedTo": 7466,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Super EverDrive & SD2SNES SMDB": {
     "compressed": false,
