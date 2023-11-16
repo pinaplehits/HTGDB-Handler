@@ -200,6 +200,7 @@
     "extensions": [
       ".a78"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 1095,
     "reducedTo": 891,
