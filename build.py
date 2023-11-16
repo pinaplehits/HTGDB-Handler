@@ -127,7 +127,8 @@ def build_from_verify(_basename, _smdb, _mismatch):
     folder = os.path.join(section["folder"], _basename)
     missing = _mismatch.replace("mismatch", "missing")
 
-    build_from_main(folder, romimport)
+    if not build_from_main(folder, romimport):
+        return
 
     run_script(
         section["script"], romimport, _smdb, folder, missing, _basename, latest_reduced

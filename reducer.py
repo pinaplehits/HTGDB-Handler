@@ -6,8 +6,12 @@ from jsonHandler import (
     write_to_child,
     write_to_key,
 )
-from smdbHandler import get_extensions, read_file, create_new_file
-import csv
+from smdbHandler import (
+    get_extensions,
+    read_file,
+    create_new_file,
+    get_smdb_not_verified,
+)
 import os
 import shutil
 
@@ -71,7 +75,7 @@ def move_folder_to_legacy(_path_master, _path_build, _path_legacy):
         shutil.rmtree(_path_build)
 
 
-def handle_modified(_modified, _sha1, _added):
+def handle_modified(_modified, _added, _updated_sha1, _latest_sha1):
     if not _modified:
         print("No modified files found")
         return
@@ -80,11 +84,13 @@ def handle_modified(_modified, _sha1, _added):
 
     json_data = get_top_level_keys()
 
+    not_verified = get_smdb_not_verified(_latest_sha1)
+
     removed = [i for i in json_data if i not in basename]
 
     print("Updating verifiedWith in db.json..")
     for key in removed:
-        write_to_child(key, "verifiedWith", _sha1)
+        write_to_child(key, "verifiedWith", _updated_sha1)
 
 
 def handle_deleted(_deleted, _path, _section):
@@ -141,16 +147,17 @@ def check_git_changes(_git_changes, _path, _extra_files=[]):
 
 
 def reducer():
-    htgdb_sha1 = update_repo()
+    updated_sha1 = update_repo()
     section = load_config()
+    latest_sha1 = section["latest_reduced"]
 
-    if section["latest_reduced"] == htgdb_sha1:
+    if latest_sha1 == updated_sha1:
         return print("Nothing new to reduce")
 
     path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
     path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
 
-    git_changes = git_difference(section["latest_reduced"], htgdb_sha1)
+    git_changes = git_difference(latest_sha1, updated_sha1)
 
     handle_renamed(git_changes.get("renamed"))
 
@@ -158,7 +165,9 @@ def reducer():
 
     handle_deleted(git_changes.get("deleted"), path_reduced_smdb, section)
 
-    handle_modified(git_changes.get("modified"), htgdb_sha1, git_changes.get("added"))
+    handle_modified(
+        git_changes.get("modified"), git_changes.get("added"), updated_sha1, latest_sha1
+    )
 
     for database in git_changes.get("added") + git_changes.get("modified"):
         data = read_file(os.path.join(path_smdb, database))
@@ -171,9 +180,9 @@ def reducer():
         write_to_child(basename, "reducedFrom", len(data))
         write_to_child(basename, "compressed", False)
 
-    write_latest_commit(htgdb_sha1)
+    write_latest_commit(updated_sha1)
 
-    git_message = f"Reduced from {section['latest_reduced']} to {htgdb_sha1}"
+    git_message = f"Reduced from {section['latest_reduced']} to {updated_sha1}"
     extra_files = ["db.json", "config.ini"]
     changes = check_git_changes(git_changes, section["new_smdb"], extra_files)
 

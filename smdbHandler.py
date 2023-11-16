@@ -3,15 +3,20 @@ import csv
 import os
 
 
-def get_smdb_with_missing():
-    return [x for x in get_top_level_keys() if read_from_child(x, "missing")]
-
-
-def get_smdb_not_verified(_sha1):
+def get_smdb_with_missing(_json_file="db.json"):
     return [
         x
-        for x in get_top_level_keys()
-        if (verified := read_from_child(x, "verifiedWith")) != _sha1 or not verified
+        for x in get_top_level_keys(_json_file)
+        if read_from_child(x, "missing", _json_file)
+    ]
+
+
+def get_smdb_not_verified(_sha1, _json_file="db.json"):
+    return [
+        x
+        for x in get_top_level_keys(_json_file)
+        if (verified := read_from_child(x, "verifiedWith", _json_file)) != _sha1
+        or not verified
     ]
 
 

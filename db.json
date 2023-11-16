@@ -26,8 +26,7 @@
     "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 14095,
-    "reducedTo": 9721,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 9721
   },
   "Analogue Nt Mini Noir Jailbreak SMDB": {
     "extensions": [
@@ -59,8 +58,7 @@
     ],
     "missing": [],
     "reducedFrom": 12747,
-    "reducedTo": 7481,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 7481
   },
   "Apocalypse": {
     "extensions": [
@@ -165,42 +163,25 @@
     ],
     "missing": [],
     "reducedFrom": 398,
-    "reducedTo": 371,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 371
   },
   "Atari 2600 SMDB": {
-    "extensions": [
-      ".a26",
-      ".sc"
-    ],
+    "extensions": [".a26", ".sc"],
     "missing": [],
     "reducedFrom": 6609,
-    "reducedTo": 4006,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 4006
   },
   "Atari 5200 SMDB": {
-    "extensions": [
-      ".a52",
-      ".atr",
-      ".bin",
-      ".car",
-      ".hyb",
-      ".rom",
-      ".set"
-    ],
+    "extensions": [".a52", ".atr", ".bin", ".car", ".hyb", ".rom", ".set"],
     "missing": [],
     "reducedFrom": 507,
-    "reducedTo": 227,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 227
   },
   "Atari 7800 SMDB": {
-    "extensions": [
-      ".a78"
-    ],
+    "extensions": [".a78"],
     "missing": [],
     "reducedFrom": 1095,
-    "reducedTo": 891,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 891
   },
   "Atari Jaguar SMDB": {
     "extensions": [
@@ -217,31 +198,19 @@
     ],
     "missing": [],
     "reducedFrom": 1154,
-    "reducedTo": 659,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 659
   },
   "Atari Lynx SMDB": {
-    "extensions": [
-      "",
-      ".lnx",
-      ".o"
-    ],
+    "extensions": ["", ".lnx", ".o"],
     "missing": [],
     "reducedFrom": 563,
-    "reducedTo": 267,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 267
   },
   "Colecovision SMDB": {
-    "extensions": [
-      ".ce0",
-      ".ce1",
-      ".cf0",
-      ".col"
-    ],
+    "extensions": [".ce0", ".ce1", ".cf0", ".col"],
     "missing": [],
     "reducedFrom": 1173,
-    "reducedTo": 513,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 513
   },
   "Darksoft CPS2 SMDB": {
     "extensions": [
@@ -261,35 +230,25 @@
     ],
     "missing": [],
     "reducedFrom": 4209,
-    "reducedTo": 1135,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1135
   },
   "Darksoft CPS3 SMDB": {
-    "extensions": [
-      ".bin"
-    ],
+    "extensions": [".bin"],
     "missing": [],
     "reducedFrom": 12,
-    "reducedTo": 12,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 12
   },
   "Darksoft Namco System 1 SMDB": {
-    "extensions": [
-      ".bin"
-    ],
+    "extensions": [".bin"],
     "missing": [],
     "reducedFrom": 6,
-    "reducedTo": 6,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 6
   },
   "Darksoft Neo Geo SMDB": {
-    "extensions": [
-      ""
-    ],
+    "extensions": [""],
     "missing": [],
     "reducedFrom": 1453,
-    "reducedTo": 981,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 981
   },
   "Darksoft STV SMDB": {
     "extensions": [
@@ -321,8 +280,7 @@
     ],
     "missing": [],
     "reducedFrom": 413,
-    "reducedTo": 406,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 406
   },
   "Darksoft Taito F3 SMDB": {
     "extensions": [
@@ -344,155 +302,81 @@
     ],
     "missing": [],
     "reducedFrom": 1642,
-    "reducedTo": 666,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 666
   },
   "Dreamcast Supplement": {
-    "extensions": [
-      ".bin",
-      ".cdi",
-      ".gdi",
-      ".iso",
-      ".mdf",
-      ".mds",
-      ".raw"
-    ],
+    "extensions": [".bin", ".cdi", ".gdi", ".iso", ".mdf", ".mds", ".raw"],
     "reducedFrom": 485,
-    "reducedTo": 458,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 458
   },
   "EverDrive 64 & 64drive SMDB": {
-    "extensions": [
-      "",
-      ".bin",
-      ".v64",
-      ".z64"
-    ],
+    "extensions": ["", ".bin", ".v64", ".z64"],
     "missing": [],
     "reducedFrom": 2999,
-    "reducedTo": 1408,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1408
   },
   "EverDrive GB SMDB": {
-    "extensions": [
-      "",
-      ".gb",
-      ".gbc"
-    ],
+    "extensions": ["", ".gb", ".gbc"],
     "missing": [],
     "reducedFrom": 5372,
-    "reducedTo": 1684,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1684
   },
   "EverDrive GBA SMDB": {
-    "extensions": [
-      "",
-      ".bin",
-      ".gba"
-    ],
+    "extensions": ["", ".bin", ".gba"],
     "missing": [],
     "reducedFrom": 6113,
-    "reducedTo": 3713,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 3713
   },
   "EverDrive GG SMDB": {
-    "extensions": [
-      "",
-      ".gg",
-      ".sms"
-    ],
+    "extensions": ["", ".gg", ".sms"],
     "missing": [],
     "reducedFrom": 2088,
-    "reducedTo": 1117,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1117
   },
   "EverDrive N8 & PowerPak SMDB": {
-    "extensions": [
-      "",
-      ".fds",
-      ".nes",
-      ".unh",
-      ".unif"
-    ],
+    "extensions": ["", ".fds", ".nes", ".unh", ".unif"],
     "missing": [],
     "reducedFrom": 13816,
-    "reducedTo": 7760,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 7760
   },
   "Fairchild Channel F SMDB": {
-    "extensions": [
-      ".bin"
-    ],
+    "extensions": [".bin"],
     "missing": [],
     "reducedFrom": 34,
-    "reducedTo": 34,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 34
   },
   "Famicom Disk System SMDB": {
-    "extensions": [
-      ".bin",
-      ".fds",
-      ".qd"
-    ],
+    "extensions": [".bin", ".fds", ".qd"],
     "missing": [],
     "reducedFrom": 1050,
-    "reducedTo": 965,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 965
   },
   "Game Boy Color SMDB": {
-    "extensions": [
-      ".gb",
-      ".gbc"
-    ],
+    "extensions": [".gb", ".gbc"],
     "missing": [],
     "reducedFrom": 2184,
-    "reducedTo": 2182,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 2182
   },
   "Game Boy SMDB": {
-    "extensions": [
-      ".gb",
-      ".gbc"
-    ],
+    "extensions": [".gb", ".gbc"],
     "missing": [],
     "reducedFrom": 3357,
-    "reducedTo": 2612,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 2612
   },
   "Master EverDrive SMDB": {
-    "extensions": [
-      "",
-      ".sg",
-      ".sms"
-    ],
+    "extensions": ["", ".sg", ".sms"],
     "missing": [],
     "reducedFrom": 3026,
-    "reducedTo": 1511,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1511
   },
   "Mega EverDrive SMDB": {
-    "extensions": [
-      "",
-      ".32x",
-      ".bin",
-      ".gen",
-      ".gg",
-      ".md",
-      ".smd",
-      ".sms"
-    ],
+    "extensions": ["", ".32x", ".bin", ".gen", ".gg", ".md", ".smd", ".sms"],
     "missing": [],
     "reducedFrom": 8458,
-    "reducedTo": 4390,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 4390
   },
   "MegaSD SMDB": {
-    "extensions": [
-      "",
-      ".cue",
-      ".md",
-      ".wav"
-    ],
+    "extensions": ["", ".cue", ".md", ".wav"],
     "missing": [
       [
         "00 Go Straight.wav",
@@ -976,8 +860,7 @@
       ]
     ],
     "reducedFrom": 153,
-    "reducedTo": 133,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 133
   },
   "MiSTer": {
     "extensions": [
@@ -4678,109 +4561,64 @@
       ]
     ],
     "reducedFrom": 19153,
-    "reducedTo": 18862,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 18862
   },
   "MiSTer Acorn Archimedes Add-On": {
-    "extensions": [
-      ".adf",
-      ".hdf",
-      ".rom"
-    ],
+    "extensions": [".adf", ".hdf", ".rom"],
     "missing": [],
     "reducedFrom": 215,
-    "reducedTo": 215,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 215
   },
   "MiSTer Neo Geo Add-On": {
-    "extensions": [
-      ".neo",
-      ".zip"
-    ],
+    "extensions": [".neo", ".zip"],
     "missing": [],
     "reducedFrom": 297,
-    "reducedTo": 294,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 294
   },
   "MiSTer Spectrum Add-On": {
-    "extensions": [
-      ".dsk",
-      ".mgt",
-      ".scl",
-      ".tap",
-      ".trd",
-      ".z80"
-    ],
+    "extensions": [".dsk", ".mgt", ".scl", ".tap", ".trd", ".z80"],
     "missing": [],
     "reducedFrom": 11928,
-    "reducedTo": 11927,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 11927
   },
   "MiSTer TSConf Add-On": {
-    "extensions": [
-      ".vhd"
-    ],
+    "extensions": [".vhd"],
     "missing": [],
     "reducedFrom": 1,
-    "reducedTo": 1,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1
   },
   "NES2.0 SMDB": {
-    "extensions": [
-      "",
-      ".nes",
-      ".sav"
-    ],
+    "extensions": ["", ".nes", ".sav"],
     "missing": [],
     "reducedFrom": 4391,
-    "reducedTo": 4377,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 4377
   },
   "NGPC RetroHQ SMDB": {
-    "extensions": [
-      ".ngc",
-      ".ngp"
-    ],
+    "extensions": [".ngc", ".ngp"],
     "missing": [],
     "reducedFrom": 513,
-    "reducedTo": 288,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 288
   },
   "NSF Music SMDB": {
-    "extensions": [
-      ".nsf"
-    ],
+    "extensions": [".nsf"],
     "missing": [],
     "reducedFrom": 4012,
-    "reducedTo": 4012,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 4012
   },
   "PC Engine CD Redump Supplement": {
     "compressed": false,
-    "extensions": [
-      "",
-      ".bin",
-      ".cue",
-      ".iso",
-      ".rom",
-      ".wav"
-    ],
+    "extensions": ["", ".bin", ".cue", ".iso", ".rom", ".wav"],
     "missing": [],
     "reducedFrom": 1990,
-    "reducedTo": 1924,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 1924
   },
   "PlayStation Redump Supplement": {
     "compressed": false,
-    "extensions": [
-      ".bin",
-      ".cue"
-    ],
+    "extensions": [".bin", ".cue"],
     "masterUpdated": true,
     "missing": [],
     "reducedFrom": 336,
-    "reducedTo": 329,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 329
   },
   "Project Peacock - All PCE platform shooters": {
     "extensions": [
@@ -4795,15 +4633,11 @@
     ],
     "missing": [],
     "reducedFrom": 2517,
-    "reducedTo": 2201,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 2201
   },
   "SPC Music SMDB": {
     "compressed": false,
-    "extensions": [
-      ".sp2",
-      ".spc"
-    ],
+    "extensions": [".sp2", ".spc"],
     "incorrectLocation": false,
     "missing": [
       [
@@ -12044,8 +11878,7 @@
       ]
     ],
     "reducedFrom": 38337,
-    "reducedTo": 38337,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 38337
   },
   "Saturn Redump Supplement": {
     "extensions": [
@@ -12060,30 +11893,19 @@
     ],
     "missing": [],
     "reducedFrom": 363,
-    "reducedTo": 302,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 302
   },
   "Sega 32X SMDB": {
-    "extensions": [
-      ".32x",
-      ".bin"
-    ],
+    "extensions": [".32x", ".bin"],
     "missing": [],
     "reducedFrom": 276,
-    "reducedTo": 276,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 276
   },
   "Sega SG-1000 SMDB": {
-    "extensions": [
-      ".sc",
-      ".sf",
-      ".sg",
-      ".sms"
-    ],
+    "extensions": [".sc", ".sf", ".sg", ".sms"],
     "missing": [],
     "reducedFrom": 348,
-    "reducedTo": 348,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 348
   },
   "SegaCD": {
     "extensions": [
@@ -22818,77 +22640,45 @@
       ]
     ],
     "reducedFrom": 8206,
-    "reducedTo": 7466,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 7466
   },
   "Super EverDrive & SD2SNES SMDB": {
     "compressed": false,
-    "extensions": [
-      "",
-      ".bin",
-      ".bs",
-      ".fig",
-      ".sfc"
-    ],
+    "extensions": ["", ".bin", ".bs", ".fig", ".sfc"],
     "masterUpdated": true,
     "missing": [],
     "reducedFrom": 13559,
-    "reducedTo": 7434,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 7434
   },
   "Turbo EverDrive & Super SD System 3 SMDB": {
-    "extensions": [
-      ".pce",
-      ".sgx"
-    ],
+    "extensions": [".pce", ".sgx"],
     "missing": [],
     "reducedFrom": 1475,
-    "reducedTo": 677,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 677
   },
   "Vectrex SMDB": {
-    "extensions": [
-      ".bin",
-      ".vec"
-    ],
+    "extensions": [".bin", ".vec"],
     "missing": [],
     "reducedFrom": 424,
-    "reducedTo": 277,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 277
   },
   "Virtual Boy SMDB": {
-    "extensions": [
-      ".bin",
-      ".dll",
-      ".gb",
-      ".gbc",
-      ".imp",
-      ".ocx",
-      ".vb"
-    ],
+    "extensions": [".bin", ".dll", ".gb", ".gbc", ".imp", ".ocx", ".vb"],
     "missing": [],
     "reducedFrom": 603,
-    "reducedTo": 509,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 509
   },
   "Watara Supervision SMDB": {
-    "extensions": [
-      ".sv"
-    ],
+    "extensions": [".sv"],
     "missing": [],
     "reducedFrom": 69,
-    "reducedTo": 69,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "reducedTo": 69
   },
   "Wonderswan SMDB": {
     "compressed": false,
-    "extensions": [
-      ".ws",
-      ".wsc"
-    ],
+    "extensions": [".ws", ".wsc"],
     "missing": [],
     "reducedFrom": 953,
-    "reducedTo": 349,
-    "verifiedWith": "1015b395537e9ef303cd55b89298ec8f491e9a8b"
+    "reducedTo": 349
   }
 }
