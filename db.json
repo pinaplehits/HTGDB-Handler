@@ -354,9 +354,11 @@
       ".13",
       ".14"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 1642,
-    "reducedTo": 666
+    "reducedTo": 666,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Dreamcast Supplement": {
     "extensions": [
