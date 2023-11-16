@@ -4708,9 +4708,11 @@
       ".hdf",
       ".rom"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 215,
-    "reducedTo": 215
+    "reducedTo": 215,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "MiSTer Neo Geo Add-On": {
     "extensions": [
