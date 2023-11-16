@@ -266,9 +266,11 @@
       ".11",
       ".12"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 4209,
-    "reducedTo": 1135
+    "reducedTo": 1135,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Darksoft CPS3 SMDB": {
     "extensions": [
