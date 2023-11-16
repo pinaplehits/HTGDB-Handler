@@ -23145,10 +23145,17 @@
       ".fig",
       ".sfc"
     ],
+    "incorrectLocation": false,
     "masterUpdated": true,
-    "missing": [],
+    "missing": [
+      [
+        "Gokujou Parodius (J) T+Eng v 1.1a blizzz.sfc",
+        "84878efb76a953b8cc1eda2df6d8ef0aa525b5fc79ce04148bb5db996e4002dc"
+      ]
+    ],
     "reducedFrom": 13559,
-    "reducedTo": 7434
+    "reducedTo": 7434,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Turbo EverDrive & Super SD System 3 SMDB": {
     "extensions": [
