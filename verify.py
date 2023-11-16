@@ -105,6 +105,7 @@ def verify():
         ]
 
         try:
+            print("Verifying", basename)
             subprocess.run(command, check=True)
         except subprocess.CalledProcessError as e:
             print(e.output)
