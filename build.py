@@ -60,7 +60,7 @@ def all_smdb(_path):
     [print(index, value) for index, value in enumerate(basename)]
     index = input("Select one SMDB file: ")
 
-    return smdb[int(index)], basename[int(index)]
+    return [smdb[int(index)]], [basename[int(index)]]
 
 
 def update_missing(_missing, _basename):
