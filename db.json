@@ -4734,9 +4734,11 @@
       ".trd",
       ".z80"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 11928,
-    "reducedTo": 11927
+    "reducedTo": 11927,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "MiSTer TSConf Add-On": {
     "extensions": [
