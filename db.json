@@ -416,9 +416,11 @@
       ".gg",
       ".sms"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 2088,
-    "reducedTo": 1117
+    "reducedTo": 1117,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "EverDrive N8 & PowerPak SMDB": {
     "extensions": [
