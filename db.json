@@ -4744,9 +4744,11 @@
     "extensions": [
       ".vhd"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 1,
-    "reducedTo": 1
+    "reducedTo": 1,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "NES2.0 SMDB": {
     "extensions": [
