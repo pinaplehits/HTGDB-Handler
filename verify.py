@@ -112,6 +112,11 @@ def verify():
 
         runBuildScript = handle_mismatch(mismatch, basename)
 
+        if not runBuildScript:
+            write_to_child(
+                basename, "verifiedWith", "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+            )
+
         if runBuildScript:
             build_from_verify(basename, smdb, mismatch)
 
