@@ -12393,9 +12393,11 @@
       ".sg",
       ".sms"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 348,
-    "reducedTo": 348
+    "reducedTo": 348,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "SegaCD": {
     "extensions": [
