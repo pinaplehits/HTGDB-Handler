@@ -23199,9 +23199,11 @@
     "extensions": [
       ".sv"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 69,
-    "reducedTo": 69
+    "reducedTo": 69,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Wonderswan SMDB": {
     "compressed": false,
