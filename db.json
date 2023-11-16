@@ -463,9 +463,11 @@
       ".gb",
       ".gbc"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 2184,
-    "reducedTo": 2182
+    "reducedTo": 2182,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Game Boy SMDB": {
     "extensions": [
