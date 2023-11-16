@@ -12369,9 +12369,11 @@
       ".sub",
       ".wav"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 363,
-    "reducedTo": 302
+    "reducedTo": 302,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Sega 32X SMDB": {
     "extensions": [
