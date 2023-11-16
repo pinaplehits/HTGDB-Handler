@@ -164,6 +164,7 @@
       ".rom",
       ".v0"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 398,
     "reducedTo": 371,
