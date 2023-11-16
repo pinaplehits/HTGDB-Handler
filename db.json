@@ -380,9 +380,11 @@
       ".v64",
       ".z64"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 2999,
-    "reducedTo": 1408
+    "reducedTo": 1408,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "EverDrive GB SMDB": {
     "extensions": [
