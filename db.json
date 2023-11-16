@@ -474,9 +474,11 @@
       ".gb",
       ".gbc"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 3357,
-    "reducedTo": 2612
+    "reducedTo": 2612,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Master EverDrive SMDB": {
     "extensions": [
