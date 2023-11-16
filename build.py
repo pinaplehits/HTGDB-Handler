@@ -49,7 +49,7 @@ def select_database(_path, _sha1):
 
     smdb = [f"{x}.txt" for x in basename]
 
-    return smdb[int(index)], basename[int(index)]
+    return [smdb[int(index)]], [basename[int(index)]]
 
 
 def all_smdb(_path):
@@ -213,7 +213,6 @@ def build_debug():
     section, latest_reduced = load_config()
 
     smdb, basename = select_database(section["smdb"], latest_reduced)
-    input("Press enter to continue...")
 
     for smdb, basename in zip(smdb, basename):
         missing = "missing_" + smdb
