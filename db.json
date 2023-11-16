@@ -4948,10 +4948,37 @@
       ".bin",
       ".cue"
     ],
+    "incorrectLocation": false,
     "masterUpdated": true,
-    "missing": [],
+    "missing": [
+      [
+        "Choro Q Wonderful! (J) T+Eng v1.2 MODDED Robert Allen.bin",
+        "cf0090d956806e8f3a7803a168ad3f6f56bc33235ecd92d2869fa151e21abe25"
+      ],
+      [
+        "Choro Q Wonderful! (J) T+Eng v1.2 MODDED Robert Allen.cue",
+        "7e7db2ab17c20a2fda56be605f1dd4a02a1eb8237e26e6ddbadb66aacb4978ef"
+      ],
+      [
+        "Choro Q Wonderful! (J) T+Eng v1.2 Robert Allen.bin",
+        "a7a0f81a184d6080bd2146ea275e79cba32011611e1b1a65b0cfd658d9097ddc"
+      ],
+      [
+        "Choro Q Wonderful! (J) T+Eng v1.2 Robert Allen.cue",
+        "b4e31b3776a7a9829a8b2c217724a826d7cb54af4e486db0e22cd3982add88b9"
+      ],
+      [
+        "Prisoner of Ice - Jashin Kourin (J) T+Eng v1 Plissken.bin",
+        "ce1cedcd480a05e24b58a5e1c71ddb6d67ab687423453cc4e4c20b9b0c038599"
+      ],
+      [
+        "Prisoner of Ice - Jashin Kourin (J) T+Eng v1 Plissken.cue",
+        "745566540a44a3e75977ed41e77b5f73637b66abf090731fd082935a9dfa3a5d"
+      ]
+    ],
     "reducedFrom": 336,
-    "reducedTo": 329
+    "reducedTo": 329,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Project Peacock - All PCE platform shooters": {
     "extensions": [
