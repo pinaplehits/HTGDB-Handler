@@ -190,6 +190,7 @@
       ".rom",
       ".set"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 507,
     "reducedTo": 227,
