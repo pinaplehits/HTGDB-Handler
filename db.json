@@ -23173,9 +23173,11 @@
       ".bin",
       ".vec"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 424,
-    "reducedTo": 277
+    "reducedTo": 277,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "Virtual Boy SMDB": {
     "extensions": [
