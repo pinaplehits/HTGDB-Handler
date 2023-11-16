@@ -4779,9 +4779,11 @@
     "extensions": [
       ".nsf"
     ],
+    "incorrectLocation": false,
     "missing": [],
     "reducedFrom": 4012,
-    "reducedTo": 4012
+    "reducedTo": 4012,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "PC Engine CD Redump Supplement": {
     "compressed": false,
