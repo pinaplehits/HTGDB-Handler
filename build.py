@@ -193,28 +193,9 @@ def build():
     section, latest_reduced = load_config()
 
     smdb, basename = select_database(section["smdb"], latest_reduced)
-    missing = "missing_" + smdb
-    romimport = os.path.join(section["romimport"], basename)
-
-    folder = os.path.join(section["folder"], basename)
-    smdb = os.path.join(section["smdb"], smdb)
-    masters = os.path.join(section["masters"], basename)
-
-    if not build_from_main(folder, romimport):
-        if not build_from_masters(masters, basename, romimport):
-            return print("No files to build")
-
-    run_script(
-        section["script"], romimport, smdb, folder, missing, basename, latest_reduced
-    )
-
-
-def build_debug():
-    section, latest_reduced = load_config()
-
-    smdb, basename = select_database(section["smdb"], latest_reduced)
 
     for smdb, basename in zip(smdb, basename):
+        print(f"Building {basename}")
         missing = "missing_" + smdb
         romimport = os.path.join(section["romimport"], basename)
 
@@ -239,5 +220,4 @@ def build_debug():
 
 if __name__ == "__main__":
     reducer()
-    # build()
-    build_debug()
+    build()

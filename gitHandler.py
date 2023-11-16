@@ -135,6 +135,7 @@ def git_commit(_message, _add, _repo=os.getcwd()):
 
     origin = repo.remote(name="origin")
     origin.set_url(remote_url)
+    print("Pushing changes...")
     origin.push()
 
 
