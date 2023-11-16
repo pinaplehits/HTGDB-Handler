@@ -19,26 +19,37 @@ def load_config(_section="build_reduced", _file="config.ini"):
 
 
 def select_database(_path, _sha1):
-    smdb, basename = smdb_with_missing(_sha1)
-
-    [print(index, value) for index, value in enumerate(basename)]
-    print("999 for all SMDB files")
-    index = input("Select one SMDB file: ")
-
-    if index == "999":
-        return all_smdb(_path)
-
-    return smdb[int(index)], basename[int(index)]
-
-
-def smdb_with_missing(_sha1):
     missing = get_smdb_with_missing()
     not_verified = get_smdb_not_verified(_sha1)
 
     basename = sorted(set(missing + not_verified))
+
+    [print(index, value) for index, value in enumerate(basename)]
+    print(len(basename), "All missing")
+    print(len(basename) + 1, "All not verified")
+    print(len(basename) + 2, "All missing and not verified")
+    # print(len(basename) + 3, "All")
+    print("999 for all SMDB files")
+    index = input("Select one SMDB file: ")
+
+    if int(index) == len(basename):
+        smdb = [f"{x}.txt" for x in missing]
+        return smdb, missing
+
+    if int(index) == len(basename) + 1:
+        smdb = [f"{x}.txt" for x in not_verified]
+        return smdb, not_verified
+
+    if int(index) == len(basename) + 2:
+        smdb = [f"{x}.txt" for x in basename]
+        return smdb, basename
+
+    if index == "999":
+        return all_smdb(_path)
+
     smdb = [f"{x}.txt" for x in basename]
 
-    return smdb, basename
+    return smdb[int(index)], basename[int(index)]
 
 
 def all_smdb(_path):
@@ -198,6 +209,36 @@ def build():
     )
 
 
+def build_debug():
+    section, latest_reduced = load_config()
+
+    smdb, basename = select_database(section["smdb"], latest_reduced)
+    input("Press enter to continue...")
+
+    for smdb, basename in zip(smdb, basename):
+        missing = "missing_" + smdb
+        romimport = os.path.join(section["romimport"], basename)
+
+        folder = os.path.join(section["folder"], basename)
+        smdb = os.path.join(section["smdb"], smdb)
+        masters = os.path.join(section["masters"], basename)
+
+        if not build_from_main(folder, romimport):
+            if not build_from_masters(masters, basename, romimport):
+                continue
+
+        run_script(
+            section["script"],
+            romimport,
+            smdb,
+            folder,
+            missing,
+            basename,
+            latest_reduced,
+        )
+
+
 if __name__ == "__main__":
     reducer()
-    build()
+    # build()
+    build_debug()
