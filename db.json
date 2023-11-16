@@ -4795,9 +4795,152 @@
       ".rom",
       ".wav"
     ],
-    "missing": [],
+    "incorrectLocation": false,
+    "missing": [
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 01).bin",
+        "85e52a016f3010cf247ab32f056efe23a4c0fd1474e0df86304bbae2eea50ae8"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 02).iso",
+        "b9b3ad91ce035fa18916daeda4f2f48af486922c0d88ead702bdc49ef5772bdc"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 03).bin",
+        "6d7c9a1f0deb1af3e3b5ba128821171e759261c18101c7068e2b823b6e136097"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 04).bin",
+        "cb668173c0baa09ab55a58da0378951c58f52a0d24ab661fe6342196af5b2372"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 05).bin",
+        "13075752eb5835eb1a707b0ceae452647b1d2dcbdd18cccbda2880eb58493312"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 06).bin",
+        "f8003062d0d2b1d42c90742c13cd7acbf5067a810842c24cba055f6a63583483"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 07).bin",
+        "3f15e5eabdee619d09742bf2165a6b091208661d71e843e3c8e9d2332a65a7b0"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 08).bin",
+        "d7b4b71b26bed501b5998ed36aff3de5e230162135346b46eac740cb4a50b2d5"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 09).bin",
+        "96cbe3db7aa2ed22200a4b64eeae5ad9d68c75c63ab423c85694dc68d22f5046"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 10).bin",
+        "b8042b089e2a9d339d52e7fbc1dbdd06cca7d3e57b2a732a6384553a4f192db2"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 11).bin",
+        "01e37e124bd61d6f4ea10da11b108bd1c1ec6f4cc0c1e5ad5a1bbba051834356"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 12).bin",
+        "a795cb544aa78145231563971111c83035bd2bb0f61d8da69d010e917436e152"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 13).bin",
+        "54bd889359aa00571321085ccca96d27d921aaca327e11d757c87a8add00201b"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 14).bin",
+        "d2615634e06f759fcc6784a4a8b922dd2d937a18d8deb6e6e6d03013a77c2c23"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 15).bin",
+        "2ee60b69fe0668d9dd88259454e60cae6a2a696e7680d58fa3ea1e60a60ff0a2"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 16).bin",
+        "f31498659bcbc8acafc50d6910f770b37249bdc9f708ec8f4b76b91a6b07e301"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 17).bin",
+        "73f4447f8c6dc0eb14ac788f9245a3f0081682b5b982d5ea447207b8acba0e0d"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 18).bin",
+        "7e1cad2b3f64d0b4de236284d9233a888bdd024c41ad7c1331e19b7e31f53e72"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 19).bin",
+        "8c3251d622fa25bd0cb3c3fa04d604b33d841b8cb19c0d26b2f257ead0a46370"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 20).bin",
+        "a41412d2925bb85694cb225af0ad92180ff322d2bfc47ceeccc94797b374fed1"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 21).bin",
+        "4292d71e88d82906d57ffc85f74e6a2a62db5c25f77b18a40ba9c11d1869a21a"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 22).bin",
+        "eaaadde94f0a65bbbffac4288f6b5e3f4db502315827427d96f0254a68dc32f6"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 23).bin",
+        "73ecbe9f26cd59676cd1b7003d8bdbf3b74dc018869b8eac02a035852714352e"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 24).bin",
+        "9bc0ba975cd1169291d3ba208a5d61244ca372a9b7662b8d5285289e53561c94"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 25).bin",
+        "2d964b97c75b3c36561775014fe28020459f521f6feba7304292966ea7b5ddde"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 26).bin",
+        "87dd13e7d523e225de3f8d2ac9d5149add2be62df3f2dca62ba1a4521e42299b"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 27).bin",
+        "78587b749df75b04c091df8bc489f261168378712d03de7c4dbae03cfc3fb62d"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 28).bin",
+        "f2e6e08353b999a564da8fd6698f029b7bd90754cb464afeae9490727670ea59"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 29).bin",
+        "d6bd9169656b81332e9da5aed6344641861576f67c91b551f98550d1fe1959d5"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 30).bin",
+        "f26b5c3ab3c27a7b9ce039497c0b6b7fba5506ffb1b48d83f8e642ff9f28dfc4"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 31).bin",
+        "1043d7f46c0ed4a49df1209ff760b47cabd6d5fc4aab00730aae9104b988edde"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 32).bin",
+        "6aaee93d9e1c528fa2a3f3222f54f5806cfe6b471f209da14a1f72f57a8683de"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 33).bin",
+        "ffb1b3a65303612773f579b71fad1063bbba4ce98948336c82a10a492c1714a1"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff (Track 34).bin",
+        "e26a63a4333cae4eac00085a6bc34bf8a053f460f63b66332bdc8acfe6e89898"
+      ],
+      [
+        "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff.cue",
+        "ce86a4c9f60d7c49a6c41a1bdb2e9e226bb6bf852eb6b265daf90abbae6ed2f7"
+      ]
+    ],
     "reducedFrom": 1990,
-    "reducedTo": 1924
+    "reducedTo": 1924,
+    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
   },
   "PlayStation Redump Supplement": {
     "compressed": false,
