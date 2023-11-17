@@ -200,7 +200,8 @@ def run_script(
     git_message = f"Build updated {_basename} in db.json on {date}"
     changes = [item for item in files if git_file_status(item)]
 
-    print(f"Commiting changes: {_basename}")
+    print(git_message)
+    print(changes)
     git_commit(git_message, changes)
 
 
