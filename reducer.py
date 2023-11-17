@@ -82,11 +82,11 @@ def handle_modified(_modified, _added, _updated_sha1, _latest_sha1):
 
     basename = set([os.path.splitext(name)[0] for name in _modified + _added])
 
-    json_data = get_top_level_keys()
+    json_keys = get_top_level_keys()
 
-    not_verified = get_smdb_not_verified(_latest_sha1)
+    not_verified = get_smdb_not_verified(_latest_sha1, json_keys)
 
-    removed = [i for i in json_data if i not in basename]
+    removed = [i for i in json_keys if i not in basename if i not in not_verified]
 
     print("Updating verifiedWith in db.json..")
     for key in removed:

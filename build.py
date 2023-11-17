@@ -1,8 +1,8 @@
-from compressHandler import uncompress, compress
+from compressHandler import uncompress
 from configparser import ConfigParser
 from datetime import datetime
 from gitHandler import git_file_status, git_commit
-from jsonHandler import write_to_child
+from jsonHandler import get_top_level_keys, write_to_child
 from reducer import reducer
 from smdbHandler import get_all_smdb, get_smdb_with_missing, get_smdb_not_verified
 import csv
@@ -19,8 +19,9 @@ def load_config(_section="build_reduced", _file="config.ini"):
 
 
 def select_database(_path, _sha1):
-    missing = get_smdb_with_missing()
-    not_verified = get_smdb_not_verified(_sha1)
+    json_keys = get_top_level_keys()
+    missing = get_smdb_with_missing(json_keys)
+    not_verified = get_smdb_not_verified(_sha1, json_keys)
 
     basename = sorted(set(missing + not_verified))
 

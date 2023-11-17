@@ -1,21 +1,17 @@
-from jsonHandler import get_top_level_keys, read_from_child
+from jsonHandler import read_from_child
 import csv
 import os
 
 
-def get_smdb_with_missing(_json_file="db.json"):
-    return [
-        x
-        for x in get_top_level_keys(_json_file)
-        if read_from_child(x, "missing", _json_file)
-    ]
+def get_smdb_with_missing(_json_keys, _json_file="db.json"):
+    return [key for key in _json_keys if read_from_child(key, "missing", _json_file)]
 
 
-def get_smdb_not_verified(_sha1, _json_file="db.json"):
+def get_smdb_not_verified(_sha1, _json_keys, _json_file="db.json"):
     return [
-        x
-        for x in get_top_level_keys(_json_file)
-        if (verified := read_from_child(x, "verifiedWith", _json_file)) != _sha1
+        key
+        for key in _json_keys
+        if (verified := read_from_child(key, "verifiedWith", _json_file)) != _sha1
         or not verified
     ]
 
