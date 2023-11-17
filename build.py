@@ -22,35 +22,41 @@ def select_database(_path, _sha1):
     json_keys = get_top_level_keys()
     missing = get_smdb_with_missing(json_keys)
     not_verified = get_smdb_not_verified(_sha1, json_keys)
+    all_smdb = get_all_smdb(_path)
 
     basename = sorted(set(missing + not_verified))
 
-    [print(index, value) for index, value in enumerate(basename)]
-    print(len(basename), "All missing")
-    print(len(basename) + 1, "All not verified")
-    print(len(basename) + 2, "All missing and not verified")
-    # print(len(basename) + 3, "All")
-    print("999 for all SMDB files")
+    options = {
+        index: (value, f"{value}.txt", value) for index, value in enumerate(basename)
+    }
+
+    options[len(basename)] = (missing, [f"{key}.txt" for key in missing], "All missing")
+    options[len(basename) + 1] = (
+        not_verified,
+        [f"{key}.txt" for key in not_verified],
+        "All not verified",
+    )
+    options[len(basename) + 2] = (
+        basename,
+        [f"{key}.txt" for key in basename],
+        "All missing and not verified",
+    )
+    options[len(basename) + 2] = (all_smdb[1], all_smdb[0], "All SMDB")
+
+    for index, value in options.items():
+        print(index, value[2])
+
     index = input("Select one SMDB file: ")
 
-    if int(index) == len(basename):
-        smdb = [f"{x}.txt" for x in missing]
-        return smdb, missing
+    if int(index) in options:
+        basename, smdb, _ = options[int(index)]
 
-    if int(index) == len(basename) + 1:
-        smdb = [f"{x}.txt" for x in not_verified]
-        return smdb, not_verified
+        if isinstance(basename, list):
+            return smdb, basename
 
-    if int(index) == len(basename) + 2:
-        smdb = [f"{x}.txt" for x in basename]
-        return smdb, basename
+        return [smdb], [basename]
 
-    if index == "999":
-        return all_smdb(_path)
-
-    smdb = [f"{x}.txt" for x in basename]
-
-    return [smdb[int(index)]], [basename[int(index)]]
+    return [], []
 
 
 def all_smdb(_path):
