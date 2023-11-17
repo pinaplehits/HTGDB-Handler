@@ -1,7 +1,7 @@
 from compressHandler import uncompress
 from configparser import ConfigParser
 from datetime import datetime
-from gitHandler import git_file_status, git_commit
+from gitHandler import git_file_status, git_commit, git_push
 from jsonHandler import get_top_level_keys, write_to_child
 from reducer import reducer
 from smdbHandler import get_smdb_with_missing, get_smdb_not_verified
@@ -201,8 +201,8 @@ def run_script(
     changes = [item for item in files if git_file_status(item)]
 
     print(git_message)
-    print(changes)
     git_commit(git_message, changes)
+    git_push()
 
 
 def build():

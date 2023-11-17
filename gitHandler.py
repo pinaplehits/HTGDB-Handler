@@ -122,6 +122,10 @@ def git_commit(_message, _add, _repo=os.getcwd()):
             print("An error occurred while committing changes: ", e)
             exit()
 
+
+def git_push(_repo=os.getcwd()):
+    repo = Repo(_repo)
+
     if not load_dotenv():
         create_env_file()
 
