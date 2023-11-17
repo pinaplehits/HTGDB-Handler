@@ -196,7 +196,7 @@ def run_script(
     write_to_child(_basename, "incorrectLocation", False)
 
     files = ["db.json"]
-    date = datetime.now().strftime("%d/%m/%y")
+    date = datetime.now().strftime("%d/%m/%y %H:%M:%S")
     git_message = f"Build updated {_basename} in db.json on {date}"
     changes = [item for item in files if git_file_status(item)]
 
