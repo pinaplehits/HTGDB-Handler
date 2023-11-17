@@ -1,7 +1,7 @@
-from configparser import ConfigParser
-from jsonHandler import write_to_child
-from smdbHandler import get_all_smdb
 from build import build_from_verify
+from configparser import ConfigParser
+from jsonHandler import write_to_child, get_top_level_keys
+from reducer import reducer
 import os
 import subprocess
 
@@ -13,8 +13,9 @@ def load_config(_section="verify_reduced", _file="config.ini"):
     return dict(config.items(_section))
 
 
-def select_database(_path):
-    smdb, basename = get_all_smdb(_path)
+def select_database():
+    basename = get_top_level_keys()
+    smdb = [f"{key}.txt" for key in basename]
 
     [print(index, value) for index, value in enumerate(basename)]
     print(len(basename), "All")
@@ -85,7 +86,7 @@ def handle_missingFiles(_paths, _basename):
 def verify():
     section = load_config()
 
-    smdb, basename = select_database(section["smdb"])
+    smdb, basename = select_database()
 
     for smdb, basename in zip(smdb, basename):
         mismatch = "mismatch_" + smdb
@@ -117,4 +118,5 @@ def verify():
 
 
 if __name__ == "__main__":
+    reducer()
     verify()

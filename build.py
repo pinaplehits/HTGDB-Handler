@@ -4,7 +4,7 @@ from datetime import datetime
 from gitHandler import git_file_status, git_commit
 from jsonHandler import get_top_level_keys, write_to_child
 from reducer import reducer
-from smdbHandler import get_all_smdb, get_smdb_with_missing, get_smdb_not_verified
+from smdbHandler import get_smdb_with_missing, get_smdb_not_verified
 import csv
 import os
 import shutil
@@ -18,11 +18,10 @@ def load_config(_section="build_reduced", _file="config.ini"):
     return dict(config.items(_section)), config["reducer"]["latest_reduced"]
 
 
-def select_database(_path, _sha1):
+def select_database(_sha1):
     json_keys = get_top_level_keys()
     missing = get_smdb_with_missing(json_keys)
     not_verified = get_smdb_not_verified(_sha1, json_keys)
-    all_smdb = get_all_smdb(_path)
 
     basename = sorted(set(missing + not_verified))
 
@@ -41,11 +40,16 @@ def select_database(_path, _sha1):
         [f"{key}.txt" for key in basename],
         "All missing and not verified",
     )
-    options[len(basename) + 2] = (all_smdb[1], all_smdb[0], "All SMDB")
+    options[len(basename) + 3] = (
+        json_keys,
+        [f"{key}.txt" for key in json_keys],
+        "All SMDB",
+    )
 
     for index, value in options.items():
         print(index, value[2])
 
+    print("999 All SMDB")
     index = input("Select one SMDB file: ")
 
     if int(index) in options:
@@ -56,18 +60,21 @@ def select_database(_path, _sha1):
 
         return [smdb], [basename]
 
+    if int(index) == 999:
+        return all_smdb(json_keys)
+
     return [], []
 
 
-def all_smdb(_path):
+def all_smdb(_json_keys):
     os.system("clear" if os.name == "posix" else "cls")
 
-    smdb, basename = get_all_smdb(_path)
+    smdb = [f"{key}.txt" for key in _json_keys]
 
-    [print(index, value) for index, value in enumerate(basename)]
+    [print(index, value) for index, value in enumerate(_json_keys)]
     index = input("Select one SMDB file: ")
 
-    return [smdb[int(index)]], [basename[int(index)]]
+    return [smdb[int(index)]], [_json_keys[int(index)]]
 
 
 def update_missing(_missing, _basename):
@@ -200,7 +207,7 @@ def run_script(
 def build():
     section, latest_reduced = load_config()
 
-    smdb, basename = select_database(section["smdb"], latest_reduced)
+    smdb, basename = select_database(latest_reduced)
 
     for smdb, basename in zip(smdb, basename):
         print(f"Building {basename}")

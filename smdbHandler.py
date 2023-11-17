@@ -40,12 +40,9 @@ def get_files_with_extension(_path, _extension=".txt"):
 
 
 def get_all_smdb(_path, _extension=".txt"):
-    smdb = sorted(
+    return sorted(
         [file for file in os.listdir(_path) if file.endswith(_extension)], key=str.lower
     )
-    basename = [os.path.splitext(os.path.basename(file))[0] for file in smdb]
-
-    return smdb, basename
 
 
 def read_file(_path, _delimiter="\t", _newline=""):
@@ -67,11 +64,9 @@ def reduced_master(_path="Reduced SMDBs/"):
     data = combine_all_smdb(_path)
     dataset = set([item[0] for item in data])
 
-    newdb = [
+    return [
         item for item in data if item[0] in dataset and dataset.remove(item[0]) is None
     ]
-
-    return newdb
 
 
 def combine_all_smdb(_path="Reduced SMDBs/"):
