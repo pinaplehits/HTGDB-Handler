@@ -2,26 +2,33 @@ from dotenv import load_dotenv
 from git import GitCommandError, RemoteProgress, Repo
 from tqdm import tqdm
 import os
+from typing import Dict, List, Union
 
 
 class CloneProgress(RemoteProgress):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
         self.pbar = tqdm()
 
-    def update(self, op_code, cur_count, max_count=None, message=""):
+    def update(
+        self,
+        op_code: int,
+        cur_count: int,
+        max_count: Union[int, None],
+        message: str = "",
+    ) -> None:
         self.pbar.total = max_count
         self.pbar.n = cur_count
         self.pbar.refresh()
 
 
 def update_repo(
-    _repo_name="Hardware-Target-Game-Database",
-    _url="https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
-):
-    if os.path.exists(_repo_name):
+    repo_name: str = "Hardware-Target-Game-Database",
+    url: str = "https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
+) -> str:
+    if os.path.exists(repo_name):
         print("Updating repo...")
-        repo = Repo(_repo_name)
+        repo = Repo(repo_name)
         current_sha1 = repo.head.object.hexsha
         repo.git.checkout("master")
         repo.git.reset("--hard", repo.head.commit)
@@ -40,22 +47,20 @@ def update_repo(
         print(f"Updated from {current_sha1} to {new_sha1}")
         return new_sha1
 
-    Repo.clone_from(
-        _url,
-        to_path=_repo_name,
-        progress=CloneProgress(),
-    )
+    Repo.clone_from(url, to_path=repo_name, progress=CloneProgress())
 
-    return Repo(_repo_name).head.object.hexsha
+    return Repo(repo_name).head.object.hexsha
 
 
 def git_difference(
-    _old_commit, _new_commit="HEAD", repo_name="Hardware-Target-Game-Database"
-):
+    old_commit: str,
+    new_commit: str = "HEAD",
+    repo_name: str = "Hardware-Target-Game-Database",
+) -> Dict[str, List[Union[str, Dict[str, str]]]]:
     repo = Repo(repo_name)
 
-    old_commit = repo.commit(_old_commit)
-    new_commit = repo.commit(_new_commit)
+    old_commit = repo.commit(old_commit)
+    new_commit = repo.commit(new_commit)
 
     index = old_commit.diff(new_commit)
 
@@ -75,26 +80,21 @@ def git_difference(
                 "D": lambda: changes["deleted"].append(a_path),
                 "M": lambda: changes["modified"].append(b_path),
                 "A": lambda: changes["added"].append(b_path),
-                "R": lambda: changes["renamed"].append(
-                    {
-                        "from": a_path,
-                        "to": b_path,
-                    }
-                ),
+                "R": lambda: changes["renamed"].append({"from": a_path, "to": b_path}),
             }[item.change_type]()
 
     return changes
 
 
-def set_git_config(_repo):
+def set_git_config(repo: Repo) -> None:
     username = input("Enter your Git username: ")
     email = input("Enter your Git email: ")
 
-    _repo.config_writer().set_value("user", "name", username).release()
-    _repo.config_writer().set_value("user", "email", email).release()
+    repo.config_writer().set_value("user", "name", username).release()
+    repo.config_writer().set_value("user", "email", email).release()
 
 
-def create_env_file():
+def create_env_file() -> None:
     username = input("Enter the Github username: ")
     access_token = input("Enter the Github access token: ")
 
@@ -103,28 +103,28 @@ def create_env_file():
         f.write(f"GITHUB_ACCESS_TOKEN={access_token}\n")
 
 
-def git_commit(_message, _add, _repo=os.getcwd()):
-    if not _add:
+def git_commit(message: str, add: List[str], repo: str = os.getcwd()) -> None:
+    if not add:
         print("Nothing to commit")
         return
 
-    repo = Repo(_repo)
+    repo = Repo(repo)
 
-    repo.git.add(*_add)
+    repo.git.add(*add)
 
     try:
-        repo.git.commit("-m", _message)
+        repo.git.commit("-m", message)
     except GitCommandError as e:
         if "Author identity unknown" in str(e):
             set_git_config(repo)
-            repo.git.commit("-m", _message)
+            repo.git.commit("-m", message)
         else:
             print("An error occurred while committing changes: ", e)
             exit()
 
 
-def git_push(_repo=os.getcwd()):
-    repo = Repo(_repo)
+def git_push(repo: str = os.getcwd()) -> None:
+    repo = Repo(repo)
 
     if not load_dotenv():
         create_env_file()
@@ -143,6 +143,6 @@ def git_push(_repo=os.getcwd()):
     origin.push()
 
 
-def git_file_status(_path, _repo=os.getcwd()):
-    repo = Repo(_repo)
-    return repo.git.status("--porcelain", _path)
+def git_file_status(path: str, repo: str = os.getcwd()) -> str:
+    repo = Repo(repo)
+    return repo.git.status("--porcelain", path)
