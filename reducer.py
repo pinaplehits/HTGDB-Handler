@@ -1,3 +1,6 @@
+import os
+import shutil
+import logging
 from configparser import ConfigParser
 from gitHandler import update_repo, git_difference, git_commit, git_file_status
 from jsonHandler import (
@@ -12,109 +15,107 @@ from smdbHandler import (
     create_new_file,
     get_smdb_not_verified,
 )
-import os
-import shutil
 
 
-def load_config(_section="reducer", _file="config.ini"):
+def load_config(section: str = "reducer", file: str = "config.ini") -> dict:
     config = ConfigParser()
-    config.read(_file)
+    config.read(file)
 
-    return dict(config.items(_section))
+    return dict(config.items(section))
 
 
-def reduce_db(_items):
-    dataset = set([item[0] for item in _items])
+def reduce_db(items: list) -> list:
+    dataset = set(item[0] for item in items)
 
-    if len(dataset) == len(_items):
+    if len(dataset) == len(items):
         print("SMDB not reduced")
-        return _items
+        return items
 
     newdb = [
-        item
-        for item in _items
-        if item[0] in dataset and dataset.remove(item[0]) is None
+        item for item in items if item[0] in dataset and dataset.remove(item[0]) is None
     ]
 
-    print(f"SMDB reduced from {len(_items)} to {len(newdb)} files")
+    logging.info(f"SMDB reduced from {len(items)} to {len(newdb)} files")
 
     return newdb
 
 
-def write_latest_commit(_sha1, _file="config.ini"):
-    if not _sha1:
+def write_latest_commit(sha1: str, file: str = "config.ini") -> None:
+    if not sha1:
         print("No SHA1 found")
         return
 
     config = ConfigParser()
-    config.read(_file)
-    config.set("reducer", "latest_reduced", _sha1)
+    config.read(file)
+    config.set("reducer", "latest_reduced", sha1)
 
-    with open(_file, "w") as f:
+    with open(file, "w") as f:
         config.write(f)
 
 
-def move_folder_to_legacy(_path_master, _path_build, _path_legacy):
-    if not os.path.exists(_path_master) and not os.path.exists(_path_build):
+def move_folder_to_legacy(path_master: str, path_build: str, path_legacy: str) -> None:
+    if not os.path.exists(path_master) and not os.path.exists(path_build):
         print("No master or build folder found")
         return
 
     print("Moving folders to legacy...")
 
-    if os.path.exists(_path_legacy):
-        shutil.rmtree(_path_legacy)
+    if os.path.exists(path_legacy):
+        shutil.rmtree(path_legacy)
 
-    if os.path.exists(_path_master) and os.listdir(_path_master):
-        shutil.move(_path_master, _path_legacy)
+    if os.path.exists(path_master) and os.listdir(path_master):
+        shutil.move(path_master, path_legacy)
         print("Master folder moved to legacy")
-    elif os.path.exists(_path_build) and os.listdir(_path_build):
-        shutil.move(_path_build, _path_legacy)
+    elif os.path.exists(path_build) and os.listdir(path_build):
+        shutil.move(path_build, path_legacy)
         print("Build folder moved to legacy")
 
-    if os.path.exists(_path_build):
-        shutil.rmtree(_path_build)
+    if os.path.exists(path_build):
+        shutil.rmtree(path_build)
 
 
-def handle_modified(_modified, _added, _updated_sha1, _latest_sha1):
-    if not _modified:
+def handle_modified(
+    modified: list, added: list, updated_sha1: str, latest_sha1: str
+) -> None:
+    if not modified:
         print("No modified files found")
         return
 
-    basename = set([os.path.splitext(name)[0] for name in _modified + _added])
+    basename = set(os.path.splitext(name)[0] for name in modified + added)
 
     json_keys = get_top_level_keys()
 
-    not_verified = get_smdb_not_verified(_latest_sha1, json_keys)
+    not_verified = get_smdb_not_verified(latest_sha1, json_keys)
 
-    removed = [i for i in json_keys if i not in basename if i not in not_verified]
+    removed = [i for i in json_keys if i not in basename and i not in not_verified]
 
     print("Updating verifiedWith in db.json..")
     for key in removed:
-        write_to_child(key, "verifiedWith", _updated_sha1)
+        write_to_child(key, "verifiedWith", updated_sha1)
 
 
-def handle_deleted(_deleted, _path, _section):
-    if not _deleted:
+def handle_deleted(deleted: list, path: str, section: dict) -> None:
+    if not deleted:
         print("No deleted files found")
         return
 
-    basename = [os.path.splitext(name)[0] for name in _deleted]
+    basename = [os.path.splitext(name)[0] for name in deleted]
 
     print("Removing deleted from SMDB...")
     for key in basename:
         delete_key(key)
 
-        os.remove(os.path.join(_path, f"{key}.txt"))
+        os.remove(os.path.join(path, f"{key}.txt"))
 
         move_folder_to_legacy(
-            os.path.join(_section["master"], key),
-            os.path.join(_section["build"], key),
-            os.path.join(_section["legacy"], key),
+            os.path.join(section["master"], key),
+            os.path.join(section["build"], key),
+            os.path.join(section["legacy"], key),
         )
 
 
-def handle_renamed(_renamed):
-    if not _renamed:
+def handle_renamed(renamed: list) -> None:
+    if not renamed:
         print("No renamed files found")
         return
 
@@ -122,31 +123,32 @@ def handle_renamed(_renamed):
     exit()
 
 
-def handle_added(_added, _build_path, _master_path):
-    if not _added:
+def handle_added(added: list, build_path: str, master_path: str) -> None:
+    if not added:
         print("No added files found")
         return
-    basename = [os.path.splitext(name)[0] for name in _added]
+
+    basename = [os.path.splitext(name)[0] for name in added]
 
     print("Creating new folders...")
     [
         (os.makedirs(os.path.join(path, item), exist_ok=True), write_to_key(item))
-        for path in [_build_path, _master_path]
+        for path in [build_path, master_path]
         for item in basename
     ]
 
 
-def check_git_changes(_git_changes, _path, _extra_files=[]):
+def check_git_changes(git_changes: dict, path: str, extra_files: list = []) -> list:
     changes = [
-        _path + value for values in _git_changes.values() for value in values if value
+        path + value for values in git_changes.values() for value in values if value
     ]
 
-    changes.extend(_extra_files)
+    changes.extend(extra_files)
 
     return [item for item in changes if git_file_status(item)]
 
 
-def reducer():
+def reducer() -> None:
     updated_sha1 = update_repo()
     section = load_config()
     latest_sha1 = section["latest_reduced"]
@@ -169,7 +171,7 @@ def reducer():
         git_changes.get("modified"), git_changes.get("added"), updated_sha1, latest_sha1
     )
 
-    for database in git_changes.get("added") + git_changes.get("modified"):
+    for database in git_changes.get("added", []) + git_changes.get("modified", []):
         data = read_file(os.path.join(path_smdb, database))
         basename = os.path.splitext(database)[0]
         newdb = reduce_db(data)
