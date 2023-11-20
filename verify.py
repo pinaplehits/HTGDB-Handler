@@ -6,14 +6,14 @@ import os
 import subprocess
 
 
-def load_config(_section="verify_reduced", _file="config.ini"):
+def load_config(section: str = "verify_reduced", file: str = "config.ini") -> dict:
     config = ConfigParser()
-    config.read(_file)
+    config.read(file)
 
-    return dict(config.items(_section))
+    return dict(config.items(section))
 
 
-def select_database():
+def select_database() -> tuple[list[str], list[str]]:
     basename = get_top_level_keys()
     smdb = [f"{key}.txt" for key in basename]
 
@@ -27,9 +27,9 @@ def select_database():
     return [smdb[int(index)]], [basename[int(index)]]
 
 
-def handle_mismatch(_mismatch, _basename):
-    if not os.path.exists(_mismatch):
-        return
+def handle_mismatch(mismatch: str, basename: str) -> bool:
+    if not os.path.exists(mismatch):
+        return False
 
     categories = {
         "Incorrect Location Files:": [],
@@ -37,7 +37,7 @@ def handle_mismatch(_mismatch, _basename):
         "Missing Files:": [],
     }
 
-    with open(_mismatch, "r") as file:
+    with open(mismatch, "r") as file:
         current_category = None
         for line in file:
             line = line.strip()
@@ -47,11 +47,11 @@ def handle_mismatch(_mismatch, _basename):
                 first_value = line.split("\t")[0]
                 current_category.append(first_value)
 
-    handle_incorrectLocations(categories["Incorrect Location Files:"], _basename)
+    handle_incorrectLocations(categories["Incorrect Location Files:"], basename)
     handle_extraFiles(categories["Extra Files:"])
-    handle_missingFiles(categories["Missing Files:"], _basename)
+    handle_missingFiles(categories["Missing Files:"], basename)
 
-    os.remove(_mismatch)
+    os.remove(mismatch)
 
     if categories["Incorrect Location Files:"]:
         return True
@@ -59,31 +59,31 @@ def handle_mismatch(_mismatch, _basename):
     return False
 
 
-def handle_incorrectLocations(_paths, _basename):
-    if not _paths:
+def handle_incorrectLocations(incorrect_locations: list[str], basename: str) -> None:
+    if not incorrect_locations:
         return
 
-    write_to_child(_basename, "incorrectLocation", True)
+    write_to_child(basename, "incorrectLocation", True)
 
 
-def handle_extraFiles(_paths):
-    if not _paths:
+def handle_extraFiles(extra_files: list[str]) -> None:
+    if not extra_files:
         return
 
     print("Removing extra files...")
 
-    for path in _paths:
+    for path in extra_files:
         os.remove(path)
 
 
-def handle_missingFiles(_paths, _basename):
-    if not _paths:
+def handle_missingFiles(missing_files: list[str], basename: str) -> None:
+    if not missing_files:
         return
 
-    write_to_child(_basename, "missing", _paths)
+    write_to_child(basename, "missing", missing_files)
 
 
-def verify():
+def verify() -> None:
     section = load_config()
 
     smdb, basename = select_database()
