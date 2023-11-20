@@ -1,6 +1,5 @@
 import os
 import shutil
-import logging
 from configparser import ConfigParser
 from gitHandler import update_repo, git_difference, git_commit, git_file_status
 from jsonHandler import (
@@ -35,7 +34,7 @@ def reduce_db(items: list) -> list:
         item for item in items if item[0] in dataset and dataset.remove(item[0]) is None
     ]
 
-    logging.info(f"SMDB reduced from {len(items)} to {len(newdb)} files")
+    print(f"SMDB reduced from {len(items)} to {len(newdb)} files")
 
     return newdb
 
