@@ -4979,6 +4979,30 @@
     "masterUpdated": true,
     "missing": [
       [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1.1 Load Word Team (Disc 1).bin",
+        "d5b2e913451d43561343965a1b01ca684fc067d8e2d6328f7c0305da827a06c9"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1.1 Load Word Team (Disc 1).cue",
+        "f4fbca593030131944421d62e990188191d24d306723db2050e0ddc5a2872bb1"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1.1 Load Word Team (Disc 2).bin",
+        "16973b9904dd11a3e3b5a8865c3e63a6be0c06476b17b831c768146b6e274da8"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere (J) T+Eng v1.1 Load Word Team (Disc 2).cue",
+        "24c430d40e26c86e3c7c4a0af790ccc5f511e870e79a0de126c31f694bee2555"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1.1 Load Word Team (Track 01).bin",
+        "42799f9510a3857df892e4ec3cd59f7537dfe36e0b93f7f2c4d3ca080f71c050"
+      ],
+      [
+        "Ace Combat 3 - Electrosphere - Direct Audio with AppenDisc (J) T+Eng v1.1 Load Word Team.cue",
+        "4a0313281917a6f6602f73ec13553c42e757f4f06dd9422f540a4ad79c71816a"
+      ],
+      [
         "Choro Q Wonderful! (J) T+Eng v1.2 MODDED Robert Allen.bin",
         "cf0090d956806e8f3a7803a168ad3f6f56bc33235ecd92d2869fa151e21abe25"
       ],
@@ -4993,11 +5017,19 @@
       [
         "Choro Q Wonderful! (J) T+Eng v1.2 Robert Allen.cue",
         "b4e31b3776a7a9829a8b2c217724a826d7cb54af4e486db0e22cd3982add88b9"
+      ],
+      [
+        "Ultima Underworld - The Stygian Abyss (JP).cue",
+        "f95f2f78c135be5fa09a1c694664886065459962b57f50198a125a22f657fa80"
+      ],
+      [
+        "Ultima Underworld - The Stygian Abyss (JP).img",
+        "81b91d85de065b5cb3640e2b5f92f35c673393c823586b5e6c84560ae0593a35"
       ]
     ],
     "reducedFrom": 338,
     "reducedTo": 331,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
   },
   "Project Peacock - All PCE platform shooters": {
     "extensions": [
