@@ -4735,10 +4735,15 @@
       ".zip"
     ],
     "incorrectLocation": false,
-    "missing": [],
+    "missing": [
+      [
+        "Monitor Test Tool v1.3 by NeoHomeBrew.neo",
+        "07b57f5aa15c49638feb193fe46aec85e87f966b95e9f347eb7570c1c22c06ac"
+      ]
+    ],
     "reducedFrom": 298,
     "reducedTo": 295,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
   },
   "MiSTer Spectrum Add-On": {
     "extensions": [
