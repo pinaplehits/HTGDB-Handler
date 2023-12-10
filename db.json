@@ -4954,11 +4954,19 @@
       [
         "Dead of the Brain 1&2 (J) T+Eng vDotB1_1.0E Dave Shadoff.cue",
         "ce86a4c9f60d7c49a6c41a1bdb2e9e226bb6bf852eb6b265daf90abbae6ed2f7"
+      ],
+      [
+        "Tengai Makyou - Ziria (J) T+Eng v1.0 Supper.bin",
+        "6b4d1315641ca01e64352e50a23c2a1f51f66eb2a2ad2d2ba98803e26f1f9305"
+      ],
+      [
+        "Tengai Makyou - Ziria (J) T+Eng v1.0 Supper.cue",
+        "152f325461cf84f15b27b8816950b96d98152b9af443b2520f45ee5b944291b0"
       ]
     ],
     "reducedFrom": 1992,
     "reducedTo": 1926,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
   },
   "PlayStation Redump Supplement": {
     "compressed": false,
