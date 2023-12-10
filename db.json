@@ -412,10 +412,15 @@
       ".gba"
     ],
     "incorrectLocation": false,
-    "missing": [],
+    "missing": [
+      [
+        "Mega Man Battle Network 2 (USA) (Debug Version).gba",
+        "075a077baa4e1810a2b018a1bf956e0bf8a7890b5c2caffe7a41ca59dad80f06"
+      ]
+    ],
     "reducedFrom": 6113,
     "reducedTo": 3713,
-    "verifiedWith": "9e32bb5abb8975231f2933ced6ff2e3d0b3c78ae"
+    "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
   },
   "EverDrive GG SMDB": {
     "extensions": [
