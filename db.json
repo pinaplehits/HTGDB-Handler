@@ -382,12 +382,7 @@
       ".z64"
     ],
     "incorrectLocation": false,
-    "missing": [
-      [
-        "Wave Race 64 - Kawasaki Jet Ski (J) (Shindou Edition) T+Eng v1.1 Zoinkity.z64",
-        "29aea094131d453fc293d2bd07fba1602891df56ba03b0cc3bdd04add722bb85"
-      ]
-    ],
+    "missing": [],
     "reducedFrom": 2999,
     "reducedTo": 1408,
     "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
