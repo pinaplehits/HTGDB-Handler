@@ -23716,10 +23716,871 @@
     ],
     "incorrectLocation": false,
     "masterUpdated": true,
-    "missing": [],
+    "missing": [
+      [
+        "2048 (World) (Aftermarket) (Unl).sfc",
+        "a7e186b3448fd7e2021319832b5965ec857d5dd2e254a5dca91e9b577f7eb1fd"
+      ],
+      [
+        "Alien Cat 2 (World) (Demo) (Aftermarket) (Unl).sfc",
+        "c6f7275d1fb7413ecceb2f726f73239c26788c5b240c71734c99d0d91f938ac9"
+      ],
+      [
+        "Apocalypse II (Europe) (Proto 2) (1997-10-28).sfc",
+        "228e142b71f88b5bd36a51afc5d4a37d4f687b37f6e2b36bdac79f8cefe72043"
+      ],
+      [
+        "Astrohawk (World) (Beta) (Unl).sfc",
+        "2758d76a2bf7f8b14fce46bfefcc5143321b3c5c41d04141284f6b744a1aae9b"
+      ],
+      [
+        "Astrohawk (World) (Unl).sfc",
+        "0fa55595241cee06923ebe43418fb95b09784a6bfcf8c79228fe3398bdabb558"
+      ],
+      [
+        "Attack of the PETSCII Robots (World) (Demo) (Aftermarket) (Unl).sfc",
+        "209c3f3ca00b3e1de38740724d3862afa91a4ed05a4475d9a1bf733d24731d5b"
+      ],
+      [
+        "BLT (World) (Demo 1) (Aftermarket) (Unl).sfc",
+        "3c79bfbff6e77721143f14694cb14ffafa36c1d3492bb3d72be8667b53ecd9d5"
+      ],
+      [
+        "BLT (World) (Demo 2) (Aftermarket) (Unl).sfc",
+        "2c55e26cf0ced94cd16c028bcbf84c7e12fd5b38d1171667b256708bba275493"
+      ],
+      [
+        "Bing Bing! Bingo (Japan) (Beta).sfc",
+        "1d0c6ceeff96747ac13c050aaa54fa5906a434f128c0a60323d5957d937fcfea"
+      ],
+      [
+        "Borderline (World) (Aftermarket) (Unl).sfc",
+        "800c515fdd982ef700897b9f39bd779d7fea72c48593e7b2af041a7a9cdc4473"
+      ],
+      [
+        "Borderline (World) (v0.8) (Beta) (Aftermarket) (Unl).sfc",
+        "02427df977055c8166d5aaee1d2372542cf9e4de62cc9503bbfda792af693e6c"
+      ],
+      [
+        "Bubsy II (World) (Bubsy Two-Fur) (Unl).sfc",
+        "a1ca6b4b1c67b05f0b1eb5543687b51152972713c9436769bdcca28c90edb8da"
+      ],
+      [
+        "Bubsy in - Claws Encounters of the Furred Kind (World) (Bubsy Two-Fur) (Unl).sfc",
+        "1dc98e4d0f712dc0ac9fe239baec38d252ace5b4407e4422609d39c5b77b5b1e"
+      ],
+      [
+        "Classic Kong (World) (Aftermarket) (Unl).sfc",
+        "6d97c40cd9be68dcc2e52a8ab5f31e5d9cae8064422e7183ae174d8464e29f9c"
+      ],
+      [
+        "Classic Kong Complete (World) (v2.0) (Aftermarket) (Unl).sfc",
+        "0f15e52ed169354089d85170bf1ad88b41149032143155a9376a4bd54aa418c5"
+      ],
+      [
+        "Creepy Bird (World) (Aftermarket) (Unl).sfc",
+        "409851efddbd670c4dfb218043946ac70707c08ed3462b2cf21cc152ec97d7a8"
+      ],
+      [
+        "Creepy Bird (World) (v1.02) (Retro-Bit Generations) (Aftermarket) (Unl).sfc",
+        "3e8d708296babb350e86677a07a958a6a77666d0793291982338162b6fc7b4cc"
+      ],
+      [
+        "Densetsu no Ogre Battle - The March of the Black Queen (Japan) (Sample).sfc",
+        "d4f787389b628e080e88003f6af2984683f740a38e1eaad3d4d0cfbeb035740b"
+      ],
+      [
+        "Dual Orb - Seirei Tama Densetsu (Japan) (Beta) (1992-11-25).sfc",
+        "e9fb6c842723829cc78d642462a9825bb508862c4fe8d8c2db66a035744763f9"
+      ],
+      [
+        "DuckTales (REV-F infidelity).sfc",
+        "12c28a25bf97946e7cb1e3fa89a74fc9dff318d63fffbd554e4d5e726c7e79a9"
+      ],
+      [
+        "DuckTales SNES-0.pcm",
+        "394ae16a0f1a9502721e68afff2826db27184e5519746778c50c045f039910f8"
+      ],
+      [
+        "DuckTales SNES-1.pcm",
+        "9a2106ff70090a4e90a0cda5b5a2b3dd83715beff235c62bc61531a60c68a7ae"
+      ],
+      [
+        "DuckTales SNES-10.pcm",
+        "105a1f6ae33b8c96da910e09d509277d0d47a3385e7f646e6a9713d9c73defd1"
+      ],
+      [
+        "DuckTales SNES-11.pcm",
+        "dd6dd2a8e5466766376a5d780860b6f01c87d43d2f9335e39670a8500e53aa92"
+      ],
+      [
+        "DuckTales SNES-12.pcm",
+        "51769af28f61514f627c77635228a293312a33b6ecf5b0efb80183d5c4ba5f06"
+      ],
+      [
+        "DuckTales SNES-13.pcm",
+        "33cbe7d850f31737d7e16aba43dccaca3d4fdc02f5f73fd58865cee1e24224ee"
+      ],
+      [
+        "DuckTales SNES-14.pcm",
+        "5e857029a9bb3a65037520bb2edb2d33b53a6eeba071782cd877937cf4ee5ec7"
+      ],
+      [
+        "DuckTales SNES-15.pcm",
+        "2bd0225c2e8696ade5719eeaad6d4d23a39db48a05d29213821177b0c722b6f6"
+      ],
+      [
+        "DuckTales SNES-16.pcm",
+        "624ad6a0f15abc70e50da669c87d54f99a0990a240bed135a3ba8a84fac56bdc"
+      ],
+      [
+        "DuckTales SNES-2.pcm",
+        "e2b576fefe957468e996d1d6699f3bfeb692c317f622dcc57f5be2d1f8e3f498"
+      ],
+      [
+        "DuckTales SNES-3.pcm",
+        "02fc5047e0f0110c530317589ace010691e3017d445810e14bcfd3b4b67d4d89"
+      ],
+      [
+        "DuckTales SNES-4.pcm",
+        "905b171e6e7dd0bd7a9149c240aa445695dafc3bf86cf18701c984d408dc5578"
+      ],
+      [
+        "DuckTales SNES-5.pcm",
+        "e7c0c395690e27e1a34ba3b917a3b28342324ba584c37394ea31f953e10f7f97"
+      ],
+      [
+        "DuckTales SNES-6.pcm",
+        "fd1c366e1dd7dce41d4f46db813e2699be570d27debcdf0c3ea1f79f2e4e8ef3"
+      ],
+      [
+        "DuckTales SNES-7.pcm",
+        "a96c020455db7a382293d275b56946d70197a5152e46dca133dbd40030c40478"
+      ],
+      [
+        "DuckTales SNES-8.pcm",
+        "b5309e6f329b99562ea78d2eefd778ada2a22310e63442d4a66315a50386ce2d"
+      ],
+      [
+        "DuckTales SNES-9.pcm",
+        "7e3591e3c3e769474c9d2ec68432a074e387f2f6dfddd4a58d0db8c93f294818"
+      ],
+      [
+        "DuckTales SNES.msu",
+        "6fa9de4abc9ef30500b80f159e5ed59d6f40baabfef70805843105c22b9e036a"
+      ],
+      [
+        "Elfaria - The Isle of the Blest (Japan) (Beta).sfc",
+        "c364549fe68094bae686840c57aa4ba2f374458dc944b78fb08dbd2318dbacf0"
+      ],
+      [
+        "Eyra - The Crow Maiden (World) (Demo) (2021-09-10) (Aftermarket) (Unl).sfc",
+        "8e292804ad4d8d2d98d8e16fc12a232269ce8eb85a54c4a7e25e4d5324002bc6"
+      ],
+      [
+        "Eyra - The Crow Maiden (World) (Demo) (2022-06-07) (Aftermarket) (Unl).sfc",
+        "9e9c7b50d2117c19663e54c20a6d1d8cd81c2225916e694729ddd4077e01f681"
+      ],
+      [
+        "FIFA 97 (Europe) (En,Fr,De,Es,It,Sv).sfc",
+        "6259ee603e18b27d6b304e052f4935867720a6682c3a64509c0ba8c55bb41432"
+      ],
+      [
+        "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv).sfc",
+        "425585ddea9c1fe50835c60469a9e7b36b324143d2982bf8217625a9a558275b"
+      ],
+      [
+        "Final Fight (Japan) (Capcom Town).sfc",
+        "c216b800e00db7ae2a2114f587831a173fabba341be2ef594c3558450987c3b6"
+      ],
+      [
+        "Final Fight (USA) (Capcom Town).sfc",
+        "82d73a2a7ca99da5883d24fb6cbf9ca3be2e88f1cebfb72bc39709a85cb04f23"
+      ],
+      [
+        "First Samurai (World) (QUByte Classics).sfc",
+        "a9901b35d7600b07dd368cce6d45bf1ee68ce9c34550d04902ca5f164002fb70"
+      ],
+      [
+        "Gargoyles (USA) (Proto) (1994-07-19).sfc",
+        "4df5d06e8b80ee4b5f313a523b8f9e2d091a61cc32e9defb69621fbc0e451898"
+      ],
+      [
+        "Harvest Moon (USA) (Beta).sfc",
+        "76f4760d964950ddcfd76f375e11cf9e90c06a628d93b71c07a1bbc8bac30ea8"
+      ],
+      [
+        "Hercules (USA) (Pirate).sfc",
+        "1559bf1b4300003552aecde1673607b467917a035d9ba504f020982ba4379da3"
+      ],
+      [
+        "Horizontal Shooter (World) (v1.1) (Demo) (Aftermarket) (Unl).sfc",
+        "7b61cfed57c716f1829319aa28e483ebb540f31123bd1b934ae6c3780a9a84aa"
+      ],
+      [
+        "Illvanian no Shiro (Japan) (Beta) (1994-08-23).sfc",
+        "738c2cbaa713ccb22714ea16a9abe585caff1cd2d1aa0bc1ba306160723363c0"
+      ],
+      [
+        "Incognity - A Rover Story (World) (v0.9.0) (Aftermarket) (Unl).sfc",
+        "35c87e6dfa30696633642878e2ec2491b9c91ef3d51da8d298f9a12d9e86d889"
+      ],
+      [
+        "Juusou Kihei Valken (World) (Ja) (Switch).sfc",
+        "a6fc0ef91d8783075130a09db4435167c353a9dca0acdeaedc6cfc9f04c8f12f"
+      ],
+      [
+        "Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan) (v.07.315) (Beta).sfc",
+        "2a83adc5a071cbb9595e6d05ac568379d74030f2317bc20a246612309d814ecc"
+      ],
+      [
+        "Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan) (v.07.431) (Beta).sfc",
+        "00f299369eba8ef0ac62a13a830aff6659760aa8c57f5435b0e61a7e6a609924"
+      ],
+      [
+        "Kid Klown in Crazy Chase (USA) (Beta) (Earlier).sfc",
+        "c5226956b7ddae73c392a9bd0f2cbfe75f57fa1ae33a4e02575e0829412c4c3e"
+      ],
+      [
+        "King of Fighters '98, The (USA) (Pirate).sfc",
+        "82b80fc6181d19bc75a4fcc84d7785e4e51041c8bebbc4411616e7269316a58c"
+      ],
+      [
+        "Kunio no Oden (Japan) (Beta).sfc",
+        "99ef7455191df0782bdff4e9c9b6965591044bfb8c29426ec6e99268ebee17b0"
+      ],
+      [
+        "Last Battle, The (Japan) (Beta).sfc",
+        "f9bd0a62a190891c7e9557d173c8fce025d8623b3813ca4ddc08e20016fb1b9c"
+      ],
+      [
+        "Legend (World) (Aftermarket) (Unl).sfc",
+        "b3bc89c000bec7b2a56d756f954aa98a061973e7b5e5f9e933d12a9face346cb"
+      ],
+      [
+        "Legend (World) (QUByte Classics).sfc",
+        "e52e73f15004cc45669f360127e4461fdd19dac70c9798805a3be9837b8d5ddb"
+      ],
+      [
+        "Legend of Zelda, The (REV-G infidelity).sfc",
+        "fa5c67391a08307662c91d7ef6dd282f12096abeac5ab9660da76486bf00e32a"
+      ],
+      [
+        "Little Medusa (USA) (Demo) (Aftermarket) (Unl).sfc",
+        "106ea9174abf76b38c231c4dedcbaec099c2cc55b05490e27f10b16a8e3197c9"
+      ],
+      [
+        "Lizard (World) (Demo) (Aftermarket) (Unl).sfc",
+        "09e8c8d9fac65e6d848abcd234c39ce638e53852f699917927cd9a4ee16a0d28"
+      ],
+      [
+        "Marvel Super Heroes vs. Street Fighter (USA) (Pirate).sfc",
+        "a30fdf2fe9ea86b80dd211b08c0442b681f5fc5cfc62b2babc058d5d9a512f6a"
+      ],
+      [
+        "MazezaM Challenge (World) (En,Fr) (v1.2) (Aftermarket) (Unl).sfc",
+        "aa5a39f79cf0bb22dd1d4d5f4e77f8060b4bd4ee9c49f4cd9d6982097eff8953"
+      ],
+      [
+        "MazezaM Challenge (World) (NEO Compo 2012) (Aftermarket) (Unl).sfc",
+        "5e7e8691bfa757031105b39cfea1a9c0afb85a6428813437615db1efba7120b3"
+      ],
+      [
+        "MazezaM Challenge (World) (v1.1) (NEO Compo 2012) (Aftermarket) (Unl).sfc",
+        "da394e0d8e19e92b50c7c1625bbcde0066daefa322ec47e8db06a68949b9618f"
+      ],
+      [
+        "Mega Man II (REV-C infidelity).sfc",
+        "989fc8a28852239532b60c33f4e9f74054df46287462d093caf19b3403f2f05e"
+      ],
+      [
+        "Mega Man II MSU1-1.pcm",
+        "0ab7a657d27eec07fcf0c5b91b2b045528248c0111dc0b619ae727018c46f126"
+      ],
+      [
+        "Mega Man II MSU1-10.pcm",
+        "b2e1cb104b5fb1219832fa89bca9ca4f56ab325fb54a76fe3faec6e3ad253c6f"
+      ],
+      [
+        "Mega Man II MSU1-11.pcm",
+        "5f7550125db50647f1847ae18d77a65e05aa12aec64c826754a91335355a2e89"
+      ],
+      [
+        "Mega Man II MSU1-12.pcm",
+        "1c5e7b3edf0af798716b2f11d4c56e01d73a0679eb2e2cf74e64112b90efbc92"
+      ],
+      [
+        "Mega Man II MSU1-13.pcm",
+        "72940820e1a579ae3ebb3159946ab55eafba8dcf30abc9c0a985e88208418a04"
+      ],
+      [
+        "Mega Man II MSU1-14.pcm",
+        "0c008fd758cf7f9b876cf98191c0b46f065df0b04ef56575e5031d7fe5db2e77"
+      ],
+      [
+        "Mega Man II MSU1-15.pcm",
+        "64b14d05734de29963b42419a8a24e41f5c9d9f6f2b9a27c826086a8ad7e7b57"
+      ],
+      [
+        "Mega Man II MSU1-16.pcm",
+        "10b603a16ffd52a9203911153974654166e36d70d316d197dc85ba822e7c6267"
+      ],
+      [
+        "Mega Man II MSU1-17.pcm",
+        "bcccc3da695bb98ad551e13bbd90ad65e63abb447d771387f25a10fb08e85772"
+      ],
+      [
+        "Mega Man II MSU1-18.pcm",
+        "ca616b91f6cc101ae4e8ca6da5ac6e06e8af4fbe448126ad29e259b5b6f8b39e"
+      ],
+      [
+        "Mega Man II MSU1-19.pcm",
+        "a4504d94c72d86ef80b1b37f377b32701dcdab78baf656543d69cd49f8af26bb"
+      ],
+      [
+        "Mega Man II MSU1-2.pcm",
+        "0257a5f4000d697ee1d51a0daec2de2f929aeed91f96ecb1e39db8b67c41012f"
+      ],
+      [
+        "Mega Man II MSU1-20.pcm",
+        "e443e6e99064dd843df31209491c4ea928a9ef4af8078e61a6fb921d1c7d9eb0"
+      ],
+      [
+        "Mega Man II MSU1-21.pcm",
+        "00903fe4089cb7e9ed4579df0442be581bded8ec33622713550e8ba5d3353425"
+      ],
+      [
+        "Mega Man II MSU1-22.pcm",
+        "c5f109ab6a92e8a290ff6effaf20b9ef5b200ba36ea07770cd30393e1826f791"
+      ],
+      [
+        "Mega Man II MSU1-23.pcm",
+        "9f2b54593f62dc7f2d410d31a5f874033f17c550926b955f3579a0afc359fc29"
+      ],
+      [
+        "Mega Man II MSU1-24.pcm",
+        "8a066a1fb8743c79a249c45fa522ce41d95bbfd5d6814b5503b296722d79dd16"
+      ],
+      [
+        "Mega Man II MSU1-26.pcm",
+        "8753806c6001a40852829613399d94cdecf030d78392788f2d177c98c1df5a3a"
+      ],
+      [
+        "Mega Man II MSU1-27.pcm",
+        "102fa8c23b74c56cb020ea25c4ce48a54710d7fe905385b248aae8f8de28f367"
+      ],
+      [
+        "Mega Man II MSU1-28.pcm",
+        "c819d7a64651bd5bbc0ef1c652eb7b7f4e67779540f11642eee3fc281fd9ce92"
+      ],
+      [
+        "Mega Man II MSU1-29.pcm",
+        "7be78a81719ff79c56f0581706b2262d04fd8745cdf2ab2b7b4714554ad66588"
+      ],
+      [
+        "Mega Man II MSU1-3.pcm",
+        "ba9e19be6dfaddab50142747f5f6db0e227a3820f147710b91d62cf6fabb0ca1"
+      ],
+      [
+        "Mega Man II MSU1-30.pcm",
+        "dee9a8460fedc197f3e4f9983968a23c28f5790f8dcdd829ea7323da6fbcc8c2"
+      ],
+      [
+        "Mega Man II MSU1-31.pcm",
+        "3f5493a1da40636399642b309f53d1acf38228fc674cd666efc2ee9521c092dd"
+      ],
+      [
+        "Mega Man II MSU1-4.pcm",
+        "2d1eae72c98888b7421e5f4136ede94ea3381875ea90f619393b5674370b6a96"
+      ],
+      [
+        "Mega Man II MSU1-5.pcm",
+        "7d1abf0f76abd740f5508974854c6a1f059d3ce3839befabd42443720ae0d994"
+      ],
+      [
+        "Mega Man II MSU1-6.pcm",
+        "934a122c0ecee95c16e318396fbb47ecc6fb8ba6a447646fcdb053e6f5584a3a"
+      ],
+      [
+        "Mega Man II MSU1-7.pcm",
+        "07e8b53ebfb59ba936607fc29ec3b9bda872d60285c3da0161d282613d9dd4ca"
+      ],
+      [
+        "Mega Man II MSU1-8.pcm",
+        "615177366623a3aff6f084f188eb91b35deda93810a1a1d09e2b84799ca8cb9c"
+      ],
+      [
+        "Mega Man II MSU1-9.pcm",
+        "ffca4d09cd8b63b516613eabaf83e899566c09b434e809e477bb2df3c464ac6c"
+      ],
+      [
+        "Mega Man II MSU1.msu",
+        "f399e820e76dce581e647e97be52f07231ed6e1ddfdbe24c56e451f8ac21088b"
+      ],
+      [
+        "Mega Man II MSU1.sfc",
+        "748dc94ba27a96cce88fb0eb9550ce35357467c6e3c2507d51f8b8fb2d3f6ae1"
+      ],
+      [
+        "Mega Man IV (REV-E infidelity).sfc",
+        "7674fd1befa2fa61d7b5c295527c865a6f96318fdb9e88b29c8526718002ea73"
+      ],
+      [
+        "Mega Man X (USA) (Capcom Town).sfc",
+        "95a2e61ff89563dcbb1dd195826fea07f51600b0f8607ac26f0e1de7bc46e049"
+      ],
+      [
+        "Michael Andretti's Indy Car Challenge (USA) (Sample).sfc",
+        "30afe8d8462d1571b20ae5c04ce2c901de5620fd181f168f4547f4c3a3bf0629"
+      ],
+      [
+        "N-Warp Daisakusen (World) (Aftermarket) (Unl).sfc",
+        "8fe6574a4bd6870e88a6e5ebe0536547147201018fb36e041a9011aa1ae35592"
+      ],
+      [
+        "Nosferatu (Japan) (Beta) (1994-06-25).sfc",
+        "afa2d28b78bf03b292191a566d090c8c4d60eb6cacb3d690a8227377f47473aa"
+      ],
+      [
+        "Noughts & Crosses (USA) (Possible Proto) (Nintendo Gateway System).sfc",
+        "d897909da653c371d0ff2d0f228efc3a41c2570a5f103a6fe50ad3456288821b"
+      ],
+      [
+        "Nova the Squirrel 2 (World) (2023-09-23) (Demo) (Aftermarket) (Unl).sfc",
+        "a5bc918dc797f48a96ba4b45197e91c3f9537d0d8070e8cad00e964265818871"
+      ],
+      [
+        "Porky Pig's Haunted Holiday (USA) (Beta) (1995-08-07).sfc",
+        "a6d9871ce67190c59ec996f09a8d71d483613177090b921699058f3287347b72"
+      ],
+      [
+        "Qwak (World) (Aftermarket) (Unl).sfc",
+        "09fe5905815587b07f6c9da135490540ed868825ba2a8b17289278ac5e8a508a"
+      ],
+      [
+        "Qwak (World) (Beta) (No Sound) (Aftermarket) (Unl).sfc",
+        "51758415dac7ad1b17744ebfa20d515733cf6ceb4ef992aa1b6c158154197586"
+      ],
+      [
+        "REM (World) (Demo) (Aftermarket) (Unl).sfc",
+        "73fc62e5c3e2959d381e1cfd190d5a6a8104849b518137e5de2fb369fb286260"
+      ],
+      [
+        "Radical Rex (World) (QUByte Classics).sfc",
+        "def2294451112dfb3805e3d49d15e18986b2db4fa2205749a17adb3f71ddfea0"
+      ],
+      [
+        "SD The Great Battle - Aratanaru Chousen (Japan) (Rev 1).sfc",
+        "3aecf7b50717818607f4487282e2e84e7b65871d068d57e810f9b35b12e9ed34"
+      ],
+      [
+        "SD The Great Battle - Aratanaru Chousen (Japan).sfc",
+        "d9c85e466abcf105168559ac30ec85ef5069da97edd06277d8c9e63b25f33821"
+      ],
+      [
+        "Skipp and Friends - Unexpected Journey (World) (PDroms Competition 4.01) (Aftermarket) (Unl).sfc",
+        "f38d59703ab2a4ac32534a1579443ec75c18a4be23ac1331e8c3f30504b3153f"
+      ],
+      [
+        "Soul Blade - Cracked (Pirate) v1 dforce3000.sfc",
+        "11014c53a47c49484d1c52a0ea046c72330ede26fbc0ddca01cf8f8ad2c263d1"
+      ],
+      [
+        "Spectre (Europe).sfc",
+        "140dd8d935ed5df58fcfc0ad7ea10f825e6f5022f07e60b4335205641b21452e"
+      ],
+      [
+        "Spectre (USA).sfc",
+        "fe2371bed45f5e244ce3ef8585894c0ffa4272e3f58c2f4795ef91fb1ee54b15"
+      ],
+      [
+        "SpellCraft - Aspects of Valor (USA) (Proto 2).sfc",
+        "9cc23ace93e756f18927aab38c28667dd8e21c0b3a9d56d28f5b6a346da8834a"
+      ],
+      [
+        "Squirrel (USA) (Pirate).sfc",
+        "0d5bbe55e9f2e7b929865823c593c63351de5a02c23c8e475adb30d88027f371"
+      ],
+      [
+        "Street Fighter II (Japan) (Capcom Town).sfc",
+        "c3ea1b250caa2728f6f17bcca586589e1ccef1c2f55d6674c1b5bd42d0bf9bc9"
+      ],
+      [
+        "Street Fighter II (USA) (Capcom Town).sfc",
+        "0eaf28baa700c47ac0aace775ee623e13c84c4975d3b023b52e63bc64d986c50"
+      ],
+      [
+        "Super 3D Noah's Ark (World) (Aftermarket) (Unl).sfc",
+        "6851a72cf5f9b5fa5abac4dc30c0de85fc5d04c9d543fc5b86c17e60bb6bec08"
+      ],
+      [
+        "Super Boss Gaiden (World) (Aftermarket) (Unl).sfc",
+        "4cdb38a4309690fb60369fc865aade000e7e791b8f979612ae7fedc0c9127486"
+      ],
+      [
+        "Super Famicom Aging Program Ver. 1.00 (Japan) (En).sfc",
+        "f58837be3cf307edf550ec971993672d8d00e4fba99a2c5dee58383202d08c54"
+      ],
+      [
+        "Super Game Boy (Europe) (Beta) (1994-03-24).sfc",
+        "5e2eba3795f70dafe6be3bec0f65193e175821f7d7740ffe6d34d9d5a6204ca0"
+      ],
+      [
+        "Super Game Boy (Japan, USA) (En) (Beta) (1994-03-06).sfc",
+        "c3ebb20964bf68d5e4f7dae9f5ec2556436e5f5d975c6e90da6479736f50ca5d"
+      ],
+      [
+        "Super Game Boy (Japan, USA) (En) (Beta) (1994-03-23).sfc",
+        "99e21a25876463981cc7a7453cfcda189813c2a1cf814f79254f3391d3773183"
+      ],
+      [
+        "Super Mario World (USA) (Beta) (1990-10-25).sfc",
+        "84f6ee7b264b55916e3083bd6951970ffd0bd27fb4da23f58af4ad2f639868b7"
+      ],
+      [
+        "Super NES Control Deck Tester (Japan) (En) (Rev 1).sfc",
+        "77c03d014c6e94a378d2acb7c2e92cdb14347d675eac1127e11164b1104fcd83"
+      ],
+      [
+        "Super Nazo Puyo - Rulue no Roux (Japan) (Beta).sfc",
+        "6d52f7306bd0e1e1c4ebbf007bfc925da7c2149e0172c0370a97f3c3cfbd65ef"
+      ],
+      [
+        "Super Play Action Football (USA) (Beta).sfc",
+        "c6f05a3db0e3ab1cec0326143ae15b6013564bfa40395244e2c765e3c678aad2"
+      ],
+      [
+        "Super Punch-Out!! (Europe) (Beta).sfc",
+        "b9717901a615762d2809ebccf2cb4a548ae563f0bef40560722ed89112e7bee8"
+      ],
+      [
+        "Super Rambler (World) (v1.01) (Aftermarket) (Unl).sfc",
+        "ba05411cb572329d4e1643269a7cb2cc249e850186813f5600da91c032d0481d"
+      ],
+      [
+        "Super Sudoku (World) (v0.1) (Beta) (Aftermarket) (Unl).sfc",
+        "1403ffbeac9f83b78478d6800b84beb31b7d2a3d67b22a842548f60e6a32415b"
+      ],
+      [
+        "Super Sudoku (World) (v0.2) (Beta) (Aftermarket) (Unl).sfc",
+        "4a54157743230600c576b57cfefc817b65ebb91571c3543e31d8ff39763466ba"
+      ],
+      [
+        "Super Sudoku (World) (v1.0) (Aftermarket) (Unl).sfc",
+        "4a6bfac3b11aa727359a95d262294fcc17e1f1c1a517e27e7e2aca97adf29e71"
+      ],
+      [
+        "Super Sudoku (World) (v1.1) (Aftermarket) (Unl).sfc",
+        "2810aa0c4d95ed225c3ac0e669575d20285272b69ec0359a52bfb79628fb0939"
+      ],
+      [
+        "Supercooked! (World) (Aftermarket) (Unl).sfc",
+        "25fc48fe717617e7cafd51d33e235eb84e969cde85c79a52df99f8e8ad821e68"
+      ],
+      [
+        "Supercooked! (World) (v1.1) (Aftermarket) (Unl).sfc",
+        "c459513b1ca62bc3c67a2f7450b7fcc9447374951984070484e13cf35179e2bd"
+      ],
+      [
+        "Supercooked! (World) (v1.2) (Aftermarket) (Unl).sfc",
+        "bc8e410a9edcd01b2b72cd3adc95b5f505369aa23465493bfe494eaac1f6bcb0"
+      ],
+      [
+        "Tchou (World) (Aftermarket) (Unl).sfc",
+        "0a3992324d15f40aee38bf9e0adfbca32beac77a3bb3a84e580d25632717e272"
+      ],
+      [
+        "Tchou (World) (NEO Compo 2012) (Aftermarket) (Unl).sfc",
+        "b10cd63f956b1a0fdb9089c203177c7757e489b97da39b0b8e3faad94376cd3d"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Mutant Warriors (Japan) (The Cowabunga Collection).sfc",
+        "987153d66888496b3b164555084a1a74f520b547d69c5457aa3af496efdd980b"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Tournament Fighters (USA) (The Cowabunga Collection).sfc",
+        "2a15625f8352acbce4f579110425ac47859a70c889851c9d2e8268f6e535a859"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Turtles in Time (Japan) (The Cowabunga Collection).sfc",
+        "c1d99b699ac9337d77db620122215cfcb18e811e7750c7594ec1e7fbd642a114"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA) (The Cowabunga Collection).sfc",
+        "ed412b8f4e67e6265c59d0bb4bb8394960df1c2cd6838f98831833244a7fe249"
+      ],
+      [
+        "Teenage Queen (World) (v1.4) (NTSC) (Aftermarket) (Unl).sfc",
+        "bc474febcc0658aab43761a9b8b3cbd303945097db6e67775fb39035d7a5a126"
+      ],
+      [
+        "Teenage Queen (World) (v1.4) (PAL) (Aftermarket) (Unl).sfc",
+        "7c5e7a3ecb26dce74cb320a1a20fbd3634789fc0078e54a0d9beb1adc1551a59"
+      ],
+      [
+        "Tetris Battle Gaiden (Japan) (Beta).sfc",
+        "57ef1b0dbf15640e93da4ee66a0053a0872e748f336f3def7c0381f8e6963f12"
+      ],
+      [
+        "The Legend of Zelda SNES-1.pcm",
+        "43012fb13cd0098120aad39b5d83c6f5e155519ff86e650666090947384a741d"
+      ],
+      [
+        "The Legend of Zelda SNES-10.pcm",
+        "34d428413cb3192fc3e55e24597a5820b85f947aef8431138def432d90ef3ddb"
+      ],
+      [
+        "The Legend of Zelda SNES-11.pcm",
+        "88456e9e1a091686fd5e5b6fb1a97061640582eea0b3231a9306ac32ae289db8"
+      ],
+      [
+        "The Legend of Zelda SNES-12.pcm",
+        "648ab1125052058193c51b0d1589be1c63987be4d58eb39b2d22eec990489651"
+      ],
+      [
+        "The Legend of Zelda SNES-13.pcm",
+        "96909a26f39fd5b0ec1bc4bbc0de8c2655e8cc427de390f0396e54aab65e7604"
+      ],
+      [
+        "The Legend of Zelda SNES-14.pcm",
+        "cfc46838979e69535011bea6c91250c076844573558fb542ffb03c95cbf2d12e"
+      ],
+      [
+        "The Legend of Zelda SNES-15.pcm",
+        "c0b9c8a6b7a6cc393d389e4e3088a8a35ea49b8c0a96057febfdcac587c4a394"
+      ],
+      [
+        "The Legend of Zelda SNES-16.pcm",
+        "3b9c61c3375b59b431e79ba1cd38ac58e262b7fafd0ec929c91cd412963d74a2"
+      ],
+      [
+        "The Legend of Zelda SNES-17.pcm",
+        "898956f58650fed3ee88bb829063d3b7253807bd82ef1ba7bc0346148e5a499f"
+      ],
+      [
+        "The Legend of Zelda SNES-18.pcm",
+        "6fe58a39181e21fcbeaec05843096d25bce7d2574293a5442b82a910361fc1c3"
+      ],
+      [
+        "The Legend of Zelda SNES-19.pcm",
+        "2961d372eb8041b9868475a00954e982c628afc7b03d9de6f60d8f32dc295893"
+      ],
+      [
+        "The Legend of Zelda SNES-2.pcm",
+        "bcce265a643f7f582129a6bc8442a2534f549a3a5acd4732da05b2779958a627"
+      ],
+      [
+        "The Legend of Zelda SNES-20.pcm",
+        "221bae968135396c04ddd7ebff1c005682e14e600faf9a2ad6f5850042ae3b10"
+      ],
+      [
+        "The Legend of Zelda SNES-21.pcm",
+        "018a7eae4d0bd98a31f64cf0553a4717093397a57cc65d8210352d861ae485bb"
+      ],
+      [
+        "The Legend of Zelda SNES-22.pcm",
+        "2b501ac49a0f39028a7e99206cb1ecba7a7f304438b4d650c7305b0d8f627be1"
+      ],
+      [
+        "The Legend of Zelda SNES-23.pcm",
+        "5bc4faced77aadd394bf41f6790601d4dd8761df76cd1163a3ea611b6d14c328"
+      ],
+      [
+        "The Legend of Zelda SNES-24.pcm",
+        "7a43b703a6e3bb2253842ade6c6dba23d926c7fefe9e4b372c2d09c5621cef1e"
+      ],
+      [
+        "The Legend of Zelda SNES-3.pcm",
+        "6bdfd2f16b01758de010ede81a5e40f4e9a66bb45476586474f5c19e89da2fc3"
+      ],
+      [
+        "The Legend of Zelda SNES-4.pcm",
+        "5a2d163564cb534215dad6879b3e45da4b0c59bce72d67b99e14cc88c898c33d"
+      ],
+      [
+        "The Legend of Zelda SNES-5.pcm",
+        "26157124b239af380ffc3c1f49313b53f2210ee6c458ad36ce6e5d07856f38ba"
+      ],
+      [
+        "The Legend of Zelda SNES-6.pcm",
+        "38f06d9718afb8020d54ffcb354115073e64e87fe38db9718fc81990a1c8ea79"
+      ],
+      [
+        "The Legend of Zelda SNES-7.pcm",
+        "fb21cf27a54eacfbe0365f6f35ced59636aa89eb08ff66ef9fada4c83b10ed77"
+      ],
+      [
+        "The Legend of Zelda SNES-8.pcm",
+        "6ba374f2d569218e567a1fe32dab96c8af237915d7aa03734aa2f74e391aa777"
+      ],
+      [
+        "The Legend of Zelda SNES-9.pcm",
+        "e017d58a7bb24a6cc13d2f18a262e83ce58869dc9a5add91f90710c6c74430f9"
+      ],
+      [
+        "UWOL - Quest for Money (World) (v1.3) (Aftermarket) (Unl).sfc",
+        "29167fd1f77bfb039f33e716c69afbbd6b7db04f77ac7db492318e871fbec107"
+      ],
+      [
+        "Ultra Baseball Jitsumei Ban 2 (Japan) (Beta).sfc",
+        "ea1292443badcbca652f7cdc4652e6373ba1c4ad7fb17bb8a8668eb159bfcd14"
+      ],
+      [
+        "Unholy Night - The Darkness Hunter (Europe) (Aftermarket) (Unl).sfc",
+        "f6409f5f920129508c193a121b90dd34def772ab3f52cb6697a996caf7e194f8"
+      ],
+      [
+        "Unirally (Europe) (Beta) (1994-11-29).sfc",
+        "bbfbcf24e36b297710c1cc88948814ac651336c19ff8ec67b6cdfe64496bd627"
+      ],
+      [
+        "Worms (Europe).sfc",
+        "1d29ee4be2ea2807858bb04730e33f24ebce62a23bb95256766d98824cc7a59e"
+      ],
+      [
+        "manifest.bml",
+        "3d93bd1fad06d13fa56ba5e1b513d787dd815a932542f9998f925622043bb25f"
+      ],
+      [
+        "manifest.bml",
+        "6940404d6ab22c89b44060c8108778f58dd37c78602513549c900382fbc6ba46"
+      ],
+      [
+        "manifest.bml",
+        "6e1ff44cfbf8376e7245c6df26b4d847f6c2842cb057241c89206c65103f3634"
+      ],
+      [
+        "manifest.bml",
+        "acfa7c0b47d315d27513e8ea2fdab48fd659ef0aa793978fc3afc02544853af6"
+      ],
+      [
+        "mmiv_msu1-1.pcm",
+        "3e4fc4f4f1804855e724c9cd7cc51a89020d418c0742cc0cc064fb473cd649ed"
+      ],
+      [
+        "mmiv_msu1-10.pcm",
+        "8c132dabedd009d6b808db36e03281cf4bb4c5d77fa7c74a1f62cb216ff33b97"
+      ],
+      [
+        "mmiv_msu1-11.pcm",
+        "5ffbad5b302c87f0d0e06c42b6ba24a84667ae70830813ef2b8a596c1a0f3430"
+      ],
+      [
+        "mmiv_msu1-12.pcm",
+        "f20205a30397f09a34e47448e1619d99b61a25cc03f190056ccf54cab7af14f3"
+      ],
+      [
+        "mmiv_msu1-13.pcm",
+        "f469bf71c3cf8bf8f2771e97b8f9b3903bca23a366c1fbb88b7b287805451554"
+      ],
+      [
+        "mmiv_msu1-14.pcm",
+        "7c573df0b5ea8d2e0ddb2f7a00534a1d29d9ae498dd51ad460e501282d0544f3"
+      ],
+      [
+        "mmiv_msu1-15.pcm",
+        "ee6857d3209013d9e279f0a00f90e5f7f4c9d9d91074ef46e84f81cd24d0def8"
+      ],
+      [
+        "mmiv_msu1-16.pcm",
+        "ab5a9c9a8e11effff1c05049f61b32d788162675cfa64ed0a75dc52609c35338"
+      ],
+      [
+        "mmiv_msu1-17.pcm",
+        "b250f7aaeebee37ad2cdf5f50f8f126982ae90395a83e9e05d870a01dbe21e32"
+      ],
+      [
+        "mmiv_msu1-18.pcm",
+        "8aea70e0635c57e4a323a8a07f41cfd81d42541bab5fa72f8b6b58e4c93f421e"
+      ],
+      [
+        "mmiv_msu1-19.pcm",
+        "a5de41b85b5eeac16f2ecb2125e6bc7b277a453fe830fe48e7419c84ff5685ca"
+      ],
+      [
+        "mmiv_msu1-2.pcm",
+        "b7bf72866e16929c9e3bfa074bfada102f8c43ad9b693ebfde08892b29c2d989"
+      ],
+      [
+        "mmiv_msu1-20.pcm",
+        "8325c0787cb17876b6b2698fc6a52e9d7ea45d20b352fdfe3ad8c1fffd3b60f8"
+      ],
+      [
+        "mmiv_msu1-21.pcm",
+        "f02aeff589078dbf21374fec398983e3c1494b6943580b9c01f71057a84407b6"
+      ],
+      [
+        "mmiv_msu1-22.pcm",
+        "6f0b580816162c30824de522976cd23de88e9b3fb2978b389e12f7ad09755924"
+      ],
+      [
+        "mmiv_msu1-23.pcm",
+        "fd60e48ec01458521e563ac979d44e7a67214351e68c1606e225985db5b982df"
+      ],
+      [
+        "mmiv_msu1-24.pcm",
+        "b0a67409e4bc0ded1010c56c7304b7445c6b15c51bcb192ddfbbc9342bce06bf"
+      ],
+      [
+        "mmiv_msu1-25.pcm",
+        "dedd6190c154e7ce78caac4df05e3d9c606ff98ac0d10a9c74b2abecc21999dd"
+      ],
+      [
+        "mmiv_msu1-26.pcm",
+        "c62c54cf981bddc79ae0b1afdde5631266fe8e56b191bb5175d1d1e7a3fdba76"
+      ],
+      [
+        "mmiv_msu1-27.pcm",
+        "9040084e68526c98bf537b3eac60b864bb459e9c7fc6106dd3d6a785e1493fff"
+      ],
+      [
+        "mmiv_msu1-28.pcm",
+        "ba8f4068c7f1093eda745045a9d564c98032573a0eba29cb23e030dbfffae8bb"
+      ],
+      [
+        "mmiv_msu1-29.pcm",
+        "10ef6f0aba1bfda2a909fa24273565df0cfa2259039070628a4a36f6027ee6c4"
+      ],
+      [
+        "mmiv_msu1-3.pcm",
+        "c27c6cb02d0b9bb8f15fc2ed89829a233903c42ef7e0bf73f8dbb90b53afa924"
+      ],
+      [
+        "mmiv_msu1-30.pcm",
+        "2606225d01c681867629ceab7c9c8704d39856c2ffdd395cab637f1af5989289"
+      ],
+      [
+        "mmiv_msu1-4.pcm",
+        "6811eefe5c8c58bcea4ee775b341c800a941645199337d33b33092378324befe"
+      ],
+      [
+        "mmiv_msu1-5.pcm",
+        "7fd8b04261d4ff47271a19562131db2b6d85c413f69a15f0bc143897e2db977f"
+      ],
+      [
+        "mmiv_msu1-6.pcm",
+        "2a36730068011117c076e6a53b5346fc2e210e043e512a8db7874c89df13f69b"
+      ],
+      [
+        "mmiv_msu1-7.pcm",
+        "ef0c55c112e39819afa486f3f10e72784071bfa3ab8b4dc2926dbffcfc8d734f"
+      ],
+      [
+        "mmiv_msu1-8.pcm",
+        "41dde5e24faaf9b1c8650d4924829485b726cf13339d35f203c7b54b5e562d3b"
+      ],
+      [
+        "mmiv_msu1-9.pcm",
+        "ef5e8888b8fb6c3344ef5f33c29be705bf0456800bbe097247482b823fd3e4cb"
+      ],
+      [
+        "mmiv_msu1.sfc",
+        "2ee544f0c1939ceb6356f6fe9cc585c0c0cc20c17db500db792cf844d5cdf5bd"
+      ]
+    ],
     "reducedFrom": 13774,
     "reducedTo": 7641,
-    "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
+    "verifiedWith": "6a928addbbc74f818aef9b5d4636b3e274085732"
   },
   "Turbo EverDrive & Super SD System 3 SMDB": {
     "compressed": false,
