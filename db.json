@@ -24589,10 +24589,183 @@
       ".sgx"
     ],
     "incorrectLocation": false,
-    "missing": [],
+    "missing": [
+      [
+        "Air Zonk (USA, Europe) (Wii U Virtual Console).pce",
+        "7feae7e8f53a011c60364e7e5aac907631b623b52b05386232ce2af57d5c954e"
+      ],
+      [
+        "Blazing Lazers (World) (Wii U Virtual Console).pce",
+        "99125740a2b593c281ed3840aa42634ebd50aec8ca25c59c69f27b890d2eaa11"
+      ],
+      [
+        "Bomberman '93 (Japan) (Wii U Virtual Console).pce",
+        "ce69d882fc492cec2ab1431edc244000f58cafbe734218a3a6f20cab2aef2f96"
+      ],
+      [
+        "Bomberman '94 (World) (Wii U Virtual Console).pce",
+        "cd8c8ae641f05b75cdd83f08ad03bf6da6b8a8699bc643394c677e3cb980738a"
+      ],
+      [
+        "Bonk 3 - Bonk's Big Adventure (USA, Europe) (Wii U Virtual Console).pce",
+        "53fdf011b4e9e428a9b2e724302b79bc40ab4e31d5a949d6582e5a9691ce74fe"
+      ],
+      [
+        "Bonk's Adventure (USA, Europe) (Wii U Virtual Console).pce",
+        "1fe01690b68d58011a26f8088bae5b9fabd23f441f7a9a0675c2622aac6267ff"
+      ],
+      [
+        "Bonk's Revenge (USA, Europe) (Wii U Virtual Console).pce",
+        "74c466ffc7877dbafaa310aa365503c761220f5687fd4691c03d4ee2bcb95583"
+      ],
+      [
+        "Devil Crash - Naxat Pinball (Japan) (Wii U Virtual Console).pce",
+        "71c4d130b57005dcf834224f0534dc2d2ac1541e2156987e25af0dbf408a01ed"
+      ],
+      [
+        "Devil's Crush (USA, Europe) (Wii U Virtual Console).pce",
+        "45bdfb4a660c1a71fddd053f2c5881e8a66af956ee76d65655f2e6981e77393d"
+      ],
+      [
+        "Dinoforce (Japan) (En) (Aftermarket) (Unl).pce",
+        "b5ed3b2e6a5f7075f107aa60c6f3f1cc891e4897b8f9202c979be719e225a336"
+      ],
+      [
+        "Double Dungeons (Japan) (Wii U Virtual Console).pce",
+        "b86960411d661e48c9c74995a3c4c22ffac9ea37a67c304230a877fe928765d7"
+      ],
+      [
+        "Double Dungeons (USA, Europe) (Wii U Virtual Console).pce",
+        "920015fc076500cb9e0071bdfce661cf18a9f2d3ddad16ee3a764a9803ae8cba"
+      ],
+      [
+        "Fantasy Zone (Japan) (PC Engine Mini).pce",
+        "abad88fe7472db5192d5b7697b8c870eee8dd1c86e96c5b76b4dcc3f4938e398"
+      ],
+      [
+        "Final Soldier (World) (Wii U Virtual Console).pce",
+        "8f72aa3cc0d2d316a3a163429ebe32bbd1590975c87c1a90fb57c9fb56761bfd"
+      ],
+      [
+        "Gai Flame (Japan) (Wii U Virtual Console).pce",
+        "3aa4014f67596e15a99307e33a0840395b015146b4f5a99c06df31b2b0f29106"
+      ],
+      [
+        "Gradius (Japan) (PC Engine Mini).pce",
+        "4c7f3ffb4e88eda2875c20421b996cb10ec0986a4b4f44b9fc960e9719309783"
+      ],
+      [
+        "Gradius (World) (Wii U Virtual Console).pce",
+        "cfd51bb7530b46beb39aadfb8bf7a2ec6ec4e9788e9ef98aa2a23cdcb077bcae"
+      ],
+      [
+        "Jaseiken Necromancer (World) (Wii U Virtual Console).pce",
+        "451c04aa148a57e9a6c15fd196f6274d07caa9410abd1178cc43b626512f10cb"
+      ],
+      [
+        "Neutopia (Japan) (Wii U Virtual Console).pce",
+        "529905c523615a172b473ed995468649ecbe061db936710ddca8582b7d912751"
+      ],
+      [
+        "Neutopia (USA, Europe) (Wii U Virtual Console).pce",
+        "81236385c5f51e14cccfbc535403ce459454f11ecff222e0cc0bfc76143a2fad"
+      ],
+      [
+        "Neutopia II (Japan) (Wii U Virtual Console).pce",
+        "5bea446655d9644b01bb330b13deb69a64d98ecbb4024bf31acff9c41a30afa5"
+      ],
+      [
+        "Neutopia II (USA, Europe) (Wii U Virtual Console).pce",
+        "dbf4730fe1b2facd477f8d65290305d5988dcaea29339dd1cf6b549465ef0717"
+      ],
+      [
+        "New Adventure Island (USA, Europe) (Wii U Virtual Console).pce",
+        "edf0a59168f41fdcdf53770e309919de53514c64ff999af2bbb20771c7f714fb"
+      ],
+      [
+        "Ninja Spirit (USA, Europe) (Wii U Virtual Console).pce",
+        "c5ef6ab9bdcabb35d5a6f30cf968a21f220d572acdc13067bc7c1eab3b6666ae"
+      ],
+      [
+        "PC Denjin - Punkic Cyborgs (Japan) (Wii U Virtual Console).pce",
+        "3d268d585e3af8fa510794eb37f7b70850cfb6e32bea0fc9be0eb29734e20714"
+      ],
+      [
+        "PC Genjin - Pithecanthropus Computerurus (Japan) (Wii U Virtual Console).pce",
+        "ebf7d8bc4ff56f66c83da28b910b7715f52bcad5e6cf6a5e571be4efe16be176"
+      ],
+      [
+        "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Wii U Virtual Console).pce",
+        "2cca12e7b5a0554773c611d2c46cbec5551c621ffc9b226a0f3cfde326be0571"
+      ],
+      [
+        "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Wii U Virtual Console).pce",
+        "ed12463f9ad932030311dca6306906eb379af7315ef1cf433e515090fa860699"
+      ],
+      [
+        "Power Sports (Japan) (Wii U Virtual Console).pce",
+        "fd20aaf4268030e08f51dc6e72a37c5e887fd4a407d6fe08258c499d904ad408"
+      ],
+      [
+        "Saigo no Nindou - Ninja Spirit (Japan) (Wii U Virtual Console).pce",
+        "e9acfcecefeb307667db61c34a925b58c95b59a3bd6765537e35ec31a8aa41c7"
+      ],
+      [
+        "Salamander (Japan) (PC Engine Mini).pce",
+        "3dbe26a85b41dcd6f55968ad4f157776c90527d060c2a1486da712d024a63129"
+      ],
+      [
+        "Salamander (World) (Wii U Virtual Console).pce",
+        "9474d4588d5e81d6fe200d9df7dc2e8860fd8f49d3bd08ccff6efed4fcc9ac27"
+      ],
+      [
+        "Soldier Blade (Japan) (Wii U Virtual Console).pce",
+        "c84986f47f38eca38ae6d69a37f038c31cc40fdc6abeccd696e4835925dbb9c7"
+      ],
+      [
+        "Soldier Blade (USA, Europe) (Wii U Virtual Console).pce",
+        "fc6c19dc93d8ec292475b65c269329399eab6e13d1003d20ad6993b59bfc6a18"
+      ],
+      [
+        "Super Star Soldier (Japan) (Wii U Virtual Console).pce",
+        "7677a5e24d49f670a012a79bc92dcaf62fcaa88f09c5bff30552c839c5820b71"
+      ],
+      [
+        "Super Star Soldier (USA, Europe) (Wii U Virtual Console).pce",
+        "11c0885cab27a062dacf0b1992d62b64069af09c37346c07142d1fca2470827b"
+      ],
+      [
+        "Takahashi Meijin no Shin Bouken-jima (Japan) (Wii U Virtual Console).pce",
+        "46fe2bb0527034447c6af095a485abc8a1594de65ea3189b33e1fe28b9d9dd60"
+      ],
+      [
+        "Tongueman's Logic (World) (Demo) (Aftermarket) (Unl).pce",
+        "d5a5580b9f3655c31a2da706a96d514261b0c5da5d2d3b153fda652a5fa938d3"
+      ],
+      [
+        "UWOL - Quest for Money (World) (v1.1) (Aftermarket) (Unl).pce",
+        "4b8f36a70129f65c6340b17bdb2e1fa9b8a3ae1101f92166441c229a7abce5af"
+      ],
+      [
+        "Victory Run (USA, Europe) (Wii U Virtual Console).pce",
+        "9d873cb9db9b11e443ff2336a0c2d8b4d4d59c9557ad4a7b1caeb004dd8ba200"
+      ],
+      [
+        "Victory Run - Eikou no 13,000km (Japan) (Wii U Virtual Console).pce",
+        "0be2db7692dad3dbac6c6189c651d283468f64aaf50ae78e421ad91794aa4f56"
+      ],
+      [
+        "Wallaby!! - Usagi no Kuni no Kangaroo Race (Japan) (Wii U Virtual Console).pce",
+        "827458cfb2dab26986703fa1411fbd8d34ff7af97e219873eeb9a7631d5dff7d"
+      ],
+      [
+        "World Sports Competition (USA, Europe) (Wii U Virtual Console).pce",
+        "2467d9681bfc76477eac4e7ca4bca656fad7711cc363b429df61624b0ff9ce09"
+      ]
+    ],
     "reducedFrom": 1538,
     "reducedTo": 720,
-    "verifiedWith": "3509362f19ab4e3f5b9d2ecd5e0b6e3105a7032f"
+    "verifiedWith": "6a928addbbc74f818aef9b5d4636b3e274085732"
   },
   "Vectrex SMDB": {
     "extensions": [
