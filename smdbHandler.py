@@ -4,7 +4,7 @@ from jsonHandler import read_from_child
 from typing import List
 
 
-def get_smdb_with_missing(
+def get_smdb_with_missing_values(
     json_keys: List[str], json_file: str = "db.json"
 ) -> List[str]:
     return [key for key in json_keys if read_from_child(key, "missing", json_file)]
@@ -19,6 +19,12 @@ def get_smdb_not_verified(
         if (verified := read_from_child(key, "verifiedWith", json_file)) != sha1
         or not verified
     ]
+
+
+def find_matching_keys_in_smdb(
+    json_keys: List[str], search_key: str, json_file: str = "db.json"
+) -> List[str]:
+    return [key for key in json_keys if read_from_child(key, search_key, json_file)]
 
 
 def get_extensions(items: List[str]) -> List[str]:
@@ -44,7 +50,7 @@ def get_files_with_extension(path: str, extension: str = ".txt") -> List[str]:
     ]
 
 
-def get_all_smdb(path: str, extension: str = ".txt") -> List[str]:
+def get_all_smdb_from_path(path: str, extension: str = ".txt") -> List[str]:
     return [file for file in os.listdir(path) if file.endswith(extension)]
 
 

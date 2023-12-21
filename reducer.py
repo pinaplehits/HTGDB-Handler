@@ -13,6 +13,7 @@ from smdbHandler import (
     read_file,
     create_new_file,
     get_smdb_not_verified,
+    find_matching_keys_in_smdb,
 )
 
 
@@ -86,11 +87,11 @@ def handle_modified(
 
     not_verified = get_smdb_not_verified(latest_sha1, json_keys)
 
-    removed = [i for i in json_keys if i not in basename and i not in not_verified]
+    keys_to_update = [
+        i for i in json_keys if i not in basename and i not in not_verified
+    ]
 
-    print("Updating verifiedWith in db.json..")
-    for key in removed:
-        write_to_child(key, "verifiedWith", updated_sha1)
+    update_verified_keys_with_new_sha1(updated_sha1, keys_to_update)
 
 
 def handle_deleted(deleted: list, path: str, section: dict) -> None:
@@ -147,19 +148,28 @@ def check_git_changes(git_changes: dict, path: str, extra_files: list = []) -> l
     return [item for item in changes if git_file_status(item)]
 
 
-def reducer() -> None:
-    updated_sha1 = update_repo()
-    section = load_config()
-    latest_sha1 = section["latest_reduced"]
+def update_verified_keys_with_new_sha1(updated_sha1: str, verified_keys: list) -> None:
+    print("Updating verifiedWith in db.json..")
+    for key in verified_keys:
+        write_to_child(key, "verifiedWith", updated_sha1)
 
-    if latest_sha1 == updated_sha1:
-        return print("Nothing new to reduce")
+
+def handle_git_changes(
+    git_changes: dict,
+    section: dict,
+    updated_sha1: str,
+    latest_sha1: str,
+) -> None:
+    if not any(git_changes.values()):
+        print("No smdb changes found")
+
+        verified_keys = find_matching_keys_in_smdb(get_top_level_keys(), "verifiedWith")
+
+        update_verified_keys_with_new_sha1(updated_sha1, verified_keys)
+        return
 
     path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
     path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
-
-    git_changes = git_difference(latest_sha1, updated_sha1)
-
     handle_renamed(git_changes.get("renamed"))
 
     handle_added(git_changes.get("added"), section["build"], section["master"])
@@ -180,6 +190,19 @@ def reducer() -> None:
         write_to_child(basename, "reducedTo", len(newdb))
         write_to_child(basename, "reducedFrom", len(data))
         write_to_child(basename, "compressed", False)
+
+
+def reducer() -> None:
+    updated_sha1 = update_repo()
+    section = load_config()
+    latest_sha1 = section["latest_reduced"]
+
+    if latest_sha1 == updated_sha1:
+        return print("Nothing new to reduce")
+
+    git_changes = git_difference(latest_sha1, updated_sha1)
+
+    handle_git_changes(git_changes, section, updated_sha1, latest_sha1)
 
     write_latest_commit(updated_sha1)
 
