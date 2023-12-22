@@ -1,7 +1,13 @@
 import os
 import shutil
 from configparser import ConfigParser
-from gitHandler import update_repo, git_difference, git_commit, git_file_status
+from gitHandler import (
+    update_repo,
+    git_difference,
+    git_commit,
+    git_file_status,
+    git_push,
+)
 from jsonHandler import (
     get_top_level_keys,
     delete_key,
@@ -211,6 +217,7 @@ def reducer() -> None:
     changes = check_git_changes(git_changes, section["new_smdb"], extra_files)
 
     git_commit(git_message, changes)
+    git_push()
 
 
 if __name__ == "__main__":
