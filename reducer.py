@@ -7,13 +7,13 @@ from jsonHandler import (
     delete_key,
     write_to_child,
     write_to_key,
+    find_non_empty_key,
 )
 from smdbHandler import (
     get_extensions,
     read_file,
     create_new_file,
     get_smdb_not_verified,
-    find_matching_keys_in_smdb,
 )
 
 
@@ -163,7 +163,7 @@ def handle_git_changes(
     if not any(git_changes.values()):
         print("No smdb changes found")
 
-        verified_keys = find_matching_keys_in_smdb(get_top_level_keys(), "verifiedWith")
+        verified_keys = find_non_empty_key(get_top_level_keys(), "verifiedWith")
 
         update_verified_keys_with_new_sha1(updated_sha1, verified_keys)
         return

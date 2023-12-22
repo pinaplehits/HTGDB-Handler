@@ -1,16 +1,14 @@
+from compressHandler import uncompress
+from configparser import ConfigParser
+from datetime import datetime
+from gitHandler import git_file_status, git_commit, git_push
+from jsonHandler import get_top_level_keys, write_to_child, find_non_empty_key
+from reducer import reducer
+from smdbHandler import get_smdb_not_verified
 import csv
 import os
 import shutil
 import subprocess
-from configparser import ConfigParser
-from datetime import datetime
-from pathlib import Path
-
-from compressHandler import uncompress
-from gitHandler import git_file_status, git_commit, git_push
-from jsonHandler import get_top_level_keys, write_to_child
-from reducer import reducer
-from smdbHandler import get_smdb_with_missing_values, get_smdb_not_verified
 
 
 def load_config(
@@ -24,7 +22,7 @@ def load_config(
 
 def select_database(sha1: str) -> tuple[list[str], list[str]]:
     json_keys = get_top_level_keys()
-    missing = get_smdb_with_missing_values(json_keys)
+    missing = find_non_empty_key(json_keys, "missing")
     not_verified = get_smdb_not_verified(sha1, json_keys)
 
     basename = sorted(set(missing + not_verified))

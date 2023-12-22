@@ -1,5 +1,6 @@
 import json
 import os
+from typing import List
 
 
 def get_top_level_keys(json_file: str = "db.json") -> list:
@@ -111,6 +112,22 @@ def create_child_json(json_db: str, child: str) -> None:
             write_to_child(key, child, item, json_db)
 
     print(f"Done writing to {json_db}.")
+
+
+def search_value_in_key(
+    json_keys: List[str], search_key: str, search_value: str, json_file: str = "db.json"
+) -> List[str]:
+    return [
+        key
+        for key in json_keys
+        if read_from_child(key, search_key, json_file) == search_value
+    ]
+
+
+def find_non_empty_key(
+    json_keys: List[str], search_key: str, json_file: str = "db.json"
+) -> List[str]:
+    return [key for key in json_keys if read_from_child(key, search_key, json_file)]
 
 
 if __name__ == "__main__":
