@@ -53,10 +53,7 @@ def handle_mismatch(mismatch: str, basename: str) -> bool:
 
     os.remove(mismatch)
 
-    if categories["Incorrect Location Files:"]:
-        return True
-
-    return False
+    return any(categories["Incorrect Location Files:"])
 
 
 def handle_incorrectLocations(incorrect_locations: list[str], basename: str) -> None:

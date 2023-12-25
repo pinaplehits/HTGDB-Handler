@@ -169,9 +169,9 @@ def handle_git_changes(
 ) -> None:
     if not any(git_changes.values()):
         print("No smdb changes found")
+
         json_keys = get_top_level_keys()
         verified_keys = search_value_in_key(json_keys, "verifiedWith", latest_sha1)
-
         update_verified_keys_with_new_sha1(updated_sha1, verified_keys)
 
         return
