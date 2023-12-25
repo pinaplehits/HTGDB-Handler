@@ -103,10 +103,10 @@ def create_env_file() -> None:
         f.write(f"GITHUB_ACCESS_TOKEN={access_token}\n")
 
 
-def git_commit(message: str, add: List[str], repo: str = os.getcwd()) -> None:
+def git_commit(message: str, add: List[str], repo: str = os.getcwd()) -> bool:
     if not add:
         print("Nothing to commit")
-        return
+        return False
 
     repo = Repo(repo)
 
@@ -114,6 +114,8 @@ def git_commit(message: str, add: List[str], repo: str = os.getcwd()) -> None:
 
     try:
         repo.git.commit("-m", message)
+
+        return True
     except GitCommandError as e:
         if "Author identity unknown" in str(e):
             set_git_config(repo)

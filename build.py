@@ -2,9 +2,9 @@ from compressHandler import uncompress
 from configparser import ConfigParser
 from datetime import datetime
 from gitHandler import git_file_status, git_commit, git_push
-from jsonHandler import get_top_level_keys, write_to_child, find_non_empty_key
+from jsonHandler import get_top_level_keys, write_to_child
 from reducer import reducer
-from smdbHandler import get_smdb_not_verified
+from smdbHandler import get_smdb_not_verified, find_non_empty_key
 import csv
 import os
 import shutil
@@ -20,13 +20,7 @@ def load_config(
     return dict(config.items(section)), config["reducer"]["latest_reduced"]
 
 
-def select_database(sha1: str) -> tuple[list[str], list[str]]:
-    json_keys = get_top_level_keys()
-    missing = find_non_empty_key(json_keys, "missing")
-    not_verified = get_smdb_not_verified(sha1, json_keys)
-
-    basename = sorted(set(missing + not_verified))
-
+def get_options(basename, missing, not_verified, json_keys):
     options = {
         index: (value, f"{value}.txt", value) for index, value in enumerate(basename)
     }
@@ -48,10 +42,17 @@ def select_database(sha1: str) -> tuple[list[str], list[str]]:
         "All SMDB",
     )
 
+    return options
+
+
+def print_options(options):
     for index, value in options.items():
         print(index, value[2])
 
     print("999 All SMDB")
+
+
+def select_smdb_file(options, json_keys):
     index = input("Select one SMDB file: ")
 
     if int(index) in options:
@@ -66,6 +67,18 @@ def select_database(sha1: str) -> tuple[list[str], list[str]]:
         return all_smdb(json_keys)
 
     return [], []
+
+
+def select_database(sha1: str) -> tuple[list[str], list[str]]:
+    json_keys = get_top_level_keys()
+    missing = find_non_empty_key(json_keys, "missing")
+    not_verified = get_smdb_not_verified(sha1, json_keys)
+
+    basename = sorted(set(missing + not_verified))
+    options = get_options(basename, missing, not_verified, json_keys)
+
+    print_options(options)
+    return select_smdb_file(options, json_keys)
 
 
 def all_smdb(json_keys: list[str]) -> tuple[list[str], list[str]]:
@@ -209,15 +222,23 @@ def run_script(
     changes = [item for item in files if git_file_status(item)]
 
     print(git_message)
-    git_commit(git_message, changes)
-    git_push()
+    if git_commit(git_message, changes):
+        git_push()
 
 
-def build() -> None:
+def build(modified) -> None:
     section, latest_reduced = load_config()
+
+    if modified:
+        basename = [os.path.splitext(file)[0] for file in modified]
+        constructor(modified, basename, section, latest_reduced)
 
     smdb, basename = select_database(latest_reduced)
 
+    constructor(smdb, basename, section, latest_reduced)
+
+
+def constructor(smdb, basename, section, latest_reduced):
     for smdb_file, basename_file in zip(smdb, basename):
         print(f"Building {basename_file}")
         missing = "missing_" + smdb_file
@@ -243,5 +264,5 @@ def build() -> None:
 
 
 if __name__ == "__main__":
-    reducer()
-    build()
+    modified = reducer()
+    build(modified)

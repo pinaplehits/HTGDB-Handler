@@ -4,6 +4,22 @@ from jsonHandler import read_from_child
 from typing import List
 
 
+def search_value_in_key(
+    json_keys: List[str], search_key: str, search_value: str, json_file: str = "db.json"
+) -> List[str]:
+    return [
+        key
+        for key in json_keys
+        if read_from_child(key, search_key, json_file) == search_value
+    ]
+
+
+def find_non_empty_key(
+    json_keys: List[str], search_key: str, json_file: str = "db.json"
+) -> List[str]:
+    return [key for key in json_keys if read_from_child(key, search_key, json_file)]
+
+
 def get_smdb_not_verified(
     sha1: str, json_keys: List[str], json_file: str = "db.json"
 ) -> List[str]:

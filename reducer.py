@@ -13,13 +13,12 @@ from jsonHandler import (
     delete_key,
     write_to_child,
     write_to_key,
-    find_non_empty_key,
 )
 from smdbHandler import (
     get_extensions,
     read_file,
     create_new_file,
-    get_smdb_not_verified,
+    search_value_in_key,
 )
 
 
@@ -80,24 +79,26 @@ def move_folder_to_legacy(path_master: str, path_build: str, path_legacy: str) -
         shutil.rmtree(path_build)
 
 
-def handle_modified(
-    modified: list, added: list, updated_sha1: str, latest_sha1: str
-) -> None:
+def handle_modified(modified: list, updated_sha1: str, latest_sha1: str) -> None:
     if not modified:
         print("No modified files found")
         return
 
-    basename = set(os.path.splitext(name)[0] for name in modified + added)
-
     json_keys = get_top_level_keys()
 
-    not_verified = get_smdb_not_verified(latest_sha1, json_keys)
+    verified_with_latest_sha1 = search_value_in_key(
+        json_keys, "verifiedWith", latest_sha1
+    )
+    modified = [os.path.splitext(name)[0] for name in modified]
+    keys_to_update = [key for key in verified_with_latest_sha1 if key not in modified]
 
-    keys_to_update = [
-        i for i in json_keys if i not in basename and i not in not_verified
-    ]
+    if not keys_to_update:
+        print("No keys to update")
+        return
 
     update_verified_keys_with_new_sha1(updated_sha1, keys_to_update)
+
+    print(f"Updated {len(keys_to_update)} keys with new SHA1: {updated_sha1}")
 
 
 def handle_deleted(deleted: list, path: str, section: dict) -> None:
@@ -168,23 +169,20 @@ def handle_git_changes(
 ) -> None:
     if not any(git_changes.values()):
         print("No smdb changes found")
-
-        verified_keys = find_non_empty_key(get_top_level_keys(), "verifiedWith")
+        json_keys = get_top_level_keys()
+        verified_keys = search_value_in_key(json_keys, "verifiedWith", latest_sha1)
 
         update_verified_keys_with_new_sha1(updated_sha1, verified_keys)
+
         return
 
     path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
     path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
+
     handle_renamed(git_changes.get("renamed"))
-
     handle_added(git_changes.get("added"), section["build"], section["master"])
-
     handle_deleted(git_changes.get("deleted"), path_reduced_smdb, section)
-
-    handle_modified(
-        git_changes.get("modified"), git_changes.get("added"), updated_sha1, latest_sha1
-    )
+    handle_modified(git_changes.get("modified"), updated_sha1, latest_sha1)
 
     for database in git_changes.get("added", []) + git_changes.get("modified", []):
         data = read_file(os.path.join(path_smdb, database))
@@ -198,7 +196,7 @@ def handle_git_changes(
         write_to_child(basename, "compressed", False)
 
 
-def reducer() -> None:
+def reducer() -> bool:
     updated_sha1 = update_repo()
     section = load_config()
     latest_sha1 = section["latest_reduced"]
@@ -216,8 +214,10 @@ def reducer() -> None:
     extra_files = ["db.json", "config.ini"]
     changes = check_git_changes(git_changes, section["new_smdb"], extra_files)
 
-    git_commit(git_message, changes)
-    git_push()
+    if git_commit(git_message, changes):
+        git_push()
+
+    return git_changes.get("modified")
 
 
 if __name__ == "__main__":
