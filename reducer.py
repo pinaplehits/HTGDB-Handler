@@ -3,7 +3,7 @@ import shutil
 from configparser import ConfigParser
 from gitHandler import (
     update_repo,
-    git_difference,
+    git_commit_difference,
     git_commit,
     git_file_status,
     git_push,
@@ -45,7 +45,7 @@ def reduce_db(items: list) -> list:
     return newdb
 
 
-def write_latest_commit(sha1: str, file: str = "config.ini") -> None:
+def write_updated_commit(sha1: str, file: str = "config.ini") -> None:
     if not sha1:
         print("No SHA1 found")
         return
@@ -204,20 +204,34 @@ def reducer() -> bool:
     if latest_sha1 == updated_sha1:
         return print("Nothing new to reduce")
 
-    git_changes = git_difference(latest_sha1, updated_sha1)
+    git_changes = git_commit_difference(latest_sha1, updated_sha1)
 
     handle_git_changes(git_changes, section, updated_sha1, latest_sha1)
 
-    write_latest_commit(updated_sha1)
+    write_updated_commit(updated_sha1)
 
     git_message = f"Reduced from {section['latest_reduced']} to {updated_sha1}"
     extra_files = ["db.json", "config.ini"]
     changes = check_git_changes(git_changes, section["new_smdb"], extra_files)
 
+    modified = [
+        os.path.basename(change)
+        for change in changes
+        if os.path.basename(change) in git_changes.get("modified")
+    ]
+
+    no_changes = [
+        os.path.splitext(change)[0]
+        for change in git_changes.get("modified")
+        if change not in modified
+    ]
+
+    update_verified_keys_with_new_sha1(updated_sha1, no_changes)
+
     if git_commit(git_message, changes):
         git_push()
 
-    return git_changes.get("modified")
+    return modified
 
 
 if __name__ == "__main__":

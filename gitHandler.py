@@ -52,7 +52,7 @@ def update_repo(
     return Repo(repo_name).head.object.hexsha
 
 
-def git_difference(
+def git_commit_difference(
     old_commit: str,
     new_commit: str = "HEAD",
     repo_name: str = "Hardware-Target-Game-Database",

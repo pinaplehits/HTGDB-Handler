@@ -93,7 +93,7 @@ def read_from_key(key: str, json_db: str = "db.json") -> dict:
         return None
 
 
-def create_child_json(json_db: str, child: str) -> None:
+def creat_json(json_db: str) -> None:
     if os.path.exists(json_db):
         os.remove(json_db)
 
@@ -104,6 +104,8 @@ def create_child_json(json_db: str, child: str) -> None:
         print(f"Error writing to the JSON file: {e}")
         return
 
+
+def create_json_from_child(json_db: str, child: str) -> None:
     print(f"Writing to {json_db}...")
 
     for key in get_top_level_keys():
@@ -115,5 +117,5 @@ def create_child_json(json_db: str, child: str) -> None:
 
 
 if __name__ == "__main__":
-    create_child_json("missing.json", "missing")
-    create_child_json("extensions.json", "extensions")
+    create_json_from_child("missing.json", "missing")
+    create_json_from_child("extensions.json", "extensions")
