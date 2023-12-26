@@ -161,6 +161,14 @@ def update_verified_keys_with_new_sha1(updated_sha1: str, verified_keys: list) -
         write_to_child(key, "verifiedWith", updated_sha1)
 
 
+def no_remote_changes(updated_sha1: str, latest_sha1: str) -> None:
+    print("No smdb changes found")
+
+    json_keys = get_top_level_keys()
+    verified_keys = search_value_in_key(json_keys, "verifiedWith", latest_sha1)
+    update_verified_keys_with_new_sha1(updated_sha1, verified_keys)
+
+
 def handle_git_changes(
     git_changes: dict,
     section: dict,
@@ -168,12 +176,7 @@ def handle_git_changes(
     latest_sha1: str,
 ) -> None:
     if not any(git_changes.values()):
-        print("No smdb changes found")
-
-        json_keys = get_top_level_keys()
-        verified_keys = search_value_in_key(json_keys, "verifiedWith", latest_sha1)
-        update_verified_keys_with_new_sha1(updated_sha1, verified_keys)
-
+        no_remote_changes(updated_sha1, latest_sha1)
         return
 
     path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
@@ -196,6 +199,24 @@ def handle_git_changes(
         write_to_child(basename, "compressed", False)
 
 
+def process_local_changes(remote_changes: dict, local_changes: list, sha1: str) -> list:
+    modified = [
+        os.path.basename(change)
+        for change in local_changes
+        if os.path.basename(change) in remote_changes.get("modified")
+    ]
+
+    no_changes = [
+        os.path.splitext(change)[0]
+        for change in remote_changes.get("modified")
+        if change not in modified
+    ]
+
+    update_verified_keys_with_new_sha1(sha1, no_changes)
+
+    return modified
+
+
 def reducer() -> bool:
     updated_sha1 = update_repo()
     section = load_config()
@@ -214,19 +235,7 @@ def reducer() -> bool:
     extra_files = ["db.json", "config.ini"]
     changes = check_git_changes(git_changes, section["new_smdb"], extra_files)
 
-    modified = [
-        os.path.basename(change)
-        for change in changes
-        if os.path.basename(change) in git_changes.get("modified")
-    ]
-
-    no_changes = [
-        os.path.splitext(change)[0]
-        for change in git_changes.get("modified")
-        if change not in modified
-    ]
-
-    update_verified_keys_with_new_sha1(updated_sha1, no_changes)
+    modified = process_local_changes(git_changes, changes, updated_sha1)
 
     if git_commit(git_message, changes):
         git_push()
