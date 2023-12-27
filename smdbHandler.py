@@ -1,7 +1,8 @@
 import csv
 import os
-from jsonHandler import read_from_child
+from jsonHandler import read_from_child, create_json
 from typing import List
+import json
 
 
 def search_value_in_key(
@@ -85,3 +86,29 @@ def reduced_master(path: str = "Reduced SMDBs/") -> List[List[str]]:
 def combine_all_smdb(path: str = "Reduced SMDBs/") -> List[List[str]]:
     smdb = get_files_with_extension(path)
     return [line for file in smdb for line in read_file(file)]
+
+
+def create_master():
+    data = {}
+    items = reduced_master()
+    database = "master.json"
+
+    create_json(database)
+
+    for item in items:
+        item_data = {
+            "crc32": item[4],
+            "md5": item[3],
+            "paths": item[1],
+            "sha1": item[2],
+        }
+        if len(item) > 5:
+            item_data["size"] = item[5]
+        data[item[0]] = item_data
+
+    with open(database, "w") as f:
+        json.dump(data, f, indent=2, sort_keys=True)
+
+
+if __name__ == "__main__":
+    create_master()
