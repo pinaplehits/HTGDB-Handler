@@ -93,7 +93,7 @@ def read_from_key(key: str, json_db: str = "db.json") -> dict:
         return None
 
 
-def creat_json(json_db: str) -> None:
+def create_json(json_db: str) -> None:
     if os.path.exists(json_db):
         os.remove(json_db)
 
@@ -106,6 +106,8 @@ def creat_json(json_db: str) -> None:
 
 
 def create_json_from_child(json_db: str, child: str) -> None:
+    create_json(json_db)
+
     print(f"Writing to {json_db}...")
 
     for key in get_top_level_keys():
