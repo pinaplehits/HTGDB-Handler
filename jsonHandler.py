@@ -1,6 +1,5 @@
 import json
 import os
-from typing import List
 
 
 def get_top_level_keys(json_file: str = "db.json") -> list:
