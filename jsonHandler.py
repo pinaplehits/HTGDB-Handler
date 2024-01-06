@@ -54,6 +54,28 @@ def write_to_child(
         exit()
 
 
+def update_json_with_dict(data: dict, json_db: str = "db.json") -> None:
+    try:
+        with open(json_db, "r") as f:
+            json_data = json.load(f)
+    except (FileNotFoundError, json.decoder.JSONDecodeError) as e:
+        print(f"Error reading the JSON file: {e}")
+        exit()
+
+    for key, value in data.items():
+        if key in json_data:
+            json_data[key].update(value)
+        else:
+            json_data[key] = value
+
+    try:
+        with open(json_db, "w") as f:
+            json.dump(json_data, f, indent=2, sort_keys=True)
+    except IOError as e:
+        print(f"Error writing to the JSON file: {e}")
+        exit()
+
+
 def write_to_key(key: str, json_db: str = "db.json") -> None:
     try:
         with open(json_db, "r") as f:

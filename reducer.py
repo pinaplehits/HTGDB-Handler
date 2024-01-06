@@ -13,6 +13,7 @@ from jsonHandler import (
     delete_key,
     write_to_child,
     write_to_key,
+    update_json_with_dict,
 )
 from smdbHandler import (
     get_extensions,
@@ -193,10 +194,17 @@ def handle_git_changes(
         newdb = reduce_db(data)
 
         create_new_file(os.path.join(path_reduced_smdb, database), newdb)
-        write_to_child(basename, "extensions", get_extensions(newdb))
-        write_to_child(basename, "reducedTo", len(newdb))
-        write_to_child(basename, "reducedFrom", len(data))
-        write_to_child(basename, "compressed", False)
+
+        updates = {
+            basename: {
+                "compressed": False,
+                "extensions": get_extensions(newdb),
+                "reducedFrom": len(data),
+                "reducedTo": len(newdb),
+            }
+        }
+
+        update_json_with_dict(updates)
 
 
 def process_local_changes(remote_changes: dict, local_changes: list, sha1: str) -> list:
