@@ -13203,10 +13203,19 @@
       ".bin"
     ],
     "incorrectLocation": false,
-    "missing": [],
+    "missing": [
+      [
+        "NBA Jam - Tournament Edition (World) EverDrive Patched.32x",
+        "9e1b841a9079edb91c6afa03f576e4671fa31494148296c0144d8611f385b677"
+      ],
+      [
+        "NFL Quarterback Club (World) EverDrive Patched.32x",
+        "7a845b895a9ddfa40dae3dcb3c7f1ae5c1b707c786b8dc13f20bd3ee253af12d"
+      ]
+    ],
     "reducedFrom": 279,
     "reducedTo": 278,
-    "verifiedWith": "21a2831e73a6f978ed241919bf5a024bba431ee1"
+    "verifiedWith": "b1326c2d8fc4ced2647c221e3e4d7ee23e1d2eee"
   },
   "Sega SG-1000 SMDB": {
     "extensions": [
