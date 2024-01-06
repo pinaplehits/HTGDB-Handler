@@ -511,10 +511,167 @@
       ".sms"
     ],
     "incorrectLocation": false,
-    "missing": [],
+    "missing": [
+      [
+        "16t (Japan) (Game no Kanzume Vol. 2).md",
+        "a92162941fb568e306d02e4aa999cc748f2e4e26314ae8928a74e7c591f16bb3"
+      ],
+      [
+        "Altered Beast (Japan, USA) (En) (Sega 3D Classics Collection).md",
+        "feec1cd4fab814f6cd78877ba9e9c3d61fa4d5599dff89b665e1b83e67f4b91f"
+      ],
+      [
+        "Aworg (Japan) (Game no Kanzume Vol. 2).md",
+        "7953d7b7d80a2f0eba1c2d2546a4e6e010cf2985b243634fc56c0f6024859767"
+      ],
+      [
+        "Ayrton Senna's Super Monaco GP II (USA) (Beta).md",
+        "f36306fdca2b1083ad32ecca2ee3082dfed7f8052a1ce10bcc4d3b353af8faa5"
+      ],
+      [
+        "Devi to Pii (Japan) (Mega Drive Mini 2).md",
+        "4067c07e7fa0f9e8b4701df8a9ca33dcc2f2003994b79f1df5645820cfae65ff"
+      ],
+      [
+        "Fantasy Zone (World) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "47c44717d8c11ae95ce61bfac245638267be0c10dd8e14b003db97a5193828d2"
+      ],
+      [
+        "Gargoyles (USA) (Beta) (1995-10-02).md",
+        "b930e3623e2735cf510840eab70c59c504c33f135f6a2b77df82e5c8d317c7ca"
+      ],
+      [
+        "Hyper Marbles (Japan) (Game no Kanzume Vol. 1).md",
+        "4b20be22608e2e91379666fb7cac9c38c1cbfc9205976d1d62eae96902da993b"
+      ],
+      [
+        "John Madden Football '93 (USA, Europe) (EA Sports).md",
+        "2ac62c2d5ce83b976faa25b4e8d87999366076361cfe22e048a9972bab30e095"
+      ],
+      [
+        "Juusou Kihei Leynos (Japan) (Switch Online).md",
+        "9da2b830ced7756a3d366669aec6e787de39ae7c922cae5000cbd8160f3b7190"
+      ],
+      [
+        "Landstalker - The Treasures of King Nole (Europe) (SEGA Classic Collection).md",
+        "5e07871795b7776f82151f83b703b346b00f5f84dd676bc6cb2a68bb1a4bd4b0"
+      ],
+      [
+        "Lion King, The (USA) (Demo).md",
+        "a464a9b678729ecae521e536b774823e9d376397a03bbe67549fbb85cf066059"
+      ],
+      [
+        "NHLPA Hockey (USA) (HeartBeat Catalyst).md",
+        "9e81a38a74eab0c7e6e83ab74ac880388a5b3c4ccacee5eb9b10d54da86520b7"
+      ],
+      [
+        "NHLPA Hockey 93 (USA, Europe) (EA Sports).md",
+        "1254e059331dbe8104a91898c276d5f38cbe0944e4d296dd7209942fc3e68fed"
+      ],
+      [
+        "Outworld 2375 A.D. (USA) (HeartBeat Catalyst).md",
+        "27c641729f17d795615aec7539369e971c0f7cabb57b8ebcaba81aeb6f3f7735"
+      ],
+      [
+        "PGA Tour Golf (USA) (HeartBeat Catalyst).md",
+        "ddcd866efc4c77056a0fc7857f2b2471532943ec3b7991f18c70b8c3fa1b68f4"
+      ],
+      [
+        "Phantasy Star II (USA, Europe) (Rev A) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "2847788936df9f9479e978b5e2d1ac83fe94a86493a072bcf6764916ce4776ee"
+      ],
+      [
+        "Phantasy Star II - Amia's Adventure (Japan) (Game no Kanzume Vol. 1).md",
+        "a526630aff5cb0b37b5fa12be3c0a632079eac19bfecad11382e8ed273e2bd7c"
+      ],
+      [
+        "Phantasy Star II - Anne's Adventure (Japan) (Game no Kanzume Vol. 2).md",
+        "a9a623080b7a0559a2026753b9b6b9f32ee2d81ab27112650b35c725fe19a056"
+      ],
+      [
+        "Phantasy Star II - Huey's Adventure (Japan) (Game no Kanzume Vol. 1).md",
+        "9cf96bf31162b54429bc15720cb0e7d6477fb429d25264798cec2df170038bd1"
+      ],
+      [
+        "Phantasy Star II - Kaerazaru Toki no Owari ni (Japan) (Mega Drive Mini 2).md",
+        "8ba571b806e5d84d50784d7b35607df9021b94e24aa1d85bfc358bc29bcb5ffe"
+      ],
+      [
+        "Phantasy Star II - Kinds's Adventure (Japan) (Game no Kanzume Vol. 2).md",
+        "639c411b8bb574db1ae399636a35a32e29ea8a8752ee7f3e8af9a4c670e66f1e"
+      ],
+      [
+        "Primal Rage (USA, Europe) (Beta).md",
+        "a1a4783c02c832227fe84c019e2ef8576aa56b1559e1b58dad26b01dfbc2170a"
+      ],
+      [
+        "Segapede (USA) (Proto).md",
+        "b4d72563489d5b2d422a657647d1f683e56f487b7c5fc774e27a5035735a9f57"
+      ],
+      [
+        "Spatter (USA, Europe) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "8318f5a93176c5dac1a286595910d2bf739f37d468bb810fb6752a6e86cac97f"
+      ],
+      [
+        "Star Mobile (Japan) (Mega Drive Mini 2).md",
+        "f814c9babf9057dbc0be14fd20190aeb07f48634858abde64e271a759d3f8e32"
+      ],
+      [
+        "Star Mobile (USA, Europe) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "6b75e68d3bd85bff5fbba6298170d8e46a2abd746d8b0dd01460e02d8094e9a8"
+      ],
+      [
+        "Super Locomotive (World) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "c1fc33b9381bc9533cc5c69e07142b6ee9aecb1bbeb25f9cbb5a73e993954f37"
+      ],
+      [
+        "Target Earth (USA, Europe) (Switch Online).md",
+        "7df1feedf0875137f4995a535ce0ef58584a102c93ebd0690d4de24aff046071"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Return of the Shredder (Japan) (Cowabunga Collection, The).md",
+        "ffd48b1628687a5b53f9daaec2f0d79b584ad3768b6d29da49c76156f8af6ffe"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - The Hyperstone Heist (USA) (Cowabunga Collection, The).md",
+        "03b0f1f855dfef07354ab289cc9e8619b9d47293ff98145bb65e82456528ea0e"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Tournament Fighters (Japan) (En) (Cowabunga Collection, The).md",
+        "c2ec283fffced30c52db6395d47f9b91b5a9afab14f4437b60d86bbeecab2975"
+      ],
+      [
+        "Teenage Mutant Ninja Turtles - Tournament Fighters (USA) (Cowabunga Collection, The).md",
+        "3dc8901441698f7ba8468c60c5a3fa638d2ad3a74ab3d6742bb6ceecfe9b439d"
+      ],
+      [
+        "Truxton (World) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "155f363930e5d1f8244fcea7a15c2c75d8db39c988dda60305439b8452f7b28e"
+      ],
+      [
+        "Twisted Flipper (USA) (Beta 2).md",
+        "eed74a29d20b4566b8f9e651f0f7aa43e4baca75312336d58391d2475e397476"
+      ],
+      [
+        "VS Puyo Puyo Sun (Japan) (Mega Drive Mini 2).md",
+        "56cd49a6d2b0f4ffcae647412b0a733f020716682af6b11423a5f8145a3d7089"
+      ],
+      [
+        "VS Puyo Puyo Sun (USA, Europe) (Mega Drive Mini 2, Genesis Mini 2).md",
+        "15431697da4b11da8cc71efd9b1c0b076766dd94722708804fc15d0a6a5ce302"
+      ],
+      [
+        "Wonder MIDI (Japan) (En) (Program).md",
+        "230e73b5937051fe33541b9f2a6693490c5d851a58dede2dd363892a0335ae8e"
+      ],
+      [
+        "Zero Tolerance (Europe).md",
+        "183bd7ac1780c9148d813714379c7e596833e2c182d3e578a6bb3dc8be532128"
+      ]
+    ],
     "reducedFrom": 8477,
     "reducedTo": 4412,
-    "verifiedWith": "21a2831e73a6f978ed241919bf5a024bba431ee1"
+    "verifiedWith": "b1326c2d8fc4ced2647c221e3e4d7ee23e1d2eee"
   },
   "MegaSD SMDB": {
     "extensions": [
