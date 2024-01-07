@@ -30,7 +30,7 @@ def load_config(section: str = "reducer", file: str = "config.ini") -> dict:
     return dict(config.items(section))
 
 
-def reduce_db(items: list) -> list:
+def remove_duplicates_from_db(items: list) -> list:
     dataset = set(item[0] for item in items)
 
     if len(dataset) == len(items):
@@ -60,24 +60,26 @@ def write_updated_commit(sha1: str, file: str = "config.ini") -> None:
 
 
 def move_folder_to_legacy(path_master: str, path_build: str, path_legacy: str) -> None:
-    if not os.path.exists(path_master) and not os.path.exists(path_build):
-        print("No master or build folder found")
-        return
+    try:
+        if not os.path.exists(path_master) and not os.path.exists(path_build):
+            raise FileNotFoundError("No master or build folder found")
 
-    print("Moving folders to legacy...")
+        print("Moving folders to legacy...")
 
-    if os.path.exists(path_legacy):
-        shutil.rmtree(path_legacy)
+        if os.path.exists(path_legacy):
+            shutil.rmtree(path_legacy)
 
-    if os.path.exists(path_master) and os.listdir(path_master):
-        shutil.move(path_master, path_legacy)
-        print("Master folder moved to legacy")
-    elif os.path.exists(path_build) and os.listdir(path_build):
-        shutil.move(path_build, path_legacy)
-        print("Build folder moved to legacy")
+        if os.path.exists(path_master) and os.listdir(path_master):
+            shutil.move(path_master, path_legacy)
+            print("Master folder moved to legacy")
+        elif os.path.exists(path_build) and os.listdir(path_build):
+            shutil.move(path_build, path_legacy)
+            print("Build folder moved to legacy")
 
-    if os.path.exists(path_build):
-        shutil.rmtree(path_build)
+        if os.path.exists(path_build):
+            shutil.rmtree(path_build)
+    except FileNotFoundError as e:
+        print(e)
 
 
 def handle_modified(modified: list, updated_sha1: str, latest_sha1: str) -> None:
@@ -176,10 +178,6 @@ def handle_git_changes(
     updated_sha1: str,
     latest_sha1: str,
 ) -> None:
-    if not any(git_changes.values()):
-        no_remote_changes(updated_sha1, latest_sha1)
-        return
-
     path_smdb = os.path.join(os.getcwd(), section["orig_smdb"])
     path_reduced_smdb = os.path.join(os.getcwd(), section["new_smdb"])
 
@@ -189,21 +187,22 @@ def handle_git_changes(
     handle_modified(git_changes.get("modified"), updated_sha1, latest_sha1)
 
     for database in git_changes.get("added", []) + git_changes.get("modified", []):
-        data = read_file(os.path.join(path_smdb, database))
+        db_path = os.path.join(path_smdb, database)
+        data = read_file(db_path)
+        reduced_db = remove_duplicates_from_db(data)
+        reduced_db_path = os.path.join(path_reduced_smdb, database)
+
+        create_new_file(reduced_db_path, reduced_db)
+
         basename = os.path.splitext(database)[0]
-        newdb = reduce_db(data)
-
-        create_new_file(os.path.join(path_reduced_smdb, database), newdb)
-
         updates = {
             basename: {
                 "compressed": False,
-                "extensions": get_extensions(newdb),
+                "extensions": get_extensions(reduced_db),
                 "reducedFrom": len(data),
-                "reducedTo": len(newdb),
+                "reducedTo": len(reduced_db),
             }
         }
-
         update_json_with_dict(updates)
 
 
@@ -235,7 +234,10 @@ def reducer() -> bool:
 
     git_changes = git_commit_difference(latest_sha1, updated_sha1)
 
-    handle_git_changes(git_changes, section, updated_sha1, latest_sha1)
+    if not any(git_changes.values()):
+        no_remote_changes(updated_sha1, latest_sha1)
+    else:
+        handle_git_changes(git_changes, section, updated_sha1, latest_sha1)
 
     write_updated_commit(updated_sha1)
 

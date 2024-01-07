@@ -1,3 +1,4 @@
+import logging
 import csv
 import os
 from jsonHandler import read_from_child, create_json
@@ -66,12 +67,16 @@ def read_file(path: str, delimiter: str = "\t", newline: str = "") -> List[List[
 
 
 def create_new_file(path: str, data: List[List[str]], delimiter: str = "\t") -> None:
-    print(f"Creating {os.path.basename(path)} file...")
+    logging.info(f"Creating {os.path.basename(path)} file...")
 
-    with open(path, "w", newline="") as f:
-        csv.writer(f, delimiter=delimiter).writerows(data)
+    try:
+        with open(path, "w", newline="") as f:
+            csv.writer(f, delimiter=delimiter).writerows(data)
+    except IOError as e:
+        logging.error(f"Failed to create {os.path.basename(path)}: {e}")
+        return
 
-    print(f"File {os.path.basename(path)} is created")
+    logging.info(f"File {os.path.basename(path)} is created")
 
 
 def reduced_master(path: str = "Reduced SMDBs/") -> List[List[str]]:
