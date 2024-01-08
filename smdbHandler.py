@@ -81,10 +81,19 @@ def create_new_file(path: str, data: List[List[str]], delimiter: str = "\t") -> 
 
 def reduced_master(path: str = "Reduced SMDBs/") -> List[List[str]]:
     data = combine_all_smdb(path)
-    dataset = set([item[0] for item in data])
+
+    return remove_duplicates(data)
+
+
+def remove_duplicates(items: list) -> list:
+    dataset = set([item[0] for item in items])
+
+    if len(dataset) == len(items):
+        print("SMDB not reduced")
+        return items
 
     return [
-        item for item in data if item[0] in dataset and dataset.remove(item[0]) is None
+        item for item in items if item[0] in dataset and dataset.remove(item[0]) is None
     ]
 
 

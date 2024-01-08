@@ -20,6 +20,7 @@ from smdbHandler import (
     read_file,
     create_new_file,
     search_value_in_key,
+    remove_duplicates,
 )
 
 
@@ -28,22 +29,6 @@ def load_config(section: str = "reducer", file: str = "config.ini") -> dict:
     config.read(file)
 
     return dict(config.items(section))
-
-
-def remove_duplicates_from_db(items: list) -> list:
-    dataset = set(item[0] for item in items)
-
-    if len(dataset) == len(items):
-        print("SMDB not reduced")
-        return items
-
-    newdb = [
-        item for item in items if item[0] in dataset and dataset.remove(item[0]) is None
-    ]
-
-    print(f"SMDB reduced from {len(items)} to {len(newdb)} files")
-
-    return newdb
 
 
 def write_updated_commit(sha1: str, file: str = "config.ini") -> None:
@@ -189,7 +174,7 @@ def handle_git_changes(
     for database in git_changes.get("added", []) + git_changes.get("modified", []):
         db_path = os.path.join(path_smdb, database)
         data = read_file(db_path)
-        reduced_db = remove_duplicates_from_db(data)
+        reduced_db = remove_duplicates(data)
         reduced_db_path = os.path.join(path_reduced_smdb, database)
 
         create_new_file(reduced_db_path, reduced_db)
