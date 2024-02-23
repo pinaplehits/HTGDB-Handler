@@ -89,7 +89,7 @@ def remove_duplicates(items: list) -> list:
     dataset = set([item[0] for item in items])
 
     if len(dataset) == len(items):
-        print("SMDB not reduced")
+        logging.info("SMDB not reduced")
         return items
 
     return [

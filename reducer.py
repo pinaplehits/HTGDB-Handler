@@ -1,3 +1,4 @@
+import logging
 import os
 import shutil
 from configparser import ConfigParser
@@ -33,7 +34,7 @@ def load_config(section: str = "reducer", file: str = "config.ini") -> dict:
 
 def write_updated_commit(sha1: str, file: str = "config.ini") -> None:
     if not sha1:
-        print("No SHA1 found")
+        logging.error("No SHA1 found")
         return
 
     config = ConfigParser()
@@ -49,27 +50,27 @@ def move_folder_to_legacy(path_master: str, path_build: str, path_legacy: str) -
         if not os.path.exists(path_master) and not os.path.exists(path_build):
             raise FileNotFoundError("No master or build folder found")
 
-        print("Moving folders to legacy...")
+        logging.info("Moving folders to legacy...")
 
         if os.path.exists(path_legacy):
             shutil.rmtree(path_legacy)
 
         if os.path.exists(path_master) and os.listdir(path_master):
             shutil.move(path_master, path_legacy)
-            print("Master folder moved to legacy")
+            logging.debug("Master folder moved to legacy")
         elif os.path.exists(path_build) and os.listdir(path_build):
             shutil.move(path_build, path_legacy)
-            print("Build folder moved to legacy")
+            logging.debug("Build folder moved to legacy")
 
         if os.path.exists(path_build):
             shutil.rmtree(path_build)
     except FileNotFoundError as e:
-        print(e)
+        logging.error(e)
 
 
 def handle_modified(modified: list, updated_sha1: str, latest_sha1: str) -> None:
     if not modified:
-        print("No modified files found")
+        logging.debug("No modified files found")
         return
 
     json_keys = get_top_level_keys()
@@ -81,22 +82,22 @@ def handle_modified(modified: list, updated_sha1: str, latest_sha1: str) -> None
     keys_to_update = [key for key in verified_with_latest_sha1 if key not in modified]
 
     if not keys_to_update:
-        print("No keys to update")
+        logging.info("No keys to update")
         return
 
     update_verified_keys_with_new_sha1(updated_sha1, keys_to_update)
 
-    print(f"Updated {len(keys_to_update)} keys with new SHA1: {updated_sha1}")
+    logging.debug(f"Updated {len(keys_to_update)} keys with new SHA1: {updated_sha1}")
 
 
 def handle_deleted(deleted: list, path: str, section: dict) -> None:
     if not deleted:
-        print("No deleted files found")
+        logging.debug("No deleted files found")
         return
 
     basename = [os.path.splitext(name)[0] for name in deleted]
 
-    print("Removing deleted from SMDB...")
+    logging.info("Removing deleted from SMDB...")
     for key in basename:
         delete_key(key)
 
@@ -111,7 +112,7 @@ def handle_deleted(deleted: list, path: str, section: dict) -> None:
 
 def handle_renamed(renamed: list) -> None:
     if not renamed:
-        print("No renamed files found")
+        logging.debug("No renamed files found")
         return
 
     input("Some files will be renamed, the program will end...")
@@ -120,12 +121,12 @@ def handle_renamed(renamed: list) -> None:
 
 def handle_added(added: list, build_path: str, master_path: str) -> None:
     if not added:
-        print("No added files found")
+        logging.debug("No added files found")
         return
 
     basename = [os.path.splitext(name)[0] for name in added]
 
-    print("Creating new folders...")
+    logging.info("Creating new folders...")
     [
         (os.makedirs(os.path.join(path, item), exist_ok=True), write_to_key(item))
         for path in [build_path, master_path]
@@ -144,13 +145,13 @@ def check_git_changes(git_changes: dict, path: str, extra_files: list = []) -> l
 
 
 def update_verified_keys_with_new_sha1(updated_sha1: str, verified_keys: list) -> None:
-    print("Updating verifiedWith in db.json..")
+    logging.debug("Updating verifiedWith in db.json..")
     for key in verified_keys:
         write_to_child(key, "verifiedWith", updated_sha1)
 
 
 def no_remote_changes(updated_sha1: str, latest_sha1: str) -> None:
-    print("No smdb changes found")
+    logging.debug("No smdb changes found")
 
     json_keys = get_top_level_keys()
     verified_keys = search_value_in_key(json_keys, "verifiedWith", latest_sha1)
@@ -215,7 +216,7 @@ def reducer() -> bool:
     latest_sha1 = section["latest_reduced"]
 
     if latest_sha1 == updated_sha1:
-        return print("Nothing new to reduce")
+        return logging.info("Nothing new to reduce")
 
     git_changes = git_commit_difference(latest_sha1, updated_sha1)
 

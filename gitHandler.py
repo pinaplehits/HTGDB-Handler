@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from git import GitCommandError, RemoteProgress, Repo
+import logging
 from tqdm import tqdm
 import os
 from typing import Dict, List, Union
@@ -27,7 +28,7 @@ def update_repo(
     url: str = "https://github.com/frederic-mahe/Hardware-Target-Game-Database.git",
 ) -> str:
     if os.path.exists(repo_name):
-        print("Updating repo...")
+        logging.debug("Updating repo...")
         repo = Repo(repo_name)
         current_sha1 = repo.head.object.hexsha
         repo.git.checkout("master")
@@ -36,15 +37,15 @@ def update_repo(
         try:
             repo.remotes.origin.pull(progress=CloneProgress())
         except GitCommandError as e:
-            print("An error occurred while pulling changes: ", e)
+            logging.error("An error occurred while pulling changes: ", e)
 
         new_sha1 = repo.head.object.hexsha
 
         if current_sha1 == new_sha1:
-            print("No new commits")
+            logging.debug("No new commits")
             return new_sha1
 
-        print(f"Updated from {current_sha1} to {new_sha1}")
+        logging.info(f"Updated from {current_sha1} to {new_sha1}")
         return new_sha1
 
     Repo.clone_from(url, to_path=repo_name, progress=CloneProgress())
@@ -105,7 +106,7 @@ def create_env_file() -> None:
 
 def git_commit(message: str, add: List[str], repo: str = os.getcwd()) -> bool:
     if not add:
-        print("Nothing to commit")
+        logging.debug("Nothing to commit")
         return False
 
     repo = Repo(repo)
@@ -121,7 +122,7 @@ def git_commit(message: str, add: List[str], repo: str = os.getcwd()) -> bool:
             set_git_config(repo)
             repo.git.commit("-m", message)
         else:
-            print("An error occurred while committing changes: ", e)
+            logging.error("An error occurred while committing changes: ", e)
             exit()
 
 
@@ -141,7 +142,7 @@ def git_push(repo: str = os.getcwd()) -> None:
 
     origin = repo.remote(name="origin")
     origin.set_url(remote_url)
-    print("Pushing changes...")
+    logging.info("Pushing changes...")
     origin.push()
 
 
