@@ -9,6 +9,7 @@ import csv
 import os
 import shutil
 import subprocess
+import logging
 
 
 def load_config(
@@ -108,11 +109,11 @@ def build_from_masters(masters: str, basename: str, romimport: str) -> bool:
     name = os.path.basename(masters)
 
     if not os.path.exists(masters):
-        print(f"Masters folder {name} doesn't exist")
+        logging.debug(f"Masters folder {name} doesn't exist")
         return False
 
     if not os.listdir(masters):
-        print(f"Masters folder {name} is empty")
+        logging.debug(f"Masters folder {name} is empty")
         return False
 
     masters = os.path.join(
@@ -131,11 +132,11 @@ def build_from_main(folder: str, romimport: str) -> bool:
     name = os.path.basename(folder)
 
     if not os.path.exists(folder):
-        print(f"Main folder {name} doesn't exist")
+        logging.debug(f"Main folder {name} doesn't exist")
         return False
 
     if not os.listdir(folder):
-        print(f"Main folder {name} is empty")
+        logging.debug(f"Main folder {name} is empty")
         return False
 
     if not os.path.exists(romimport):
@@ -204,11 +205,9 @@ def run_script(
     try:
         subprocess.check_call(build)
     except subprocess.CalledProcessError as e:
-        print(f"Error executing the command: {e.returncode}")
-        exit()
+        logging.error(f"Error executing the command: {e.returncode}")
     except Exception as e:
-        print(f"An error occurred: {e}")
-        exit()
+        logging.error(f"An error occurred: {e}")
 
     shutil.rmtree(romimport)
 
@@ -221,7 +220,7 @@ def run_script(
     git_message = f"Build updated {basename} in db.json on {date}"
     changes = [item for item in files if git_file_status(item)]
 
-    print(git_message)
+    logging.debug(git_message)
     if git_commit(git_message, changes):
         git_push()
 
@@ -240,7 +239,7 @@ def build(modified) -> None:
 
 def constructor(smdb, basename, section, latest_reduced):
     for smdb_file, basename_file in zip(smdb, basename):
-        print(f"Building {basename_file}")
+        logging.info(f"Building {basename_file}")
         missing = "missing_" + smdb_file
         romimport = os.path.join(section["romimport"], basename_file)
 
