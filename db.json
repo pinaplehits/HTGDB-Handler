@@ -1446,6 +1446,10 @@
         "537cd919ed403bf7b992d01fa908f314ded5eb96873b139588ac59dc79f3c831"
       ],
       [
+        "Amiga_vadjust.dat.uaem",
+        "b49efac4fcc04f12441d8ada9252ff742206098df4772f7306ddaba46896ce23"
+      ],
+      [
         "Aster64 (joystick).c10",
         "85678af0952a9ea282aaaf158db94f1c8db3a9adec262d649061b6b8eeb163fc"
       ],
@@ -2180,6 +2184,14 @@
       [
         "Diablo (1984)(Image Microcorp - Extended Software).dsk",
         "801a7c98da290a293e50b198ab299698eafa9285d1cd9af032e6ca9f01950c08"
+      ],
+      [
+        "Disk.info",
+        "557321d75be5713df669631c9f58a1b9d3fba7a994cb78ac24f5b9fc5c79db14"
+      ],
+      [
+        "Disk.info.uaem",
+        "8ed2108b91bf3cd914c7be765f2bed035485164f50b84c890c24fa5d50c1fd93"
       ],
       [
         "Donkey Kong Jr Rev 13 (1983)(Coleco - Nintendo).dsk",
@@ -3164,6 +3176,14 @@
       [
         "Math Design - Spirals.c10",
         "757b46580556edd4b065f335a67d17eae094998d0e384efb42337313ff9b48fa"
+      ],
+      [
+        "MegaAGS-Saves.hdf",
+        "9a11b84b51cbbcf54374a5245d7c399f85f45b2434952c4ca4f58ea501446093"
+      ],
+      [
+        "MegaAGS.hdf",
+        "b5fac9c6a78c73241f75a5395abe2aa3467ea18813c6a8ab19449641497efce6"
       ],
       [
         "Megadisk #1 (19xx)(Coleco - LMI).dsk",
@@ -4868,7 +4888,7 @@
     ],
     "reducedFrom": 19148,
     "reducedTo": 18857,
-    "verifiedWith": "39cb5c2d4183d2671d1c13cc0d5ba06bec58bb67"
+    "verifiedWith": "d7e902a67560373f21b16fab41b17b3a26402148"
   },
   "MiSTer Acorn Archimedes Add-On": {
     "extensions": [
